@@ -13,7 +13,7 @@ const { defineConfig, devices } = require('@playwright/test');
 module.exports = defineConfig({
   testDir: './tests',
 
-  /* Add timeout
+  //Add timeout
   timeout: 30 * 1000,
   expect: {
     timeout: 5000
@@ -42,6 +42,8 @@ module.exports = defineConfig({
     {
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] },
+      /* Use headeless mode. It runs tests w/o browser launching*/
+      headless: false
     },
 
     // {
@@ -53,6 +55,8 @@ module.exports = defineConfig({
     //   name: 'webkit',
     //   use: { ...devices['Desktop Safari'] },
     // },
+    
+    
 
     /* Test against mobile viewports. */
     // {
