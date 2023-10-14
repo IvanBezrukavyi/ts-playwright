@@ -3,7 +3,7 @@ I took this [course](https://softserve.udemy.com/course/playwright-tutorials-aut
 
 **Table of Contents**
 
-### 1. How to works with CSS selectors
+### 1. How to work with CSS selectors
 
     1.1 If **ID** is present (css -> tagname#id (or) #id). For example, #username
     1.2 If **CLASS** attribute is present (css -> tagname.class (or) .class. For example, .card-body a
