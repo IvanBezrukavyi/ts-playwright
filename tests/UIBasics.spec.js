@@ -20,13 +20,6 @@ test('Catch unshowing message and Verify text message', async ({ browser }) => {
     await expect(page.locator("[style*='block']")).toContainText('Incorrect username/password.');
 });
 
-test('Simpler than previous test', async ({ page }) => {
-    await page.goto('https://demoqa.com/');
-    // Get title - assertion
-    console.log(await page.title());
-    await expect(page).toHaveTitle(/.*DEMOQA/);
-});
-
 test('Verify presence of iphone X in product list', async ({ page }) => {
     await page.goto('https://rahulshettyacademy.com/loginpagePractise/');
     const userName = page.locator('#username');
@@ -43,8 +36,10 @@ test('Verify presence of iphone X in product list', async ({ page }) => {
     console.log(await cardTitle.nth(0).textContent());
 });
 
-test.only('Retrive all card titles from home page', async ({ page }) => {
+test('TC: Retrive all card titles from home page', async ({ page }) => {
     await page.goto('https://rahulshettyacademy.com/loginpagePractise/');
+    console.log(await page.title());
+    await expect(page).toHaveTitle('LoginPage Practise | Rahul Shetty Academy');
     const userName = page.locator('#username');
     const signInBtn = page.locator("[name='signin']");
     const cardTitle = page.locator(".card-body a");
@@ -58,4 +53,32 @@ There is no mechanism to get all data immidiately*/
     console.log(await cardTitle.first().textContent());
     console.log(await cardTitles.allTextContents());
     await expect(cardTitles).toContainText(['iphone X', 'Samsung Note 8', 'Nokia Edge', 'Blackberry'])
+});
+
+
+test.only('TC: Verify UI controls', async ({ page }) => {
+    const mainPage = await page.goto('https://rahulshettyacademy.com/loginpagePractise/');
+    const userName = page.locator('#username');
+    const signInBtn = page.locator("[name='signin']");
+    const loginDropDown = page.locator('select.form-control');
+    const radioBtnStudent = page.locator('.radiotextsty').last();
+    
+    await userName.type('rahulshettyacademy');
+    await page.locator("[type='password']").type('learning');
+    await radioBtnStudent.click();
+    await expect(radioBtnStudent).toBeChecked();
+    console.log(await radioBtnStudent.isChecked());
+    await page.locator('#okayBtn').click();
+    await loginDropDown.selectOption('Consultant');
+    console.log(await loginDropDown.selectOption('Consultant'));
+    await page.locator('#terms').click();
+    await expect(page.locator('#terms')).toBeChecked();
+    await page.locator('#terms').uncheck();
+    await expect(await page.locator('#terms').isChecked()).toBeFalsy();
+    // TO DO
+    // Investigate not working pause method
+    //await page.pause();
+    await signInBtn.click();
+
+
 });
