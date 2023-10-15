@@ -56,13 +56,14 @@ There is no mechanism to get all data immidiately*/
 });
 
 
-test.only('TC: Verify UI controls', async ({ page }) => {
+test('TC: Verify UI controls', async ({ page }) => {
     const mainPage = await page.goto('https://rahulshettyacademy.com/loginpagePractise/');
     const userName = page.locator('#username');
     const signInBtn = page.locator("[name='signin']");
     const loginDropDown = page.locator('select.form-control');
     const radioBtnStudent = page.locator('.radiotextsty').last();
-    
+    const docLink = page.locator("[href*='documents-request']");
+
     await userName.type('rahulshettyacademy');
     await page.locator("[type='password']").type('learning');
     await radioBtnStudent.click();
@@ -75,10 +76,37 @@ test.only('TC: Verify UI controls', async ({ page }) => {
     await expect(page.locator('#terms')).toBeChecked();
     await page.locator('#terms').uncheck();
     await expect(await page.locator('#terms').isChecked()).toBeFalsy();
+    //Verify blincking attribute in login page
+    await expect(docLink).toHaveAttribute('class', 'blinkingText');
+    await expect(docLink).toContainText('Free Access to InterviewQues/ResumeAssistance/Material');
+
     // TO DO
     // Investigate not working pause method
     //await page.pause();
     await signInBtn.click();
+});
 
+test.only('TC: Child windows handling', async ({ browser }) => {
+    const context = await browser.newContext();
+    const page = await context.newPage();
+    const mainPage = await page.goto('https://rahulshettyacademy.com/loginpagePractise/');
+
+    const pageURL = await page.url();
+    console.log('Page URL is:', pageURL);
+    await expect(page).toHaveURL(/.*loginpagePractise/);
+
+    const docLink = page.locator("[href*='documents-request']");
+    // Declare new object for opened new browser page in a new tab
+    const [newPage] = await Promise.all([
+        context.waitForEvent('page'),
+        docLink.click()
+    ]);
+    //Verify page title
+    const pageTitle = await newPage.title();
+    console.log('Page title is:', await pageTitle);
+    //Verify page title
+    await expect(newPage).toHaveTitle(/RS Academy/);
+    const textWarning = await newPage.locator(".im-para.red").textContent();
+    console.log('Warning text is:', textWarning);
 
 });
