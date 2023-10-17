@@ -104,6 +104,7 @@ test.only('TC: Child windows handling', async ({ browser }) => {
     //Verify page title
     const pageTitle = await newPage.title();
     console.log('Page title is:', await pageTitle);
+
     //Verify page title
     await expect(newPage).toHaveTitle(/RS Academy/);
     const textWarning = await newPage.locator(".im-para.red").textContent();
