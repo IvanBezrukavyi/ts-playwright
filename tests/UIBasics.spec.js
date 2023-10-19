@@ -1,6 +1,7 @@
 //Difine and import module for dealing with tests
 const { test } = require('@playwright/test');
 const { expect } = require('@playwright/test');
+const { text } = require('stream/consumers');
 
 //we have to use async function because this is JS and add browser parameter
 test('Catch unshowing message and Verify text message', async ({ browser }) => {
@@ -90,6 +91,7 @@ test.only('TC: Child windows handling', async ({ browser }) => {
     const context = await browser.newContext();
     const page = await context.newPage();
     const mainPage = await page.goto('https://rahulshettyacademy.com/loginpagePractise/');
+    const userName = page.locator('#username');
 
     const pageURL = await page.url();
     console.log('Page URL is:', pageURL);
@@ -101,13 +103,19 @@ test.only('TC: Child windows handling', async ({ browser }) => {
         context.waitForEvent('page'),
         docLink.click()
     ]);
+
     //Verify page title
     const pageTitle = await newPage.title();
     console.log('Page title is:', await pageTitle);
-
-    //Verify page title
     await expect(newPage).toHaveTitle(/RS Academy/);
-    const textWarning = await newPage.locator(".im-para.red").textContent();
+    //Extract email from string and enter it in the login page
+    const textWarning = await newPage.locator(".red").textContent();
     console.log('Warning text is:', textWarning);
+    console.log("The type of variable is",typeof(textWarning));
+    const arrayText = textWarning.split("@");
+    const domain = arrayText[1].split(" ")[0];
+    console.log(domain);
+    await page.locator('#username').fill(domain);
+    console.log(await page.locator('#username').textContent());
 
 });
