@@ -87,7 +87,7 @@ test('TC: Verify UI controls', async ({ page }) => {
     await signInBtn.click();
 });
 
-test.only('TC: Child windows handling', async ({ browser }) => {
+test('TC: Child windows handling', async ({ browser }) => {
     const context = await browser.newContext();
     const page = await context.newPage();
     const mainPage = await page.goto('https://rahulshettyacademy.com/loginpagePractise/');
