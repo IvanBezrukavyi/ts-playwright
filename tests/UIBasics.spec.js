@@ -76,7 +76,7 @@ test('TC: Verify UI controls', async ({ page }) => {
     await page.locator('#terms').click();
     await expect(page.locator('#terms')).toBeChecked();
     await page.locator('#terms').uncheck();
-    await expect(await page.locator('#terms').isChecked()).toBeFalsy();
+    await await expect(page.locator('#terms')).not.toBeChecked();
     //Verify blincking attribute in login page
     await expect(docLink).toHaveAttribute('class', 'blinkingText');
     await expect(docLink).toContainText('Free Access to InterviewQues/ResumeAssistance/Material');
@@ -93,7 +93,7 @@ test('TC: Child windows handling', async ({ browser }) => {
     const mainPage = await page.goto('https://rahulshettyacademy.com/loginpagePractise/');
     const userName = page.locator('#username');
 
-    const pageURL = await page.url();
+    const pageURL = page.url();
     console.log('Page URL is:', pageURL);
     await expect(page).toHaveURL(/.*loginpagePractise/);
 
