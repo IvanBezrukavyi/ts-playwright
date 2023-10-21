@@ -33,8 +33,10 @@ test('Verify presence of iphone X in product list', async ({ page }) => {
     //Retrieve the first idex of array in different way
     //First option
     console.log(await cardTitle.first().textContent());
+    await expect(cardTitle.first()).toContainText('iphone X');
     //Second one
     console.log(await cardTitle.nth(0).textContent());
+    await expect(cardTitle.first()).toContainText('iphone X'); 
 });
 
 test('TC: Retrive all card titles from home page', async ({ page }) => {
