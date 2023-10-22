@@ -25,8 +25,12 @@ test('TC: Verify success login to client app', async ({ page }) => {
 
 });
 
-test('Order IPHONE 13 PRO cell phone', async ({ page }) => {
+test.only('Order IPHONE 13 PRO cell phone', async ({ page }) => {
     await page.goto('https://rahulshettyacademy.com/client');
+    //General data
+    const email = 'nspprotest@gmail.com';
+    const cvv = '186';
+    const cardName = 'My test Visa Card';
     //Login page
     const userEmail = page.locator('#userEmail');
     const userPassword = page.locator('#userPassword');
@@ -38,7 +42,7 @@ test('Order IPHONE 13 PRO cell phone', async ({ page }) => {
     const cardTitles = page.locator(".card-body b");
     const checkoutBtn = page.locator("[routerlink*=cart]");
 
-    await userEmail.fill('nspprotest@gmail.com');
+    await userEmail.fill(email);
     await userPassword.fill('Pl@ywright_test_m1');
 
     await expect(login).toBeEnabled();
@@ -72,21 +76,31 @@ test('Order IPHONE 13 PRO cell phone', async ({ page }) => {
     console.log('LOG: Click checkout button');
     await page.locator("button[type='button']").last().click();
     //Order page
-    await page.locator("[placeholder*='Country']").type("ukr", {delay:100});
+    await page.locator("[placeholder*='Country']").type("ukr", { delay: 100 });
     //Declaire the country drop-down list
     const countryDropDown = page.locator(".ta-results");
     await countryDropDown.waitFor();
     const optionsCount = await countryDropDown.locator("button").count();
-    for (let i = 0; i < optionsCount; i++)
-    {
+    for (let i = 0; i < optionsCount; i++) {
         const text = await countryDropDown.locator("button").nth(i).textContent();
         // eslint-disable-next-line playwright/no-conditional-in-test
-        if (text.trim() == "Ukraine")
-        {
+        if (text.trim() == "Ukraine") {
             await countryDropDown.locator("button").nth(i).click();
             break;
         }
-        
     }
+    console.log("Enter personal information");
+    await page.locator("(//input[@type='text'])[2]").fill(cvv);
+    await page.locator("(//input[@type='text'])[3]").fill(cardName);
+    console.log("Verify shipping infromation");
+    await expect(page.locator("label[type='text']")).toHaveText(email);
+    console.log("LOG: Click place order button");
+    await page.locator(".action__submit").click();
+    console.log("Review completed order");
+    await expect(page.locator(".hero-primary")).toHaveText(" Thankyou for the order. ");
+    const orderId = await page.locator(".em-spacer-1 .ng-star-inserted").textContent();
+    console.log(orderId);
+    await expect(page.locator(".em-spacer-1 .ng-star-inserted")).not.toBeEmpty();
+
 
 });
