@@ -1,5 +1,6 @@
 //Difine and import module for dealing with tests
 const { test, expect } = require('@playwright/test');
+const { text } = require('stream/consumers');
 
 test('TC: Verify success login to client app', async ({ page }) => {
     await page.goto('https://rahulshettyacademy.com/client');
@@ -24,7 +25,7 @@ test('TC: Verify success login to client app', async ({ page }) => {
 
 });
 
-test('Add IPHONE 13 PRO cell phone to Cart page', async ({ page }) => {
+test('Order IPHONE 13 PRO cell phone', async ({ page }) => {
     await page.goto('https://rahulshettyacademy.com/client');
     //Login page
     const userEmail = page.locator('#userEmail');
@@ -67,6 +68,25 @@ test('Add IPHONE 13 PRO cell phone to Cart page', async ({ page }) => {
     await page.locator('div li').first().waitFor();
     const presentedItem = await page.locator("div[class='cartSection'] h3").isVisible();
     await expect(presentedItem).toBeTruthy();
-    console.log('LOG: item is presented in Checkout page: ', presentedItem);
+    console.log('LOG: Item is presented in Checkout page: ', presentedItem);
+    console.log('LOG: Click checkout button');
+    await page.locator("button[type='button']").last().click();
+    //Order page
+    await page.locator("[placeholder*='Country']").type("ukr", {delay:100});
+    //Declaire the country drop-down list
+    const countryDropDown = page.locator(".ta-results");
+    await countryDropDown.waitFor();
+    const optionsCount = await countryDropDown.locator("button").count();
+    for (let i = 0; i < optionsCount; i++)
+    {
+        const text = await countryDropDown.locator("button").nth(i).textContent();
+        // eslint-disable-next-line playwright/no-conditional-in-test
+        if (text.trim() == "Ukraine")
+        {
+            await countryDropDown.locator("button").nth(i).click();
+            break;
+        }
+        
+    }
 
 });
