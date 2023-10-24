@@ -1,4 +1,4 @@
-//Difine and import module for dealing with tests
+//Define and import module for dealing with tests
 const { test, expect } = require("@playwright/test");
 const { text } = require("stream/consumers");
 
@@ -14,7 +14,7 @@ test("TC: Verify success login to client app", async ({ page }) => {
 
   const list = page.locator(".card-body b");
   // if you need to wait loading all request
-  // 'networkidle' this method is unsatable and it's not recommended
+  // 'networkidle' this method is unstable and it's not recommended
   //await page.waitForLoadState('networkidle');
 
   // The alternative approach
@@ -85,7 +85,7 @@ test("E2E for ordering IPHONE 13 PRO cell phone", async ({ page }) => {
   await page.locator("button[type='button']").last().click();
   //Order page
   await page.locator("[placeholder*='Country']").type("ukr", { delay: 100 });
-  //Declaire the country drop-down list
+  //Declare the country drop-down list
   const countryDropDown = page.locator(".ta-results");
   /* The code snippet is selecting the country "Ukraine" from a dropdown list. */
   await countryDropDown.waitFor();
@@ -105,7 +105,7 @@ test("E2E for ordering IPHONE 13 PRO cell phone", async ({ page }) => {
   console.log("Enter personal information");
   await page.locator("(//input[@type='text'])[2]").fill(cvv);
   await page.locator("(//input[@type='text'])[3]").fill(cardName);
-  console.log("Verify shipping infromation");
+  console.log("Verify shipping information");
   await expect(page.locator("label[type='text']")).toHaveText(email);
   console.log("LOG: Click place order button");
   await page.locator(".action__submit").click();
