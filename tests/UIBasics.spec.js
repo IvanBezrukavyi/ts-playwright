@@ -114,7 +114,7 @@ test("TC: Child windows handling", async ({ browser }) => {
   await expect(page).toHaveURL(/.*loginpagePractise/);
 
   const docLink = page.locator("[href*='documents-request']");
-  // Declare new object for opened new browser page in a new tab
+  // Declare new object for opening new browser page in a new tab
   const [newPage] = await Promise.all([
     context.waitForEvent("page"),
     docLink.click(),
