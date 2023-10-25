@@ -1,52 +1,48 @@
-//Define and import module for dealing with tests
-const { test, expect } = require("@playwright/test");
-const { text } = require("stream/consumers");
+const { test, expect, request } = require("@playwright/test");
 
-test("TC: Verify success login to client app", async ({ page }) => {
-  await page.goto("https://rahulshettyacademy.com/client");
-  await page.locator("#userEmail").fill("nspprotest@gmail.com");
-  await page.locator("#userPassword").fill("Pl@ywright_test_m1");
+let token;
 
-  const login = page.locator("#login");
-  await expect(login).toBeEnabled();
-  console.log("ASSERT: login btn is enabled");
-  await login.click();
+const loginPayload = {
+  userEmail: "nspprotest@gmail.com",
+  userPassword: "Pl@ywright_test_m1",
+};
 
-  const list = page.locator(".card-body b");
-  // if you need to wait loading all request
-  // 'networkidle' this method is unstable and it's not recommended
-  //await page.waitForLoadState('networkidle');
+test.beforeAll( async () => {
+  const apiContext = await request.newContext();
+  const loginResponse = await apiContext.post(
+    "https://rahulshettyacademy.com/api/ecom/auth/login",
+    {
+      data: loginPayload,
+    }
+  );
+  expect(loginResponse.ok()).toBeTruthy();
+  expect(loginResponse.status()).toBe(200);
+  const loginResponseToken = await loginResponse.json();
+  token = loginResponseToken.token;
 
-  // The alternative approach
-  await page.locator(".card-body b").first().waitFor();
-  //await page.locator('.card-body b').first().textContent();
-  console.log(await list.allTextContents());
-  await expect(list).toHaveCount(3);
+  console.log("LOG: Token: ", token);
+  
 });
 
-test("TC: E2E for ordering IPHONE 13 PRO cell phone", async ({ page }) => {
+test("E2E for ordering IPHONE 13 PRO cell phone", async ({ page }) => {
   await page.goto("https://rahulshettyacademy.com/client");
-  //General data
-  const email = "nspprotest@gmail.com";
+  //Add extracted user token to web browser local storage
+  page.addInitScript(value => 
+    {
+      window.localStorage.setItem('token', value);
+    }, token);
+  
+  await page.goto("https://rahulshettyacademy.com/client");  
+  //User Data
   const cvv = "186";
   const cardName = "My test Visa Card";
-  //Login page
-  const userEmail = page.locator("#userEmail");
-  const userPassword = page.locator("#userPassword");
-  const login = page.locator("#login");
-  //Client dashboard page
   const products = page.locator(".card-body");
   const productName = "iphone 13 pro";
+  const email = "nspprotest@gmail.com";
+  //Common locators
   const cardTitle = page.locator(".card-body b");
   const cardTitles = page.locator(".card-body b");
   const checkoutBtn = page.locator("[routerlink*=cart]");
-
-  await userEmail.fill(email);
-  await userPassword.fill("Pl@ywright_test_m1");
-
-  await expect(login).toBeEnabled();
-  console.log("ASSERT: login btn is enabled");
-  await login.click();
 
   console.log(await cardTitle.first().textContent());
   console.log(
@@ -58,9 +54,9 @@ test("TC: E2E for ordering IPHONE 13 PRO cell phone", async ({ page }) => {
   await checkoutBtn.textContent();
   const count = await products.count();
   /* The code snippet is iterating over a list of products and checking if the product name matches the
-  desired product name (in this case, "iphone 13 pro"). If a match is found, it clicks on the "Add
-  To Cart" button for that product and then breaks out of the loop. This code is essentially adding
-  the desired product to the shopping cart. */
+    desired product name (in this case, "iphone 13 pro"). If a match is found, it clicks on the "Add
+    To Cart" button for that product and then breaks out of the loop. This code is essentially adding
+    the desired product to the shopping cart. */
   for (let i = 0; i < count; ++i) {
     // eslint-disable-next-line playwright/no-conditional-in-test
     if ((await products.nth(i).locator("b").textContent()) === productName) {
@@ -69,7 +65,6 @@ test("TC: E2E for ordering IPHONE 13 PRO cell phone", async ({ page }) => {
       break;
     }
   }
-
   //await page.locator(checkoutBtn).first().waitFor();
   console.log("LOG: Checkout counter has been changed");
   await expect(checkoutBtn).not.toBeNull();
@@ -90,10 +85,6 @@ test("TC: E2E for ordering IPHONE 13 PRO cell phone", async ({ page }) => {
   /* The code snippet is selecting the country "Ukraine" from a dropdown list. */
   await countryDropDown.waitFor();
   const optionsCount = await countryDropDown.locator("button").count();
-  /* The code snippet is iterating over a list of options in a dropdown menu and checking if the text of
- each option matches the desired country name ("Ukraine"). If a match is found, it clicks on that
- option and then breaks out of the loop. This code is essentially selecting the country "Ukraine"
- from the dropdown menu. */
   for (let i = 0; i < optionsCount; i++) {
     const text = await countryDropDown.locator("button").nth(i).textContent();
     // eslint-disable-next-line playwright/no-conditional-in-test
@@ -106,7 +97,9 @@ test("TC: E2E for ordering IPHONE 13 PRO cell phone", async ({ page }) => {
   await page.locator("(//input[@type='text'])[2]").fill(cvv);
   await page.locator("(//input[@type='text'])[3]").fill(cardName);
   console.log("Verify shipping information");
-  await expect(page.locator("label[type='text']")).toHaveText(email);
+  const userEmail = page.locator("label[type='text']");
+  await userEmail.waitFor("visible");
+  await expect(userEmail).toHaveText(email);
   console.log("LOG: Click place order button");
   await page.locator(".action__submit").click();
   console.log("Review completed order");
@@ -120,7 +113,7 @@ test("TC: E2E for ordering IPHONE 13 PRO cell phone", async ({ page }) => {
   await expect(page.locator(".em-spacer-1 .ng-star-inserted")).not.toBeEmpty();
   await page.locator("button[routerlink*=myorders]").click();
   /*This ensures that the table is loaded
-    and available for further actions or assertions. */
+      and available for further actions or assertions. */
   await page.locator("table").waitFor();
   const rows = page.locator("tbody tr");
   for (let i = 0; i < (await rows.count()); ++i) {

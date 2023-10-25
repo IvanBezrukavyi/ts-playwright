@@ -12,11 +12,14 @@ const { defineConfig, devices } = require('@playwright/test');
  */
 module.exports = defineConfig({
   testDir: './tests',
+  //Regular expressions to pick test with such extension in the test runner
   testMatch: ["**/*.js"],
 
   //Add timeout
-  timeout: 30 * 1000,
+  // Each test is given 30 seconds
+  timeout: 30000,
   expect: {
+    // Maximum time expect() should wait for the condition to be met
     timeout: 5000
   },
   /* Run tests in files in parallel */

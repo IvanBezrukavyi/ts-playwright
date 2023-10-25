@@ -1,7 +1,6 @@
 //Difine and import module for dealing with tests
 const { test } = require("@playwright/test");
 const { expect } = require("@playwright/test");
-const { text } = require("stream/consumers");
 
 //we have to use async function because this is JS and add browser parameter
 test("Catch unshowing message and Verify text message", async ({ browser }) => {
