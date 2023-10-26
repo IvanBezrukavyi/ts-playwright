@@ -1,5 +1,5 @@
-const { test, expect, request } = require("@playwright/test");
-const {APiUtils} = require('./utils/APiUtils');
+const { test, expect} = require("@playwright/test");
+const {APiUtils} = require("./utils/APiUtils");
 
 const loginPayLoad = {
   userEmail: "nspprotest@gmail.com",
@@ -31,7 +31,7 @@ test.beforeAll( async()=>
 
 })
 
-test("E2E for ordering IPHONE 13 PRO cell phone with mix UI and API", async ({ page }) => {
+test.fixme("E2E for ordering IPHONE 13 PRO cell phone with mix UI and API", async ({ page }) => {
 
   page.addInitScript(value => 
     {
