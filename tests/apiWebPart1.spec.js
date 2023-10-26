@@ -3,6 +3,10 @@ const {APIUtils} = require('./utils/APIUtils');
 
 let response;
 
+const loginPayload = {
+  userEmail: "nspprotest@gmail.com",
+  userPassword: "Pl@ywright_test_m1",
+}
 
 const orderPayload = {
   orders: [
@@ -14,11 +18,11 @@ const orderPayload = {
 test.beforeAll( async () => {
   const apiContext = await request.newContext();
   const apiUtils = new APIUtils(apiContext, loginPayload);
-  response = apiUtils.createOrder(orderPayload);
+  response = await apiUtils.createOrder(orderPayload);
 });
 
 test("E2E for ordering IPHONE 13 PRO cell phone with mix UI and API", async ({ page }) => {
-  const apiUtils = new ApiUtils(apiContext, loginPayload);
+  const apiUtils = new APIUtils(apiContext, loginPayload);
   const orderId = new createOrder(orderPayload);
   console.log("Verify success login");
   expect(loginResponse.ok()).toBeTruthy();

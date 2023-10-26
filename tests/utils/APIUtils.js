@@ -13,9 +13,9 @@ class APIUtils
             {
               data: this.loginPayload,
             }
-          );
+          )
           const loginResponseToken = await loginResponse.json();
-          token = loginResponseToken.token;
+          const token = loginResponseToken.token;
           console.log("LOG: Token: ", token);
           return token;
     }
