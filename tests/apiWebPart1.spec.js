@@ -1,4 +1,4 @@
-const { test, expect} = require("@playwright/test");
+const { test, expect, request} = require("@playwright/test");
 const {APiUtils} = require("./utils/APiUtils");
 
 const loginPayLoad = {
@@ -23,15 +23,9 @@ test.beforeAll( async()=>
 
      
   console.log("Verify success login");
-  //expect(token.ok()).toBeTruthy();
-  //expect(token.status()).toBe(200);
-  //console.log("Verify success ordering of stuff");
-  //expect(createdOrderResponse.ok()).toBeTruthy();
-  //expect(createdOrderResponse.status()).toBe(201);
-
 })
 
-test.fixme("E2E for ordering IPHONE 13 PRO cell phone with mix UI and API", async ({ page }) => {
+test("E2E for ordering IPHONE 13 PRO cell phone with mix UI and API", async ({ page }) => {
 
   page.addInitScript(value => 
     {
