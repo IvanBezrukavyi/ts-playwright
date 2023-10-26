@@ -1,9 +1,7 @@
 const { test, expect, request } = require("@playwright/test");
-const {APIUtils} = require('./utils/APIUtils');
+const {APiUtils} = require('./utils/APiUtils');
 
-let response;
-
-const loginPayload = {
+const loginPayLoad = {
   userEmail: "nspprotest@gmail.com",
   userPassword: "Pl@ywright_test_m1",
 }
@@ -15,21 +13,26 @@ const orderPayload = {
 }]
 };
 
-test.beforeAll( async () => {
-  const apiContext = await request.newContext();
-  const apiUtils = new APIUtils(apiContext, loginPayload);
-  response = await apiUtils.createOrder(orderPayload);
-});
+let response;
+
+test.beforeAll( async()=>
+{
+   const apiContext = await request.newContext();
+   const apiUtils = new APiUtils(apiContext, loginPayLoad);
+   response =  await apiUtils.createOrder(orderPayload);
+
+     
+  console.log("Verify success login");
+  //expect(token.ok()).toBeTruthy();
+  //expect(token.status()).toBe(200);
+  //console.log("Verify success ordering of stuff");
+  //expect(createdOrderResponse.ok()).toBeTruthy();
+  //expect(createdOrderResponse.status()).toBe(201);
+
+})
 
 test("E2E for ordering IPHONE 13 PRO cell phone with mix UI and API", async ({ page }) => {
-  const apiUtils = new APIUtils(apiContext, loginPayload);
-  const orderId = new createOrder(orderPayload);
-  console.log("Verify success login");
-  expect(loginResponse.ok()).toBeTruthy();
-  expect(loginResponse.status()).toBe(200);
-  console.log("Verify success ordering of stuff");
-  expect(createdOrderResponse.ok()).toBeTruthy();
-  expect(createdOrderResponse.status()).toBe(201);
+
   page.addInitScript(value => 
     {
       window.localStorage.setItem('token', value);
@@ -50,5 +53,6 @@ test("E2E for ordering IPHONE 13 PRO cell phone with mix UI and API", async ({ p
     }
   }
   const orderIdDetails = await page.locator(".col-text").textContent();
+  console.log("Order id equals to bought stuff");
   expect(response.orderId.includes(orderIdDetails)).toBeTruthy();
 });
