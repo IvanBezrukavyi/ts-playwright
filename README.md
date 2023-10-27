@@ -33,4 +33,5 @@ I took this [course](https://softserve.udemy.com/course/playwright-tutorials-aut
 3. npx playwright test [pathToCase] --headed --debug (running tests in browser with debug mode)
 4. npx playwright test --ui (running tests in UI mode. It's highly recommended!!!)
 5. npx playwright show-report (review test execution report)
-6. npx playwright codegen website.com (open the website and generate steps base on user actions)
+6. npx playwright codegen [website.com] (open the website and generate steps base on user actions)
+7. npx playwright codegen [website.com] --save-storage=auth.json (open the website and generate steps base on user actions to save cookies and localStorage at the end of the session. This is useful to separately record an authentication step and reuse it later when recording more tests)

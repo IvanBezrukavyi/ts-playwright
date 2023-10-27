@@ -1,24 +1,9 @@
-//Login UI  -> .json
-
-//test browser-> .json , cart-,order, orderdetails,orderhistory
 const { test, expect } = require('@playwright/test');
-let webContext;
 
-test.beforeAll(async ({ browser }) => {
-    const context = await browser.newContext();
-    const page = await context.newPage();
-    await page.goto("https://rahulshettyacademy.com/client");
-    await page.locator("#userEmail").fill("nspprotest@gmail.com");
-    await page.locator("#userPassword").type("Pl@ywright_test_m1");
-    await page.locator("[value='Login']").click();
-    await context.storageState({ path: 'state.json' });
-    webContext = await browser.newContext({ storageState: 'state.json' });
-})
-
-test('E2E mix UI and API another approach', async () => {
-    const email = "rahulshetty@gmail.com";
+test('E2E mix UI and API another approach', async ({page}) => {
+    const email = "nspprotest@gmail.com";
     const productName = 'iphone 13 pro';
-    const page = await webContext.newPage();
+
     await page.goto("https://rahulshettyacademy.com/client");
     const products = page.locator(".card-body");
     const titles = await page.locator(".card-body b").allTextContents();
@@ -71,10 +56,7 @@ test('E2E mix UI and API another approach', async () => {
 
 });
 // eslint-disable-next-line playwright/expect-expect
-test('TC: Verify success login', async () => {
-    const email = "";
-    const productName = 'iphone 13 pro';
-    const page = await webContext.newPage();
+test('TC: Verify success login', async ({page}) => {
     await page.goto("https://rahulshettyacademy.com/client");
     const products = page.locator(".card-body");
     const titles = await page.locator(".card-body b").allTextContents();

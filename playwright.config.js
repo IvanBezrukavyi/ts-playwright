@@ -11,6 +11,7 @@ const { defineConfig, devices } = require('@playwright/test');
  * @see https://playwright.dev/docs/test-configuration
  */
 module.exports = defineConfig({
+  globalSetup: "./global-setup",
   testDir: './tests',
   //Regular expressions to pick test with such extension in the test runner
   testMatch: ["**/*.js"],
@@ -34,6 +35,7 @@ module.exports = defineConfig({
   reporter: 'html',
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
+    
     /* Base URL to use in actions like `await page.goto('/')`. */
     // baseURL: 'http://127.0.0.1:3000',
 
@@ -44,11 +46,13 @@ module.exports = defineConfig({
   /* Configure projects for major browsers */
   projects: [
     {
-      name: 'chromium',
+      name: 'MyLearningPath',
       use: { ...devices['Desktop Chrome'] },
       /* Use headeless mode. It runs tests w/o browser launching*/
       headless: false,
-      screenshot: 'on'
+      screenshot: 'on',
+      /* Add path for storing browser local data, e.g. token, user email, user password */
+      storageState: './LoginAuth.json'
     },
 
     // {
