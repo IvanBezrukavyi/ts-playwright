@@ -11,7 +11,7 @@ const { defineConfig, devices } = require('@playwright/test');
  * @see https://playwright.dev/docs/test-configuration
  */
 module.exports = defineConfig({
-  globalSetup: "./global-setup",
+  globalSetup: require.resolve("./global-setup"),
   testDir: './tests',
   //Regular expressions to pick test with such extension in the test runner
   testMatch: ["**/*.js"],
