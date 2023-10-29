@@ -1,4 +1,4 @@
-import { chromium } from "@playwright/test";
+/* import { chromium } from "@playwright/test";
 
 
 async function globalSetup() {
@@ -19,3 +19,4 @@ async function globalSetup() {
 
 export default globalSetup;
 
+ */

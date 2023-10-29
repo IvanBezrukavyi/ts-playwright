@@ -11,11 +11,8 @@ const { defineConfig, devices } = require('@playwright/test');
  * @see https://playwright.dev/docs/test-configuration
  */
 module.exports = defineConfig({
-  globalSetup: require.resolve("./global-setup"),
+  //globalSetup: require.resolve("./global-setup"),
   testDir: './tests',
-  //Regular expressions to pick test with such extension in the test runner
-  testMatch: ["**/*.js"],
-
   //Add timeout
   // Each test is given 30 seconds
   timeout: 30000,
@@ -40,19 +37,23 @@ module.exports = defineConfig({
     // baseURL: 'http://127.0.0.1:3000',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    trace: 'on-first-retry', // 'retain-on-failure' if you do not enable retries but still want traces for failed tests 
-  },
+    trace: 'on-first-retry', /* 'retain-on-failure' if you do not enable retries but still want traces for failed tests. //There are additional commands for tracing: on-first-retry, on, off*/
 
   /* Configure projects for major browsers */
   projects: [
     {
       name: 'MyLearningPath',
-      use: { ...devices['Desktop Chrome'] },
+      use: {
+        ...devices['Desktop Chrome'],
+        // Use prepared auth state.
+        storageState: 'playwright/.auth/user.json',
+      },
+      dependencies: ['setup'],
       /* Use headeless mode. It runs tests w/o browser launching*/
       headless: false,
       screenshot: 'on',
       /* Add path for storing browser local data, e.g. token, user email, user password */
-      storageState: './LoginAuth.json'
+      //storageState: './LoginAuth.json'
     },
 
     // {
@@ -94,5 +95,5 @@ module.exports = defineConfig({
   //   url: 'http://127.0.0.1:3000',
   //   reuseExistingServer: !process.env.CI,
   // },
-});
+}});
 

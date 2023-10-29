@@ -1,4 +1,4 @@
-const { test, expect } = require('@playwright/test');
+import { test,expect } from '@playwright/test';
 
 test('E2E mix UI and API another approach', async ({page}) => {
     const email = "nspprotest@gmail.com";
@@ -62,10 +62,4 @@ test('TC: Verify success login', async ({page}) => {
     const titles = await page.locator(".card-body b").allTextContents();
     console.log(titles);
 
-})
-
-
-
-
-
-
+});
