@@ -10,7 +10,7 @@
   "author": "Ivan Bezrukavyi",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.38.1",
+    "@playwright/test": "^1.39.0",
     "@types/node": "^20.8.4",
     "eslint": "^8.51.0",
     "eslint-plugin-playwright": "^0.17.0"
