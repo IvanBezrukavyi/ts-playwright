@@ -20,9 +20,7 @@ test.beforeAll( async()=>
    const apiContext = await request.newContext();
    const apiUtils = new APiUtils(apiContext, loginPayLoad);
    response =  await apiUtils.createOrder(orderPayload);
-
-     
-  console.log("Verify success login");
+   console.log("Verify success login");
 })
 
 test("E2E for ordering IPHONE 13 PRO cell phone with mix UI and API", async ({ page }) => {
