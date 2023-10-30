@@ -1,5 +1,5 @@
-// @ts-check
-const { defineConfig, devices } = require('@playwright/test');
+
+import { defineConfig, devices } from '@playwright/test';
 
 /**
  * Read environment variables from file.
@@ -53,15 +53,14 @@ module.exports = defineConfig({
       dependencies: ['setup'],
       use: {
         ...devices['Desktop Chrome'],
-        // Use prepared auth state.
-        storageState: './srs/auth/auth.setup.spec.js',
+        channel: 'chrome',
+        storageState: './srs/auth/defaultStorageState.json'
+        
       },
       
       /* Use headeless mode. It runs tests w/o browser launching*/
       headless: false,
-      screenshot: 'on',
-      /* Add path for storing browser local data, e.g. token, user email, user password */
-      //storageState: './LoginAuth.json'
+      screenshot: 'on'
     },
 
     // {
