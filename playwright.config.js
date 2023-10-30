@@ -42,13 +42,21 @@ module.exports = defineConfig({
   /* Configure projects for major browsers */
   projects: [
     {
-      name: 'MyLearningPath',
+      name: 'setup',
+      use: {
+        headless: true
+      },
+      testMatch: 'auth.setup.spec.js'
+    },
+    {
+      name: 'Chrome',
+      dependencies: ['setup'],
       use: {
         ...devices['Desktop Chrome'],
         // Use prepared auth state.
-        storageState: 'playwright/.auth/user.json',
+        storageState: './srs/auth/auth.setup.spec.js',
       },
-      dependencies: ['setup'],
+      
       /* Use headeless mode. It runs tests w/o browser launching*/
       headless: false,
       screenshot: 'on',
