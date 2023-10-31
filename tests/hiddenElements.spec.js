@@ -52,3 +52,14 @@ test("TC: Verify popup validation", async ({
     await page.screenshot({path: './srs/screenshots/screnshot.png' });
     await expect(page.getByPlaceholder("Hide/Show Example")).toBeHidden();
   });
+
+  test("TC: Capture and compare screenshots", async ( {
+    page,
+  }) => {
+    await page.goto("https://rahulshettyacademy.com/AutomationPractice/");
+    /*It will fail in first running because there is no actual screenshot.
+    Therefore it should pass after the second run */
+    expect(await page.screenshot()).toMatchSnapshot('./srs/screenshots/landing.png');
+
+    });
+  
