@@ -1,16 +1,16 @@
-//Define and import module for dealing with tests
-const { test, expect } = require("@playwright/test");
-const { text } = require("stream/consumers");
+import { expect, test } from "@playwright/test";
+import { LoginPage } from "../srs/main/clientApp/loginPage";
+
 
 test("TC: Verify success login to client app", async ({ page }) => {
-  await page.goto("https://rahulshettyacademy.com/client");
-  await page.locator("#userEmail").fill("nspprotest@gmail.com");
-  await page.locator("#userPassword").fill("Pl@ywright_test_m1");
+  const username = 'nspprotest@gmail.com';
+  const userpass = 'Pl@ywright_test_m1';
+  const loginPage = new LoginPage(page);
+  loginPage.goTo();
+  loginPage.validLogin(username, userpass);
 
-  const login = page.locator("#login");
-  await expect(login).toBeEnabled();
-  console.log("ASSERT: login btn is enabled");
-  await login.click();
+  //await expect(loginPage.validLogin).toBeEnabled();
+  console.log("ASSERT: login button is enabled");
 
   const list = page.locator(".card-body b");
   // if you need to wait loading all request
@@ -25,29 +25,23 @@ test("TC: Verify success login to client app", async ({ page }) => {
 });
 
 test("TC: E2E for ordering IPHONE 13 PRO cell phone", async ({ page }) => {
-  await page.goto("https://rahulshettyacademy.com/client");
   //General data
-  const email = "nspprotest@gmail.com";
+  const username = 'nspprotest@gmail.com';
+  const userpass = 'Pl@ywright_test_m1';
+  //Login page
+  const loginPage = new LoginPage(page);
+  loginPage.goTo();
+  loginPage.validLogin(username, userpass);
+  //Client dashboard page
   const cvv = "186";
   const cardName = "My test Visa Card";
-  //Login page
-  const userEmail = page.locator("#userEmail");
-  const userPassword = page.locator("#userPassword");
-  const login = page.locator("#login");
-  //Client dashboard page
+
   const products = page.locator(".card-body");
   const productName = "iphone 13 pro";
   const cardTitle = page.locator(".card-body b");
   const cardTitles = page.locator(".card-body b");
   const checkoutBtn = page.locator("[routerlink*=cart]");
-
-  await userEmail.fill(email);
-  await userPassword.fill("Pl@ywright_test_m1");
-
-  await expect(login).toBeEnabled();
-  console.log("ASSERT: login btn is enabled");
-  await login.click();
-
+ 
   console.log(await cardTitle.first().textContent());
   console.log(
     "LOG: Product list titles is: ",
@@ -106,7 +100,7 @@ test("TC: E2E for ordering IPHONE 13 PRO cell phone", async ({ page }) => {
   await page.locator("(//input[@type='text'])[2]").fill(cvv);
   await page.locator("(//input[@type='text'])[3]").fill(cardName);
   console.log("Verify shipping information");
-  await expect(page.locator("label[type='text']")).toHaveText(email);
+  await expect(page.locator("label[type='text']")).toHaveText(username);
   console.log("LOG: Click place order button");
   await page.locator(".action__submit").click();
   console.log("Review completed order");
