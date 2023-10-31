@@ -49,7 +49,7 @@ test("TC: Verify popup validation", async ({
     /**
      * @see https://playwright.dev/docs/screenshots#element-screenshot
      */
-    await page.screenshot({path: './srs/screenshots/screnshot.png' });
+    await page.screenshot({path: './srs/screenshots/screnshot.png'});
     await expect(page.getByPlaceholder("Hide/Show Example")).toBeHidden();
   });
 

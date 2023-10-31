@@ -10,6 +10,5 @@ node_modules/
 /playwright/.cache/
 /launch.json
 /eslintrc.js
-LoginAuth.json
-playwright/.auth
-
+./srs/screenshots/*.png
+./tests/*/*.png
