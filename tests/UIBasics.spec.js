@@ -1,6 +1,4 @@
-//Difine and import module for dealing with tests
-const { test } = require("@playwright/test");
-const { expect } = require("@playwright/test");
+import {test, expect} from "@playwright/test";
 
 //we have to use async function because this is JS and add browser parameter
 test("Catch unshowing message and Verify text message", async ({ browser }) => {
@@ -8,6 +6,9 @@ test("Catch unshowing message and Verify text message", async ({ browser }) => {
   const context = await browser.newContext();
   //Open new browser page
   const page = await context.newPage();
+  /*If you need to block some request and increase the speed of page downloading
+  Let's block css on login page*/
+  page.route('**/*.css', route => route.abort())
   //Navigate to needed page
   const mainPage = await page.goto(
     "https://rahulshettyacademy.com/loginpagePractise/"
@@ -29,6 +30,9 @@ test("Verify presence of iphone X in product list", async ({ page }) => {
   const userName = page.locator("#username");
   const signInBtn = page.locator("[name='signin']");
   const cardTitle = page.locator(".card-body a");
+  //Catch all requests and show then in logs
+  page.on('request', request => console.log(request.url()));
+  page.on('response', response => console.log(response.url(), response.status()));
 
   await userName.type("rahulshettyacademy");
   await page.locator("[type='password']").type("learning");
@@ -54,8 +58,8 @@ test("TC: Retrive all card titles from home page", async ({ page }) => {
   await userName.type("rahulshettyacademy");
   await page.locator("[type='password']").type("learning");
   await signInBtn.click();
-  /* We need to check the presence at least 1 element before retriving a whole list
-There is no mechanism to get all data immidiately*/
+  /* We need to check the presence at least 1 element before retrieving the whole list
+There is no mechanism to get all data immediately*/
   console.log(await cardTitle.first().textContent());
   console.log(await cardTitles.allTextContents());
   await expect(cardTitles).toContainText([

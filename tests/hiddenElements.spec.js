@@ -37,5 +37,18 @@ test("TC: Verify popup validation", async ({
     await expect(page).toHaveTitle('Practice Page');
     await page.locator("#mousehover").hover();
     await page.locator("//a[normalize-space()='Reload']").click();
+  });
 
+
+  test("TC: Verify work of screenshot and visual comparison", async ( {
+    page,
+  }) => {
+    await page.goto("https://rahulshettyacademy.com/AutomationPractice/");
+    await expect(page.getByPlaceholder("Hide/Show Example")).toBeVisible();
+    await page.locator("#hide-textbox").click();
+    /**
+     * @see https://playwright.dev/docs/screenshots#element-screenshot
+     */
+    await page.screenshot({path: './srs/screenshots/screnshot.png' });
+    await expect(page.getByPlaceholder("Hide/Show Example")).toBeHidden();
   });
