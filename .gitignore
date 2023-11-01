@@ -8,10 +8,11 @@ node_modules/
 /test-results/
 /playwright-report/
 /playwright/.cache/
-./srs/auth/defaultStorageState.json
-./srs/screenshots/*.png
 ./tests/*/*.png
 /test-results/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+srs/auth/defaultStorageState.json
+srs/resources/screenshots/*.png
+tests/hiddenElements.spec.ts-snapshots/*.png
