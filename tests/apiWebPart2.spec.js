@@ -1,6 +1,6 @@
-import { test,expect } from '@playwright/test';
+import { test, expect } from '@playwright/test';
 
-test('E2E mix UI and API another approach', async ({page}) => {
+test('E2E iphone ordering with separate auth approach', async ({page}) => {
     const email = "nspprotest@gmail.com";
     const productName = 'iphone 13 pro';
 
@@ -57,7 +57,7 @@ test('E2E mix UI and API another approach', async ({page}) => {
 });
 // eslint-disable-next-line playwright/expect-expect
 test('TC: Verify success login', async ({page}) => {
-    await page.goto("https://rahulshettyacademy.com/client");
+    await page.goto("/dashboard/dash");
     const products = page.locator(".card-body");
     const titles = await page.locator(".card-body b").allTextContents();
     console.log(titles);

@@ -11,4 +11,4 @@ node_modules/
 /launch.json
 /eslintrc.js
 ./srs/screenshots/*.png
-./tests/*/*.png
+./tests/*/*.pnn

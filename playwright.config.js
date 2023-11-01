@@ -1,5 +1,5 @@
-// @ts-check
-const { defineConfig, devices } = require('@playwright/test');
+
+import { defineConfig, devices } from '@playwright/test';
 
 /**
  * Read environment variables from file.
@@ -11,8 +11,8 @@ const { defineConfig, devices } = require('@playwright/test');
  * @see https://playwright.dev/docs/test-configuration
  */
 module.exports = defineConfig({
-  //globalSetup: require.resolve("./global-setup"),
   testDir: './tests',
+  baseURL: 'https://rahulshettyacademy.com/cleint',
   //Add timeout
   // Each test is given 30 seconds
   timeout: 30000,
@@ -34,7 +34,7 @@ module.exports = defineConfig({
   use: {
     
     /* Base URL to use in actions like `await page.goto('/')`. */
-    // baseURL: 'http://127.0.0.1:3000',
+    
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry', /* 'retain-on-failure' if you do not enable retries but still want traces for failed tests. //There are additional commands for tracing: on-first-retry, on, off*/
@@ -42,18 +42,26 @@ module.exports = defineConfig({
   /* Configure projects for major browsers */
   projects: [
     {
-      name: 'MyLearningPath',
+      name: 'setup',
+      use: {
+        headless: false
+      },
+      testMatch: 'auth.setup.spec.js'
+    },
+    {
+      name: 'chrome',
+      dependencies: ['setup'],
       use: {
         ...devices['Desktop Chrome'],
-        // Use prepared auth state.
-        storageState: 'playwright/.auth/user.json',
+        channel: 'chrome',
+        headless: false,
+        baseURL: 'https://rahulshettyacademy.com/cleint',
+        storageState: './srs/auth/defaultStorageState.json'
       },
-      dependencies: ['setup'],
+      
       /* Use headeless mode. It runs tests w/o browser launching*/
       headless: false,
-      screenshot: 'on',
-      /* Add path for storing browser local data, e.g. token, user email, user password */
-      //storageState: './LoginAuth.json'
+      screenshot: 'on'
     },
 
     // {

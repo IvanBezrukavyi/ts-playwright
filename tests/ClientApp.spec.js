@@ -1,8 +1,7 @@
+
 import { expect, test } from "@playwright/test";
 import { LoginPage } from "../srs/main/clientApp/loginPage";
 import { DashboardPage } from "../srs/main/clientApp/DashboardPage";
-
-
 
 test("TC: Verify success login to client app", async ({ page }) => {
   const username = 'nspprotest@gmail.com';
