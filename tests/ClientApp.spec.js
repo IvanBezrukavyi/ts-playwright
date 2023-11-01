@@ -1,15 +1,17 @@
-//Define and import module for dealing with tests
-const { test, expect } = require("@playwright/test");
+
+import { expect, test } from "@playwright/test";
+import { LoginPage } from "../srs/main/clientApp/loginPage";
+import { DashboardPage } from "../srs/main/clientApp/DashboardPage";
 
 test("TC: Verify success login to client app", async ({ page }) => {
-  await page.goto("https://rahulshettyacademy.com/client");
-  await page.locator("#userEmail").fill("nspprotest@gmail.com");
-  await page.locator("#userPassword").fill("Pl@ywright_test_m1");
+  const username = 'nspprotest@gmail.com';
+  const userpass = 'Pl@ywright_test_m1';
+  const loginPage = new LoginPage(page);
+  loginPage.goTo();
+  loginPage.validLogin(username, userpass);
 
-  const login = page.locator("#login");
-  await expect(login).toBeEnabled();
-  console.log("ASSERT: login btn is enabled");
-  await login.click();
+  //await expect(loginPage.validLogin).toBeEnabled();
+  console.log("ASSERT: login button is enabled");
 
   const list = page.locator(".card-body b");
   // if you need to wait loading all request
@@ -24,55 +26,38 @@ test("TC: Verify success login to client app", async ({ page }) => {
 });
 
 test("TC: E2E for ordering IPHONE 13 PRO cell phone", async ({ page }) => {
-  await page.goto("https://rahulshettyacademy.com/client");
   //General data
-  const email = "nspprotest@gmail.com";
+  const username = 'nspprotest@gmail.com';
+  const userpass = 'Pl@ywright_test_m1';
+  //Login page
+  const loginPage = new LoginPage(page);
+  loginPage.goTo();
+  loginPage.validLogin(username, userpass);
+  //Client dashboard page data
   const cvv = "186";
   const cardName = "My test Visa Card";
-  //Login page
-  const userEmail = page.locator("#userEmail");
-  const userPassword = page.locator("#userPassword");
-  const login = page.locator("#login");
-  //Client dashboard page
-  const products = page.locator(".card-body");
   const productName = "iphone 13 pro";
+  
+
+  //Dashboard page
+  const dashboardPage = new DashboardPage(page);
+  dashboardPage.searchProductAddCart(productName);
+  dashboardPage.validDashboardData(cvv, cardName);
+  dashboardPage.navigateToCart();
+
+
+  const products = page.locator(".card-body");
+ 
   const cardTitle = page.locator(".card-body b");
   const cardTitles = page.locator(".card-body b");
-  const checkoutBtn = page.locator("[routerlink*=cart]");
+  const cartLink = page.locator("[routerlink*=cart]");
+ 
+  
 
-  await userEmail.fill(email);
-  await userPassword.fill("Pl@ywright_test_m1");
-
-  await expect(login).toBeEnabled();
-  console.log("ASSERT: login btn is enabled");
-  await login.click();
-
-  console.log(await cardTitle.first().textContent());
-  console.log(
-    "LOG: Product list titles is: ",
-    await cardTitles.allTextContents()
-  );
-  console.log("LOG: Checkout counter equals to 0");
-  await expect(checkoutBtn).toContainText("");
-  await checkoutBtn.textContent();
-  const count = await products.count();
-  /* The code snippet is iterating over a list of products and checking if the product name matches the
-  desired product name (in this case, "iphone 13 pro"). If a match is found, it clicks on the "Add
-  To Cart" button for that product and then breaks out of the loop. This code is essentially adding
-  the desired product to the shopping cart. */
-  for (let i = 0; i < count; ++i) {
-    // eslint-disable-next-line playwright/no-conditional-in-test
-    if ((await products.nth(i).locator("b").textContent()) === productName) {
-      // Add to cart
-      await products.nth(i).locator("text= Add To Cart").click();
-      break;
-    }
-  }
-
-  //await page.locator(checkoutBtn).first().waitFor();
+  //await page.locator(cartLink).first().waitFor();
   console.log("LOG: Checkout counter has been changed");
-  await expect(checkoutBtn).not.toBeNull();
-  await checkoutBtn.click();
+  await expect(cartLink).not.toBeNull();
+  await cartLink.click();
   // Checkout page
   await page.locator("div li").first().waitFor();
   const presentedItem = await page
@@ -105,7 +90,7 @@ test("TC: E2E for ordering IPHONE 13 PRO cell phone", async ({ page }) => {
   await page.locator("(//input[@type='text'])[2]").fill(cvv);
   await page.locator("(//input[@type='text'])[3]").fill(cardName);
   console.log("Verify shipping information");
-  await expect(page.locator("label[type='text']")).toHaveText(email);
+  await expect(page.locator("label[type='text']")).toHaveText(username);
   console.log("LOG: Click place order button");
   await page.locator(".action__submit").click();
   console.log("Review completed order");

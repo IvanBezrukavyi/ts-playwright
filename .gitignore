@@ -10,4 +10,5 @@ node_modules/
 /playwright/.cache/
 /launch.json
 /eslintrc.js
-srs/auth/defaultStorageState.json
+./srs/screenshots/*.png
+./tests/*/*.pnn
