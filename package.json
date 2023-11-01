@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test ./tests/apiWebPart2.spec.js --headed"
+    "test": "npx playwright test ./tests/apiWebPart2.spec.ts --headed"
   },
   "keywords": [],
   "author": "Ivan Bezrukavyi",

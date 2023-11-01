@@ -1,4 +1,3 @@
-
 import { defineConfig, devices } from '@playwright/test';
 
 /**
@@ -8,18 +7,10 @@ import { defineConfig, devices } from '@playwright/test';
 // require('dotenv').config();
 
 /**
- * @see https://playwright.dev/docs/test-configuration
+ * See https://playwright.dev/docs/test-configuration.
  */
-module.exports = defineConfig({
+export default defineConfig({
   testDir: './tests',
-  baseURL: 'https://rahulshettyacademy.com/cleint',
-  //Add timeout
-  // Each test is given 30 seconds
-  timeout: 30000,
-  expect: {
-    // Maximum time expect() should wait for the condition to be met
-    timeout: 5000
-  },
   /* Run tests in files in parallel */
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
@@ -32,36 +23,18 @@ module.exports = defineConfig({
   reporter: 'html',
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
-    
     /* Base URL to use in actions like `await page.goto('/')`. */
-    
+    baseURL: 'https://rahulshettyacademy.com/client/',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    trace: 'on-first-retry', /* 'retain-on-failure' if you do not enable retries but still want traces for failed tests. //There are additional commands for tracing: on-first-retry, on, off*/
+    trace: 'on-first-retry',
+  },
 
   /* Configure projects for major browsers */
   projects: [
     {
-      name: 'setup',
-      use: {
-        headless: false
-      },
-      testMatch: 'auth.setup.spec.js'
-    },
-    {
-      name: 'chrome',
-      dependencies: ['setup'],
-      use: {
-        ...devices['Desktop Chrome'],
-        channel: 'chrome',
-        headless: false,
-        baseURL: 'https://rahulshettyacademy.com/cleint',
-        storageState: './srs/auth/defaultStorageState.json'
-      },
-      
-      /* Use headeless mode. It runs tests w/o browser launching*/
-      headless: false,
-      screenshot: 'on'
+      name: 'chromium',
+      use: { ...devices['Desktop Chrome'] },
     },
 
     // {
@@ -73,8 +46,6 @@ module.exports = defineConfig({
     //   name: 'webkit',
     //   use: { ...devices['Desktop Safari'] },
     // },
-    
-    
 
     /* Test against mobile viewports. */
     // {
@@ -103,5 +74,4 @@ module.exports = defineConfig({
   //   url: 'http://127.0.0.1:3000',
   //   reuseExistingServer: !process.env.CI,
   // },
-}});
-
+});
