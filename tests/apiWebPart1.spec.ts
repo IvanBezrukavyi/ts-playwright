@@ -1,4 +1,4 @@
-const { test, expect, request} = require("@playwright/test");
+import {test, expect, request} from '@playwright/test';
 const {APiUtils} = require("./utils/APiUtils.js");
 
 const loginPayLoad = {
