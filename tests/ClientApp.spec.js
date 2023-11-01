@@ -1,5 +1,7 @@
 import { expect, test } from "@playwright/test";
 import { LoginPage } from "../srs/main/clientApp/loginPage";
+import { DashboardPage } from "../srs/main/clientApp/DashboardPage";
+
 
 
 test("TC: Verify success login to client app", async ({ page }) => {
@@ -32,42 +34,31 @@ test("TC: E2E for ordering IPHONE 13 PRO cell phone", async ({ page }) => {
   const loginPage = new LoginPage(page);
   loginPage.goTo();
   loginPage.validLogin(username, userpass);
-  //Client dashboard page
+  //Client dashboard page data
   const cvv = "186";
   const cardName = "My test Visa Card";
+  const productName = "iphone 13 pro";
+  
+
+  //Dashboard page
+  const dashboardPage = new DashboardPage(page);
+  dashboardPage.searchProductAddCart(productName);
+  dashboardPage.validDashboardData(cvv, cardName);
+  dashboardPage.navigateToCart();
+
 
   const products = page.locator(".card-body");
-  const productName = "iphone 13 pro";
+ 
   const cardTitle = page.locator(".card-body b");
   const cardTitles = page.locator(".card-body b");
-  const checkoutBtn = page.locator("[routerlink*=cart]");
+  const cartLink = page.locator("[routerlink*=cart]");
  
-  console.log(await cardTitle.first().textContent());
-  console.log(
-    "LOG: Product list titles is: ",
-    await cardTitles.allTextContents()
-  );
-  console.log("LOG: Checkout counter equals to 0");
-  await expect(checkoutBtn).toContainText("");
-  await checkoutBtn.textContent();
-  const count = await products.count();
-  /* The code snippet is iterating over a list of products and checking if the product name matches the
-  desired product name (in this case, "iphone 13 pro"). If a match is found, it clicks on the "Add
-  To Cart" button for that product and then breaks out of the loop. This code is essentially adding
-  the desired product to the shopping cart. */
-  for (let i = 0; i < count; ++i) {
-    // eslint-disable-next-line playwright/no-conditional-in-test
-    if ((await products.nth(i).locator("b").textContent()) === productName) {
-      // Add to cart
-      await products.nth(i).locator("text= Add To Cart").click();
-      break;
-    }
-  }
+  
 
-  //await page.locator(checkoutBtn).first().waitFor();
+  //await page.locator(cartLink).first().waitFor();
   console.log("LOG: Checkout counter has been changed");
-  await expect(checkoutBtn).not.toBeNull();
-  await checkoutBtn.click();
+  await expect(cartLink).not.toBeNull();
+  await cartLink.click();
   // Checkout page
   await page.locator("div li").first().waitFor();
   const presentedItem = await page

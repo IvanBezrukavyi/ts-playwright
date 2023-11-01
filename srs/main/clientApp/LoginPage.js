@@ -19,6 +19,7 @@ class LoginPage {
         await this.userName.fill(username);
         await this.userPass.fill(userpass);
         await this.signInButton.click();
+        await this.page.waitForLoadState("domcontentloaded");
     }
 }
 module.exports = {LoginPage};
