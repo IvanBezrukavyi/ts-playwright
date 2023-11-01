@@ -1,6 +1,5 @@
 //Define and import module for dealing with tests
 const { test, expect } = require("@playwright/test");
-const { text } = require("stream/consumers");
 
 test("TC: Verify success login to client app", async ({ page }) => {
   await page.goto("https://rahulshettyacademy.com/client");

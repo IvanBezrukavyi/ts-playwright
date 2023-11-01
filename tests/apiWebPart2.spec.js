@@ -57,7 +57,7 @@ test('E2E iphone ordering with separate auth approach', async ({page}) => {
 });
 // eslint-disable-next-line playwright/expect-expect
 test('TC: Verify success login', async ({page}) => {
-    await page.goto("https://rahulshettyacademy.com/client");
+    await page.goto("/dashboard/dash");
     const products = page.locator(".card-body");
     const titles = await page.locator(".card-body b").allTextContents();
     console.log(titles);
