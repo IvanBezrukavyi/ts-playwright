@@ -18,8 +18,7 @@ class DashboardPage {
     await expect(this.cartLink).toContainText("");
     await this.cartLink.textContent();
     const count = await this.products.count();
-    /* The code snippet is iterating over a list of products and checking if the product name matches the
-  desired product name (in this case, "iphone 13 pro"). If a match is found, it clicks on the "Add
+    /* if the product name matches the desired product name (in this case, "iphone 13 pro"). If a match is found, it clicks on the "Add
   To Cart" button for that product and then breaks out of the loop. This code is essentially adding
   the desired product to the shopping cart. */
     for (let i = 0; i < count; ++i) {

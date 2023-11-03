@@ -1,14 +1,15 @@
 {
-  "cookies": [],
-  "origins": [
+  "cookies": [
     {
-      "origin": "https://rahulshettyacademy.com",
-      "localStorage": [
-        {
-          "name": "token",
-          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTI5Mjk3YjcyNDQ0OTBmOTVjYmYxY2QiLCJ1c2VyRW1haWwiOiJuc3Bwcm90ZXN0QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjE5Njk2NDY1NjQsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2OTg4Mzc3ODEsImV4cCI6MTczMDM5NTM4MX0.yGuK9Ak8C14CGSrryiAkCU7ok4qg3k93ks7wp2efwHo"
-        }
-      ]
+      "name": "JWToken",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTI5Mjk3YjcyNDQ0OTBmOTVjYmYxY2QiLCJ1c2VyRW1haWwiOiJuc3Bwcm90ZXN0QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjE5Njk2NDY1NjQsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2OTkwMjA1NjUsImV4cCI6MTczMDU3ODE2NX0.898k9MN-ybH7Whvja4DmONqn4B12lqfw_FAsIFqAtag",
+      "domain": "rahulshettyacademy.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
     }
-  ]
+  ],
+  "origins": []
 }

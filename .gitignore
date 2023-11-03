@@ -16,3 +16,7 @@ node_modules/
 srs/auth/defaultStorageState.json
 srs/resources/screenshots/*.png
 tests/hiddenElements.spec.ts-snapshots/*.png
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/

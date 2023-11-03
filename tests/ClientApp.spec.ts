@@ -1,17 +1,19 @@
 
 import { expect, test } from "@playwright/test";
-import { LoginPage } from "../srs/main/clientApp/loginPage";
-import { DashboardPage } from "../srs/main/clientApp/DashboardPage";
+import LoginPage from "../srs/main/clientApp/LoginPage";
+//import { DashboardPage } from "../srs/main/clientApp/DashboardPage";
+
+//export {LoginPage} from "srs/main/clientApp/LoginPage.ts";
 
 test("TC: Verify success login to client app", async ({ page }) => {
-  const username = 'nspprotest@gmail.com';
-  const userpass = 'Pl@ywright_test_m1';
+  const userName = 'nspprotest@gmail.com';
+  const userPass = 'Pl@ywright_test_m1';
   const loginPage = new LoginPage(page);
   loginPage.goTo();
-  loginPage.validLogin(username, userpass);
+  loginPage.validLogin(userName, userPass);
 
   //await expect(loginPage.validLogin).toBeEnabled();
-  console.log("ASSERT: login button is enabled");
+  
 
   const list = page.locator(".card-body b");
   // if you need to wait loading all request
@@ -37,8 +39,6 @@ test("TC: E2E for ordering IPHONE 13 PRO cell phone", async ({ page }) => {
   const cvv = "186";
   const cardName = "My test Visa Card";
   const productName = "iphone 13 pro";
-  
-
   //Dashboard page
   const dashboardPage = new DashboardPage(page);
   dashboardPage.searchProductAddCart(productName);
@@ -46,18 +46,16 @@ test("TC: E2E for ordering IPHONE 13 PRO cell phone", async ({ page }) => {
   dashboardPage.navigateToCart();
 
 
-  const products = page.locator(".card-body");
+  // const products = page.locator(".card-body");
  
-  const cardTitle = page.locator(".card-body b");
-  const cardTitles = page.locator(".card-body b");
-  const cartLink = page.locator("[routerlink*=cart]");
+  // const cardTitle = page.locator(".card-body b");
+  // const cardTitles = page.locator(".card-body b");
+  // const cartLink = page.locator("[routerlink*=cart]");
  
-  
-
-  //await page.locator(cartLink).first().waitFor();
-  console.log("LOG: Checkout counter has been changed");
-  await expect(cartLink).not.toBeNull();
-  await cartLink.click();
+  // //await page.locator(cartLink).first().waitFor();
+  // console.log("LOG: Checkout counter has been changed");
+  // await expect(cartLink).not.toBeNull();
+  // await cartLink.click();
   // Checkout page
   await page.locator("div li").first().waitFor();
   const presentedItem = await page

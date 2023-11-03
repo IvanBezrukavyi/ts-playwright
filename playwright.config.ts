@@ -32,9 +32,9 @@ export default defineConfig({
     {
       name: 'setup',
       use: {
-        headless: true
+        headless: false
       },
-      testMatch: 'auth.setup.spec.ts'
+      testMatch: 'auth.setupNew.spec.ts'
 
     },
     {
@@ -44,7 +44,7 @@ export default defineConfig({
         ...devices['Desktop Chrome'],
         channel: 'chrome',
         /* Base URL to use in actions like `await page.goto('/')`. */
-        baseURL: 'https://rahulshettyacademy.com/client',
+        baseURL: 'https://rahulshettyacademy.com',
         storageState: 'srs/auth/defaultStorageState.json'
      },
     },
