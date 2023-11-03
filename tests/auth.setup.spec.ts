@@ -15,5 +15,5 @@ setup('authenticate default for client app', async ({ page }) => {
     // End of authentication steps.
     await page.context().storageState({ path: authFile });
     //Close the browser
-    await page.close();
+    //await page.close();
   });
