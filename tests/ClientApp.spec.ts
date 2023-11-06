@@ -11,10 +11,7 @@ test("TC: Verify success login to client app", async ({ page }) => {
   const loginPage = new LoginPage(page);
   loginPage.goTo();
   loginPage.validLogin(userName, userPass);
-
   //await expect(loginPage.validLogin).toBeEnabled();
-  
-
   const list = page.locator(".card-body b");
   // if you need to wait loading all request
   // 'networkidle' this method is unstable and it's not recommended

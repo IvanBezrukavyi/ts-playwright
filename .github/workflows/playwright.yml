@@ -5,8 +5,8 @@ on:
   pull_request:
     branches: [ main, master ]
   schedule:
-    #Run tests on daily basis at 10am
-    - cron: "0 10 * * *" 
+    #Run tests on daily basis at 10am by UTC
+    - cron: "0 8 * * *" 
 jobs:
   test:
     timeout-minutes: 60
