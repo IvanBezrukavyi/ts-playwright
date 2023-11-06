@@ -1,18 +1,15 @@
 
 import { expect, test } from "@playwright/test";
-import { LoginPage } from "../srs/main/clientApp/loginPage";
-import { DashboardPage } from "../srs/main/clientApp/DashboardPage";
+import LoginPage from "../srs/main/clientApp/LoginPage";
+import DashboardPage from "../srs/main/clientApp/DashboardPage.ts";
+
 
 test("TC: Verify success login to client app", async ({ page }) => {
-  const username = 'nspprotest@gmail.com';
-  const userpass = 'Pl@ywright_test_m1';
+  const userName = 'nspprotest@gmail.com';
+  const userPass = 'Pl@ywright_test_m1';
   const loginPage = new LoginPage(page);
   loginPage.goTo();
-  loginPage.validLogin(username, userpass);
-
-  //await expect(loginPage.validLogin).toBeEnabled();
-  console.log("ASSERT: login button is enabled");
-
+  loginPage.validLogin(userName, userPass);
   const list = page.locator(".card-body b");
   // if you need to wait loading all request
   // 'networkidle' this method is unstable and it's not recommended
@@ -27,37 +24,21 @@ test("TC: Verify success login to client app", async ({ page }) => {
 
 test("TC: E2E for ordering IPHONE 13 PRO cell phone", async ({ page }) => {
   //General data
-  const username = 'nspprotest@gmail.com';
-  const userpass = 'Pl@ywright_test_m1';
+  const userName = 'nspprotest@gmail.com';
+  const userPass = 'Pl@ywright_test_m1';
   //Login page
   const loginPage = new LoginPage(page);
-  loginPage.goTo();
-  loginPage.validLogin(username, userpass);
-  //Client dashboard page data
+  await loginPage.goTo();
+  await loginPage.validLogin(userName, userPass);
+  //Checkout page data
   const cvv = "186";
   const cardName = "My test Visa Card";
   const productName = "iphone 13 pro";
-  
-
   //Dashboard page
   const dashboardPage = new DashboardPage(page);
-  dashboardPage.searchProductAddCart(productName);
-  dashboardPage.validDashboardData(cvv, cardName);
-  dashboardPage.navigateToCart();
+  await dashboardPage.searchProductAddCart(productName);
+  await dashboardPage.navigateToCart();
 
-
-  const products = page.locator(".card-body");
- 
-  const cardTitle = page.locator(".card-body b");
-  const cardTitles = page.locator(".card-body b");
-  const cartLink = page.locator("[routerlink*=cart]");
- 
-  
-
-  //await page.locator(cartLink).first().waitFor();
-  console.log("LOG: Checkout counter has been changed");
-  await expect(cartLink).not.toBeNull();
-  await cartLink.click();
   // Checkout page
   await page.locator("div li").first().waitFor();
   const presentedItem = await page
@@ -90,7 +71,7 @@ test("TC: E2E for ordering IPHONE 13 PRO cell phone", async ({ page }) => {
   await page.locator("(//input[@type='text'])[2]").fill(cvv);
   await page.locator("(//input[@type='text'])[3]").fill(cardName);
   console.log("Verify shipping information");
-  await expect(page.locator("label[type='text']")).toHaveText(username);
+  await expect(page.locator("label[type='text']")).toHaveText(userName);
   console.log("LOG: Click place order button");
   await page.locator(".action__submit").click();
   console.log("Review completed order");

@@ -1,25 +1,31 @@
-class LoginPage {
+import { type Locator, type Page } from "@playwright/test";
 
-    constructor(page)
-    {
-        this.loginPage = page;
-        this.signInButton = page.locator("#login");
-        this.userName = page.locator("#userEmail");
-        this.userPass = page.locator("#userPassword");
+export class LoginPage {
+  readonly page: Page;
+  readonly signInButton: Locator;
+  readonly userName: Locator;
+  readonly userPass: Locator;
 
+  constructor(page: Page) {
+    this.page = page;
+    this.signInButton = page.locator("#login");
+    this.userName = page.locator("#userEmail");
+    this.userPass = page.locator("#userPassword");
+  }
+
+  async goTo() {
+    await this.page.goto("https://rahulshettyacademy.com/client");
+  }
+
+  async validLogin(userName: string, userPass: string) {
+    try {
+      await this.userName.fill(userName);
+      await this.userPass.fill(userPass);
+      await this.signInButton.click();
+    } catch (error) {
+      console.error("Error During LOGIN:", error);
     }
-
-    async goTo()
-    {
-        await this.loginPage.goto("https://rahulshettyacademy.com/client");
-    }
-
-    async validLogin(username, userpass)
-    {
-        await this.userName.fill(username);
-        await this.userPass.fill(userpass);
-        await this.signInButton.click();
-        await this.page.waitForLoadState("domcontentloaded");
-    }
+  }
 }
-module.exports = {LoginPage};
+
+export default LoginPage;
