@@ -8,7 +8,7 @@ class CartPage {
   constructor(page: Page) {
     this.page = page;
     this.cvv = page.locator("div:has-text('CVV Code ')");
-    this.cardName = page.locator("(//input[@type='text'])[3]");
+    this.cardName = page.locator("div:has-text('Name on Card ')");
   }
   async validDashboardData(cvv: string, cardName: string) {
     try {
