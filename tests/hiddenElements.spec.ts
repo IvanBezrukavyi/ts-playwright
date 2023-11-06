@@ -1,4 +1,4 @@
-const { test, expect } = require("@playwright/test");
+import { test, expect } from '@playwright/test';
 
 // eslint-disable-next-line playwright/expect-expect
 test("TC: Verify goBack and goForward methods", async ({ page }) => {
@@ -59,7 +59,7 @@ test("TC: Verify popup validation", async ({
     await page.goto("https://rahulshettyacademy.com/AutomationPractice/");
     /*It will fail in first running because there is no actual screenshot.
     Therefore it should pass after the second run */
-    expect(await page.screenshot()).toMatchSnapshot('./srs/screenshots/landing.png');
+    expect.soft(await page.screenshot()).toMatchSnapshot('./srs/screenshots/landing.png');
 
     });
   
