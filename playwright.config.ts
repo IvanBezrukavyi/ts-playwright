@@ -32,7 +32,7 @@ export default defineConfig({
     {
       name: 'setup',
       use: {
-        headless: false
+        headless: true
       },
       testMatch: 'auth.setupNew.spec.ts'
 
