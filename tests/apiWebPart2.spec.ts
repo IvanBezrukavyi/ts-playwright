@@ -1,8 +1,23 @@
 import { test, expect } from '@playwright/test';
+let webContext;
 
-test('E2E iphone ordering with separate auth approach', async ({page}) => {
+test.beforeAll(async ({ browser }) => {
+    const context = await browser.newContext();
+    const page = await context.newPage();
+    await page.goto("https://rahulshettyacademy.com/client");
+    await page.locator("#userEmail").fill("nspprotest@gmail.com");
+    await page.locator("#userPassword").type("Pl@ywright_test_m1");
+    await page.locator("[value='Login']").click();
+    await page.waitForLoadState('networkidle');
+    await context.storageState({ path: 'srs/auth/defaultStorageState.json' });
+    webContext = await browser.newContext({ storageState: 'srs/auth/defaultStorageState.json' });
+})
+
+
+test('E2E iphone ordering with separate auth approach', async () => {
     const email = "nspprotest@gmail.com";
     const productName = 'iphone 13 pro';
+    const page = await webContext.newPage();
 
     await page.goto("https://rahulshettyacademy.com/client");
     const products = page.locator(".card-body");
@@ -16,6 +31,9 @@ test('E2E iphone ordering with separate auth approach', async ({page}) => {
             break;
         }
     }
+    await page.locator("[routerlink*='cart']").waitFor();
+    // Log the locator before clicking
+    console.log('Clicking on cart link');
     await page.locator("[routerlink*='cart']").click();
     await page.locator("div li").first().waitFor();
     const bool = await page.locator("h3:has-text('iphone 13 pro')").isVisible();
