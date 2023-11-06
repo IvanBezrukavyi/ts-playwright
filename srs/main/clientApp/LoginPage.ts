@@ -1,31 +1,31 @@
-// loginPage.ts
-
-import { Locator, Page } from '@playwright/test';
+import { type Locator, type Page } from "@playwright/test";
 
 export class LoginPage {
-    private readonly signInButton: Locator;
-    private readonly usernameField: Locator;
-    private readonly passwordField: Locator;
+  readonly page: Page;
+  readonly signInButton: Locator;
+  readonly userName: Locator;
+  readonly userPass: Locator;
 
-    constructor(private readonly page: Page) {
-        this.signInButton = page.locator("#login");
-        this.usernameField = page.locator("#userEmail");
-        this.passwordField = page.locator("#userPassword");
-    }    
+  constructor(page: Page) {
+    this.page = page;
+    this.signInButton = page.locator("#login");
+    this.userName = page.locator("#userEmail");
+    this.userPass = page.locator("#userPassword");
+  }
 
-    async goTo() {
-        await this.page.goto("https://rahulshettyacademy.com/client");
+  async goTo() {
+    await this.page.goto("https://rahulshettyacademy.com/client");
+  }
+
+  async validLogin(userName: string, userPass: string) {
+    try {
+      await this.userName.fill(userName);
+      await this.userPass.fill(userPass);
+      await this.signInButton.click();
+    } catch (error) {
+      console.error("Error During LOGIN:", error);
     }
-
-    async validLogin(username: string, password: string) {
-        try {
-            await this.usernameField.fill(username);
-            await this.passwordField.fill(password);
-            await this.signInButton.click();
-        } catch (error) {
-            console.error('Error during login:', error);
-        }
-    }
+  }
 }
 
 export default LoginPage;
