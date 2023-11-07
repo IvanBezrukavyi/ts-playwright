@@ -1,13 +1,14 @@
 
 import { expect, test } from "@playwright/test";
-import LoginPage from "../srs/main/clientApp/LoginPage";
-import DashboardPage from "../srs/main/clientApp/DashboardPage.ts";
-
+// import LoginPage from "../srs/main/clientApp/LoginPage";
+// import DashboardPage from "../srs/main/clientApp/DashboardPage.ts";
+import POManager from "../srs/main/clientApp/POManager";
 
 test("TC: Verify success login to client app", async ({ page }) => {
   const userName = 'nspprotest@gmail.com';
   const userPass = 'Pl@ywright_test_m1';
-  const loginPage = new LoginPage(page);
+  const pomManager = new POManager(page);
+  const loginPage = pomManager.getLoginPage();
   loginPage.goTo();
   loginPage.validLogin(userName, userPass);
   const list = page.locator(".card-body b");
@@ -27,7 +28,8 @@ test("TC: E2E for ordering IPHONE 13 PRO cell phone", async ({ page }) => {
   const userName = 'nspprotest@gmail.com';
   const userPass = 'Pl@ywright_test_m1';
   //Login page
-  const loginPage = new LoginPage(page);
+  const pomManager = new POManager(page);
+  const loginPage = pomManager.getLoginPage();
   await loginPage.goTo();
   await loginPage.validLogin(userName, userPass);
   //Checkout page data
@@ -35,7 +37,7 @@ test("TC: E2E for ordering IPHONE 13 PRO cell phone", async ({ page }) => {
   const cardName = "My test Visa Card";
   const productName = "iphone 13 pro";
   //Dashboard page
-  const dashboardPage = new DashboardPage(page);
+  const dashboardPage = pomManager.getDashboardPage();
   await dashboardPage.searchProductAddCart(productName);
   await dashboardPage.navigateToCart();
 

@@ -6,7 +6,7 @@ on:
     branches: [ main, master ]
   schedule:
     #Run tests on daily basis at 10am by UTC
-    - cron: "0 8 * * *" 
+    - cron: "30 8 * * *" 
 jobs:
   test:
     timeout-minutes: 60
