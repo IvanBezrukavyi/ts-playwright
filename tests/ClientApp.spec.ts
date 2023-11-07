@@ -41,7 +41,7 @@ test("TC: E2E for ordering IPHONE 13 PRO cell phone", async ({ page }) => {
   await dashboardPage.searchProductAddCart(productName);
   await dashboardPage.navigateToCart();
 
-  // Checkout page
+  // Cart page
   await page.locator("div li").first().waitFor();
   const presentedItem = await page
     .locator("div[class='cartSection'] h3")
