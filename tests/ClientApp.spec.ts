@@ -40,16 +40,10 @@ test("TC: E2E for ordering IPHONE 13 PRO cell phone", async ({ page }) => {
   const dashboardPage = pomManager.getDashboardPage();
   await dashboardPage.searchProductAddCart(productName);
   await dashboardPage.navigateToCart();
-
   // Cart page
-  await page.locator("div li").first().waitFor();
-  const presentedItem = await page
-    .locator("div[class='cartSection'] h3")
-    .isVisible();
-  await expect(presentedItem).toBeTruthy();
-  console.log("LOG: Item is presented in Checkout page: ", presentedItem);
-  console.log("LOG: Click checkout button");
-  await page.locator("button[type='button']").last().click();
+  const cartPage = pomManager.getCartPage();
+  await cartPage.VerifyProductIsDisplayed(productName);
+  await cartPage.Checkout();
   //Order page
   await page.locator("[placeholder*='Country']").type("ukr", { delay: 100 });
   //Declare the country drop-down list
