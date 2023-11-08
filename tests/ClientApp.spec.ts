@@ -49,19 +49,8 @@ test.only("TC: E2E for ordering IPHONE 13 PRO cell phone", async ({ page }) => {
   const orderId = await completeOrderPage.SubmitAndGetOrderId();
   console.log(orderId);
   //Review Order page
-  await page.locator("button[routerlink*=myorders]").click();
-  /*This ensures that the table is loaded
-    and available for further actions or assertions. */
-  await page.locator("table").waitFor();
-  const rows = page.locator("tbody tr");
-  for (let i = 0; i < (await rows.count()); ++i) {
-    const rowOrderId = await rows.nth(i).locator("th").textContent();
-    // eslint-disable-next-line playwright/no-conditional-in-test
-    if (orderId.includes(rowOrderId)) {
-      await rows.nth(i).locator("button").first().click();
-      break;
-    }
-  }
-  const orderIdDetails = await page.locator(".col-text").textContent();
-  expect(orderId.includes(orderIdDetails)).toBeTruthy();
+  await dashboardPage.navigateToOrders();
+  const orderHistoryPage = pomManager.getOrderHistoryPage();
+  await orderHistoryPage.searchOrderAndSelect(orderId);
+  expect(orderId.includes(await orderHistoryPage.getOrderId())).toBeTruthy(); 
 });

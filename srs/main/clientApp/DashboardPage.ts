@@ -5,6 +5,7 @@ class DashboardPage {
   readonly products: Locator;
   readonly cardTitle: Locator;
   readonly cartLink: Locator;
+  readonly orders: Locator;
 
 
   constructor(page: Page) {
@@ -12,6 +13,7 @@ class DashboardPage {
     this.products = page.locator(".card-body");
     this.cardTitle = page.locator(".card-body b");
     this.cartLink = page.locator("[routerlink*=cart]");
+    this.orders = page.locator("button[routerlink*='myorders']");
 
   }
 
@@ -35,6 +37,11 @@ class DashboardPage {
       }
     }
   }
+
+  async navigateToOrders()
+{
+    await this.orders.click();
+}
 
   async navigateToCart() {
     await this.cartLink.click();

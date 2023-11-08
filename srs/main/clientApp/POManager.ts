@@ -3,6 +3,7 @@ import LoginPage from "./LoginPage";
 import DashboardPage from "./DashboardPage";
 import CartPage from "./CartPage";
 import CompleteOrderPage from "./CompleteOrderPage";
+import OrderHistoryPage from "./OrderHistoryPage";
 
 class POManager {
   private readonly page: Page;
@@ -10,6 +11,7 @@ class POManager {
   private readonly cartPage: CartPage;
   private readonly dashboardPage: DashboardPage;
   private readonly completeOrderPage: CompleteOrderPage;
+  private readonly orderHistoryPage: OrderHistoryPage;
 
   constructor(page: Page) {
     this.page = page;
@@ -17,6 +19,7 @@ class POManager {
     this.dashboardPage = new DashboardPage(this.page);
     this.cartPage = new CartPage(this.page);
     this.completeOrderPage = new CompleteOrderPage(this.page);
+    this.orderHistoryPage = new OrderHistoryPage(this.page);
   }
 
   getLoginPage(): LoginPage {
@@ -32,6 +35,10 @@ class POManager {
 
   getCompleteOrderPage(): CompleteOrderPage {
     return this.completeOrderPage;
+  }
+
+  getOrderHistoryPage(): OrderHistoryPage {
+    return this.orderHistoryPage;
   }
 }
 
