@@ -21,7 +21,7 @@ test("TC: Verify success login to client app", async ({ page }) => {
   await expect(list).toHaveCount(3);
 });
 
-test.only("TC: E2E for ordering IPHONE 13 PRO cell phone", async ({ page }) => {
+test("TC: E2E for ordering IPHONE 13 PRO cell phone", async ({ page }) => {
   //General data
   const userName = 'nspprotest@gmail.com';
   const userPass = 'Pl@ywright_test_m1';
