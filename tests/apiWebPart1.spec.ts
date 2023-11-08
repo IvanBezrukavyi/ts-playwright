@@ -1,5 +1,5 @@
 import {test, expect, request} from '@playwright/test';
-import APiUtils from './utils/APIUtils';
+import APiUtils from '../utils/APIUtils';
 
 const loginPayLoad = {
   userEmail: "nspprotest@gmail.com",

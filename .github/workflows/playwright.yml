@@ -5,8 +5,8 @@ on:
   pull_request:
     branches: [ main, master ]
   schedule:
-    #Run tests on daily basis at 10am by UTC
-    - cron: "30 8 * * *" 
+    #Run tests on daily basis at 9.30 am by UTC
+    - cron: "30 9 * * *" 
 jobs:
   test:
     timeout-minutes: 60
@@ -18,7 +18,7 @@ jobs:
         node-version: 20.9.0
         check-latest: false
     - name: Install dependencies
-      run: npm ci
+      run: npm cifc
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
     - name: Run Playwright tests
