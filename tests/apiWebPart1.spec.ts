@@ -24,7 +24,7 @@ test.beforeAll( async()=>
 })
 
 //FIXME: It doesn't find email locator
-test.fixme("E2E for ordering IPHONE 13 PRO cell phone with mix UI and API", async ({ page }) => {
+test.skip("E2E for ordering IPHONE 13 PRO cell phone with mix UI and API", async ({ page }) => {
 
   page.addInitScript(value => 
     {
