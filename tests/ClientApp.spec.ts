@@ -1,7 +1,5 @@
 
 import { expect, test } from "@playwright/test";
-// import LoginPage from "../srs/main/clientApp/LoginPage";
-// import DashboardPage from "../srs/main/clientApp/DashboardPage.ts";
 import POManager from "../srs/main/clientApp/POManager";
 
 test("TC: Verify success login to client app", async ({ page }) => {
@@ -23,7 +21,7 @@ test("TC: Verify success login to client app", async ({ page }) => {
   await expect(list).toHaveCount(3);
 });
 
-test("TC: E2E for ordering IPHONE 13 PRO cell phone", async ({ page }) => {
+test.only("TC: E2E for ordering IPHONE 13 PRO cell phone", async ({ page }) => {
   //General data
   const userName = 'nspprotest@gmail.com';
   const userPass = 'Pl@ywright_test_m1';
@@ -32,11 +30,8 @@ test("TC: E2E for ordering IPHONE 13 PRO cell phone", async ({ page }) => {
   const loginPage = pomManager.getLoginPage();
   await loginPage.goTo();
   await loginPage.validLogin(userName, userPass);
-  //Checkout page data
-  const cvv = "186";
-  const cardName = "My test Visa Card";
-  const productName = "iphone 13 pro";
   //Dashboard page
+  const productName = "iphone 13 pro";
   const dashboardPage = pomManager.getDashboardPage();
   await dashboardPage.searchProductAddCart(productName);
   await dashboardPage.navigateToCart();
@@ -44,41 +39,16 @@ test("TC: E2E for ordering IPHONE 13 PRO cell phone", async ({ page }) => {
   const cartPage = pomManager.getCartPage();
   await cartPage.VerifyProductIsDisplayed(productName);
   await cartPage.Checkout();
-  //Order page
-  await page.locator("[placeholder*='Country']").type("ukr", { delay: 100 });
-  //Declare the country drop-down list
-  const countryDropDown = page.locator(".ta-results");
-  /* The code snippet is selecting the country "Ukraine" from a dropdown list. */
-  await countryDropDown.waitFor();
-  const optionsCount = await countryDropDown.locator("button").count();
-  /* The code snippet is iterating over a list of options in a dropdown menu and checking if the text of
- each option matches the desired country name ("Ukraine"). If a match is found, it clicks on that
- option and then breaks out of the loop. This code is essentially selecting the country "Ukraine"
- from the dropdown menu. */
-  for (let i = 0; i < optionsCount; i++) {
-    const text = await countryDropDown.locator("button").nth(i).textContent();
-    // eslint-disable-next-line playwright/no-conditional-in-test
-    if (text.trim() == "Ukraine") {
-      await countryDropDown.locator("button").nth(i).click();
-      break;
-    }
-  }
-  console.log("Enter personal information");
-  await page.locator("(//input[@type='text'])[2]").fill(cvv);
-  await page.locator("(//input[@type='text'])[3]").fill(cardName);
-  console.log("Verify shipping information");
-  await expect(page.locator("label[type='text']")).toHaveText(userName);
-  console.log("LOG: Click place order button");
-  await page.locator(".action__submit").click();
-  console.log("Review completed order");
-  await expect(page.locator(".hero-primary")).toHaveText(
-    " Thankyou for the order. "
-  );
-  const orderId = await page
-    .locator(".em-spacer-1 .ng-star-inserted")
-    .textContent();
+  //Complete Order page
+  const cvv = "186";
+  const cardName = "My test Visa Card";
+  const shortCountry = "Ukr";
+  const fullCountryName = "Ukraine";
+  const completeOrderPage = pomManager.getCompleteOrderPage();
+  await completeOrderPage.enterPaymentInformation(cvv, cardName, shortCountry, fullCountryName);
+  const orderId = await completeOrderPage.SubmitAndGetOrderId();
   console.log(orderId);
-  await expect(page.locator(".em-spacer-1 .ng-star-inserted")).not.toBeEmpty();
+  //Review Order page
   await page.locator("button[routerlink*=myorders]").click();
   /*This ensures that the table is loaded
     and available for further actions or assertions. */
