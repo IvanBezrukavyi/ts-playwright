@@ -1,4 +1,5 @@
-{
+[
+    {
     "userName": "nspprotest@gmail.com",
     "userPass": "Pl@ywright_test_m1",
     "productName": "iphone 13 pro",
@@ -6,4 +7,16 @@
     "cardName": "My test Visa Card",
     "shortCountry": "Ukr",
     "fullCountryName": "Ukraine"
+},
+{
+    "userName" : "anshika@gmail.com",
+    "userPass" : "Iamking@000",
+    "productName":"zara coat 3",
+    "cvv": "187",
+    "cardName": "My test Visa Card2",
+    "shortCountry": "Ind",
+    "fullCountryName": "India"
 }
+
+
+]

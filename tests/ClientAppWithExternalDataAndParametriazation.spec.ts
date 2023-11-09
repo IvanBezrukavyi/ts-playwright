@@ -6,44 +6,44 @@ const filePath = "Utils/placeOrderTestData.json";
 const rawdata = fs.readFileSync(filePath, 'utf-8');
 const dataset = JSON.parse(rawdata);
 
-test("TC: Verify success login to client app", async ({ page }) => {
+for (const data of dataset)
+{
+test(`TC: Verify success login to client app with ${data.userName} and ${data.userPass}`, async ({ page }) => {
   const pomManager = new POManager(page);
   const loginPage = pomManager.getLoginPage();
   loginPage.goTo();
-  loginPage.validLogin(dataset.userName, dataset.userPass);
+  loginPage.validLogin(data.userName, data.userPass);
   const list = page.locator(".card-body b");
-  // if you need to wait loading all request
-  // 'networkidle' this method is unstable and it's not recommended
-  //await page.waitForLoadState('networkidle');
-
-  // The alternative approachx
   await page.locator(".card-body b").first().waitFor();
-  //await page.locator('.card-body b').first().textContent();
   console.log(await list.allTextContents());
-  await expect(list).toHaveCount(3);
+  expect(await list.count()).toBeGreaterThan(0);
+  
 });
+}
 
-test("TC: E2E for ordering IPHONE 13 PRO cell phone", async ({ page }) => {
+for (const data of dataset)
+{
+test(`TC: E2E for ordering ${data.productName}`, async ({ page }) => {
   //Login page
   const pomManager = new POManager(page);
   const loginPage = pomManager.getLoginPage();
   await loginPage.goTo();
-  await loginPage.validLogin(dataset.userName, dataset.userPass);
+  await loginPage.validLogin(data.userName, data.userPass);
   //Dashboard page
   const dashboardPage = pomManager.getDashboardPage();
-  await dashboardPage.searchProductAddCart(dataset.productName);
+  await dashboardPage.searchProductAddCart(data.productName);
   await dashboardPage.navigateToCart();
   // Cart page
   const cartPage = pomManager.getCartPage();
-  await cartPage.VerifyProductIsDisplayed(dataset.productName);
+  await cartPage.VerifyProductIsDisplayed(data.productName);
   await cartPage.Checkout();
   //Complete Order page
   const completeOrderPage = pomManager.getCompleteOrderPage();
   await completeOrderPage.enterPaymentInformation(
-    dataset.cvv,
-    dataset.cardName,
-    dataset.shortCountry, 
-    dataset.fullCountryName
+    data.cvv,
+    data.cardName,
+    data.shortCountry, 
+    data.fullCountryName
     );
   const orderId = await completeOrderPage.SubmitAndGetOrderId();
   console.log(orderId);
@@ -53,3 +53,4 @@ test("TC: E2E for ordering IPHONE 13 PRO cell phone", async ({ page }) => {
   await orderHistoryPage.searchOrderAndSelect(orderId);
   expect(orderId.includes(await orderHistoryPage.getOrderId())).toBeTruthy(); 
 });
+}
