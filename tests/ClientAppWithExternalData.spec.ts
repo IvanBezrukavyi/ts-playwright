@@ -2,7 +2,7 @@
 import { expect, test } from "@playwright/test";
 import POManager from "../srs/main/clientApp/POManager";
 import * as fs from 'fs';
-const filePath = "./utils/placeOrderTestData.json"; // Adjust the path as per your project structure
+const filePath = "./utils/placeOrderTestData.json";
 const rawdata = fs.readFileSync(filePath, 'utf-8');
 const dataset = JSON.parse(rawdata);
 
