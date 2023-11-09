@@ -1,5 +1,5 @@
 import { test, expect, request } from '@playwright/test';
-import APiUtils from '../utils/ApiUtils';
+import ApiUtils from '../Utils/ApiUtils';
 
 interface LoginPayload {
   userEmail: string;
@@ -31,7 +31,7 @@ const orderPayload: OrderPayload = {
 
 test.beforeAll(async () => {
   const apiContext = await request.newContext();
-  const apiUtils = new APiUtils(apiContext, loginPayload);
+  const apiUtils = new ApiUtils(apiContext, loginPayload);
   response = await apiUtils.createOrder(orderPayload);
   console.log('Verify success login');
 });

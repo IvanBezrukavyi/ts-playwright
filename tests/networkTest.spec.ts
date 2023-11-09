@@ -1,5 +1,5 @@
 import { expect, request, test } from "@playwright/test";
-import ApiUtils from "../utils/ApiUtils";
+import ApiUtils from "../Utils/ApiUtils";
 
 interface LoginPayload {
   userEmail: string;
