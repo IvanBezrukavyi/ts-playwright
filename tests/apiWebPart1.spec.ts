@@ -1,53 +1,71 @@
-import {test, expect, request} from '@playwright/test';
-import APiUtils from '../utils/APIUtils';
+import { test, expect, request } from '@playwright/test';
+import APiUtils from '../utils/ApiUtils';
 
-const loginPayLoad = {
-  userEmail: "nspprotest@gmail.com",
-  userPassword: "Pl@ywright_test_m1",
+interface LoginPayload {
+  userEmail: string;
+  userPassword: string;
 }
 
-const orderPayload = {
-  orders: [
-    {country: "Ukraine",
-    productOrderedId: "6262e9d9e26b7e1a10e89c04"
-}]
+interface OrderPayload {
+  orders: {
+    country: string;
+    productOrderedId: string;
+  }[];
+}
+
+let response: { token: string; orderId: number };
+
+const loginPayload: LoginPayload = {
+  userEmail: 'nspprotest@gmail.com',
+  userPassword: 'Pl@ywright_test_m1',
 };
 
-let response;
-
-test.beforeAll( async()=>
-{
-   const apiContext = await request.newContext();
-   const apiUtils = new APiUtils(apiContext, loginPayLoad);
-   response =  await apiUtils.createOrder(orderPayload);
-   console.log("Verify success login");
-})
-
-//FIXME: It doesn't find email locator
-test.skip("E2E for ordering IPHONE 13 PRO cell phone with mix UI and API", async ({ page }) => {
-
-  page.addInitScript(value => 
+const orderPayload: OrderPayload = {
+  orders: [
     {
-      window.localStorage.setItem('token', value);
-    }, response.token);
-  
-  await page.goto("https://rahulshettyacademy.com/client");
-  await page.locator("button[routerlink*=myorders]").waitFor({state: "visible"});
-  console.log("Orders tab is now visible.")
-  await page.locator("button[routerlink*=myorders]").click();  
-  /*This ensures that the table is loaded
-      and available for further actions or assertions. */
-  await page.locator("table").waitFor();
-  const rows = page.locator("tbody tr");
+      country: 'Ukraine',
+      productOrderedId: '6262e9d9e26b7e1a10e89c04',
+    },
+  ],
+};
+
+test.beforeAll(async () => {
+  const apiContext = await request.newContext();
+  const apiUtils = new APiUtils(apiContext, loginPayload);
+  response = await apiUtils.createOrder(orderPayload);
+  console.log('Verify success login');
+});
+
+test('E2E for ordering IPHONE 13 PRO cell phone with mix UI and API', async ({
+  page,
+}) => {
+  await page.addInitScript((value) => {
+    window.localStorage.setItem('token', value);
+  }, response.token);
+
+  await page.goto('https://rahulshettyacademy.com/client');
+  await page.locator('button[routerlink*=myorders]').waitFor({ state: 'visible' });
+  console.log('Orders tab is now visible.');
+  await page.locator('button[routerlink*=myorders]').click();
+  await page.locator('table').waitFor();
+
+  const rows = page.locator('tbody tr');
+
   for (let i = 0; i < (await rows.count()); ++i) {
-    const rowOrderId = await rows.nth(i).locator("th").textContent();
-    // eslint-disable-next-line playwright/no-conditional-in-test
-    if (response.orderId.includes(rowOrderId)) {
-      await rows.nth(i).locator("button").first().click();
+    const rowOrderId = await rows.nth(i).locator('th').textContent();
+  
+    if (response.orderId === rowOrderId) {
+      await rows.nth(i).locator('button').first().click();
       break;
     }
   }
-  const orderIdDetails = await page.locator(".col-text").textContent();
-  console.log("Order id equals to bought stuff");
-  expect(response.orderId.includes(orderIdDetails)).toBeTruthy();
+  
+  const orderIdDetails = await page.locator('.col-text').textContent();
+  console.log('Order id equals to bought stuff');
+  
+  // Check if orderIdDetails is equal to response.orderId
+  expect(response.orderId === orderIdDetails).toBeTruthy();
 });
+
+
+

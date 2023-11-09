@@ -47,7 +47,9 @@ export default defineConfig({
         channel: 'chrome',
         /* Base URL to use in actions like `await page.goto('/')`. */
         baseURL: 'https://rahulshettyacademy.com',
-        storageState: 'srs/auth/defaultStorageState.json'
+        storageState: 'srs/auth/defaultStorageState.json',
+        screenshot: 'only-on-failure',
+        video: 'retain-on-failure'
      },
     },
   ],

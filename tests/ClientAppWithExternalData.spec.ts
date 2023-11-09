@@ -6,8 +6,6 @@ const filePath = "./utils/placeOrderTestData.json";
 const rawdata = fs.readFileSync(filePath, 'utf-8');
 const dataset = JSON.parse(rawdata);
 
-//import * as dataset from "placeOrderTestData.json";
-
 test("TC: Verify success login to client app", async ({ page }) => {
   const pomManager = new POManager(page);
   const loginPage = pomManager.getLoginPage();

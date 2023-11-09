@@ -1,4 +1,5 @@
-const { test, expect } = require("@playwright/test");
+import {test, expect} from "@playwright/test";
+
 test("TC: Add product to cart via LOCATORS", async ({ page }) => {
   await page.goto("https://rahulshettyacademy.com/angularpractice/");
   //FIXME: investigate how to deal with input fields via getBy...
