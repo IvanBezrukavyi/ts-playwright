@@ -1,14 +1,12 @@
 
-import { expect } from "@playwright/test";
 import POManager from "../srs/main/clientApp/POManager";
-import { test } from "../Fixtures/TestBase";
+import { dataOrderSet, expect } from "../Fixtures/TestBase";
 
-
-test("TC: Verify success login to client app", async ({ page, testDataForOrder }) => {
+test("TC: Verify success login to client app", async ({ page, dataOrderSet }) => {
   const pomManager = new POManager(page);
   const loginPage = pomManager.getLoginPage();
   loginPage.goTo();
-  loginPage.validLogin(testDataForOrder.userName, testDataForOrder.userPass);
+  loginPage.validLogin(dataOrderSet.userName, dataOrderSet.userPass);
   const list = page.locator(".card-body b");
   await page.locator(".card-body b").first().waitFor();
   console.log(await list.allTextContents());
