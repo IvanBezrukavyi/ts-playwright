@@ -36,8 +36,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Output current date and time
-        run: echo "Current date and time is: $(date +'%Y-%m-%d %H:%M:%S')"
       - name: Checkout code
         uses: actions/checkout@v3
 
