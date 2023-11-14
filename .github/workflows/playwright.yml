@@ -54,7 +54,7 @@ jobs:
         run: npx playwright test
 
       - name: Store Artifacts from Failed Tests
-        if: failure()
+        if: always()
         uses: actions/upload-artifact@v3
         with:
           name: test-results
