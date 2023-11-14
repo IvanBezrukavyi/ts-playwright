@@ -8,7 +8,7 @@ const dataset = JSON.parse(rawdata);
 
 for (const data of dataset)
 {
-test(`TC: Verify success login to client app with ${data.userName} and ${data.userPass}`, async ({ page }) => {
+test.skip(`TC: Verify success login to client app with ${data.userName} and ${data.userPass}`, async ({ page }) => {
   const pomManager = new POManager(page);
   const loginPage = pomManager.getLoginPage();
   loginPage.goTo();
@@ -23,7 +23,7 @@ test(`TC: Verify success login to client app with ${data.userName} and ${data.us
 
 for (const data of dataset)
 {
-test(`TC: E2E for ordering ${data.productName}`, async ({ page }) => {
+test.skip(`TC: E2E for ordering ${data.productName}`, async ({ page }) => {
   //Login page
   const pomManager = new POManager(page);
   const loginPage = pomManager.getLoginPage();

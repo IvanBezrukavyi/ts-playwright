@@ -4,6 +4,6 @@ node_modules/
 /playwright/.cache/
 ./tests/*/*.png
 /blob-report/
-srs/auth/defaultStorageState.json
+src/auth/
 srs/resources/screenshots/*.png
 tests/hiddenElements.spec.ts-snapshots/*.png

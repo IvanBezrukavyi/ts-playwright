@@ -25,6 +25,7 @@ I took this [course](https://softserve.udemy.com/course/playwright-tutorials-aut
 7. Material Icon Theme
 8. Mintlify Doc Writer
 9. Prettier - Code formatter
+10. YAML Language Support
 
 ### 3. Playwright CLI commands
 
