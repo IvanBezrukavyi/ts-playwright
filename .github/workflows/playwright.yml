@@ -42,16 +42,19 @@ jobs:
           path: ~/.cache/ms-playwright
           key: playwright-browsers-${{ env.PLAYWRIGHT_VERSION }}-${{ runner.os }}
 
-      - name: Setup Playwright
+      - name: Install Playwright
         if: steps.cache-playwright-browsers.outputs.cache-hit != 'true'
         run: npx playwright install --with-deps
+  
+      - name: Install Playwright Dependencies
+        if: steps.cache-playwright-browsers.outputs.cache-hit == 'true'
+        run: npx playwright install-deps
 
       - name: Run Tests
         run: npx playwright test
 
       - name: Store Artifacts from Failed Tests
         if: failure()
-          #${{ steps.run-tests.exit_code }} != 0
         uses: actions/upload-artifact@v3
         with:
           name: test-results
