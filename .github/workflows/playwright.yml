@@ -47,7 +47,7 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Run Tests
-        run: npm run test:ci
+        run: npx playwright test
 
       - name: Store Artifacts from Failed Tests
         if: ${{ steps.run-tests.exit_code }} != 0
