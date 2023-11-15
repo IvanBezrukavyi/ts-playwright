@@ -11,6 +11,7 @@
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.39.0",
+    "allure-playwright": "^2.9.2",
     "@types/node": "^20.8.9",
     "eslint": "^8.51.0",
     "eslint-plugin-playwright": "^0.17.0"
