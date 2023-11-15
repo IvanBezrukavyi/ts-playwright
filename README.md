@@ -42,8 +42,8 @@ I took this [course](https://softserve.udemy.com/course/playwright-tutorials-aut
 
 ### 4. Allure Reporting
 
-General installation process and usage you can find [here](https://www.npmjs.com/package/allure-playwright?activeTab=readme)
-
-1. npm i -D @playwright/test allure-playwright
-2. npx playwright test --grep @tag --reporter=line,allure-playwright
-3. 
+1. npm i -D @playwright/test allure-playwright (installation). General installation process and usage you can find [here](https://www.npmjs.com/package/allure-playwright?activeTab=readme)
+2. npm install -g allure-commandline --save-dev (installation allure command line to generate allure report from allure result). More details you can find [here] (https://www.npmjs.com/package/allure-commandline)
+3. npx playwright test --grep @tag --reporter=line,allure-playwright
+4. allure generate allure-results -o allure-report --clean
+5. allure open allure-report
