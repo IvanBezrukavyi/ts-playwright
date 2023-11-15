@@ -1,4 +1,5 @@
 name: Running Playwright Tests
+
 env:
   ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
 
@@ -8,10 +9,11 @@ on:
   pull_request:
     branches: [main, master]
   schedule:
+    # Run tests on a daily basis at 9:30 AM UTC
     - cron: "30 9 * * *"
 
 jobs:
-  install-dependencies:
+  test:
     runs-on: ubuntu-latest
 
     steps:
@@ -43,18 +45,10 @@ jobs:
       - name: Install Playwright
         if: steps.cache-playwright-browsers.outputs.cache-hit != 'true'
         run: npx playwright install --with-deps
-
+  
       - name: Install Playwright Dependencies
         if: steps.cache-playwright-browsers.outputs.cache-hit == 'true'
         run: npx playwright install-deps
-
-  run-playwright-tests:
-    needs: install-dependencies
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
 
       - name: Run Tests
         run: npx playwright test
@@ -67,19 +61,11 @@ jobs:
           path: test-results/
           retention-days: 7
 
-  generate-allure-report:
-    needs: run-playwright-tests
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-
       - name: Install Allure
         run: |
-          wget https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.24.1/allure-commandline-2.24.1.zip
-          unzip allure-commandline-2.24.1.zip
-          export PATH=$PATH:$(pwd)/allure-2.24.1/bin
+          wget https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.16.0/allure-commandline-2.16.0.zip
+          unzip allure-commandline-2.16.0.zip
+          export PATH=$PATH:$(pwd)/allure-2.16.0/bin
         if: always()
 
       - name: Generate Allure Report
@@ -93,4 +79,5 @@ jobs:
         with:
           name: allure-report
           path: allure-report/
-          retention-days: 10
+          retention-days: 7
+        if: success()
