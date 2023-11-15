@@ -1,6 +1,6 @@
 const { test, expect } = require("@playwright/test");
 
-test("TC: Verify UI IFrame", async({page}) => {
+test("@Web TC: Verify UI IFrame", async({page}) => {
    await page.goto("https://rahulshettyacademy.com/AutomationPractice/");
    await expect(page).toHaveTitle("Practice Page");
    const framesPage = page.frameLocator("#courses-iframe");
