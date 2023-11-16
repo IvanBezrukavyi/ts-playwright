@@ -1,0 +1,3 @@
+[ 'zara coat 3', 'adidas original', 'iphone 13 pro' ]
+Clicking on cart link
+ | 6555db977244490f95e9241c | 
