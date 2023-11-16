@@ -2,7 +2,7 @@
   "cookies": [
     {
       "name": "JWToken",
-      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTI5Mjk3YjcyNDQ0OTBmOTVjYmYxY2QiLCJ1c2VyRW1haWwiOiJuc3Bwcm90ZXN0QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjE5Njk2NDY1NjQsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2OTk5Nzg5MzAsImV4cCI6MTczMTUzNjUzMH0.PJWfWba7G5YysFtl0p9KM5Lq6PoYLYdXoiT4fOz7A5s",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTI5Mjk3YjcyNDQ0OTBmOTVjYmYxY2QiLCJ1c2VyRW1haWwiOiJuc3Bwcm90ZXN0QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjE5Njk2NDY1NjQsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDAwNzQ5NzEsImV4cCI6MTczMTYzMjU3MX0.5v3ji_HSWNbDBLf_xvZbqSSWQhSGb4sAghYxSHSwEIU",
       "domain": "rahulshettyacademy.com",
       "path": "/",
       "expires": -1,
@@ -17,7 +17,7 @@
       "localStorage": [
         {
           "name": "token",
-          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTI5Mjk3YjcyNDQ0OTBmOTVjYmYxY2QiLCJ1c2VyRW1haWwiOiJuc3Bwcm90ZXN0QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjE5Njk2NDY1NjQsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2OTk5Nzg5MzYsImV4cCI6MTczMTUzNjUzNn0.M032YfahhXC0CYR-lAUaffO5ZP75k_poh6ECsnTs5_s"
+          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTI5Mjk3YjcyNDQ0OTBmOTVjYmYxY2QiLCJ1c2VyRW1haWwiOiJuc3Bwcm90ZXN0QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjE5Njk2NDY1NjQsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDAwNzQ5NzYsImV4cCI6MTczMTYzMjU3Nn0.91XOrS2c-cO5ZMsMqOjWv63VUCpp_qlI-V_tCOTBZKY"
         }
       ]
     }

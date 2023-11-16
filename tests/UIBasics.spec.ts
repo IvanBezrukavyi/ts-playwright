@@ -1,7 +1,7 @@
 import {test, expect} from "@playwright/test";
 
 //we have to use async function because this is JS and add browser parameter
-test("Catch unshowing message and Verify text message", async ({ browser }) => {
+test("@Web TC:Catch unshowing message and Verify text message", async ({ browser }) => {
   //ignore browser's plugin/cookies and run browser in incognito mode
   const context = await browser.newContext();
   //Open new browser page
@@ -25,7 +25,7 @@ test("Catch unshowing message and Verify text message", async ({ browser }) => {
   );
 });
 
-test("Verify presence of iphone X in product list", async ({ page }) => {
+test("@Web TC:Verify presence of iphone X in product list", async ({ page }) => {
   await page.goto("https://rahulshettyacademy.com/loginpagePractise/");
   const userName = page.locator("#username");
   const signInBtn = page.locator("[name='signin']");
@@ -46,7 +46,7 @@ test("Verify presence of iphone X in product list", async ({ page }) => {
   await expect(cardTitle.first()).toContainText("iphone X");
 });
 
-test("TC: Retrive all card titles from home page", async ({ page }) => {
+test("@Web TC: Retrive all card titles from home page", async ({ page }) => {
   await page.goto("https://rahulshettyacademy.com/loginpagePractise/");
   console.log(await page.title());
   await expect(page).toHaveTitle("LoginPage Practise | Rahul Shetty Academy");
@@ -70,7 +70,7 @@ There is no mechanism to get all data immediately*/
   ]);
 });
 
-test("TC: Verify UI controls", async ({ page }) => {
+test("@Web TC: Verify UI controls", async ({ page }) => {
   const mainPage = await page.goto(
     "https://rahulshettyacademy.com/loginpagePractise/"
   );
@@ -104,7 +104,7 @@ test("TC: Verify UI controls", async ({ page }) => {
   await signInBtn.click();
 });
 
-test("TC: Child windows handling", async ({ browser }) => {
+test("@Web TC: Child windows handling", async ({ browser }) => {
   const context = await browser.newContext();
   const page = await context.newPage();
   const mainPage = await page.goto(
