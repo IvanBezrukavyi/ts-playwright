@@ -1,0 +1,8 @@
+Error During LOGIN: locator.fill: Page closed
+=========================== logs ===========================
+waiting for locator('#userEmail')
+============================================================
+    at LoginPage.validLogin (/home/runner/work/ts-playwright/ts-playwright/srs/main/clientApp/LoginPage.ts:22:27)
+    at /home/runner/work/ts-playwright/ts-playwright/tests/ClientApp.spec.ts:32:19 {
+  name: 'Error'
+}

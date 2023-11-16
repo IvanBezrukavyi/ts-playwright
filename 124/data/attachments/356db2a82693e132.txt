@@ -1,0 +1,6 @@
+Page URL is: https://rahulshettyacademy.com/loginpagePractise/
+Page title is: RS Academy
+Warning text is: Please email us at mentor@rahulshettyacademy.com with below template to receive response 
+The type of variable is string
+rahulshettyacademy.com
+
