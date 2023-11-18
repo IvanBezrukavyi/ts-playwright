@@ -1,0 +1,8 @@
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTI5Mjk3YjcyNDQ0OTBmOTVjYmYxY2QiLCJ1c2VyRW1haWwiOiJuc3Bwcm90ZXN0QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjE5Njk2NDY1NjQsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDAzMDA0OTgsImV4cCI6MTczMTg1ODA5OH0.kQwRKPiwugAe5I_r1WQgpYdcHvmQUR99pVim686x-Vk
+{
+  orders: [ '655886d27244490f95eae88d' ],
+  productOrderId: [ '6262e9d9e26b7e1a10e89c04' ],
+  message: 'Order Placed Successfully'
+}
+Successfully obtained token and orderId
+LOG: No Orders in the cart
