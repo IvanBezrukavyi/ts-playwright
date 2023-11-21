@@ -1,0 +1,9 @@
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTI5Mjk3YjcyNDQ0OTBmOTVjYmYxY2QiLCJ1c2VyRW1haWwiOiJuc3Bwcm90ZXN0QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjE5Njk2NDY1NjQsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDA1NTk1MzYsImV4cCI6MTczMjExNzEzNn0.oI_6FgC-B0w1QLzwMZ_xmUGC8FSLiI78M2qkU73_27g
+{
+  orders: [ '655c7ab17244490f95edba8f' ],
+  productOrderId: [ '6262e9d9e26b7e1a10e89c04' ],
+  message: 'Order Placed Successfully'
+}
+Verify success login
+Orders tab is now visible.
+Order id equals to bought stuff
