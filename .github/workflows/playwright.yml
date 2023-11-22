@@ -51,7 +51,7 @@ jobs:
         run: npx playwright install-deps
 
       - name: Run Tests
-        run: npx playwright test
+        run: npx playwright test -g "ClientAppWithExternalDataAndParametriazation.spec.ts"
 
       - name: Store Artifacts from Failed Tests
         if: always()

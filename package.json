@@ -1,21 +1,14 @@
 {
-  "name": "js-playwright",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "npx playwright test ./tests/apiWebPart2.spec.ts --headed"
-  },
-  "keywords": [],
-  "author": "Ivan Bezrukavyi",
-  "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.39.0",
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.9.4",
     "allure-playwright": "^2.9.2",
-    "eslint-plugin-playwright": "^0.17.0"
+    "eslint-plugin-playwright": "^0.17.0",
+    "eslint": "^8.54.0"
   },
-  "dependencies": {
-    "playwright": "^1.39.0"
-  } 
+  "scripts": {
+    "regression": "npx playwright test",
+    "webTests": "npx playwright test --grep @Web",
+    "allureReport": "npx playwright test --grep @Web --reporter=line,allure-playwright"
+  }
 }
- 
