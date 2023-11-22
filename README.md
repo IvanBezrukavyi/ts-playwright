@@ -1,4 +1,4 @@
-# These are my first baby steps in js-playwright
+# These are my first baby steps in Type Script and Playwright
 
 I took this [course](https://softserve.udemy.com/course/playwright-tutorials-automation-testing) from Udemy
 
