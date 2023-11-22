@@ -1,4 +1,6 @@
 {
+  "author": "Ivan Bezrukavyi",
+  "description": "my learning path in playwright",
   "devDependencies": {
     "@playwright/test": "^1.40.0",
     "@types/node": "^20.9.4",
