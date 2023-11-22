@@ -13,7 +13,7 @@ on:
     - cron: "30 9 * * *"
 
 jobs:
-  test:
+  build_and_run_test:
     runs-on: ubuntu-latest
 
     steps:
@@ -95,4 +95,4 @@ jobs:
           context: 'ALLURE REPORT'
           state: 'success'
           sha: ${{ github.event.pull_request.head.sha }}
-          target_url: simple-elf.github.io/github-allure-history/${{ github.run_number }}    
+          target_url: simple-elf.github.io/github-allure-history/${{ github.event.pull_request.head.sha }}
