@@ -18,6 +18,7 @@ class DashboardPage {
   }
 
   async searchProductAddCart(productName: string) {
+    await this.cardTitle.first().waitFor();
     console.log(await this.cardTitle.first().textContent());
     console.log(
       "LOG: Product list titles is: ",

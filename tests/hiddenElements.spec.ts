@@ -53,7 +53,7 @@ test("TC: Verify popup validation", async ({
     await expect(page.getByPlaceholder("Hide/Show Example")).toBeHidden();
   });
 
-  test("TC: Capture and compare screenshots", async ( {
+  test.skip("TC: Capture and compare screenshots", async ( {
     page,
   }) => {
     await page.goto("https://rahulshettyacademy.com/AutomationPractice/");

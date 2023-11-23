@@ -1,4 +1,4 @@
-# These are my first baby steps in js-playwright
+# These are my first baby steps in Type Script and Playwright
 
 I took this [course](https://softserve.udemy.com/course/playwright-tutorials-automation-testing) from Udemy
 
@@ -25,6 +25,7 @@ I took this [course](https://softserve.udemy.com/course/playwright-tutorials-aut
 7. Material Icon Theme
 8. Mintlify Doc Writer
 9. Prettier - Code formatter
+10. YAML Language Support
 
 ### 3. Playwright CLI commands
 
@@ -36,3 +37,13 @@ I took this [course](https://softserve.udemy.com/course/playwright-tutorials-aut
 6. npx playwright codegen [website.com] (open the website and generate steps base on user actions)
 7. npx playwright codegen [website.com] --save-storage=auth.json (open the website and generate steps base on user actions to save cookies and localStorage at the end of the session. This is useful to separately record an authentication step and reuse it later when recording more tests)
 8. npm install -D @playwright/test@latest (It installs the latest playwright version with -D node module dependencies)
+9. npx playwright test --repeat-each [amount] (--repeat-each flag can help for detecting a flaky test)
+10. npx playwright test --grep @tag (running tests by specific tag, e.g. smoke, regression, etc.)
+
+### 4. Allure Reporting
+
+1. npm i -D @playwright/test allure-playwright (installation). General installation process and usage you can find [here](https://www.npmjs.com/package/allure-playwright?activeTab=readme)
+2. npm install -g allure-commandline --save-dev (installation allure command line to generate allure report from allure result). More details you can find [here] (https://www.npmjs.com/package/allure-commandline)
+3. npx playwright test --grep @tag --reporter=line,allure-playwright
+4. allure generate allure-results -o allure-report --clean
+5. allure open allure-report
