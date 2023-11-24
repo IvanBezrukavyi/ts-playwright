@@ -33,18 +33,22 @@ for (const data of dataset) {
     await test.step("Step 1. Login to application with valid data from preconditions", async () => {
       await loginPage.goTo();
       await loginPage.validLogin(data.userName, data.userPass);
+      const isLoggedIn = await dashboardPage.isLoggedIn();
+      expect(isLoggedIn, "Login is successful").toBeTruthy();
     });
 
     await test.step("Step 2. Navigate to dashboard page and Select needed product", async () => {
       await dashboardPage.searchProductAddCart(data.productName);
-      expect(data.productName).toBe(data.productName); 
+      expect(data.productName, "Product is selected").toBe(data.productName); 
     });
     await test.step("Step 3. Click on Cart icon after adding product", async () => {
-      await dashboardPage.navigateToCart();
+      await dashboardPage.navigateToCart();  
     });
 
     await test.step("Step 4. Verify presence of selected product on Cart page", async () => {
       await cartPage.VerifyProductIsDisplayed(data.productName);
+      const isOnCartPage = await cartPage.isOnCartPage();
+      expect (isOnCartPage, "User is redirected on Cart page").toBeTruthy();
     });
 
     await test.step("Step 5. Click Checkout button", async () => {
@@ -61,7 +65,7 @@ for (const data of dataset) {
       );
  
     });
-    
+
     try {
       await test.step("Step 8. Click Complete Order button", async () => {
         orderId = await completeOrderPage.SubmitAndGetOrderId();

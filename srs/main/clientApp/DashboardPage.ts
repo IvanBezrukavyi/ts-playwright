@@ -6,15 +6,20 @@ class DashboardPage {
   readonly cardTitle: Locator;
   readonly cartLink: Locator;
   readonly orders: Locator;
-
+  readonly dashboardLogo: Locator;
 
   constructor(page: Page) {
     this.page = page;
+    this.dashboardLogo = page.locator("div[class='left mt-1'] p");
     this.products = page.locator(".card-body");
     this.cardTitle = page.locator(".card-body b");
     this.cartLink = page.locator("[routerlink*=cart]");
     this.orders = page.locator("button[routerlink*='myorders']");
+  }
 
+  async isLoggedIn() {
+    await this.dashboardLogo;
+    return !!this.dashboardLogo;
   }
 
   async searchProductAddCart(productName: string) {
@@ -39,10 +44,9 @@ class DashboardPage {
     }
   }
 
-  async navigateToOrders()
-{
+  async navigateToOrders() {
     await this.orders.click();
-}
+  }
 
   async navigateToCart() {
     await this.cartLink.click();
