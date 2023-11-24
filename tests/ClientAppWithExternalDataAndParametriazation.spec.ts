@@ -38,6 +38,7 @@ for (const data of dataset) {
     await test.step("Step 2. Navigate to dashboard page after successful login", async () => {
       await test.step("Step 3. Select needed product from table", async () => {
         await dashboardPage.searchProductAddCart(data.productName);
+        expect(data.productName).toBe(data.productName);
       });
       await test.step("Step 4. Click on Cart icon after adding product", async () => {
         await dashboardPage.navigateToCart();
