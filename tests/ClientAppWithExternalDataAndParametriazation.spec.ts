@@ -35,21 +35,22 @@ for (const data of dataset) {
       await loginPage.validLogin(data.userName, data.userPass);
     });
 
-    await test.step("Step 2. Navigate to dashboard page after successful login", async () => {
-      await test.step("Step 3. Select needed product from table", async () => {
-        await dashboardPage.searchProductAddCart(data.productName);
-        expect(data.productName).toBe(data.productName);
-      });
-      await test.step("Step 4. Click on Cart icon after adding product", async () => {
-        await dashboardPage.navigateToCart();
-      });
+    await test.step("Step 2. Navigate to dashboard page and Select needed product", async () => {
+      await dashboardPage.searchProductAddCart(data.productName);
+      expect(data.productName).toBe(data.productName); 
+    });
+    await test.step("Step 3. Click on Cart icon after adding product", async () => {
+      await dashboardPage.navigateToCart();
     });
 
-    await test.step("Step 5. Verify presence of selected product on Cart page", async () => {
+    await test.step("Step 4. Verify presence of selected product on Cart page", async () => {
       await cartPage.VerifyProductIsDisplayed(data.productName);
-      await test.step("Step 6. Click Checkout button", async () => {});
+    });
+
+    await test.step("Step 5. Click Checkout button", async () => {
       await cartPage.Checkout();
     });
+    
 
     await test.step("Step 7. Fill out payment information with valid cvv, card name and selection of country", async () => {
       await completeOrderPage.enterPaymentInformation(
@@ -58,15 +59,17 @@ for (const data of dataset) {
         data.shortCountry,
         data.fullCountryName
       );
-      try {
-        await test.step("Step 8. Click Complete Order button", async () => {
-          orderId = await completeOrderPage.SubmitAndGetOrderId();
-          console.log(orderId);
-        });
-      } catch (error) {
-        console.error("Failed to submit order:", error);
-      }
+ 
     });
+    
+    try {
+      await test.step("Step 8. Click Complete Order button", async () => {
+        orderId = await completeOrderPage.SubmitAndGetOrderId();
+        console.log(orderId);
+      });
+    } catch (error) {
+      console.error("Failed to submit order:", error);
+    };
     
     await test.step("Step 9. Verify order's presence in Order History page", async () => {
       await dashboardPage.navigateToOrders();
