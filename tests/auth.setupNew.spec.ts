@@ -18,8 +18,6 @@ setup("authenticate default for client app", async ({ context, request }) => {
   const token = loginResponseJson.token;
   console.log(token);
   expect(token).not.toBeFalsy();
-
-  //console.log(
     await context.addCookies([
       {
         name: "JWToken",
@@ -27,9 +25,6 @@ setup("authenticate default for client app", async ({ context, request }) => {
         url: "https://rahulshettyacademy.com",
       },
     ])
-  //);
-  // End of authentication steps.
+
   await context.storageState({ path: authFile });
-  //Close the browser
-  //await page.close();
 });

@@ -4,7 +4,7 @@ import * as fs from "fs";
 const filePath = "Utils/placeOrderTestData.json";
 const rawdata = fs.readFileSync(filePath, "utf-8");
 const dataset = JSON.parse(rawdata);
-let orderId: string;
+let orderId: string | undefined;
 
 for (const data of dataset) {
   test(`TC: Verify success login to client app with ${data.userName} and ${data.userPass}`, async ({
@@ -57,16 +57,20 @@ for (const data of dataset) {
         data.shortCountry,
         data.fullCountryName
       );
-      await test.step("Step 7. Click Complete Order button", async () => {
-        const orderId = await completeOrderPage.SubmitAndGetOrderId();
-        console.log(orderId);
-      });
+      try {
+        await test.step("Step 8. Click Complete Order button", async () => {
+          orderId = await completeOrderPage.SubmitAndGetOrderId();
+          console.log(orderId);
+        });
+      } catch (error) {
+        console.error("Failed to submit order:", error);
+      }
     });
-
-    await test.step("Step 8. Verify order's presence in Order History page", async () => {
+    
+    await test.step("Step 9. Verify order's presence in Order History page", async () => {
       await dashboardPage.navigateToOrders();
       await orderHistoryPage.searchOrderAndSelect(orderId);
-      await expect(
+      expect(
         orderId.includes(await orderHistoryPage.getOrderId())
       ).toBeTruthy();
     });
