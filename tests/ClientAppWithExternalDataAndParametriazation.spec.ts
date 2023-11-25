@@ -63,7 +63,8 @@ for (const data of dataset) {
         data.shortCountry,
         data.fullCountryName
       );
- 
+       expect(await completeOrderPage.getCvvInputValue(), "CVV code is entered correctly").toBe(data.cvv);
+       expect(await completeOrderPage.getCardNameInputValue(), "Card name is entered correctly").toBe(data.cardName);
     });
 
     try {

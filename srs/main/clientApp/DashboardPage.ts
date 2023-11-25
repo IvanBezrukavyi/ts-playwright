@@ -18,6 +18,7 @@ class DashboardPage {
   }
 
   async isLoggedIn() {
+    await expect(this.dashboardLogo).toBeAttached();
     await this.dashboardLogo;
     return !!this.dashboardLogo;
   }
@@ -45,10 +46,14 @@ class DashboardPage {
   }
 
   async navigateToOrders() {
+    await expect (this.orders, "Orders link is visible").toBeVisible();
+    await expect (this.orders, "Orders link is active").toBeEnabled();
     await this.orders.click();
   }
 
   async navigateToCart() {
+    await expect (this.cartLink, "Cart link is visible").toBeVisible();
+    await expect (this.cartLink, "Cart link is active").toBeEnabled();
     await this.cartLink.click();
   }
 }

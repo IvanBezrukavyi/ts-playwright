@@ -31,11 +31,13 @@ class CartPage {
   }
 
   async Checkout() {
+    await expect (this.checkout, "Checkout button is active").toBeEnabled();
     await this.checkout.click();
   }
 
   getProductLocator(productName: string) {
     return this.page.locator("h3:has-text('" + productName + "')");
+    
   }
 }
 
