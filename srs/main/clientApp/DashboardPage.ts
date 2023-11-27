@@ -6,15 +6,21 @@ class DashboardPage {
   readonly cardTitle: Locator;
   readonly cartLink: Locator;
   readonly orders: Locator;
-
+  readonly dashboardLogo: Locator;
 
   constructor(page: Page) {
     this.page = page;
+    this.dashboardLogo = page.locator("div[class='left mt-1'] p");
     this.products = page.locator(".card-body");
     this.cardTitle = page.locator(".card-body b");
     this.cartLink = page.locator("[routerlink*=cart]");
     this.orders = page.locator("button[routerlink*='myorders']");
+  }
 
+  async isLoggedIn() {
+    await expect(this.dashboardLogo).toBeAttached();
+    await this.dashboardLogo;
+    return !!this.dashboardLogo;
   }
 
   async searchProductAddCart(productName: string) {
@@ -39,12 +45,15 @@ class DashboardPage {
     }
   }
 
-  async navigateToOrders()
-{
+  async navigateToOrders() {
+    await expect (this.orders, "Orders link is visible").toBeVisible();
+    await expect (this.orders, "Orders link is active").toBeEnabled();
     await this.orders.click();
-}
+  }
 
   async navigateToCart() {
+    await expect (this.cartLink, "Cart link is visible").toBeVisible();
+    await expect (this.cartLink, "Cart link is active").toBeEnabled();
     await this.cartLink.click();
   }
 }

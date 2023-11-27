@@ -11,6 +11,7 @@
   "scripts": {
     "regression": "npx playwright test",
     "webTests": "npx playwright test --grep @Web",
-    "allureReport": "npx playwright test --grep @Web --reporter=line,allure-playwright"
+    "allureReport": "npx playwright test --grep @Web --reporter=line,allure-playwright",
+    "client": "npx playwright test -g ClientAppWithExternalDataAndParametriazation.spec.ts"
   }
 }

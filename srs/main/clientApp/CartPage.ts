@@ -18,6 +18,12 @@ class CartPage {
     this.checkout = page.locator("text=Checkout");
   }
 
+  async isOnCartPage() {
+    const currentUrl = await this.page.url();
+    const expectedCartUrl = 'https://rahulshettyacademy.com/client/dashboard/cart'; 
+    return currentUrl === expectedCartUrl;
+  }
+
   async VerifyProductIsDisplayed(productName: string) {
     await this.cartProducts.waitFor();
     const bool = await this.getProductLocator(productName).isVisible();
@@ -25,11 +31,13 @@ class CartPage {
   }
 
   async Checkout() {
+    await expect (this.checkout, "Checkout button is active").toBeEnabled();
     await this.checkout.click();
   }
 
   getProductLocator(productName: string) {
     return this.page.locator("h3:has-text('" + productName + "')");
+    
   }
 }
 
