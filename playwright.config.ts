@@ -43,7 +43,7 @@ export default defineConfig({
 
     },
     {
-      name: 'chromium',
+      name: 'client app',
       dependencies: ['setup'],
       use: {
         ...devices['Desktop Chrome'],
@@ -53,6 +53,18 @@ export default defineConfig({
         storageState: 'srs/auth/defaultStorageState.json',
         screenshot: 'only-on-failure',
         video: 'retain-on-failure'
+     },
+    },
+    {     
+     name: "demoqa",
+     testDir: './tests-demoqa',
+     use: {
+      ...devices['Desktop Firefox'],
+      browserName: 'firefox',
+      baseURL: 'https://demoqa.com/',
+      headless : false,
+      screenshot : 'on',
+      video: 'retain-on-failure',
      },
     },
   ],
