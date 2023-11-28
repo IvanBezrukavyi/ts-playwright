@@ -33,8 +33,9 @@ for (const data of dataset) {
     await test.step("Step 1. Login to application with valid data from preconditions", async () => {
       await loginPage.goTo();
       await loginPage.validLogin(data.userName, data.userPass);
-      const isLoggedIn = await dashboardPage.isLoggedIn();
-      expect(isLoggedIn, "Login is successful").toBeTruthy();
+      await dashboardPage.verifyLoggedIn();
+      expect(await dashboardPage.isLoggedIn(), "Expected Login is successful").toBe(true);
+      await expect(dashboardPage.getDashboardLogo()).toBeAttached();
     });
 
     await test.step("Step 2. Navigate to dashboard page and Select needed product", async () => {
