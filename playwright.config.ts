@@ -62,7 +62,7 @@ export default defineConfig({
       ...devices['Desktop Firefox'],
       browserName: 'firefox',
       baseURL: 'https://demoqa.com/',
-      headless : false,
+      headless : true,
       screenshot : 'on',
       video: 'retain-on-failure',
      },
