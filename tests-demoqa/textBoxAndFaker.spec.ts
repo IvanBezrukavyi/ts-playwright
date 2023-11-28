@@ -26,7 +26,12 @@ test.describe("@Demoqa Text Box Tests", () => {
     await page.locator('#currentAddress').fill(currentAddress);
     await page.locator('#permanentAddress').fill(permanentAddress);
     await page.locator('#submit').click();
-    expect(await page.locator("(//p[@id='name])[1]")).toHaveText(fullName);
+    expect(await page.locator("#name").textContent()).toContain(fullName);
+    expect(await page.locator("#email").textContent()).toContain(email);
+    expect(await page.locator("p[id*='currentAddress']").textContent()).toContain(currentAddress);
+    expect(await page.locator("p[id*='permanentAddress']").textContent()).toContain(permanentAddress);
+    
+
     
 
 
