@@ -1,9 +1,0 @@
-Error while submitting order and getting order ID: locator.textContent: Error: strict mode violation: locator('.em-spacer-1 .ng-star-inserted') resolved to 2 elements:
-    1) <label _ngcontent-oxr-c39="" class="ng-star-inserted"> | 655dd9b47244490f95eeb93c | </label> aka getByText('| 655dd9b47244490f95eeb93c |')
-    2) <label _ngcontent-oxr-c39="" class="ng-star-inserted"> | 655dd9b47244490f95eeb93f | </label> aka getByText('| 655dd9b47244490f95eeb93f |')
-
-Call log:
-  - waiting for locator('.em-spacer-1 .ng-star-inserted')
-
-    at CompleteOrderPage.SubmitAndGetOrderId (/home/runner/work/ts-playwright/ts-playwright/srs/main/clientApp/CompleteOrderPage.ts:74:33)
-    at /home/runner/work/ts-playwright/ts-playwright/tests/ClientAppWithExternalDataAndParametriazation.spec.ts:48:19
