@@ -18,17 +18,15 @@ test.describe("@Demoqa Text Box Tests", () => {
     const currentAddress = `${streetAddress}, ${city}, ${state}, ${zipCode}`;
     streetAddress = '456 Elm St';
     const permanentAddress = `${streetAddress}, ${city}, ${state}, ${zipCode}`;
-   
-    
+
     await textBox.goTo();
     await textBox.selectElementsMenu();
     await textBox.selectTextBoxMenu();
     await textBox.fillInputsByValues(fullName, email, currentAddress, permanentAddress);
+    await expect(textBox.fullName, 'Expected the entered full name').toHaveValue(fullName);
+    await expect(textBox.email, 'Expected the entered email').toHaveValue(email);
+    await expect(textBox.currentAddress, 'Expected the entered current address').toHaveValue(currentAddress);
+    await expect(textBox.permanentAddress, 'Expected the entered permanent address').toHaveValue(permanentAddress);
     await textBox.submitTextBoxForm();
   });
 });
-     
-    // expect(await page.locator("#name").textContent()).toContain(fullName);
-    // expect(await page.locator("#email").textContent()).toContain(email);
-    // expect(await page.locator("p[id*='currentAddress']").textContent()).toContain(currentAddress);
-    // expect(await page.locator("p[id*='permanentAddress']").textContent()).toContain(permanentAddress);

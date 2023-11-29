@@ -1,4 +1,5 @@
 import { Locator, Page } from "playwright";
+import { expect } from "playwright/test";
 
 class TextBoxPage {
   readonly page: Page;
@@ -50,3 +51,12 @@ class TextBoxPage {
   }
 }
 export default TextBoxPage;
+
+/*
+    expect(await page.locator("#name").textContent()).toContain(fullName);
+    expect(await page.locator("#email").textContent()).toContain(email);
+    expect(await page.locator("p[id*='currentAddress']").textContent()).toContain(currentAddress);
+    expect(await page.locator("p[id*='permanentAddress']").textContent()).toContain(permanentAddress);
+
+
+*/
