@@ -10,6 +10,10 @@ class TextBoxPage {
   readonly currentAddress: Locator;
   readonly permanentAddress: Locator;
   readonly submitButton: Locator;
+  readonly expFullName: Locator;
+  readonly expEmail: Locator;
+  readonly expCurrentAddress: Locator;
+  readonly expPermanentAddress: Locator
 
   constructor(page: Page) {
     this.page = page;
@@ -20,6 +24,10 @@ class TextBoxPage {
     this.currentAddress = page.locator("#currentAddress");
     this.permanentAddress = page.locator("#permanentAddress");
     this.submitButton = page.locator("#submit");
+    this.expFullName =  page.locator("#name");
+    this.expEmail = page.locator("#email");
+    this.expCurrentAddress = page.locator("p[id*='currentAddress']");
+    this.expPermanentAddress = page.locator("p[id*='permanentAddress']");
   }
 
   async goTo() {
@@ -49,14 +57,14 @@ class TextBoxPage {
   async submitTextBoxForm() {
     await this.submitButton.click();
   }
+
+  async getSubmittedData(): Promise<{ expFullName: string; expEmail: string; expCurrentAddress: string; expPermanentAddress: string }> {
+    const expFullName = await this.expFullName.textContent();
+    const expEmail = await this.expEmail.textContent();
+    const expCurrentAddress = await this.expCurrentAddress.textContent();
+    const expPermanentAddress = await this.expPermanentAddress.textContent();
+  
+    return { expFullName, expEmail, expCurrentAddress, expPermanentAddress };
+  } 
 }
 export default TextBoxPage;
-
-/*
-    expect(await page.locator("#name").textContent()).toContain(fullName);
-    expect(await page.locator("#email").textContent()).toContain(email);
-    expect(await page.locator("p[id*='currentAddress']").textContent()).toContain(currentAddress);
-    expect(await page.locator("p[id*='permanentAddress']").textContent()).toContain(permanentAddress);
-
-
-*/

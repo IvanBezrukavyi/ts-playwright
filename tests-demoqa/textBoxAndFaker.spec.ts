@@ -7,6 +7,8 @@ test.describe("@Demoqa Text Box Tests", () => {
     page,
   }) => {
     const textBox = new TextBoxPage(page);
+    //const expFullName = await textBox.getSubmittedData();
+
     const fullName = faker.person.fullName();
     const email = faker.internet.email({provider: 'demoqa.com'});
 
@@ -23,10 +25,20 @@ test.describe("@Demoqa Text Box Tests", () => {
     await textBox.selectElementsMenu();
     await textBox.selectTextBoxMenu();
     await textBox.fillInputsByValues(fullName, email, currentAddress, permanentAddress);
+
     await expect(textBox.fullName, 'Expected the entered full name').toHaveValue(fullName);
     await expect(textBox.email, 'Expected the entered email').toHaveValue(email);
     await expect(textBox.currentAddress, 'Expected the entered current address').toHaveValue(currentAddress);
     await expect(textBox.permanentAddress, 'Expected the entered permanent address').toHaveValue(permanentAddress);
+
     await textBox.submitTextBoxForm();
+
+    const submittedData = await textBox.getSubmittedData();
+
+    await expect(submittedData.expFullName, 'Expected the submitted full name').toContain(fullName);
+    await expect(submittedData.expEmail, 'Expected the submitted email').toContain(email);
+    await expect(submittedData.expCurrentAddress, 'Expected the submitted current address').toContain(currentAddress);
+    await expect(submittedData.expPermanentAddress, "Expected the submitted permanent address").toContain(permanentAddress);
+    
   });
 });
