@@ -27,17 +27,6 @@ test.describe("@Demoqa Text Box Tests", () => {
     await textBox.submitTextBoxForm();
   });
 });
-
-
-   // await page.locator(("h5:has-text('Elements')")).click();
-    // await page.locator("span:has-text('Text Box')").click();
-    //await page.locator('#submit').click();
-
-   // await page.locator('#userName').fill(fullName);
-    // await page.locator('#userEmail').fill(email);
-    // await page.locator('#currentAddress').fill(currentAddress);
-    // await page.locator('#permanentAddress').fill(permanentAddress);
-
      
     // expect(await page.locator("#name").textContent()).toContain(fullName);
     // expect(await page.locator("#email").textContent()).toContain(email);
