@@ -44,10 +44,10 @@ class CompleteOrderPage {
       const countryButtons = await this.countryDropDown.locator("button").all(); // Use .all() to get an array of elements
       for (const button of countryButtons) {
         const text = await button.textContent();
-        console.log("Button text:", text); // Add this line for debugging
+        console.log("Button text:", text);
 
         if (text.trim() === fullCountryName) {
-          console.log("Matching country found:", fullCountryName); // Add this line for debugging
+          console.log("Matching country found:", fullCountryName);
           await button.click();
           break;
         }

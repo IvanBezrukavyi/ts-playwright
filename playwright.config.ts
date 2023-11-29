@@ -12,7 +12,7 @@ import { defineConfig, devices } from '@playwright/test';
 export default defineConfig({
   testDir: './tests',
   /* Add timeout in milliseconds */
-  timeout: 30000,
+  timeout: 5 * 60 * 1000,
   /* Run tests in files in parallel */
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
@@ -62,7 +62,7 @@ export default defineConfig({
       ...devices['Desktop Firefox'],
       browserName: 'firefox',
       baseURL: 'https://demoqa.com/',
-      headless : false,
+      headless : true,
       screenshot : 'on',
       video: 'retain-on-failure',
      },

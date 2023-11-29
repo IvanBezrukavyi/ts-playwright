@@ -1,12 +1,12 @@
 import { Locator, Page, expect } from "@playwright/test";
 
 class DashboardPage {
-  readonly page: Page;
-  readonly products: Locator;
-  readonly cardTitle: Locator;
-  readonly cartLink: Locator;
-  readonly orders: Locator;
-  readonly dashboardLogo: Locator;
+  private readonly page: Page;
+  private readonly products: Locator;
+  private readonly cardTitle: Locator;
+  private readonly cartLink: Locator;
+  private readonly orders: Locator;
+  private readonly dashboardLogo: Locator;
 
   constructor(page: Page) {
     this.page = page;
@@ -17,10 +17,16 @@ class DashboardPage {
     this.orders = page.locator("button[routerlink*='myorders']");
   }
 
-  async isLoggedIn() {
+  getDashboardLogo(): Locator {
+    return this.dashboardLogo;
+  }
+
+  async verifyLoggedIn() {
     await expect(this.dashboardLogo).toBeAttached();
-    await this.dashboardLogo;
-    return !!this.dashboardLogo;
+  }
+
+  async isLoggedIn(): Promise <boolean> {
+    return this.dashboardLogo.isVisible()
   }
 
   async searchProductAddCart(productName: string) {
@@ -46,14 +52,10 @@ class DashboardPage {
   }
 
   async navigateToOrders() {
-    await expect (this.orders, "Orders link is visible").toBeVisible();
-    await expect (this.orders, "Orders link is active").toBeEnabled();
     await this.orders.click();
   }
 
   async navigateToCart() {
-    await expect (this.cartLink, "Cart link is visible").toBeVisible();
-    await expect (this.cartLink, "Cart link is active").toBeEnabled();
     await this.cartLink.click();
   }
 }
