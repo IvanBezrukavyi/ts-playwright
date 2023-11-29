@@ -1,5 +1,4 @@
 import { Locator, Page } from "playwright";
-import { expect } from "playwright/test";
 
 class TextBoxPage {
   readonly page: Page;

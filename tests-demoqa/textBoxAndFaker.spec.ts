@@ -7,7 +7,6 @@ test.describe("@Demoqa Text Box Tests", () => {
     page,
   }) => {
     const textBox = new TextBoxPage(page);
-    //const expFullName = await textBox.getSubmittedData();
 
     const fullName = faker.person.fullName();
     const email = faker.internet.email({provider: 'demoqa.com'});
