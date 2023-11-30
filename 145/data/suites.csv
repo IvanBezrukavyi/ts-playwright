@@ -1,6 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Fri Nov 24 13:05:28 GMT 2023","Fri Nov 24 13:05:37 GMT 2023","9306","chromium","ClientAppWithExternalDataAndParametriazation.spec.ts","","","","TC: E2E for ordering zara coat 3",""
-"passed","Fri Nov 24 13:05:18 GMT 2023","Fri Nov 24 13:05:28 GMT 2023","9514","chromium","ClientAppWithExternalDataAndParametriazation.spec.ts","","","","TC: E2E for ordering iphone 13 pro",""
-"passed","Fri Nov 24 13:05:13 GMT 2023","Fri Nov 24 13:05:18 GMT 2023","4943","chromium","ClientAppWithExternalDataAndParametriazation.spec.ts","","","","TC: Verify success login to client app with anshika@gmail.com and Iamking@000",""
-"passed","Fri Nov 24 13:05:06 GMT 2023","Fri Nov 24 13:05:07 GMT 2023","1452","setup","auth.setupNew.spec.ts","","","","authenticate default for client app",""
-"passed","Fri Nov 24 13:05:08 GMT 2023","Fri Nov 24 13:05:13 GMT 2023","5602","chromium","ClientAppWithExternalDataAndParametriazation.spec.ts","","","","TC: Verify success login to client app with nspprotest@gmail.com and Pl@ywright_test_m1",""
