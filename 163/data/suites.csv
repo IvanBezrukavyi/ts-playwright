@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Nov 30 12:37:03 GMT 2023","Thu Nov 30 12:37:04 GMT 2023","1201","setup","auth.setupNew.spec.ts","","","","authenticate default for client app",""
+"passed","Thu Nov 30 12:37:10 GMT 2023","Thu Nov 30 12:37:15 GMT 2023","4956","client app","ClientAppWithExternalDataAndParametriazation.spec.ts","","","","TC: Verify success login to client app with anshika@gmail.com and Iamking@000",""
+"passed","Thu Nov 30 12:37:23 GMT 2023","Thu Nov 30 12:37:32 GMT 2023","9123","client app","ClientAppWithExternalDataAndParametriazation.spec.ts","","","","TC: E2E for ordering zara coat 3",""
+"passed","Thu Nov 30 12:37:04 GMT 2023","Thu Nov 30 12:37:10 GMT 2023","5566","client app","ClientAppWithExternalDataAndParametriazation.spec.ts","","","","TC: Verify success login to client app with nspprotest@gmail.com and Pl@ywright_test_m1",""
+"passed","Thu Nov 30 12:37:15 GMT 2023","Thu Nov 30 12:37:23 GMT 2023","8301","client app","ClientAppWithExternalDataAndParametriazation.spec.ts","","","","TC: E2E for ordering iphone 13 pro",""
+"passed","Thu Nov 30 12:37:34 GMT 2023","Thu Nov 30 12:37:41 GMT 2023","7456","demoqa","../tests-demoqa/textBoxAndFaker.spec.ts","@Demoqa Text Box Tests","","","TC 1: Fill out input text fields by data from faker lib",""
