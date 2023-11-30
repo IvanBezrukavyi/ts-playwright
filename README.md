@@ -36,7 +36,7 @@ I took this [course](https://softserve.udemy.com/course/playwright-tutorials-aut
 5. npx playwright show-report (review test execution report)
 6. npx playwright codegen [website.com] (open the website and generate steps base on user actions)
 7. npx playwright codegen [website.com] --save-storage=auth.json (open the website and generate steps base on user actions to save cookies and localStorage at the end of the session. This is useful to separately record an authentication step and reuse it later when recording more tests)
-8. npm install -D @playwright/test@latest (It installs the latest playwright version with -D node module dependencies)
+8. npx playwright install && npm install -D @playwright/test@latest (It installs the latest playwright version with -D node module dependencies)
 9. npx playwright test --repeat-each [amount] (--repeat-each flag can help for detecting a flaky test)
 10. npx playwright test --grep @tag (running tests by specific tag, e.g. smoke, regression, etc.)
 
