@@ -1,0 +1,66 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:playwright/recommended"
+        //"prettier"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "@typescript-eslint",
+        "playwright"
+    ],
+    "rules": {
+        //Playwright rules
+
+        // Enforce a maximum nesting level for `describe` blocks to improve code readability
+        "playwright/max-nested-describe": "error",
+        // Avoid using `eval` in tests to enhance security and prevent potential vulnerabilities
+       "playwright/no-eval": "error",
+       // Avoid using focused tests to encourage comprehensive testing and prevent overreliance on specific tests
+       "playwright/no-focused-test": "error",
+       // Handle custom matchers for the 'missing-playwright-await' rule
+        "playwright/missing-playwright-await": [
+            "error",
+            {
+                "customMatchers": [
+                    "toBeCustomThing"
+                ]
+            }
+        ],
+        // Disable the 'no-networkidle' rule since it can cause false positives in certain scenarios
+        "no-networkidle": 2,
+        //TypeScript rules
+
+        // Prevent using the 'any' type. The 'any' type can make code difficult to understand and type-check.
+        "@typescript-eslint/no-explicit-any": "error",
+        // Enforce `no-var` rule to prefer `let` or `const` for variable declarations
+        "@typescript-eslint/no-var": "error",
+        // Enforce `no-array-constructor` rule to use array literal syntax for arrays
+        "@typescript-eslint/no-array-constructor": "error",
+        // Enforce `no-useless-constructor` rule to avoid empty constructors
+        "@typescript-eslint/no-useless-constructor": "error",
+        // Enforce `prefer-const` rule to prefer `const` over `let` for immutable variables
+        "@typescript-eslint/prefer-const": "error",
+        // Enforce `no-empty-interface` rule to avoid empty interfaces
+        "@typescript-eslint/no-empty-interface": "error",
+        // Enforce `class-name` rule to use PascalCase for class names
+        "@typescript-eslint/class-name": "error",
+        // Avoid using namespaces as they can introduce naming conflicts
+        "@typescript-eslint/no-namespace": "error",
+        // Prevent unused variables and improve code cleanliness
+        "@typescript-eslint/no-unused-vars": "error",
+        // Discourage using the `new Function()` or `new Object()` constructors
+        "no-new-wrappers": "error",
+        // Allow using `require()` statements for importing Node.js modules
+        "@typescript-eslint/no-var-requires": "off"
+    }
+}

@@ -51,7 +51,7 @@ jobs:
         run: npx playwright install-deps
 
       - name: Run Tests
-        run: npx playwright test -g "ClientAppWithExternalDataAndParametriazation.spec.ts" && npx playwright test --grep @Demoqa
+        run: npx playwright test -g "ClientAppWithExternalDataAndParametriazation.spec.ts" && npx playwright test --grep @Demoqa && npx playwright test --grep @Web
 
       - name: Store Artifacts from Failed Tests
         if: always()

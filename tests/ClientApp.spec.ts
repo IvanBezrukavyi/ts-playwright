@@ -1,4 +1,3 @@
-
 import { expect, test } from "@playwright/test";
 import POManager from "../srs/main/clientApp/POManager";
 
