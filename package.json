@@ -3,7 +3,7 @@
   "description": "my learning path in playwright",
   "devDependencies": {
     "@faker-js/faker": "^8.3.1",
-    "@playwright/test": "^1.40.0",
+    "@playwright/test": "^1.40.1",
     "@types/node": "^20.9.4",
     "allure-playwright": "^2.9.2",
     "eslint": "^8.54.0",
