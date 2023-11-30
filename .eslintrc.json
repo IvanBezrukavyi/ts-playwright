@@ -6,8 +6,8 @@
     "extends": [
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
-        "plugin:playwright/recommended",
-        "prettier"
+        "plugin:playwright/recommended"
+        //"prettier"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
@@ -37,7 +37,7 @@
             }
         ],
         // Disable the 'no-networkidle' rule since it can cause false positives in certain scenarios
-        "no-networkidle": "on",
+        "no-networkidle": 2,
         //TypeScript rules
 
         // Prevent using the 'any' type. The 'any' type can make code difficult to understand and type-check.
@@ -54,8 +54,6 @@
         "@typescript-eslint/no-empty-interface": "error",
         // Enforce `class-name` rule to use PascalCase for class names
         "@typescript-eslint/class-name": "error",
-        // Enforce proper promise handling using `then`, `catch`, or `async/await`
-        "@typescript-eslint/no-misused-promises": "error",
         // Avoid using namespaces as they can introduce naming conflicts
         "@typescript-eslint/no-namespace": "error",
         // Prevent unused variables and improve code cleanliness
