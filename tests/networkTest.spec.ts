@@ -76,5 +76,5 @@ test("TC: Verify absence of order via intercepted request", async ({ page }) => 
   } catch (error) {
     console.error("Error during test:", error);
     throw error;
-  };
+  }
 });
