@@ -46,5 +46,11 @@ test.describe("@Demoqa Text Box Tests", () => {
       await expect(submittedData.expCurrentAddress, 'Expected the submitted current address').toContain(currentAddress);
       await expect(submittedData.expPermanentAddress, "Expected the submitted permanent address").toContain(permanentAddress);
     });
+
+    await test.step('Step 6. Remove data from Full Name input', async () => {
+      const currentFullName = await textBox.fullName.inputValue();
+      const numOfSym = currentFullName.length;
+      await textBox.removeInputFullName(numOfSym);
+    });
   });
 });

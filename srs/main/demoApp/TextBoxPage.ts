@@ -119,5 +119,13 @@ class TextBoxPage {
 
     return { expFullName, expEmail, expCurrentAddress, expPermanentAddress };
   }
+
+  async removeInputFullName(numOfSym) {
+    await this.fullName.focus();
+    for (let i = 0; i <= numOfSym; ++i) {
+      await this.page.keyboard.press('Backspace');
+    }
+
+  }
 }
 export default TextBoxPage;
