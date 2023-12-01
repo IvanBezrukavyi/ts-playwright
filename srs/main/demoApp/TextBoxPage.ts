@@ -125,7 +125,15 @@ class TextBoxPage {
     for (let i = 0; i <= numOfSym; ++i) {
       await this.page.keyboard.press('Backspace');
     }
-
   }
+  async removeInputContent(inputLocator: Locator) {
+    await inputLocator.nth(0).focus();
+    const currentValue = await inputLocator.nth(0).inputValue();
+    for (let i = 0; i <= currentValue.length; ++i) {
+      await this.page.keyboard.press('Backspace');
+    }
+  }
+
+  
 }
 export default TextBoxPage;
