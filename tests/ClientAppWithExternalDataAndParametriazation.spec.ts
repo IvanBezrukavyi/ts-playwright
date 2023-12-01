@@ -75,7 +75,7 @@ for (const data of dataset) {
       });
     } catch (error) {
       console.error("Failed to submit order:", error);
-    };
+    }
     
     await test.step("Step 9. Verify order's presence in Order History page", async () => {
       await dashboardPage.navigateToOrders();

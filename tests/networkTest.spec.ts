@@ -60,7 +60,7 @@ test("TC: Verify absence of order via intercepted request", async ({ page }) => 
       "https://rahulshettyacademy.com/api/ecom/order/get-orders-for-customer/*",
       async (route) => {
         const response = await page.request.fetch(route.request());
-        let body = JSON.stringify(fakePayloadOrders);
+        const body = JSON.stringify(fakePayloadOrders);
 
         route.fulfill({
           response,

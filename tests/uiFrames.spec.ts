@@ -8,5 +8,5 @@ test("@Web TC: Verify UI IFrame", async({page}) => {
    // :visible parameter should be added to locator
    await framesPage.locator("li a[href*='lifetime-acces']:visible").click();
    const textCheck = await framesPage.locator(".text h2").textContent();
-   await expect(textCheck.split(" ")[1]).toEqual("13,522");
+   expect(await textCheck.split(" ")[1]).toEqual("13,522");
 })
