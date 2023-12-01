@@ -3,7 +3,7 @@ import { faker } from "@faker-js/faker/locale/en_US";
 import TextBoxPage from "../srs/main/demoApp/TextBoxPage";
 
 test.describe("@Demoqa Text Box Tests", () => {
-  test("TC 1: Fill out input text fields by data from faker lib", async ({
+  test("TC 1: Fill out input text fields via keys and shortcuts", async ({
     page,
   }) => {
     const textBox = new TextBoxPage(page);
@@ -29,7 +29,7 @@ test.describe("@Demoqa Text Box Tests", () => {
       await textBox.selectTextBoxMenu();
     });
     await test.step('Step 4. Fill inputs by valid data',async () => {
-      await textBox.fillInputsByValues(fullName, email, currentAddress, permanentAddress);
+      await textBox.fillInputsByShortcuts(fullName, email, currentAddress, permanentAddress);
 
       await expect(textBox.fullName, 'Expected the entered full name').toHaveValue(fullName);
       await expect(textBox.email, 'Expected the entered email').toHaveValue(email);
@@ -37,7 +37,7 @@ test.describe("@Demoqa Text Box Tests", () => {
       await expect(textBox.permanentAddress, 'Expected the entered permanent address').toHaveValue(permanentAddress);
     });
     await test.step('Step 5. Click Submit button',async () => {
-      await textBox.submitTextBoxForm();
+      await textBox.submitTextBoxFormByEnter();
 
       const submittedData = await textBox.getSubmittedData();
   
