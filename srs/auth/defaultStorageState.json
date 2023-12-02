@@ -2,7 +2,7 @@
   "cookies": [
     {
       "name": "JWToken",
-      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTI5Mjk3YjcyNDQ0OTBmOTVjYmYxY2QiLCJ1c2VyRW1haWwiOiJuc3Bwcm90ZXN0QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjE5Njk2NDY1NjQsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDE1MTQ1MTQsImV4cCI6MTczMzA3MjExNH0.h2DbDgvEgLgLpNOS86l839QCB6h35PraTOCusNukP0M",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTI5Mjk3YjcyNDQ0OTBmOTVjYmYxY2QiLCJ1c2VyRW1haWwiOiJuc3Bwcm90ZXN0QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjE5Njk2NDY1NjQsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDE1MTQ3MTksImV4cCI6MTczMzA3MjMxOX0.KwbpCmt4K3eGGSoZEPdlnDOpnD5bu7WMa1_Rs0UI_Nw",
       "domain": "rahulshettyacademy.com",
       "path": "/",
       "expires": -1,
