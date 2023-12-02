@@ -29,9 +29,6 @@ jobs:
       - name: Install Dependencies
         run: npm ci
 
-      - name: ESLint
-        uses: stefanoeb/eslint-action@1.0.2  
-
       - name: Store Playwright's Version
         run: |
           PLAYWRIGHT_VERSION=$(npm ls @playwright/test | grep "@playwright" | sed 's/.*@//')
