@@ -14,7 +14,7 @@ interface OrderPayload {
 }
 
 interface FakePayloadOrders {
-  data: any[];
+  data: unknown[];
   message: string;
 }
 

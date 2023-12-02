@@ -1,6 +1,6 @@
 # These are my first baby steps in Type Script and Playwright
 
-I took this [course](https://softserve.udemy.com/course/playwright-tutorials-automation-testing) from Udemy
+My learning page is based on this [course](https://softserve.udemy.com/course/playwright-tutorials-automation-testing) from Udemy and my own scenarios I developed and put into `test-demoqa` directory
 
 **Table of Contents**
 

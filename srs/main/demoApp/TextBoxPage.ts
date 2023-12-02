@@ -29,6 +29,8 @@ class TextBoxPage {
     this.expPermanentAddress = page.locator("p[id*='permanentAddress']");
   }
 
+  //Common actions
+
   async goTo() {
     await this.page.goto("");
   }
@@ -56,6 +58,8 @@ class TextBoxPage {
   async submitTextBoxForm() {
     await this.submitButton.click();
   }
+
+  //Keys and shortcuts actions and methods
 
     /*It's example how to use "Enter" key.
   * Unfortunately it does't work in menu functionality

@@ -82,7 +82,7 @@ test.describe("@Demoqa Text Box Tests", () => {
       await textBox.removeInputContent(textBox.permanentAddress);
     });
 
-    await test.step("Step 5. Click Submit button after removing data", async () => {
+    await test.step("Step 7. Click Submit button after removing data", async () => {
       await textBox.submitTextBoxFormByEnter();
       const removedInputContent = await textBox.getRemovedInputContent();
       expect(removedInputContent.fullName, 'Expected empty Full Name input field').toBe('');
