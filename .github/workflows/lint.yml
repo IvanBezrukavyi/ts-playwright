@@ -10,6 +10,8 @@ jobs:
       - name: Install Node.js Dependencies
         run: |
           npm install
+      - name: Install Faker js library
+        run: npm install @faker-js/faker    
       - name: Run ESLint
         uses: stefanoeb/eslint-action@1.0.2
         with:
