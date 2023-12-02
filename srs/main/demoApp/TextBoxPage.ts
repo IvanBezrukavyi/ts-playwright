@@ -134,6 +134,25 @@ class TextBoxPage {
     }
   }
 
+  async getRemovedInputContent(): Promise<{
+    fullName: string,
+    email: string,
+    currentAddress: string,
+    permanentAddress: string
+  }> {
+    const fullNameContent = (await this.fullName.textContent()) || '';
+    const emailContent = (await this.email.textContent()) || '';
+    const currentAddressContent = (await this.currentAddress.textContent()) || '';
+    const permanentAddressContent = (await this.permanentAddress.textContent()) || '';
+  
+    return {
+      fullName: fullNameContent,
+      email: emailContent,
+      currentAddress: currentAddressContent,
+      permanentAddress: permanentAddressContent
+    };
+  }
+  
   
 }
 export default TextBoxPage;

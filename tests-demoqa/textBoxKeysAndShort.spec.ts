@@ -3,7 +3,7 @@ import { faker } from "@faker-js/faker/locale/en_US";
 import TextBoxPage from "../srs/main/demoApp/TextBoxPage";
 
 test.describe("@Demoqa Text Box Tests", () => {
-  test("TC 2: Enter and remove data from input text fields and via keys and shortcuts", async ({
+  test("TC 2: E2E. Enter and remove data from input text fields and via keys and shortcuts", async ({
     page,
   }) => {
     const textBox = new TextBoxPage(page);
@@ -82,30 +82,13 @@ test.describe("@Demoqa Text Box Tests", () => {
       await textBox.removeInputContent(textBox.permanentAddress);
     });
 
-    await test.step("Step 5. Click Submit button", async () => {
+    await test.step("Step 5. Click Submit button after removing data", async () => {
       await textBox.submitTextBoxFormByEnter();
-
-      // const submittedData = await textBox.getSubmittedData();
-
-      // await expect(
-      //   submittedData.expFullName,
-      //   "Expected the submitted full name"
-      // ).toContain(fullName);
-      // await expect(
-      //   submittedData.expEmail,
-      //   "Expected the submitted email"
-      // ).toContain(email);
-      // await expect(
-      //   submittedData.expCurrentAddress,
-      //   "Expected the submitted current address"
-      // ).toContain(currentAddress);
-      // await expect(
-      //   submittedData.expPermanentAddress,
-      //   "Expected the submitted permanent address"
-      // ).toContain(permanentAddress);
-    });
-    
-
-    
+      const removedInputContent = await textBox.getRemovedInputContent();
+      expect(removedInputContent.fullName, 'Expected empty Full Name input field').toBe('');
+      expect(removedInputContent.email, 'Expected empty Email input field').toBe('');
+      expect(removedInputContent.currentAddress, 'Expected empty Current Address input field').toBe('');
+      expect(removedInputContent.permanentAddress, 'Expected empty Permanent Address input field').toBe('');
+    });   
   });
 });
