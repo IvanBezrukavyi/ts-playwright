@@ -6,12 +6,15 @@ jobs:
   eslint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - name: Install Node.js Dependencies
-        run: |
-          npm install
+      - uses: actions/checkout@v4
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          check-latest: false
+      - name: Install ESLint dependencies
+        run: npm install @eslint/eslintrc
       - name: Install Faker js library
-        run: npm install @faker-js/faker    
+        run: npm install @faker-js/faker        
       - name: Run ESLint
         uses: stefanoeb/eslint-action@1.0.2
         with:
