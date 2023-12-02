@@ -10,7 +10,7 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v4
         with:
-          check-latest: false
+          node-version: '>=16.0.0'
       - name: Install ESLint dependencies
         run: npm install @eslint/eslintrc
       - name: Install Faker js library
