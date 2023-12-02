@@ -12,8 +12,10 @@ jobs:
         with:
           node-version: 16
       - name: Install ESLint dependencies
-        run: npm install @eslint/eslintrc@^latest
-      - name: Install Faker js library
-        run: npm install @faker-js/faker        
+        run: |
+          npm install @eslint/eslintrc
+          npm install @faker-js/faker        
       - name: Run ESLint
         uses: stefanoeb/eslint-action@1.0.2
+        with:
+          files: .
