@@ -1,6 +1,5 @@
 import {test, expect} from "@playwright/test";
 
-//we have to use async function because this is JS and add browser parameter
 test("@Web TC:Catch unshowing message and Verify text message", async ({ browser }) => {
   //ignore browser's plugin/cookies and run browser in incognito mode
   const context = await browser.newContext();
@@ -10,7 +9,7 @@ test("@Web TC:Catch unshowing message and Verify text message", async ({ browser
   Let's block css on login page*/
   page.route('**/*.css', route => route.abort())
   //Navigate to needed page
-  const mainPage = await page.goto(
+ await page.goto(
     "https://rahulshettyacademy.com/loginpagePractise/"
   );
   const userName = page.locator("#username");
@@ -71,7 +70,7 @@ There is no mechanism to get all data immediately*/
 });
 
 test("@Web TC: Verify UI controls", async ({ page }) => {
-  const mainPage = await page.goto(
+  await page.goto(
     "https://rahulshettyacademy.com/loginpagePractise/"
   );
   const userName = page.locator("#username");
@@ -107,11 +106,9 @@ test("@Web TC: Verify UI controls", async ({ page }) => {
 test("@Web TC: Child windows handling", async ({ browser }) => {
   const context = await browser.newContext();
   const page = await context.newPage();
-  const mainPage = await page.goto(
+  await page.goto(
     "https://rahulshettyacademy.com/loginpagePractise/"
   );
-  const userName = page.locator("#username");
-
   const pageURL = page.url();
   console.log("Page URL is:", pageURL);
   await expect(page).toHaveURL(/.*loginpagePractise/);

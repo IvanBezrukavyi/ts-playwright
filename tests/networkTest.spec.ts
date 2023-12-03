@@ -14,7 +14,7 @@ interface OrderPayload {
 }
 
 interface FakePayloadOrders {
-  data: any[];
+  data: unknown[];
   message: string;
 }
 
@@ -60,7 +60,7 @@ test("TC: Verify absence of order via intercepted request", async ({ page }) => 
       "https://rahulshettyacademy.com/api/ecom/order/get-orders-for-customer/*",
       async (route) => {
         const response = await page.request.fetch(route.request());
-        let body = JSON.stringify(fakePayloadOrders);
+        const body = JSON.stringify(fakePayloadOrders);
 
         route.fulfill({
           response,
@@ -76,5 +76,5 @@ test("TC: Verify absence of order via intercepted request", async ({ page }) => 
   } catch (error) {
     console.error("Error during test:", error);
     throw error;
-  };
+  }
 });

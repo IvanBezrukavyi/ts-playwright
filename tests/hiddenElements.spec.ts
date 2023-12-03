@@ -1,14 +1,14 @@
 import { test, expect } from '@playwright/test';
 
 // eslint-disable-next-line playwright/expect-expect
-test("TC: Verify goBack and goForward methods", async ({ page }) => {
+test("@Web TC: Verify goBack and goForward methods", async ({ page }) => {
   await page.goto("https://rahulshettyacademy.com/AutomationPractice/");
   await page.goto("https://google.com");
   await page.goBack();
   await page.goForward();
 });
 
-test("TC: Verify hidden elements", async ({
+test("@Web TC: Verify hidden elements", async ({
   page,
 }) => {
   await page.goto("https://rahulshettyacademy.com/AutomationPractice/");
@@ -17,7 +17,7 @@ test("TC: Verify hidden elements", async ({
   await expect(page.getByPlaceholder("Hide/Show Example")).toBeHidden();
 });
 
-test("TC: Verify popup validation", async ({
+test("@Web TC: Verify popup validation", async ({
     page,
   }) => {
     await page.goto("https://rahulshettyacademy.com/AutomationPractice/");
@@ -30,7 +30,7 @@ test("TC: Verify popup validation", async ({
 
   });
 
-  test("TC: Verify hover and select needed item", async ({
+  test("@Web TC: Verify hover and select needed item", async ({
     page,
   }) => {
     await page.goto("https://rahulshettyacademy.com/AutomationPractice/");
@@ -40,7 +40,7 @@ test("TC: Verify popup validation", async ({
   });
 
 
-  test("TC: Verify work of screenshot and visual comparison", async ( {
+  test("@Web TC: Verify work of screenshot and visual comparison", async ( {
     page,
   }) => {
     await page.goto("https://rahulshettyacademy.com/AutomationPractice/");
@@ -53,7 +53,7 @@ test("TC: Verify popup validation", async ({
     await expect(page.getByPlaceholder("Hide/Show Example")).toBeHidden();
   });
 
-  test.skip("TC: Capture and compare screenshots", async ( {
+  test("TC: Capture and compare screenshots", async ( {
     page,
   }) => {
     await page.goto("https://rahulshettyacademy.com/AutomationPractice/");

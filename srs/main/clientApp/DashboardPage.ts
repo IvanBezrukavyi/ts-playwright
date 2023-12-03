@@ -1,20 +1,32 @@
 import { Locator, Page, expect } from "@playwright/test";
 
 class DashboardPage {
-  readonly page: Page;
-  readonly products: Locator;
-  readonly cardTitle: Locator;
-  readonly cartLink: Locator;
-  readonly orders: Locator;
-
+  private readonly page: Page;
+  private readonly products: Locator;
+  private readonly cardTitle: Locator;
+  private readonly cartLink: Locator;
+  private readonly orders: Locator;
+  private readonly dashboardLogo: Locator;
 
   constructor(page: Page) {
     this.page = page;
+    this.dashboardLogo = page.locator("div[class='left mt-1'] p");
     this.products = page.locator(".card-body");
     this.cardTitle = page.locator(".card-body b");
     this.cartLink = page.locator("[routerlink*=cart]");
     this.orders = page.locator("button[routerlink*='myorders']");
+  }
 
+  getDashboardLogo(): Locator {
+    return this.dashboardLogo;
+  }
+
+  async verifyLoggedIn() {
+    await expect(this.dashboardLogo).toBeAttached();
+  }
+
+  async isLoggedIn(): Promise <boolean> {
+    return this.dashboardLogo.isVisible()
   }
 
   async searchProductAddCart(productName: string) {
@@ -39,10 +51,9 @@ class DashboardPage {
     }
   }
 
-  async navigateToOrders()
-{
+  async navigateToOrders() {
     await this.orders.click();
-}
+  }
 
   async navigateToCart() {
     await this.cartLink.click();

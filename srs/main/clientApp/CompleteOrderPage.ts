@@ -23,7 +23,6 @@ class CompleteOrderPage {
     this.orderId = page.locator(".em-spacer-1 .ng-star-inserted");
   }
 
-  
   /**
    * Enters payment information including CVV code, card name, and country.
    * @param {string} cvv - CVV code.
@@ -45,17 +44,25 @@ class CompleteOrderPage {
       const countryButtons = await this.countryDropDown.locator("button").all(); // Use .all() to get an array of elements
       for (const button of countryButtons) {
         const text = await button.textContent();
-        console.log('Button text:', text); // Add this line for debugging
-        
+        console.log("Button text:", text);
+
         if (text.trim() === fullCountryName) {
-          console.log('Matching country found:', fullCountryName); // Add this line for debugging
+          console.log("Matching country found:", fullCountryName);
           await button.click();
           break;
         }
-      }      
+      }
     } catch (error) {
       console.error("Error while entering payment information:", error);
     }
+  }
+
+  async getCvvInputValue() {
+    return await this.cvv.inputValue();
+  }
+
+  async getCardNameInputValue() {
+    return await this.cardName.inputValue();
   }
 
   /**
@@ -68,16 +75,20 @@ class CompleteOrderPage {
 
   async SubmitAndGetOrderId() {
     try {
-      await this.placeOrderButton.waitFor({ state: 'visible' });
+      await this.placeOrderButton.waitFor({ state: "visible" });
       await this.placeOrderButton.click();
-      await expect(this.orderConfirmationText).toHaveText(" Thankyou for the order. ");
+      await expect(this.orderConfirmationText).toHaveText(
+        " Thankyou for the order. "
+      );
       return await this.orderId.textContent();
     } catch (error) {
-      console.error("Error while submitting order and getting order ID:", error);
+      console.error(
+        "Error while submitting order and getting order ID:",
+        error
+      );
       throw error; // Rethrow the error to handle it at a higher level if needed
     }
   }
-  
 }
 
 export default CompleteOrderPage;

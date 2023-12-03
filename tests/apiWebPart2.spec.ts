@@ -8,7 +8,7 @@ test.beforeAll(async ({ browser }) => {
     await page.locator("#userEmail").fill("nspprotest@gmail.com");
     await page.locator("#userPassword").type("Pl@ywright_test_m1");
     await page.locator("[value='Login']").click();
-    await page.waitForLoadState('networkidle');
+    await page.waitForLoadState("domcontentloaded");
     await context.storageState({ path: 'srs/auth/defaultStorageState.json' });
     webContext = await browser.newContext({ storageState: 'srs/auth/defaultStorageState.json' });
 })
@@ -76,7 +76,6 @@ test('E2E iphone ordering with separate auth approach', async () => {
 // eslint-disable-next-line playwright/expect-expect
 test('TC: Verify success login', async ({page}) => {
     await page.goto("/dashboard/dash");
-    const products = page.locator(".card-body");
     const titles = await page.locator(".card-body b").allTextContents();
     console.log(titles);
 

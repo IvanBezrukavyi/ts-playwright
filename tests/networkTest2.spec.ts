@@ -2,7 +2,7 @@ import { expect, test } from "@playwright/test";
 
 // eslint-disable-next-line playwright/expect-expect
 //FIXME: It passes locally but it fails in general run
-test.skip("TC: Verify order by unauthorized user. Security check", async ({ page }) => {
+test("TC: Verify order by unauthorized user. Security check", async ({ page }) => {
   //Add order
   await page.goto("https://rahulshettyacademy.com/client");
   await page.locator("#userEmail").waitFor({state: "visible"});
@@ -14,7 +14,6 @@ test.skip("TC: Verify order by unauthorized user. Security check", async ({ page
   await expect(login).toBeEnabled();
   console.log("ASSERT: login btn is enabled");
   await login.click();
-  const list = page.locator(".card-body b");
   await page.locator(".card-body b").first().waitFor();
  
   await page.locator("button[routerlink*='myorders']").click();
