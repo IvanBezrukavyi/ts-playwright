@@ -1,0 +1,6 @@
+zara coat 3
+LOG: Product list titles is:  [ 'zara coat 3', 'adidas original', 'iphone 13 pro' ]
+LOG: Checkout counter equals to 0
+Button text:  Ukraine
+Matching country found: Ukraine
+ | 656c60009fd99c85e8de7090 | 
