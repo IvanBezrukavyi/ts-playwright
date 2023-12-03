@@ -41,6 +41,9 @@
 
         // Prevent using the 'any' type. The 'any' type can make code difficult to understand and type-check.
         "@typescript-eslint/no-explicit-any": "error",
+        //Prevent the use of TypeScript-specific comments, such as // @ts-ignore or // @ts-expect-error. 
+        "@typescript-eslint/ban-ts-comment": 1, //warn
+      
         // Enforce `no-var-requires` rule to prefer `import` over `require` for importing Node.js modules
         "@typescript-eslint/no-var-requires": "error",
         // Enforce `no-array-constructor` rule to use array literal syntax for arrays
@@ -62,11 +65,12 @@
             "error",
             {"selector": "class", "format": ["PascalCase"]}
         ],
-        // Avoid using namespaces as they can introduce naming conflicts
+        // Avoid using namespaces as they can introduce naming conflicts. There is no needs for automation testing
         "@typescript-eslint/no-namespace": "error",
         // Prevent unused variables and improve code cleanliness
         "@typescript-eslint/no-unused-vars": "error",
         // Discourage using the `new Function()` or `new Object()` constructors
-        "no-new-wrappers": "error"
+        "no-new-wrappers": "error",
+        "no-useless-escape": "warn"
     }
 }

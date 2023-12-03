@@ -138,6 +138,15 @@ class TextBoxPage {
     }
   }
 
+  //Another approach
+  async removeContentViaShortcuts(inputLocator: Locator) {
+    await inputLocator.nth(0).focus();
+    await this.page.keyboard.press('Meta+A');
+    await this.page.keyboard.press('Backspace');
+
+
+  }
+
   async getRemovedInputContent(): Promise<{
     fullName: string,
     email: string,
