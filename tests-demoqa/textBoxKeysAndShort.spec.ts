@@ -2,6 +2,7 @@ import { test, expect } from "playwright/test";
 import { faker } from "@faker-js/faker/locale/en_US";
 import TextBoxPage from "../srs/main/demoApp/TextBoxPage";
 
+
 test.describe("@Demoqa Text Box Tests", () => {
   test("TC 2: E2E. Enter and remove data from input text fields and via keys and shortcuts and cycle", async ({
     page,

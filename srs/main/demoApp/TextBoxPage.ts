@@ -153,10 +153,10 @@ class TextBoxPage {
     currentAddress: string,
     permanentAddress: string
   }> {
-    const fullNameContent = (await this.fullName.textContent()) || '';
-    const emailContent = (await this.email.textContent()) || '';
-    const currentAddressContent = (await this.currentAddress.textContent()) || '';
-    const permanentAddressContent = (await this.permanentAddress.textContent()) || '';
+    const fullNameContent = (await this.fullName.nth(0).textContent()) || '';
+    const emailContent = (await this.email.nth(0).textContent()) || '';
+    const currentAddressContent = (await this.currentAddress.nth(0).textContent()) || '';
+    const permanentAddressContent = (await this.permanentAddress.nth(0).textContent()) || '';
   
     return {
       fullName: fullNameContent,
@@ -165,7 +165,5 @@ class TextBoxPage {
       permanentAddress: permanentAddressContent
     };
   }
-  
-  
 }
 export default TextBoxPage;

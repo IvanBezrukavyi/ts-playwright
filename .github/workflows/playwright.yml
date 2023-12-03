@@ -1,8 +1,5 @@
 name: Running Playwright Tests
 
-env:
-  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
-
 on:
   push:
     branches: [main, master]
@@ -18,7 +15,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Cache Node Modules
         uses: actions/cache@v3
