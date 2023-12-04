@@ -21,7 +21,6 @@ export default defineConfig({
   retries: process.env.CI ? 3 : 0,
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
-  /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [
             ['html'],
             ['allure-playwright']
@@ -39,8 +38,12 @@ export default defineConfig({
       use: {
         headless: true
       },
-      testMatch: 'auth.setupNew.spec.ts'
-
+      testMatch: 'auth.setupNew.spec.ts',
+      teardown: 'teardown'
+    },
+    {
+      name: 'teardown',
+      testMatch: 'auth.tearDown.spec.ts',
     },
     {
       name: 'client app',
@@ -48,7 +51,6 @@ export default defineConfig({
       use: {
         ...devices['Desktop Chrome'],
         channel: 'chrome',
-        /* Base URL to use in actions like `await page.goto('/')`. */
         baseURL: 'https://rahulshettyacademy.com',
         storageState: 'srs/auth/defaultStorageState.json',
         screenshot: 'only-on-failure',
