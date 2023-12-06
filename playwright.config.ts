@@ -1,14 +1,11 @@
 import { defineConfig, devices } from '@playwright/test';
+import dotenv from 'dotenv';
 
-/**
- * Read environment variables from file.
- * https://github.com/motdotla/dotenv
- */
-// require('dotenv').config();
+dotenv.config();
+//console.log(process.env); // it needs for debugging
 
-/**
- * See https://playwright.dev/docs/test-configuration.
- */
+const authFile = process.env.AUTH_FILE || "./srs/auth/defaultStorageState.json";
+
 export default defineConfig({
   testDir: './tests',
   /* Add timeout in milliseconds */
@@ -30,8 +27,6 @@ export default defineConfig({
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'retain-on-failure',
   },
-
-  /* Configure projects for major browsers */
   projects: [
     {
       name: 'setup',
@@ -52,7 +47,7 @@ export default defineConfig({
         ...devices['Desktop Chrome'],
         channel: 'chrome',
         baseURL: 'https://rahulshettyacademy.com',
-        storageState: 'srs/auth/defaultStorageState.json',
+        storageState: authFile,
         screenshot: 'only-on-failure',
         video: 'retain-on-failure'
      },
