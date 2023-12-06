@@ -1,32 +1,30 @@
 import { test, expect } from "playwright/test";
-import { faker } from "@faker-js/faker/locale/en_US";
 import TextBoxPage from "../srs/main/demoApp/TextBoxPage";
+import { UserDataGeneration } from "../Utils/UserDataGeneration";
+
+interface UserData {
+  fullName: string;
+  email: string;
+  currentAddress: string;
+  permanentAddress: string;
+}
+
+function getUserData(userData: UserData): Pick<UserData, "fullName" | "email" | "currentAddress" | "permanentAddress"> {
+  return {
+    fullName: userData.fullName,
+    email: userData.email,
+    currentAddress: userData.currentAddress,
+    permanentAddress: userData.permanentAddress,
+  };
+}
 
 test.describe("@Demoqa Text Box Tests", () => {
   let textBox: TextBoxPage;
-  let fullName: string;
-  let email: string;
-  let streetAddress: string;
-  let city: string;
-  let state: string;
-  let zipCode: string;
-  let currentAddress: string;
-  let permanentAddress: string;
+  let userTestData: UserData;
 
   test.beforeEach(async ({ page }) => {
     textBox = new TextBoxPage(page);
-
-    fullName = faker.person.fullName();
-    email = faker.internet.email({ provider: "demoqa.com" });
-
-    streetAddress = faker.location.streetAddress();
-    city = faker.location.city();
-    state = faker.location.state();
-    zipCode = faker.location.zipCode();
-
-    currentAddress = `${streetAddress}, ${city}, ${state}, ${zipCode}`;
-    streetAddress = "456 Elm St";
-    permanentAddress = `${streetAddress}, ${city}, ${state}, ${zipCode}`;
+    userTestData = UserDataGeneration.generateUserData();
 
     await textBox.goTo();
     await textBox.selectElementsMenu();
@@ -34,18 +32,31 @@ test.describe("@Demoqa Text Box Tests", () => {
   });
 
   test("TC 2: E2E. Enter and remove data from input text fields and via keys and shortcuts and cycle", async () => {
+    const userData = getUserData(userTestData);
+
     await test.step("Step 1. Fill inputs by valid data", async () => {
       await textBox.fillInputsByShortcuts(
-        fullName,
-        email,
-        currentAddress,
-        permanentAddress
+        userData.fullName,
+        userData.email,
+        userData.currentAddress,
+        userData.permanentAddress
       );
 
-      await expect(textBox.fullName, "Expected the entered full name").toHaveValue(fullName);
-      await expect(textBox.email, "Expected the entered email").toHaveValue(email);
-      await expect(textBox.currentAddress, "Expected the entered current address").toHaveValue(currentAddress);
-      await expect(textBox.permanentAddress, "Expected the entered permanent address").toHaveValue(permanentAddress);
+      await expect(
+        textBox.fullName,
+        "Expected the entered full name"
+      ).toHaveValue(userData.fullName);
+      await expect(textBox.email, "Expected the entered email").toHaveValue(
+        userData.email
+      );
+      await expect(
+        textBox.currentAddress,
+        "Expected the entered current address"
+      ).toHaveValue(userData.currentAddress);
+      await expect(
+        textBox.permanentAddress,
+        "Expected the entered permanent address"
+      ).toHaveValue(userData.permanentAddress);
     });
 
     await test.step("Step 2. Click Submit button and Verify submitted data", async () => {
@@ -53,10 +64,22 @@ test.describe("@Demoqa Text Box Tests", () => {
 
       const submittedData = await textBox.getSubmittedData();
 
-      await expect(submittedData.expFullName, "Expected the submitted full name").toContain(fullName);
-      await expect(submittedData.expEmail, "Expected the submitted email").toContain(email);
-      await expect(submittedData.expCurrentAddress, "Expected the submitted current address").toContain(currentAddress);
-      await expect(submittedData.expPermanentAddress, "Expected the submitted permanent address").toContain(permanentAddress);
+      await expect(
+        submittedData.expFullName,
+        "Expected the submitted full name"
+      ).toContain(userData.fullName);
+      await expect(
+        submittedData.expEmail,
+        "Expected the submitted email"
+      ).toContain(userData.email);
+      await expect(
+        submittedData.expCurrentAddress,
+        "Expected the submitted current address"
+      ).toContain(userData.currentAddress);
+      await expect(
+        submittedData.expPermanentAddress,
+        "Expected the submitted permanent address"
+      ).toContain(userData.permanentAddress);
     });
 
     await test.step("Step 3. Remove data from Full Name input", async () => {
@@ -69,26 +92,51 @@ test.describe("@Demoqa Text Box Tests", () => {
     await test.step("Step 4. Click Submit button and Verify absence data after removing it", async () => {
       await textBox.submitTextBoxFormByEnter();
       const removedInputContent = await textBox.getRemovedInputContent();
-      expect(removedInputContent.fullName, 'Expected empty Full Name input field').toBe('');
-      expect(removedInputContent.email, 'Expected empty Email input field').toBe('');
-      expect(removedInputContent.currentAddress, 'Expected empty Current Address input field').toBe('');
-      expect(removedInputContent.permanentAddress, 'Expected empty Permanent Address input field').toBe('');
+      expect(
+        removedInputContent.fullName,
+        "Expected empty Full Name input field"
+      ).toBe("");
+      expect(
+        removedInputContent.email,
+        "Expected empty Email input field"
+      ).toBe("");
+      expect(
+        removedInputContent.currentAddress,
+        "Expected empty Current Address input field"
+      ).toBe("");
+      expect(
+        removedInputContent.permanentAddress,
+        "Expected empty Permanent Address input field"
+      ).toBe("");
     });
   });
 
   test("TC 3: E2E. Enter and remove data from input text fields and via keys and shortcuts", async () => {
+    const userData = getUserData(userTestData);
+
     await test.step("Step 1. Fill inputs by valid data", async () => {
       await textBox.fillInputsByShortcuts(
-        fullName,
-        email,
-        currentAddress,
-        permanentAddress
+        userData.fullName,
+        userData.email,
+        userData.currentAddress,
+        userData.permanentAddress
       );
 
-      await expect(textBox.fullName, "Expected the entered full name").toHaveValue(fullName);
-      await expect(textBox.email, "Expected the entered email").toHaveValue(email);
-      await expect(textBox.currentAddress, "Expected the entered current address").toHaveValue(currentAddress);
-      await expect(textBox.permanentAddress, "Expected the entered permanent address").toHaveValue(permanentAddress);
+      await expect(
+        textBox.fullName,
+        "Expected the entered full name"
+      ).toHaveValue(userData.fullName);
+      await expect(textBox.email, "Expected the entered email").toHaveValue(
+        userData.email
+      );
+      await expect(
+        textBox.currentAddress,
+        "Expected the entered current address"
+      ).toHaveValue(userData.currentAddress);
+      await expect(
+        textBox.permanentAddress,
+        "Expected the entered permanent address"
+      ).toHaveValue(userData.permanentAddress);
     });
 
     await test.step("Step 2. Click Submit button", async () => {
@@ -96,10 +144,22 @@ test.describe("@Demoqa Text Box Tests", () => {
 
       const submittedData = await textBox.getSubmittedData();
 
-      await expect(submittedData.expFullName, "Expected the submitted full name").toContain(fullName);
-      await expect(submittedData.expEmail, "Expected the submitted email").toContain(email);
-      await expect(submittedData.expCurrentAddress, "Expected the submitted current address").toContain(currentAddress);
-      await expect(submittedData.expPermanentAddress, "Expected the submitted permanent address").toContain(permanentAddress);
+      await expect(
+        submittedData.expFullName,
+        "Expected the submitted full name"
+      ).toContain(userData.fullName);
+      await expect(
+        submittedData.expEmail,
+        "Expected the submitted email"
+      ).toContain(userData.email);
+      await expect(
+        submittedData.expCurrentAddress,
+        "Expected the submitted current address"
+      ).toContain(userData.currentAddress);
+      await expect(
+        submittedData.expPermanentAddress,
+        "Expected the submitted permanent address"
+      ).toContain(userData.permanentAddress);
     });
 
     await test.step("Step 3. Select all data in row and remove it", async () => {
@@ -112,10 +172,22 @@ test.describe("@Demoqa Text Box Tests", () => {
     await test.step("Step 4. Click Submit button and Verify absence data after removing it", async () => {
       await textBox.submitTextBoxFormByEnter();
       const removedInputContent = await textBox.getRemovedInputContent();
-      expect(removedInputContent.fullName, 'Expected empty Full Name input field').toBe('');
-      expect(removedInputContent.email, 'Expected empty Email input field').toBe('');
-      expect(removedInputContent.currentAddress, 'Expected empty Current Address input field').toBe('');
-      expect(removedInputContent.permanentAddress, 'Expected empty Permanent Address input field').toBe('');
+      expect(
+        removedInputContent.fullName,
+        "Expected empty Full Name input field"
+      ).toBe("");
+      expect(
+        removedInputContent.email,
+        "Expected empty Email input field"
+      ).toBe("");
+      expect(
+        removedInputContent.currentAddress,
+        "Expected empty Current Address input field"
+      ).toBe("");
+      expect(
+        removedInputContent.permanentAddress,
+        "Expected empty Permanent Address input field"
+      ).toBe("");
     });
   });
 });
