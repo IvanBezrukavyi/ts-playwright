@@ -1,24 +1,16 @@
 import { test, expect } from "playwright/test";
-import { faker } from "@faker-js/faker/locale/en_US";
 import TextBoxPage from "../srs/main/demoApp/TextBoxPage";
+import { UserDataGeneration } from "../Utils/UserDataGeneration";
 
 test.describe("@Demoqa Text Box Tests", () => {
   test("TC 1: Fill out input text fields by data from faker lib", async ({
     page,
   }) => {
-    const textBox = new TextBoxPage(page);
-
-    const fullName = faker.person.fullName();
-    const email = faker.internet.email({provider: 'demoqa.com'});
-
-    let streetAddress = faker.location.streetAddress();
-    const city = faker.location.city();
-    const state = faker.location.state();
-    const zipCode = faker.location.zipCode();
     
-    const currentAddress = `${streetAddress}, ${city}, ${state}, ${zipCode}`;
-    streetAddress = '456 Elm St';
-    const permanentAddress = `${streetAddress}, ${city}, ${state}, ${zipCode}`;
+    const textBox = new TextBoxPage(page);
+    const userTestData = UserDataGeneration.generateUserData();
+    const { fullName, email, currentAddress, permanentAddress } = userTestData;
+
     await test.step('Step 1. Navigate to application', async() => {
       await textBox.goTo();
     });
