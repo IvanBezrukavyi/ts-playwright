@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { expect, test } from '@playwright/test'
 import POManager from '../srs/main/clientApp/POManager'
 import * as fs from 'fs'
