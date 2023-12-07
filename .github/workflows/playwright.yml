@@ -12,6 +12,12 @@ on:
 jobs:
   build_and_run_tests:
     runs-on: ubuntu-latest
+    env:
+      AUTH_LOGIN_END_POINT: ${{ secrets.AUTH_LOGIN_END_POINT }}
+      AUTH_FILE: ${{ secrets.AUTH_FILE }}
+      CLIENT_APP_URL: ${{ secrets.CLIENT_APP_URL }}
+      USER_EMAIL: ${{ secrets.USER_EMAIL }}
+      USER_PASSWORD: ${{ secrets.USER_PASSWORD }}
 
     steps:
       - name: Checkout code
