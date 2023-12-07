@@ -1,7 +1,7 @@
 import { test  } from '@playwright/test';
 import {deleteAsync} from 'del';
 
-const authFile = "./srs/auth/defaultStorageState.json";
+const authFile = process.env.AUTH_FILE || "./srs/auth/defaultStorageState.json";
 
 test.describe('Teardown', () => {
   // eslint-disable-next-line playwright/expect-expect

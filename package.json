@@ -24,7 +24,9 @@
     "lint-fix": "eslint ./tests/*.spec.ts"
   },
   "dependencies": {
-    "del": "^7.1.0"
+    "del": "^7.1.0",
+    "dotenv": "^16.3.1",
+    "playwright": "^1.40.1"
   },
   "type": "module"
 }
