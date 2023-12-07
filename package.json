@@ -1,32 +1,41 @@
 {
-  "author": "Ivan Bezrukavyi",
-  "description": "my learning path in playwright",
-  "devDependencies": {
-    "@faker-js/faker": "^8.3.1",
-    "@playwright/test": "^1.40.1",
-    "@types/del": "^4.0.0",
-    "@types/node": "^20.9.4",
-    "@typescript-eslint/eslint-plugin": "^6.13.1",
-    "@typescript-eslint/parser": "^6.13.1",
-    "allure-playwright": "^2.9.2",
-    "eslint": "^8.54.0",
-    "eslint-plugin-playwright": "^0.19.0",
-    "prettier": "^3.1.0",
-    "typescript": "^5.3.2"
-  },
-  "scripts": {
-    "regression": "npx playwright test",
-    "webTests": "npx playwright test --grep @Web",
-    "allureReport": "npx playwright test --grep @Web --reporter=line,allure-playwright",
-    "client": "npx playwright test -g ClientAppWithExternalDataAndParametriazation.spec.ts",
-    "demoqa": "npx playwright test --grep @Demoqa",
-    "lint": "eslint ./tests/*.spec.ts",
-    "lint-fix": "eslint ./tests/*.spec.ts"
-  },
-  "dependencies": {
-    "del": "^7.1.0",
-    "dotenv": "^16.3.1",
-    "playwright": "^1.40.1"
-  },
-  "type": "module"
+    "author": "Ivan Bezrukavyi",
+    "description": "my learning path in playwright",
+    "devDependencies": {
+        "@faker-js/faker": "^8.3.1",
+        "@playwright/test": "^1.40.1",
+        "@types/del": "^4.0.0",
+        "@types/node": "^20.9.4",
+        "@types/prettier": "^3.0.0",
+        "@typescript-eslint/eslint-plugin": "^6.13.2",
+        "@typescript-eslint/parser": "^6.13.2",
+        "allure-playwright": "^2.9.2",
+        "eslint": "^8.54.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-playwright": "^0.19.0",
+        "eslint-plugin-prettier": "^5.0.1",
+        "husky": "^8.0.3",
+        "lint-staged": "^15.2.0",
+        "prettier": "^3.1.0",
+        "typescript": "^5.3.2"
+    },
+    "scripts": {
+        "regression": "npx playwright test",
+        "webTests": "npx playwright test --grep @Web",
+        "allureReport": "npx playwright test --grep @Web --reporter=line,allure-playwright",
+        "client": "npx playwright test -g ClientAppWithExternalDataAndParametriazation.spec.ts",
+        "demoqa": "npx playwright test --grep @Demoqa",
+        "lint": "eslint ./tests/*.spec.ts",
+        "lint-fix": "eslint ./tests/*.spec.ts",
+        "prepare": "husky install"
+    },
+    "dependencies": {
+        "del": "^7.1.0",
+        "dotenv": "^16.3.1",
+        "playwright": "^1.40.1"
+    },
+    "type": "module",
+    "lint-staged": {
+        "**/*": "prettier --write --ignore-unknown"
+    }
 }
