@@ -1,20 +1,21 @@
 import { expect, test as setup } from "@playwright/test";
 
-const authFile = process.env.AUTH_FILE || './srs/auth/defaultStorageState.json';
-const userEmail = "nspprotest@gmail.com";
-const userPassword = "Pl@ywright_test_m1";
+const authLoginEndPoint =
+  process.env.AUTH_LOGIN_END_POINT ||
+  "https://rahulshettyacademy.com/api/ecom/auth/login";
+const authFile = process.env.AUTH_FILE || "./srs/auth/defaultStorageState.json";
+const clientAppUrl =
+  process.env.CLIENT_APP_URL || "https://rahulshettyacademy.com";
+const userEmail = process.env.USER_EMAIL || "nspprotest@gmail.com";
+const userPassword = process.env.USER_PASSWORD || "Pl@ywright_test_m1";
 
 setup("default authentication for client app", async ({ context, request }) => {
-
-  const loginResponse = await request.post(
-    "https://rahulshettyacademy.com/api/ecom/auth/login",
-    {
-      data: {
-        userEmail: userEmail,
-        userPassword: userPassword,
-      },
-    }
-  );
+  const loginResponse = await request.post(authLoginEndPoint, {
+    data: {
+      userEmail: userEmail,
+      userPassword: userPassword,
+    },
+  });
 
   if (!loginResponse.ok) {
     throw new Error(`Login failed with status code: ${loginResponse.status}`);
@@ -28,7 +29,7 @@ setup("default authentication for client app", async ({ context, request }) => {
     {
       name: "JWToken",
       value: token,
-      url: "https://rahulshettyacademy.com",
+      url: clientAppUrl,
     },
   ]);
 
