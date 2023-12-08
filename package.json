@@ -23,7 +23,7 @@
         "regression": "npx playwright test",
         "webTests": "npx playwright test --grep @Web",
         "allureReport": "npx playwright test --grep @Web --reporter=line,allure-playwright",
-        "client": "npx playwright test -g ClientAppWithExternalDataAndParametriazation.spec.ts",
+        "client": "npx playwright test -g clientAppWithExternalDataAndParametriazation.spec.ts",
         "demoqa": "npx playwright test --grep @Demoqa",
         "lint": "eslint ./tests/*.spec.ts",
         "lint-fix": "eslint ./tests/*.spec.ts",
