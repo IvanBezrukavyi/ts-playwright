@@ -1,6 +1,6 @@
 import { test, expect } from 'playwright/test'
-import TextBoxPage from '../srs/main/demoApp/TextBoxPage'
-import { UserDataGeneration } from '../Utils/UserDataGeneration'
+import TextBoxPage from '../srs/main/demoApp/textBoxPage'
+import { UserDataGeneration } from '../Utils/userDataGeneration'
 
 test.describe('@Demoqa Text Box Tests', () => {
     test('TC 1: Fill out input text fields by data from faker lib', async ({ page }) => {

@@ -1,5 +1,5 @@
 import { expect, test } from '@playwright/test'
-import POManager from '../srs/main/clientApp/POManager'
+import POManager from '../srs/main/clientApp/poManager'
 
 test('TC: Verify success login to client app', async ({ page }) => {
     const userName = 'nspprotest@gmail.com'

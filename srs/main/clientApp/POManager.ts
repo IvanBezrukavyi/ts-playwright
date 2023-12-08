@@ -1,9 +1,9 @@
 import { Page } from '@playwright/test'
-import LoginPage from './LoginPage'
-import DashboardPage from './DashboardPage'
-import CartPage from './CartPage'
-import CompleteOrderPage from './CompleteOrderPage'
-import OrderHistoryPage from './OrderHistoryPage'
+import LoginPage from './loginPage'
+import DashboardPage from './dashboardPage'
+import CartPage from './cartPage'
+import CompleteOrderPage from './completeOrderPage'
+import OrderHistoryPage from './orderHistoryPage'
 
 class POManager {
     private readonly page: Page
