@@ -11,3 +11,5 @@ srs/resources/screenshots/*.png
 tests/hiddenElements.spec.ts-snapshots/*.png
 .env
 venv
+logs/.*.json
+logs/*.log
