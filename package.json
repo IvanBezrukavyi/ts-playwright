@@ -32,7 +32,9 @@
     "dependencies": {
         "del": "^7.1.0",
         "dotenv": "^16.3.1",
-        "playwright": "^1.40.1"
+        "playwright": "^1.40.1",
+        "winston": "^3.11.0",
+        "winston-daily-rotate-file": "^4.7.1"
     },
     "type": "module",
     "lint-staged": {

@@ -1,5 +1,6 @@
 import { test } from '@playwright/test'
 import { deleteAsync } from 'del'
+import { logger } from '../srs/logger/winston.config'
 
 const authFile = process.env.AUTH_FILE || './srs/auth/defaultStorageState.json'
 
@@ -8,9 +9,9 @@ test.describe('Teardown', () => {
     test('Remove ${authFile} after running client app tests', async ({}) => {
         try {
             await deleteAsync([authFile])
-            console.log(`Deleted ${authFile} successfully`)
+            logger.info(`Deleted ${authFile} successfully`)
         } catch (error) {
-            console.log(`Error deleting ${authFile}:${error.message}`)
+            logger.info(`Error deleting ${authFile}:${error.message}`)
         }
     })
 })
