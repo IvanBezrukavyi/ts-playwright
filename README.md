@@ -26,6 +26,7 @@ My learning page is based on this [course](https://softserve.udemy.com/course/pl
 8. Mintlify Doc Writer
 9. Prettier - Code formatter
 10. YAML Language Support
+11. SonarLint
 
 ### 3. Playwright CLI commands
 

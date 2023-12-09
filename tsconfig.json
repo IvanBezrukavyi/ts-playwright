@@ -1,0 +1,8 @@
+{
+    "sonarlint.analyzerProperties": {
+        "sonar.typescript.compilerOptions": {
+            "noImplicitAny": true,
+            "strictNullChecks": true
+        }
+    }
+}

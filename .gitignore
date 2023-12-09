@@ -13,3 +13,5 @@ tests/hiddenElements.spec.ts-snapshots/*.png
 venv
 logs/.*.json
 logs/*.log
+.VSCodeCounter/*/*
+
