@@ -1,22 +1,20 @@
 [
     {
-    "userName": "nspprotest@gmail.com",
-    "userPass": "Pl@ywright_test_m1",
-    "productName": "iphone 13 pro",
-    "cvv": "186",
-    "cardName": "My test Visa Card",
-    "shortCountry": "Ukr",
-    "fullCountryName": "Ukraine"
-},
-{
-    "userName" : "anshika@gmail.com",
-    "userPass" : "Iamking@000",
-    "productName":"zara coat 3",
-    "cvv": "187",
-    "cardName": "My test Visa Card2",
-    "shortCountry": "Ind",
-    "fullCountryName": "India"
-}
-
-
+        "userName": "nspprotest@gmail.com",
+        "userPass": "Pl@ywright_test_m1",
+        "productName": "iphone 13 pro",
+        "cvv": "186",
+        "cardName": "My test Visa Card",
+        "shortCountry": "Ukr",
+        "fullCountryName": "Ukraine"
+    },
+    {
+        "userName": "anshika@gmail.com",
+        "userPass": "Iamking@000",
+        "productName": "zara coat 3",
+        "cvv": "187",
+        "cardName": "My test Visa Card2",
+        "shortCountry": "Ind",
+        "fullCountryName": "India"
+    }
 ]

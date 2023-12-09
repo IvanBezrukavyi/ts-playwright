@@ -1,0 +1,7 @@
+/node_modules/
+/allure-*
+/playwright-report
+/dist/
+build/
+*.min.js
+.github/workflows/

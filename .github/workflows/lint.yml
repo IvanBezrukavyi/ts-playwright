@@ -11,9 +11,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '>=21.1.0'
-      - name: Install ESLint dependencies
+      - name: Install ESLint and Prettier dependencies
         run: |
-          npm install @eslint/eslintrc
-          npm install @faker-js/faker        
-      - name: Run ESLint
-        run: npm run lint
+          npm install @eslint/eslintrc @faker-js/faker --save-dev
+          npm install --save-dev prettier
+      - name: Run ESLint and Prettier
+        run: npm run lint && npx prettier . --check
