@@ -18,15 +18,16 @@ jobs:
       CLIENT_APP_URL: ${{ secrets.CLIENT_APP_URL }}
       USER_EMAIL: ${{ secrets.USER_EMAIL }}
       USER_PASSWORD: ${{ secrets.USER_PASSWORD }}
-      node-version: '20'  
+      node-version: '18'  
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+
       - name: Use Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '20'
+          node-version: '18'
 
       - name: Cache Node Modules
         uses: actions/cache@v3
