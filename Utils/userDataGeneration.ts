@@ -1,5 +1,14 @@
 import { faker } from '@faker-js/faker/locale/en_US'
 
+export interface UserData {
+    fullName: string
+    email: string
+    currentAddress: string
+    permanentAddress: string
+    fields: string[]
+    values: string[]
+}
+
 export class UserDataGeneration {
     static generateUserData() {
         const fullName = faker.person.fullName()
@@ -12,11 +21,15 @@ export class UserDataGeneration {
         const currentAddress = `${streetAddress}, ${city}, ${state}, ${zipCode}`
         const permanentAddress = `456 Elm St, ${city}, ${state}, ${zipCode}`
 
-        return {
+        const userData = {
             fullName,
             email,
             currentAddress,
-            permanentAddress
+            permanentAddress,
+            fields: ['fullName', 'email', 'currentAddress', 'permanentAddress'],
+            values: [fullName, email, currentAddress, permanentAddress]
         }
+
+        return userData as UserData & { values: string[] }
     }
 }
