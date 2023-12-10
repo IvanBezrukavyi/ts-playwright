@@ -5,8 +5,6 @@ export interface UserData {
     email: string
     currentAddress: string
     permanentAddress: string
-    fields: string[]
-    values: string[]
 }
 
 export class UserDataGeneration {
@@ -25,11 +23,9 @@ export class UserDataGeneration {
             fullName,
             email,
             currentAddress,
-            permanentAddress,
-            fields: ['fullName', 'email', 'currentAddress', 'permanentAddress'],
-            values: [fullName, email, currentAddress, permanentAddress]
+            permanentAddress
         }
 
-        return userData as UserData & { values: string[] }
+        return userData
     }
 }
