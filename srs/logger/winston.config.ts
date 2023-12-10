@@ -1,5 +1,5 @@
-import winston = require('winston')
-import DailyRotateFile = require('winston-daily-rotate-file')
+import winston from 'winston'
+import DailyRotateFile from 'winston-daily-rotate-file'
 
 export const levels = {
     error: 0,
