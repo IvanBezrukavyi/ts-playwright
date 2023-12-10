@@ -1,7 +1,9 @@
 {
     "compilerOptions": {
-        "target": "es2017",
-        "module": "commonjs"
+        "target": "ES2021",
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "strictNullChecks": true
     },
     "sonarlint.analyzerProperties": {
         "sonar.typescript.compilerOptions": {

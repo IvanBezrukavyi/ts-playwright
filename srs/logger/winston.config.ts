@@ -1,11 +1,23 @@
 import winston from 'winston'
 import DailyRotateFile from 'winston-daily-rotate-file'
 
-export const levels = {
+interface Level {
+    error: number
+    warn: number
+    info: number
+    debug: number
+}
+
+export const levels: Level = {
     error: 0,
     warn: 1,
     info: 2,
     debug: 3
+}
+
+const formatMessage = (info) => {
+    const { timestamp, level, message } = info
+    return `${timestamp} - ${level}: ${message}`
 }
 
 export const logger = winston.createLogger({
@@ -22,10 +34,7 @@ export const logger = winston.createLogger({
                     }
                 }),
                 winston.format.timestamp({ format: 'YYYY-MM-DD HH:mm:ss' }),
-                winston.format.printf((error) => `${error.timestamp} - ${error.level}: ${error.message}`),
-                winston.format.printf((warn) => `${warn.timestamp} - ${warn.level}: ${warn.message}`),
-                winston.format.printf((info) => `${info.timestamp} - ${info.level}: ${info.message}`),
-                winston.format.printf((debug) => `${debug.timestamp} - ${debug.level}: ${debug.message}`)
+                winston.format.printf(formatMessage)
             )
         }),
         new DailyRotateFile({
