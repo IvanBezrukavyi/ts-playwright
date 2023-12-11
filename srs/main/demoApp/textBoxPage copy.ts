@@ -1,5 +1,4 @@
 import { Locator, Page } from 'playwright'
-
 import { firefox } from 'playwright'
 
 interface PageLocators {
@@ -26,7 +25,7 @@ class PageActions {
     readonly locators: PageLocators
     constructor(page: Page, locators: PageLocators) {
         this.page = page
-        this.locators = locators
+        this.locators = setupPageLocators(page)
     }
 
     async goTo(): Promise<void> {
@@ -116,7 +115,7 @@ class KeyboardShortcuts {
     readonly page: Page
     constructor(page: Page, locators: PageLocators) {
         this.page = page
-        this.locators = locators
+        this.locators = setupPageLocators(page)
     }
 
     async fillInputsByValues(
@@ -231,11 +230,11 @@ class KeyboardShortcuts {
     }
 }
 
-async function main() {
+async function mainPageObjects() {
     const browser = await firefox.launch()
     const page = await browser.newPage()
 
-    const pageLocators = await setupPageObjects(page)
+    const pageLocators = await setupPageLocators(page)
 
     const pageActions = new PageActions(page, pageLocators)
     const keyboardShortcuts = new KeyboardShortcuts(page, pageLocators)
@@ -243,7 +242,7 @@ async function main() {
     //await browser.close()
 }
 
-function setupPageObjects(page: Page): PageLocators {
+function setupPageLocators(page: Page): PageLocators {
     const pageLocators: PageLocators = {
         page: page,
         elementsMenu: page.locator("h5:has-text('Elements')"),
@@ -266,4 +265,4 @@ function setupPageObjects(page: Page): PageLocators {
     return pageLocators
 }
 
-export { PageActions, KeyboardShortcuts, PageLocators, main }
+export { PageActions, KeyboardShortcuts, PageLocators, mainPageObjects }
