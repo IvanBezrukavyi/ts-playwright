@@ -1,4 +1,5 @@
 import { Locator, Page } from 'playwright'
+
 import { firefox } from 'playwright'
 
 interface PageLocators {
@@ -23,17 +24,19 @@ interface PageLocators {
 class PageActions {
     readonly page: Page
     readonly locators: PageLocators
-
     constructor(page: Page, locators: PageLocators) {
         this.page = page
         this.locators = locators
     }
 
     async goTo(): Promise<void> {
-        await this.locators.page.goto('')
+        await this.page.goto('')
     }
 
     async selectElementsMenu(): Promise<void> {
+        if (!this.locators.elementsMenu) {
+            throw new Error('elementsMenu locator is not initialized')
+        }
         await this.locators.elementsMenu.click()
     }
 
@@ -72,7 +75,6 @@ class PageActions {
         const expEmail = await this.locators.inputs.email.textContent()
         const expCurrentAddress = await this.locators.inputs.currentAddress.textContent()
         const expPermanentAddress = await this.locators.inputs.permanentAddress.textContent()
-
         return { expFullName, expEmail, expCurrentAddress, expPermanentAddress }
     }
 
@@ -100,7 +102,6 @@ class PageActions {
         const emailContent = (await this.locators.inputs.email.nth(0).textContent()) || ''
         const currentAddressContent = (await this.locators.inputs.currentAddress.nth(0).textContent()) || ''
         const permanentAddressContent = (await this.locators.inputs.permanentAddress.nth(0).textContent()) || ''
-
         return {
             fullName: fullNameContent,
             email: emailContent,
@@ -113,7 +114,6 @@ class PageActions {
 class KeyboardShortcuts {
     readonly locators: PageLocators
     readonly page: Page
-
     constructor(page: Page, locators: PageLocators) {
         this.page = page
         this.locators = locators
@@ -138,7 +138,6 @@ class KeyboardShortcuts {
         permanentAddress: string
     ): Promise<void> {
         await this.fillInputsByValues(fullName, email, currentAddress, permanentAddress)
-
         const inputLocators = [
             this.locators.inputs.fullName,
             this.locators.inputs.email,
@@ -162,7 +161,6 @@ class KeyboardShortcuts {
         const expEmail = await this.locators.inputs.email.textContent()
         const expCurrentAddress = await this.locators.inputs.currentAddress.textContent()
         const expPermanentAddress = await this.locators.inputs.permanentAddress.textContent()
-
         return { expFullName, expEmail, expCurrentAddress, expPermanentAddress }
     }
 
@@ -182,7 +180,6 @@ class KeyboardShortcuts {
         const expEmail = await this.locators.submittedData.expEmail.textContent()
         const expCurrentAddress = await this.locators.submittedData.expCurrentAddress.textContent()
         const expPermanentAddress = await this.locators.submittedData.expPermanentAddress.textContent()
-
         return { expFullName, expEmail, expCurrentAddress, expPermanentAddress }
     }
 
@@ -225,7 +222,6 @@ class KeyboardShortcuts {
         const emailContent = (await this.locators.inputs.email.nth(0).textContent()) || ''
         const currentAddressContent = (await this.locators.inputs.currentAddress.nth(0).textContent()) || ''
         const permanentAddressContent = (await this.locators.inputs.permanentAddress.nth(0).textContent()) || ''
-
         return {
             fullName: fullNameContent,
             email: emailContent,
@@ -235,26 +231,39 @@ class KeyboardShortcuts {
     }
 }
 
-const browser = await firefox.launch()
-const page = await browser.newPage()
+async function main() {
+    const browser = await firefox.launch()
+    const page = await browser.newPage()
 
-const pageLocators: PageLocators = {
-    page: page,
-    elementsMenu: page.locator("h5:has-text('Elements')"),
-    textBoxMenu: page.locator("span:has-text('Text Box')"),
-    inputs: {
-        fullName: page.locator('#userName'),
-        email: page.locator('#userEmail'),
-        currentAddress: page.locator('#currentAddress'),
-        permanentAddress: page.locator('#permanentAddress')
-    },
-    submitButton: page.locator('#submit'),
-    submittedData: {
-        expFullName: page.locator('#name'),
-        expEmail: page.locator('#email'),
-        expCurrentAddress: page.locator("p[id*='currentAddress']"),
-        expPermanentAddress: page.locator("p[id*='permanentAddress']")
-    }
+    const pageLocators = await setupPageObjects(page)
+
+    const pageActions = new PageActions(page, pageLocators)
+    const keyboardShortcuts = new KeyboardShortcuts(page, pageLocators)
+
+    //await browser.close()
 }
 
-export { PageActions, KeyboardShortcuts, PageLocators }
+function setupPageObjects(page: Page): PageLocators {
+    const pageLocators: PageLocators = {
+        page: page,
+        elementsMenu: page.locator("h5:has-text('Elements')"),
+        textBoxMenu: page.locator("span:has-text('Text Box')"),
+        inputs: {
+            fullName: page.locator('#userName'),
+            email: page.locator('#userEmail'),
+            currentAddress: page.locator('#currentAddress'),
+            permanentAddress: page.locator('#permanentAddress')
+        },
+        submitButton: page.locator('#submit'),
+        submittedData: {
+            expFullName: page.locator('#name'),
+            expEmail: page.locator('#email'),
+            expCurrentAddress: page.locator("p[id*='currentAddress']"),
+            expPermanentAddress: page.locator("p[id*='permanentAddress']")
+        }
+    }
+
+    return pageLocators
+}
+
+export { PageActions, KeyboardShortcuts, PageLocators, main }
