@@ -46,6 +46,7 @@ test.describe('@Demoqa Text Box Tests', () => {
             )
 
             const inputData = await pageActions.getEnteredData()
+            console.log(inputData)
 
             expect(inputData.expFullName, 'Expected the entered full name').toMatch(userData.fullName)
             expect(inputData.expEmail, 'Expected the entered email').toMatch(userData.email)
@@ -60,12 +61,12 @@ test.describe('@Demoqa Text Box Tests', () => {
 
             const submittedData = await pageActions.getEnteredData()
 
-            expect(submittedData.expFullName, 'Expected the submitted full name').toContain(userData.fullName)
-            expect(submittedData.expEmail, 'Expected the submitted email').toContain(userData.email)
-            expect(submittedData.expCurrentAddress, 'Expected the submitted current address').toContain(
+            expect(submittedData.expFullName, 'Expected the submitted full name').toMatch(userData.fullName)
+            expect(submittedData.expEmail, 'Expected the submitted email').toMatch(userData.email)
+            expect(submittedData.expCurrentAddress, 'Expected the submitted current address').toMatch(
                 userData.currentAddress
             )
-            expect(submittedData.expPermanentAddress, 'Expected the submitted permanent address').toContain(
+            expect(submittedData.expPermanentAddress, 'Expected the submitted permanent address').toMatch(
                 userData.permanentAddress
             )
         })
@@ -102,10 +103,10 @@ test.describe('@Demoqa Text Box Tests', () => {
             )
             const inputData = await pageActions.getEnteredData()
 
-            expect(inputData.expFullName, 'Expected the entered full name').toMatch(userData.fullName)
-            expect(inputData.expEmail, 'Expected the entered email').toMatch(userData.email)
-            expect(inputData.expCurrentAddress, 'Expected the entered current address').toMatch(userData.currentAddress)
-            expect(inputData.expPermanentAddress, 'Expected the entered permanent address').toMatch(
+            expect(inputData.expFullName, 'Expected the entered full name').toBe(userData.fullName)
+            expect(inputData.expEmail, 'Expected the entered email').toBe(userData.email)
+            expect(inputData.expCurrentAddress, 'Expected the entered current address').toBe(userData.currentAddress)
+            expect(inputData.expPermanentAddress, 'Expected the entered permanent address').toBe(
                 userData.permanentAddress
             )
         })
