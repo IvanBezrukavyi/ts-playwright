@@ -25,8 +25,8 @@ test.describe('@Demoqa Text Box Tests', () => {
     let pageLocators: PageLocators
 
     test.beforeEach(async ({ page }) => {
-        pageActions = new PageActions(page, pageLocators)
-        keyboardShortcuts = new KeyboardShortcuts(page, pageLocators)
+        pageActions = new PageActions({ page, locators: pageLocators })
+        keyboardShortcuts = new KeyboardShortcuts({ page, locators: pageLocators })
         userTestData = UserDataGeneration.generateUserData()
 
         await pageActions.goTo()
@@ -37,7 +37,7 @@ test.describe('@Demoqa Text Box Tests', () => {
     test('TC 2: E2E. Enter and remove data from input text fields and via keys and shortcuts and cycle', async () => {
         const userData = getUserData(userTestData)
 
-        await test.step('Step 1. Fill inputs by valid data', async () => {
+        await test.step('Step 1. Fill inputs by valid data for TC 2', async () => {
             await pageActions.fillInputsByValues(
                 userData.fullName,
                 userData.email,

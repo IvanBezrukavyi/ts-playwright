@@ -20,12 +20,62 @@ interface PageLocators {
     }
 }
 
-class PageActions {
+class BasePage {
     readonly page: Page
     readonly locators: PageLocators
-    constructor(page: Page, locators: PageLocators) {
+
+    constructor({ page, locators }: { page: Page; locators: PageLocators }) {
         this.page = page
         this.locators = setupPageLocators(page)
+    }
+
+    async fillInputsByValues(
+        fullName: string,
+        email: string,
+        currentAddress: string,
+        permanentAddress: string
+    ): Promise<void> {
+        await this.locators.inputs.fullName.fill(fullName)
+        await this.locators.inputs.email.fill(email)
+        await this.locators.inputs.currentAddress.fill(currentAddress)
+        await this.locators.inputs.permanentAddress.fill(permanentAddress)
+    }
+
+    async getEnteredData(): Promise<{
+        expFullName: string
+        expEmail: string
+        expCurrentAddress: string
+        expPermanentAddress: string
+    }> {
+        const expFullName = await this.locators.inputs.fullName.textContent()
+        const expEmail = await this.locators.inputs.email.textContent()
+        const expCurrentAddress = await this.locators.inputs.currentAddress.textContent()
+        const expPermanentAddress = await this.locators.inputs.permanentAddress.textContent()
+        return { expFullName, expEmail, expCurrentAddress, expPermanentAddress }
+    }
+
+    async getRemovedInputContent(): Promise<{
+        fullName: string
+        email: string
+        currentAddress: string
+        permanentAddress: string
+    }> {
+        const fullNameContent = (await this.locators.inputs.fullName.nth(0).textContent()) || ''
+        const emailContent = (await this.locators.inputs.email.nth(0).textContent()) || ''
+        const currentAddressContent = (await this.locators.inputs.currentAddress.nth(0).textContent()) || ''
+        const permanentAddressContent = (await this.locators.inputs.permanentAddress.nth(0).textContent()) || ''
+        return {
+            fullName: fullNameContent,
+            email: emailContent,
+            currentAddress: currentAddressContent,
+            permanentAddress: permanentAddressContent
+        }
+    }
+}
+
+class PageActions extends BasePage {
+    constructor({ page, locators }: { page: Page; locators: PageLocators }) {
+        super({ page, locators })
     }
 
     async goTo(): Promise<void> {
@@ -64,19 +114,6 @@ class PageActions {
         return this.locators.inputs
     }
 
-    async getEnteredData(): Promise<{
-        expFullName: string
-        expEmail: string
-        expCurrentAddress: string
-        expPermanentAddress: string
-    }> {
-        const expFullName = await this.locators.inputs.fullName.textContent()
-        const expEmail = await this.locators.inputs.email.textContent()
-        const expCurrentAddress = await this.locators.inputs.currentAddress.textContent()
-        const expPermanentAddress = await this.locators.inputs.permanentAddress.textContent()
-        return { expFullName, expEmail, expCurrentAddress, expPermanentAddress }
-    }
-
     async submitTextBoxForm(): Promise<void> {
         await this.locators.submitButton.click()
     }
@@ -90,44 +127,11 @@ class PageActions {
             }
         }
     }
-
-    async getRemovedInputContent(): Promise<{
-        fullName: string
-        email: string
-        currentAddress: string
-        permanentAddress: string
-    }> {
-        const fullNameContent = (await this.locators.inputs.fullName.nth(0).textContent()) || ''
-        const emailContent = (await this.locators.inputs.email.nth(0).textContent()) || ''
-        const currentAddressContent = (await this.locators.inputs.currentAddress.nth(0).textContent()) || ''
-        const permanentAddressContent = (await this.locators.inputs.permanentAddress.nth(0).textContent()) || ''
-        return {
-            fullName: fullNameContent,
-            email: emailContent,
-            currentAddress: currentAddressContent,
-            permanentAddress: permanentAddressContent
-        }
-    }
 }
 
-class KeyboardShortcuts {
-    readonly locators: PageLocators
-    readonly page: Page
-    constructor(page: Page, locators: PageLocators) {
-        this.page = page
-        this.locators = setupPageLocators(page)
-    }
-
-    async fillInputsByValues(
-        fullName: string,
-        email: string,
-        currentAddress: string,
-        permanentAddress: string
-    ): Promise<void> {
-        await this.locators.inputs.fullName.fill(fullName)
-        await this.locators.inputs.email.fill(email)
-        await this.locators.inputs.currentAddress.fill(currentAddress)
-        await this.locators.inputs.permanentAddress.fill(permanentAddress)
+class KeyboardShortcuts extends BasePage {
+    constructor({ page, locators }: { page: Page; locators: PageLocators }) {
+        super({ page, locators })
     }
 
     async fillInputsByShortcuts(
@@ -148,19 +152,6 @@ class KeyboardShortcuts {
             await locator.focus()
             await this.page.keyboard.press('Tab')
         }
-    }
-
-    async getEnteredData(): Promise<{
-        expFullName: string
-        expEmail: string
-        expCurrentAddress: string
-        expPermanentAddress: string
-    }> {
-        const expFullName = await this.locators.inputs.fullName.textContent()
-        const expEmail = await this.locators.inputs.email.textContent()
-        const expCurrentAddress = await this.locators.inputs.currentAddress.textContent()
-        const expPermanentAddress = await this.locators.inputs.permanentAddress.textContent()
-        return { expFullName, expEmail, expCurrentAddress, expPermanentAddress }
     }
 
     async submitTextBoxFormByEnter(): Promise<void> {
@@ -210,24 +201,6 @@ class KeyboardShortcuts {
     get permanentAddress(): Locator {
         return this.locators.inputs.permanentAddress
     }
-
-    async getRemovedInputContent(): Promise<{
-        fullName: string
-        email: string
-        currentAddress: string
-        permanentAddress: string
-    }> {
-        const fullNameContent = (await this.locators.inputs.fullName.nth(0).textContent()) || ''
-        const emailContent = (await this.locators.inputs.email.nth(0).textContent()) || ''
-        const currentAddressContent = (await this.locators.inputs.currentAddress.nth(0).textContent()) || ''
-        const permanentAddressContent = (await this.locators.inputs.permanentAddress.nth(0).textContent()) || ''
-        return {
-            fullName: fullNameContent,
-            email: emailContent,
-            currentAddress: currentAddressContent,
-            permanentAddress: permanentAddressContent
-        }
-    }
 }
 
 async function mainPageObjects() {
@@ -236,8 +209,8 @@ async function mainPageObjects() {
 
     const pageLocators = await setupPageLocators(page)
 
-    const pageActions = new PageActions(page, pageLocators)
-    const keyboardShortcuts = new KeyboardShortcuts(page, pageLocators)
+    const pageActions = new PageActions({ page, locators: pageLocators })
+    const keyboardShortcuts = new KeyboardShortcuts({ page, locators: pageLocators })
 
     //await browser.close()
 }
