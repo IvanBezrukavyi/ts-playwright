@@ -1,6 +1,6 @@
 import { test, expect } from 'playwright/test'
 import { UserDataGeneration } from '../Utils/userDataGeneration'
-import { PageActions, KeyboardShortcuts, PageLocators } from '../srs/main/demoApp/textBoxPage copy'
+import { PageActions, KeyboardShortcuts, PageLocators, setupPageLocators } from '../srs/main/demoApp/textBoxPage copy'
 
 interface UserData {
     fullName: string
@@ -28,6 +28,7 @@ test.describe('@Demoqa Text Box Tests', () => {
         pageActions = new PageActions({ page, locators: pageLocators })
         keyboardShortcuts = new KeyboardShortcuts({ page, locators: pageLocators })
         userTestData = UserDataGeneration.generateUserData()
+        pageLocators = await setupPageLocators(page)
 
         await pageActions.goTo()
         await pageActions.selectElementsMenu()
@@ -37,6 +38,8 @@ test.describe('@Demoqa Text Box Tests', () => {
     test('TC 2: E2E. Enter and remove data from input text fields and via keys and shortcuts and cycle', async () => {
         const userData = getUserData(userTestData)
 
+        console.log('***Generated User Data***', userData)
+
         await test.step('Step 1. Fill inputs by valid data for TC 2', async () => {
             await pageActions.fillInputsByValues(
                 userData.fullName,
@@ -45,13 +48,15 @@ test.describe('@Demoqa Text Box Tests', () => {
                 userData.permanentAddress
             )
 
-            const inputData = await pageActions.getEnteredData()
-            console.log(inputData)
+            console.log('Inputs filled successfully!')
 
-            expect(inputData.expFullName, 'Expected the entered full name').toMatch(userData.fullName)
-            expect(inputData.expEmail, 'Expected the entered email').toMatch(userData.email)
-            expect(inputData.expCurrentAddress, 'Expected the entered current address').toMatch(userData.currentAddress)
-            expect(inputData.expPermanentAddress, 'Expected the entered permanent address').toMatch(
+            const inputData = await pageActions.getEnteredData()
+            console.log('***Entered Data***', inputData)
+
+            expect(inputData.fullName, 'Expected the entered full name').toMatch(userData.fullName)
+            expect(inputData.email, 'Expected the entered email').toMatch(userData.email)
+            expect(inputData.currentAddress, 'Expected the entered current address').toMatch(userData.currentAddress)
+            expect(inputData.permanentAddress, 'Expected the entered permanent address').toMatch(
                 userData.permanentAddress
             )
         })
@@ -59,7 +64,7 @@ test.describe('@Demoqa Text Box Tests', () => {
         await test.step('Step 2. Click Submit button and Verify submitted data', async () => {
             await pageActions.submitTextBoxForm()
 
-            const submittedData = await pageActions.getEnteredData()
+            const submittedData = await pageActions.getSubmittedData()
 
             expect(submittedData.expFullName, 'Expected the submitted full name').toMatch(userData.fullName)
             expect(submittedData.expEmail, 'Expected the submitted email').toMatch(userData.email)
@@ -84,10 +89,12 @@ test.describe('@Demoqa Text Box Tests', () => {
         await test.step('Step 4. Click Submit button and Verify absence data after removing it', async () => {
             await pageActions.submitTextBoxForm()
             const removedInputContent = await pageActions.getRemovedInputContent()
-            expect(removedInputContent.fullName, 'Expected empty Full Name input field').toBe('')
-            expect(removedInputContent.email, 'Expected empty Email input field').toBe('')
-            expect(removedInputContent.currentAddress, 'Expected empty Current Address input field').toBe('')
-            expect(removedInputContent.permanentAddress, 'Expected empty Permanent Address input field').toBe('')
+
+            console.log(`***Removed Content from INPUTS***`, removedInputContent)
+            expect(removedInputContent.removedFullName, 'Expected empty Full Name input field').toBe('')
+            expect(removedInputContent.removedEmail, 'Expected empty Email input field').toBe('')
+            expect(removedInputContent.removedCurrentAddress, 'Expected empty Current Address input field').toBe('')
+            expect(removedInputContent.removedPermanentAddress, 'Expected empty Permanent Address input field').toBe('')
         })
     })
 
@@ -103,12 +110,10 @@ test.describe('@Demoqa Text Box Tests', () => {
             )
             const inputData = await pageActions.getEnteredData()
 
-            expect(inputData.expFullName, 'Expected the entered full name').toBe(userData.fullName)
-            expect(inputData.expEmail, 'Expected the entered email').toBe(userData.email)
-            expect(inputData.expCurrentAddress, 'Expected the entered current address').toBe(userData.currentAddress)
-            expect(inputData.expPermanentAddress, 'Expected the entered permanent address').toBe(
-                userData.permanentAddress
-            )
+            expect(inputData.fullName, 'Expected the entered full name').toBe(userData.fullName)
+            expect(inputData.email, 'Expected the entered email').toBe(userData.email)
+            expect(inputData.currentAddress, 'Expected the entered current address').toBe(userData.currentAddress)
+            expect(inputData.permanentAddress, 'Expected the entered permanent address').toBe(userData.permanentAddress)
         })
 
         await test.step('Step 2. Click Submit button', async () => {
@@ -136,10 +141,10 @@ test.describe('@Demoqa Text Box Tests', () => {
         await test.step('Step 4. Click Submit button and Verify absence data after removing it', async () => {
             await keyboardShortcuts.submitTextBoxFormByEnter()
             const removedInputContent = await keyboardShortcuts.getRemovedInputContent()
-            expect(removedInputContent.fullName, 'Expected empty Full Name input field').toBe('')
-            expect(removedInputContent.email, 'Expected empty Email input field').toBe('')
-            expect(removedInputContent.currentAddress, 'Expected empty Current Address input field').toBe('')
-            expect(removedInputContent.permanentAddress, 'Expected empty Permanent Address input field').toBe('')
+            expect(removedInputContent.removedFullName, 'Expected empty Full Name input field').toBe('')
+            expect(removedInputContent.removedEmail, 'Expected empty Email input field').toBe('')
+            expect(removedInputContent.removedCurrentAddress, 'Expected empty Current Address input field').toBe('')
+            expect(removedInputContent.removedPermanentAddress, 'Expected empty Permanent Address input field').toBe('')
         })
     })
 })

@@ -42,34 +42,42 @@ class BasePage {
     }
 
     async getEnteredData(): Promise<{
-        expFullName: string
-        expEmail: string
-        expCurrentAddress: string
-        expPermanentAddress: string
-    }> {
-        const expFullName = await this.locators.inputs.fullName.textContent()
-        const expEmail = await this.locators.inputs.email.textContent()
-        const expCurrentAddress = await this.locators.inputs.currentAddress.textContent()
-        const expPermanentAddress = await this.locators.inputs.permanentAddress.textContent()
-        return { expFullName, expEmail, expCurrentAddress, expPermanentAddress }
-    }
-
-    async getRemovedInputContent(): Promise<{
         fullName: string
         email: string
         currentAddress: string
         permanentAddress: string
     }> {
-        const fullNameContent = (await this.locators.inputs.fullName.nth(0).textContent()) || ''
-        const emailContent = (await this.locators.inputs.email.nth(0).textContent()) || ''
-        const currentAddressContent = (await this.locators.inputs.currentAddress.nth(0).textContent()) || ''
-        const permanentAddressContent = (await this.locators.inputs.permanentAddress.nth(0).textContent()) || ''
-        return {
-            fullName: fullNameContent,
-            email: emailContent,
-            currentAddress: currentAddressContent,
-            permanentAddress: permanentAddressContent
-        }
+        const fullName = await this.locators.inputs.fullName.textContent()
+        const email = await this.locators.inputs.email.textContent()
+        const currentAddress = await this.locators.inputs.currentAddress.textContent()
+        const permanentAddress = await this.locators.inputs.permanentAddress.textContent()
+        return { fullName, email, currentAddress, permanentAddress }
+    }
+
+    async getRemovedInputContent(): Promise<{
+        removedFullName: string
+        removedEmail: string
+        removedCurrentAddress: string
+        removedPermanentAddress: string
+    }> {
+        const removedFullName = (await this.locators.inputs.fullName.nth(0).textContent()) || ''
+        const removedEmail = (await this.locators.inputs.email.nth(0).textContent()) || ''
+        const removedCurrentAddress = (await this.locators.inputs.currentAddress.nth(0).textContent()) || ''
+        const removedPermanentAddress = (await this.locators.inputs.permanentAddress.nth(0).textContent()) || ''
+        return { removedFullName, removedEmail, removedCurrentAddress, removedPermanentAddress }
+    }
+
+    async getSubmittedData(): Promise<{
+        expFullName: string
+        expEmail: string
+        expCurrentAddress: string
+        expPermanentAddress: string
+    }> {
+        const expFullName = await this.locators.submittedData.expFullName.textContent()
+        const expEmail = await this.locators.submittedData.expEmail.textContent()
+        const expCurrentAddress = await this.locators.submittedData.expCurrentAddress.textContent()
+        const expPermanentAddress = await this.locators.submittedData.expPermanentAddress.textContent()
+        return { expFullName, expEmail, expCurrentAddress, expPermanentAddress }
     }
 }
 
@@ -148,19 +156,6 @@ class KeyboardShortcuts extends BasePage {
         await this.locators.submitButton.press('Enter')
     }
 
-    async getSubmittedData(): Promise<{
-        expFullName: string
-        expEmail: string
-        expCurrentAddress: string
-        expPermanentAddress: string
-    }> {
-        const expFullName = await this.locators.submittedData.expFullName.textContent()
-        const expEmail = await this.locators.submittedData.expEmail.textContent()
-        const expCurrentAddress = await this.locators.submittedData.expCurrentAddress.textContent()
-        const expPermanentAddress = await this.locators.submittedData.expPermanentAddress.textContent()
-        return { expFullName, expEmail, expCurrentAddress, expPermanentAddress }
-    }
-
     async removeInputFullName(numOfSymbols: number): Promise<void> {
         await this.locators.inputs.fullName.focus()
         for (let i = 0; i < numOfSymbols; ++i) {
@@ -203,7 +198,7 @@ async function mainPageObjects() {
     //await browser.close()
 }
 
-function setupPageLocators(page: Page): PageLocators {
+export function setupPageLocators(page: Page): PageLocators {
     const pageLocators: PageLocators = {
         page: page,
         elementsMenu: page.locator("h5:has-text('Elements')"),
