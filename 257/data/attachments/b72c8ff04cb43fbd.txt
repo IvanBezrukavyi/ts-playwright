@@ -1,0 +1,8 @@
+***Generated User Data*** {
+  fullName: 'Dr. Claude Goodwin',
+  email: 'Yasmin_Kling66@demoqa.com',
+  currentAddress: '30151 Hand Extensions, West Estastad, Missouri, 86082',
+  permanentAddress: '456 Elm St, West Estastad, Missouri, 86082'
+}
+Inputs filled successfully!
+***Entered Data*** { fullName: '', email: '', currentAddress: '', permanentAddress: '' }
