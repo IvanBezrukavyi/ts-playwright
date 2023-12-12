@@ -93,18 +93,6 @@ class PageActions extends BasePage {
         await this.locators.textBoxMenu.click()
     }
 
-    async fillInputsByValues(
-        fullName: string,
-        email: string,
-        currentAddress: string,
-        permanentAddress: string
-    ): Promise<void> {
-        await this.locators.inputs.fullName.fill(fullName)
-        await this.locators.inputs.email.fill(email)
-        await this.locators.inputs.currentAddress.fill(currentAddress)
-        await this.locators.inputs.permanentAddress.fill(permanentAddress)
-    }
-
     get inputs(): {
         fullName: Locator
         email: Locator
