@@ -1,5 +1,6 @@
 import { Locator, Page } from 'playwright'
 import { firefox } from 'playwright'
+import { logger } from '../../logger/winston.config'
 
 interface PageLocators {
     page: Page
@@ -20,13 +21,46 @@ interface PageLocators {
     }
 }
 
+export function setupPageLocators(page: Page): PageLocators {
+    return {
+        page,
+        elementsMenu: page.locator("h5:has-text('Elements')"),
+        textBoxMenu: page.locator("span:has-text('Text Box')"),
+        inputs: {
+            fullName: page.locator('#userName').first(),
+            email: page.locator('#userEmail').first(),
+            currentAddress: page.locator('#currentAddress').first(),
+            permanentAddress: page.locator('#permanentAddress').first()
+        },
+        submitButton: page.locator('#submit'),
+        submittedData: {
+            expFullName: page.locator('#name'),
+            expEmail: page.locator('#email'),
+            expCurrentAddress: page.locator("p[id*='currentAddress']"),
+            expPermanentAddress: page.locator("p[id*='permanentAddress']")
+        }
+    }
+}
+
 class BasePage {
-    readonly page: Page
-    readonly locators: PageLocators
+    protected readonly page: Page
+    protected readonly locators: PageLocators
+    protected readonly inputLocators: {
+        fullName: Locator
+        email: Locator
+        currentAddress: Locator
+        permanentAddress: Locator
+    }
 
     constructor({ page, locators }: { page: Page; locators: PageLocators }) {
         this.page = page
-        this.locators = setupPageLocators(page)
+        this.locators = locators
+        this.inputLocators = {
+            fullName: this.locators.inputs.fullName,
+            email: this.locators.inputs.email,
+            currentAddress: this.locators.inputs.currentAddress,
+            permanentAddress: this.locators.inputs.permanentAddress
+        }
     }
 
     async fillInputsByValues(
@@ -34,7 +68,7 @@ class BasePage {
         email: string,
         currentAddress: string,
         permanentAddress: string
-    ): Promise<void> {
+    ): Promise<unknown> {
         await this.locators.inputs.fullName.fill(fullName)
         await this.locators.inputs.email.fill(email)
         await this.locators.inputs.currentAddress.fill(currentAddress)
@@ -42,16 +76,38 @@ class BasePage {
     }
 
     async getEnteredData(): Promise<{
-        fullName: string
-        email: string
-        currentAddress: string
-        permanentAddress: string
+        enteredFullName: string
+        enteredEmail: string
+        enteredCurrentAddress: string
+        enteredPermanentAddress: string
     }> {
-        const fullName = await this.locators.inputs.fullName.textContent()
-        const email = await this.locators.inputs.email.textContent()
-        const currentAddress = await this.locators.inputs.currentAddress.textContent()
-        const permanentAddress = await this.locators.inputs.permanentAddress.textContent()
-        return { fullName, email, currentAddress, permanentAddress }
+        const enteredFullName = (await this.locators.inputs.fullName.textContent({ timeout: 5000 })) ?? ''
+
+        logger.info(`Retrieved user's full name: ${enteredFullName}`)
+
+        const enteredEmail = (await this.locators.inputs.email.textContent()) ?? ''
+        logger.info(`Retrieved user's email: ${enteredEmail}`)
+
+        const enteredCurrentAddress = (await this.locators.inputs.currentAddress.textContent()) ?? ''
+        logger.info(`Retrieved user's current address: ${enteredCurrentAddress}`)
+
+        const enteredPermanentAddress = (await this.locators.inputs.permanentAddress.textContent()) ?? ''
+        logger.info(`Retrieved user's permanent address: ${enteredPermanentAddress}`)
+
+        return { enteredFullName, enteredEmail, enteredCurrentAddress, enteredPermanentAddress }
+    }
+
+    async getSubmittedData(): Promise<{
+        expFullName: string
+        expEmail: string
+        expCurrentAddress: string
+        expPermanentAddress: string
+    }> {
+        const expFullName = (await this.locators.submittedData.expFullName.textContent()) ?? ''
+        const expEmail = (await this.locators.submittedData.expEmail.textContent()) ?? ''
+        const expCurrentAddress = (await this.locators.submittedData.expCurrentAddress.textContent()) ?? ''
+        const expPermanentAddress = (await this.locators.submittedData.expPermanentAddress.textContent()) ?? ''
+        return { expFullName, expEmail, expCurrentAddress, expPermanentAddress }
     }
 
     async getRemovedInputContent(): Promise<{
@@ -65,19 +121,6 @@ class BasePage {
         const removedCurrentAddress = (await this.locators.inputs.currentAddress.nth(0).textContent()) || ''
         const removedPermanentAddress = (await this.locators.inputs.permanentAddress.nth(0).textContent()) || ''
         return { removedFullName, removedEmail, removedCurrentAddress, removedPermanentAddress }
-    }
-
-    async getSubmittedData(): Promise<{
-        expFullName: string
-        expEmail: string
-        expCurrentAddress: string
-        expPermanentAddress: string
-    }> {
-        const expFullName = await this.locators.submittedData.expFullName.textContent()
-        const expEmail = await this.locators.submittedData.expEmail.textContent()
-        const expCurrentAddress = await this.locators.submittedData.expCurrentAddress.textContent()
-        const expPermanentAddress = await this.locators.submittedData.expPermanentAddress.textContent()
-        return { expFullName, expEmail, expCurrentAddress, expPermanentAddress }
     }
 }
 
@@ -98,16 +141,10 @@ class PageActions extends BasePage {
     }
 
     async selectTextBoxMenu(): Promise<void> {
+        if (!this.locators.elementsMenu) {
+            throw new Error('textBoxMenu locator is not initialized')
+        }
         await this.locators.textBoxMenu.click()
-    }
-
-    get inputs(): {
-        fullName: Locator
-        email: Locator
-        currentAddress: Locator
-        permanentAddress: Locator
-    } {
-        return this.locators.inputs
     }
 
     async submitTextBoxForm(): Promise<void> {
@@ -156,33 +193,16 @@ class KeyboardShortcuts extends BasePage {
         await this.locators.submitButton.press('Enter')
     }
 
-    async removeInputFullName(numOfSymbols: number): Promise<void> {
-        await this.locators.inputs.fullName.focus()
-        for (let i = 0; i < numOfSymbols; ++i) {
-            await this.page.keyboard.press('Backspace')
-        }
-    }
-
     async removeContentViaShortcuts(inputLocator: Locator): Promise<void> {
         await inputLocator.nth(0).focus()
         await this.page.keyboard.press('Meta+A')
         await this.page.keyboard.press('Backspace')
     }
 
-    get fullName(): Locator {
-        return this.locators.inputs.fullName
-    }
-
-    get email(): Locator {
-        return this.locators.inputs.email
-    }
-
-    get currentAddress(): Locator {
-        return this.locators.inputs.currentAddress
-    }
-
-    get permanentAddress(): Locator {
-        return this.locators.inputs.permanentAddress
+    async clearInputs(inputLocators: Locator[]): Promise<void> {
+        for (const inputLocator of inputLocators) {
+            await this.removeContentViaShortcuts(inputLocator)
+        }
     }
 }
 
@@ -194,31 +214,6 @@ async function mainPageObjects() {
 
     const pageActions = new PageActions({ page, locators: pageLocators })
     const keyboardShortcuts = new KeyboardShortcuts({ page, locators: pageLocators })
-
-    //await browser.close()
-}
-
-export function setupPageLocators(page: Page): PageLocators {
-    const pageLocators: PageLocators = {
-        page: page,
-        elementsMenu: page.locator("h5:has-text('Elements')"),
-        textBoxMenu: page.locator("span:has-text('Text Box')"),
-        inputs: {
-            fullName: page.locator('#userName'),
-            email: page.locator('#userEmail'),
-            currentAddress: page.locator('#currentAddress'),
-            permanentAddress: page.locator('#permanentAddress')
-        },
-        submitButton: page.locator('#submit'),
-        submittedData: {
-            expFullName: page.locator('#name'),
-            expEmail: page.locator('#email'),
-            expCurrentAddress: page.locator("p[id*='currentAddress']"),
-            expPermanentAddress: page.locator("p[id*='permanentAddress']")
-        }
-    }
-
-    return pageLocators
 }
 
 export { PageActions, KeyboardShortcuts, PageLocators, mainPageObjects }

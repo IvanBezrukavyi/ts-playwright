@@ -25,7 +25,7 @@
         "allureReport": "npx playwright test --grep @Web --reporter=line,allure-playwright",
         "client": "npx playwright test -g clientAppWithExternalDataAndParametriazation.spec.ts",
         "demoqa": "npx playwright test --grep @Demoqa",
-        "debug": "npx playwright test -g TC 2: E2E. Enter and remove data from input text fields and via keys and shortcuts and cycle --debug",
+        "debug": "npx playwright test -g TC 2: E2E. Enter and remove data from input text fields and via keys and shortcuts and cycle --ui --debug",
         "lint": "eslint ./tests/*.spec.ts",
         "lint-fix": "eslint ./tests/*.spec.ts",
         "prepare": "husky install"
