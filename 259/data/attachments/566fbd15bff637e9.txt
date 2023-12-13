@@ -1,0 +1,12 @@
+***Generated User Data*** {
+  fullName: 'Guillermo Beatty',
+  email: 'Reece.Tremblay@demoqa.com',
+  currentAddress: '7323 7th Street, West Fae, West Virginia, 81165',
+  permanentAddress: '456 Elm St, West Fae, West Virginia, 81165'
+}
+***Removed Content from INPUTS*** {
+  removedFullName: '',
+  removedEmail: '',
+  removedCurrentAddress: '',
+  removedPermanentAddress: ''
+}
