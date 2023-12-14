@@ -81,17 +81,19 @@ class BasePage {
         enteredCurrentAddress: string
         enteredPermanentAddress: string
     }> {
-        const enteredFullName = (await this.locators.inputs.fullName.textContent({ timeout: 5000 })) ?? ''
+        await this.locators.inputs.fullName.waitFor({ state: 'attached' })
+        const enteredFullName = (await this.locators.inputs.fullName.textContent({ timeout: 2000 })) ?? ''
 
         logger.info(`Retrieved user's full name: ${enteredFullName}`)
 
-        const enteredEmail = (await this.locators.inputs.email.textContent()) ?? ''
+        const enteredEmail = (await this.locators.inputs.email.textContent({ timeout: 2000 })) ?? ''
         logger.info(`Retrieved user's email: ${enteredEmail}`)
 
-        const enteredCurrentAddress = (await this.locators.inputs.currentAddress.textContent()) ?? ''
+        const enteredCurrentAddress = (await this.locators.inputs.currentAddress.textContent({ timeout: 2000 })) ?? ''
         logger.info(`Retrieved user's current address: ${enteredCurrentAddress}`)
 
-        const enteredPermanentAddress = (await this.locators.inputs.permanentAddress.textContent()) ?? ''
+        const enteredPermanentAddress =
+            (await this.locators.inputs.permanentAddress.textContent({ timeout: 2000 })) ?? ''
         logger.info(`Retrieved user's permanent address: ${enteredPermanentAddress}`)
 
         return { enteredFullName, enteredEmail, enteredCurrentAddress, enteredPermanentAddress }

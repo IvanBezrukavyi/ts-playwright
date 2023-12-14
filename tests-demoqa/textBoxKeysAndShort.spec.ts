@@ -48,12 +48,11 @@ test.describe('@Demoqa Text Box Tests', () => {
                 userData.permanentAddress
             )
 
-            await pageActions.submitTextBoxForm()
+            // await expect(pageLocators.inputs.fullName).toHaveText(userData.fullName)
 
-            //const inputData = await pageActions.getEnteredData()
-            //expect(inputData).toEqual(userData)
-            // console.log('***Entered Data***', enteredData)
-
+            const inputData = await pageActions.getEnteredData()
+            console.log('***Entered Data***', inputData)
+            expect(inputData).toEqual(userData)
             //expect(inputData.enteredFullName, 'Expected the entered full name').toMatch(userData.fullName)
             // expect(inputData.enteredEmail, 'Expected the entered email').toMatch(userData.email)
             // expect(inputData.enteredCurrentAddress, 'Expected the entered current address').toMatch(
