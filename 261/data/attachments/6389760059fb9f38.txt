@@ -1,0 +1,16 @@
+***Generated User Data*** {
+  fullName: 'Angelina Rogahn',
+  email: 'Corine.Gutmann36@demoqa.com',
+  currentAddress: '472 Park Drive, Herthaboro, Tennessee, 38796-0424',
+  permanentAddress: '456 Elm St, Herthaboro, Tennessee, 38796-0424'
+}
+2023-12-14 12:04:57 - info: Retrieved user's full name: 
+2023-12-14 12:04:57 - info: Retrieved user's email: 
+2023-12-14 12:04:57 - info: Retrieved user's current address: 
+2023-12-14 12:04:57 - info: Retrieved user's permanent address: 
+***Entered Data*** {
+  enteredFullName: '',
+  enteredEmail: '',
+  enteredCurrentAddress: '',
+  enteredPermanentAddress: ''
+}

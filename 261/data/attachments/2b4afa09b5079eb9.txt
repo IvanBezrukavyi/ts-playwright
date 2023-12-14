@@ -1,0 +1,16 @@
+***Generated User Data*** {
+  fullName: 'Santiago Waelchi II',
+  email: 'Alanna74@demoqa.com',
+  currentAddress: '407 Brekke Harbor, East Sylvestershire, Tennessee, 82040-9160',
+  permanentAddress: '456 Elm St, East Sylvestershire, Tennessee, 82040-9160'
+}
+2023-12-14 12:05:16 - info: Retrieved user's full name: 
+2023-12-14 12:05:16 - info: Retrieved user's email: 
+2023-12-14 12:05:16 - info: Retrieved user's current address: 
+2023-12-14 12:05:16 - info: Retrieved user's permanent address: 
+***Entered Data*** {
+  enteredFullName: '',
+  enteredEmail: '',
+  enteredCurrentAddress: '',
+  enteredPermanentAddress: ''
+}

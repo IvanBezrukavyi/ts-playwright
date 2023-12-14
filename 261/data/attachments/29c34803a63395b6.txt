@@ -1,0 +1,16 @@
+***Generated User Data*** {
+  fullName: 'Colin Littel',
+  email: 'Katherine_McDermott15@demoqa.com',
+  currentAddress: '994 Silas Springs, Port Gersonfield, South Dakota, 27790',
+  permanentAddress: '456 Elm St, Port Gersonfield, South Dakota, 27790'
+}
+2023-12-14 12:04:46 - info: Retrieved user's full name: 
+2023-12-14 12:04:46 - info: Retrieved user's email: 
+2023-12-14 12:04:46 - info: Retrieved user's current address: 
+2023-12-14 12:04:46 - info: Retrieved user's permanent address: 
+***Entered Data*** {
+  enteredFullName: '',
+  enteredEmail: '',
+  enteredCurrentAddress: '',
+  enteredPermanentAddress: ''
+}

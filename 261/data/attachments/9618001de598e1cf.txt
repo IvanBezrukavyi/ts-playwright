@@ -1,0 +1,16 @@
+***Generated User Data*** {
+  fullName: 'Dr. Helen Greenfelder',
+  email: 'Bethany.Hirthe13@demoqa.com',
+  currentAddress: '95922 Purdy Circles, North Kiley, New Mexico, 69542',
+  permanentAddress: '456 Elm St, North Kiley, New Mexico, 69542'
+}
+2023-12-14 12:05:06 - info: Retrieved user's full name: 
+2023-12-14 12:05:06 - info: Retrieved user's email: 
+2023-12-14 12:05:06 - info: Retrieved user's current address: 
+2023-12-14 12:05:06 - info: Retrieved user's permanent address: 
+***Entered Data*** {
+  enteredFullName: '',
+  enteredEmail: '',
+  enteredCurrentAddress: '',
+  enteredPermanentAddress: ''
+}
