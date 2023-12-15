@@ -45,14 +45,18 @@ test.describe('@PO Text Box Tests', () => {
                 userData.currentAddress,
                 userData.permanentAddress
             )
-            await expect(textBoxMouseActions.fullName, 'Expected the entered full name').toHaveText(userData.fullName)
-            await expect(textBoxMouseActions.email, 'Expected the entered email').toHaveText(userData.email)
-            await expect(textBoxMouseActions.currentAddress, 'Expected the entered current address').toHaveText(
-                userData.currentAddress
+            expect(await textBoxMouseActions.fullName.inputValue(), 'Expected the entered full name').toMatch(
+                userData.fullName
             )
-            await expect(textBoxMouseActions.permanentAddress, 'Expected the entered permanent address').toHaveText(
-                userData.permanentAddress
-            )
+            expect(await textBoxMouseActions.email.inputValue(), 'Expected the entered email').toMatch(userData.email)
+            expect(
+                await textBoxMouseActions.currentAddress.inputValue(),
+                'Expected the entered current address'
+            ).toMatch(userData.currentAddress)
+            expect(
+                await textBoxMouseActions.permanentAddress.inputValue(),
+                'Expected the entered permanent address'
+            ).toMatch(userData.permanentAddress)
         })
 
         await test.step('Step 2. Click Submit button and Verify submitted data', async () => {
@@ -84,10 +88,12 @@ test.describe('@PO Text Box Tests', () => {
             const removedInputContent = await textBoxMouseActions.getRemovedInputContent()
 
             console.log(`***Removed Content from INPUTS***`, removedInputContent)
-            expect(removedInputContent.removedFullName, 'Expected empty Full Name input field').toBe('')
-            expect(removedInputContent.removedEmail, 'Expected empty Email input field').toBe('')
-            expect(removedInputContent.removedCurrentAddress, 'Expected empty Current Address input field').toBe('')
-            expect(removedInputContent.removedPermanentAddress, 'Expected empty Permanent Address input field').toBe('')
+            expect(removedInputContent.removedFullName, 'Expected empty Full Name input field').toMatch('')
+            expect(removedInputContent.removedEmail, 'Expected empty Email input field').toMatch('')
+            expect(removedInputContent.removedCurrentAddress, 'Expected empty Current Address input field').toMatch('')
+            expect(removedInputContent.removedPermanentAddress, 'Expected empty Permanent Address input field').toMatch(
+                ''
+            )
         })
     })
 
@@ -101,12 +107,22 @@ test.describe('@PO Text Box Tests', () => {
                 userTestData.currentAddress,
                 userTestData.permanentAddress
             )
-            const inputData = await textBoxKeyboardShortcuts.getEnteredData()
+            //const inputData = await textBoxKeyboardShortcuts.getEnteredData()
 
-            expect(inputData.fullName, 'Expected the entered full name').toBe(userData.fullName)
-            expect(inputData.email, 'Expected the entered email').toBe(userData.email)
-            expect(inputData.currentAddress, 'Expected the entered current address').toBe(userData.currentAddress)
-            expect(inputData.permanentAddress, 'Expected the entered permanent address').toBe(userData.permanentAddress)
+            expect(await textBoxKeyboardShortcuts.fullName.inputValue(), 'Expected the entered full name').toMatch(
+                userData.fullName
+            )
+            expect(await textBoxKeyboardShortcuts.email.inputValue(), 'Expected the entered email').toMatch(
+                userData.email
+            )
+            expect(
+                await textBoxKeyboardShortcuts.currentAddress.inputValue(),
+                'Expected the entered current address'
+            ).toMatch(userData.currentAddress)
+            expect(
+                await textBoxKeyboardShortcuts.permanentAddress.inputValue(),
+                'Expected the entered permanent address'
+            ).toMatch(userData.permanentAddress)
         })
 
         await test.step('Step 2. Click Submit button', async () => {

@@ -24,6 +24,10 @@ export class BasePage {
         this.currentAddress = page.locator('#currentAddress')
         this.permanentAddress = page.locator('#permanentAddress')
         this.submitButton = page.locator('#submit')
+        this.expFullName = page.locator('#name')
+        this.expEmail = page.locator('#email')
+        this.expCurrentAddress = page.locator("p[id*='currentAddress']")
+        this.expPermanentAddress = page.locator("p[id*='permanentAddress']")
     }
 
     async goTo(): Promise<void> {
@@ -45,11 +49,6 @@ export class BasePage {
     }
 
     async fillInputsByValues(fullName: string, email: string, currentAddress: string, permanentAddress: string) {
-        await this.fullName.waitFor({ state: 'attached' })
-        await this.email.waitFor({ state: 'attached' })
-        await this.currentAddress.waitFor({ state: 'attached' })
-        await this.permanentAddress.waitFor({ state: 'attached' })
-
         await this.fullName.fill(fullName)
         await this.email.fill(email)
         await this.currentAddress.fill(currentAddress)
@@ -62,18 +61,17 @@ export class BasePage {
         currentAddress: string
         permanentAddress: string
     }> {
-        await this.fullName.waitFor({ state: 'attached' })
-        const fullName = (await this.fullName.textContent({ timeout: 2000 })) || ''
+        const fullName = (await this.fullName.inputValue()) || ''
 
         logger.info(`Retrieved user's full name: ${fullName}`)
 
-        const email = (await this.email.textContent({ timeout: 2000 })) || ''
+        const email = (await this.email.inputValue()) || ''
         logger.info(`Retrieved user's email: ${email}`)
 
-        const currentAddress = (await this.currentAddress.textContent({ timeout: 2000 })) || ''
+        const currentAddress = (await this.currentAddress.inputValue()) || ''
         logger.info(`Retrieved user's current address: ${currentAddress}`)
 
-        const permanentAddress = (await this.permanentAddress.textContent({ timeout: 2000 })) || ''
+        const permanentAddress = (await this.permanentAddress.inputValue()) || ''
         logger.info(`Retrieved user's permanent address: ${permanentAddress}`)
 
         return { fullName, email, currentAddress, permanentAddress }
