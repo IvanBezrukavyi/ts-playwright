@@ -44,7 +44,8 @@ export function setupPageLocators(page: Page): PageLocators {
 
 class BasePage {
     protected readonly page: Page
-    protected readonly locators: PageLocators
+    // protected readonly locators: PageLocators
+    readonly locators: PageLocators
     protected readonly inputLocators: {
         fullName: Locator
         email: Locator

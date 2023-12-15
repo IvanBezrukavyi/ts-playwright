@@ -26,7 +26,8 @@
         "client": "npx playwright test -g clientAppWithExternalDataAndParametriazation.spec.ts",
         "demoqa": "npx playwright test --grep @Demoqa",
         "debug": "npx playwright test -g TC 2: E2E. Enter and remove data from input text fields and via keys and shortcuts and cycle --debug",
-        "debug-ui": "npx playwright test textBoxKeysAndShort.spec.ts:12 --debug",
+        "debug-ui": "npx playwright test --grep @PO --debug",
+        "debug2": "npx playwright test textBoxKeysAndShortOld.spec.ts --debug",
         "lint": "eslint ./tests/*.spec.ts",
         "lint-fix": "eslint ./tests/*.spec.ts",
         "prepare": "husky install"
