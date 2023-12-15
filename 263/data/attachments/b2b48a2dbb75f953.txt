@@ -1,0 +1,16 @@
+***Generated User Data*** {
+  fullName: 'Isabel Quigley',
+  email: 'Rozella64@demoqa.com',
+  currentAddress: '548 Zieme Route, Port Ansel, Florida, 63987-9796',
+  permanentAddress: '456 Elm St, Port Ansel, Florida, 63987-9796'
+}
+2023-12-15 15:04:09 - info: Retrieved user's full name: 
+2023-12-15 15:04:09 - info: Retrieved user's email: 
+2023-12-15 15:04:09 - info: Retrieved user's current address: 
+2023-12-15 15:04:09 - info: Retrieved user's permanent address: 
+***Entered Data*** {
+  enteredFullName: '',
+  enteredEmail: '',
+  enteredCurrentAddress: '',
+  enteredPermanentAddress: ''
+}
