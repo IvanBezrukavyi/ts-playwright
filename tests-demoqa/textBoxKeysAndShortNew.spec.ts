@@ -1,7 +1,7 @@
-import { test, expect } from 'playwright/test'
+import { expect } from 'playwright/test'
 import { UserDataGeneration } from '../Utils/userDataGeneration'
 import { TextBoxKeyboardShortcuts, TextBoxMouseActions } from '../srs/main/demoApp/textBoxPageNew'
-import textBoxPage from '../srs/fixtures/fixturePages'
+import { test } from '../srs/fixtures/fixturePages'
 
 interface UserData {
     fullName: string
@@ -32,8 +32,6 @@ test.describe('@Demoqa Text Box Tests', () => {
 
     test('TC 2: E2E. Enter and remove data from input text fields and via keys and shortcuts and cycle', async () => {
         const userData = getUserData(userTestData)
-
-        console.log('***Generated User Data***', userData)
 
         await test.step('Step 1. Fill inputs by valid data for TC 2', async () => {
             await textBoxMouseActions.fillInputsByValues(

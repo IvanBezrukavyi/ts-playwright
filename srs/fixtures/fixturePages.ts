@@ -1,4 +1,4 @@
-import { test as base } from './fixtureBase'
+import { test as base } from '@playwright/test'
 import TextBoxPage from '../main/demoApp/textBoxPage'
 
 export const test = base.extend<{ textBoxPage: TextBoxPage }>({
