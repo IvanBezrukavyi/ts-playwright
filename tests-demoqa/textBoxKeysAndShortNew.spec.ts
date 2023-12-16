@@ -1,6 +1,7 @@
 import { test, expect } from 'playwright/test'
 import { UserDataGeneration } from '../Utils/userDataGeneration'
 import { TextBoxKeyboardShortcuts, TextBoxMouseActions } from '../srs/main/demoApp/textBoxPageNew'
+import textBoxPage from '../srs/fixtures/fixturePages'
 
 interface UserData {
     fullName: string
@@ -23,14 +24,10 @@ test.describe('@Demoqa Text Box Tests', () => {
     let textBoxKeyboardShortcuts: TextBoxKeyboardShortcuts
     let userTestData: UserData
 
-    test.beforeEach(async ({ page }) => {
-        textBoxMouseActions = new TextBoxMouseActions(page)
-        textBoxKeyboardShortcuts = new TextBoxKeyboardShortcuts(page)
+    test.beforeEach(async ({ textBoxPage }) => {
+        textBoxMouseActions = new TextBoxMouseActions(textBoxPage)
+        textBoxKeyboardShortcuts = new TextBoxKeyboardShortcuts(textBoxPage)
         userTestData = UserDataGeneration.generateUserData()
-
-        await textBoxMouseActions.goTo()
-        await textBoxMouseActions.selectElementsMenu()
-        await textBoxMouseActions.selectTextBoxMenu()
     })
 
     test('TC 2: E2E. Enter and remove data from input text fields and via keys and shortcuts and cycle', async () => {
