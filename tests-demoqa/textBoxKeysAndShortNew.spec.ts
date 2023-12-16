@@ -18,7 +18,7 @@ function getUserData(userData: UserData): Pick<UserData, 'fullName' | 'email' | 
     }
 }
 
-test.describe('@PO Text Box Tests', () => {
+test.describe('@Demoqa Text Box Tests', () => {
     let textBoxMouseActions: TextBoxMouseActions
     let textBoxKeyboardShortcuts: TextBoxKeyboardShortcuts
     let userTestData: UserData
@@ -45,18 +45,13 @@ test.describe('@PO Text Box Tests', () => {
                 userData.currentAddress,
                 userData.permanentAddress
             )
-            expect(await textBoxMouseActions.fullName.inputValue(), 'Expected the entered full name').toMatch(
-                userData.fullName
+            const enteredData = await textBoxMouseActions.getEnteredData()
+            expect(enteredData.fullName, 'Expected the entered full name').toMatch(userData.fullName)
+            expect(enteredData.email, 'Expected the entered email').toMatch(userData.email)
+            expect(enteredData.currentAddress, 'Expected the entered current address').toMatch(userData.currentAddress)
+            expect(enteredData.permanentAddress, 'Expected the entered permanent address').toMatch(
+                userData.permanentAddress
             )
-            expect(await textBoxMouseActions.email.inputValue(), 'Expected the entered email').toMatch(userData.email)
-            expect(
-                await textBoxMouseActions.currentAddress.inputValue(),
-                'Expected the entered current address'
-            ).toMatch(userData.currentAddress)
-            expect(
-                await textBoxMouseActions.permanentAddress.inputValue(),
-                'Expected the entered permanent address'
-            ).toMatch(userData.permanentAddress)
         })
 
         await test.step('Step 2. Click Submit button and Verify submitted data', async () => {
@@ -107,22 +102,14 @@ test.describe('@PO Text Box Tests', () => {
                 userTestData.currentAddress,
                 userTestData.permanentAddress
             )
-            //const inputData = await textBoxKeyboardShortcuts.getEnteredData()
+            const enteredData = await textBoxKeyboardShortcuts.getEnteredData()
 
-            expect(await textBoxKeyboardShortcuts.fullName.inputValue(), 'Expected the entered full name').toMatch(
-                userData.fullName
+            expect(enteredData.fullName, 'Expected the entered full name').toMatch(userData.fullName)
+            expect(enteredData.email, 'Expected the entered email').toMatch(userData.email)
+            expect(enteredData.currentAddress, 'Expected the entered current address').toMatch(userData.currentAddress)
+            expect(enteredData.permanentAddress, 'Expected the entered permanent address').toMatch(
+                userData.permanentAddress
             )
-            expect(await textBoxKeyboardShortcuts.email.inputValue(), 'Expected the entered email').toMatch(
-                userData.email
-            )
-            expect(
-                await textBoxKeyboardShortcuts.currentAddress.inputValue(),
-                'Expected the entered current address'
-            ).toMatch(userData.currentAddress)
-            expect(
-                await textBoxKeyboardShortcuts.permanentAddress.inputValue(),
-                'Expected the entered permanent address'
-            ).toMatch(userData.permanentAddress)
         })
 
         await test.step('Step 2. Click Submit button', async () => {
