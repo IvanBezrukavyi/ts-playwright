@@ -1,14 +1,17 @@
-import { test as base } from '@playwright/test'
+import { test as base } from '../fixtures/fixtureBase'
+import { expect } from 'playwright/test'
 import TextBoxPage from '../main/demoApp/textBoxPage'
 
-export const test = base.extend<{ textBoxPage: TextBoxPage }>({
+export const textBoxFixture = base.extend<{ textBoxPage: TextBoxPage }>({
     textBoxPage: async ({ page }, use) => {
         const textBoxPage = new TextBoxPage(page)
         await textBoxPage.goTo()
         await textBoxPage.selectElementsMenu()
         await textBoxPage.selectTextBoxMenu()
-        use(textBoxPage)
+        await use(textBoxPage)
     }
 
     //Add other pages here
 })
+
+export { expect }

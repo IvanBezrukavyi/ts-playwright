@@ -1,7 +1,6 @@
-import { expect } from 'playwright/test'
 import { UserDataGeneration } from '../Utils/userDataGeneration'
 import { TextBoxKeyboardShortcuts, TextBoxMouseActions } from '../srs/main/demoApp/textBoxPageNew'
-import { test } from '../srs/fixtures/fixturePages'
+import { textBoxFixture, test, expect } from '../srs/fixtures/fixturePages'
 
 interface UserData {
     fullName: string
@@ -24,7 +23,7 @@ test.describe('@Demoqa Text Box Tests', () => {
     let textBoxKeyboardShortcuts: TextBoxKeyboardShortcuts
     let userTestData: UserData
 
-    test.beforeEach(async ({ textBoxPage }) => {
+    textBoxFixture.beforeEach(async ({ textBoxPage }) => {
         textBoxMouseActions = new TextBoxMouseActions(textBoxPage)
         textBoxKeyboardShortcuts = new TextBoxKeyboardShortcuts(textBoxPage)
         userTestData = UserDataGeneration.generateUserData()
