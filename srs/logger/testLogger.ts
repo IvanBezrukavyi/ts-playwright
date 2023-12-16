@@ -1,5 +1,5 @@
 import { levels } from './winston.config'
-import winston from 'winston'
+import winston = require('winston')
 
 export class TestLogger {
     constructor(private readonly logger: winston.Logger) {}

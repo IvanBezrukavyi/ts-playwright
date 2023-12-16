@@ -35,7 +35,7 @@ test.describe('@Demoqa Text Box Tests', () => {
         const userData = getUserData(userTestData)
 
         await test.step('Step 1. Fill inputs by valid data', async () => {
-            await textBox.fillInputsByShortcuts(
+            await textBox.fillInputsByValues(
                 userData.fullName,
                 userData.email,
                 userData.currentAddress,
