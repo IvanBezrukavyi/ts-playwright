@@ -1,0 +1,16 @@
+***Generated User Data*** {
+  fullName: 'Mrs. Gail Feil',
+  email: 'Keshawn.Stroman@demoqa.com',
+  currentAddress: '44412 Liza Mount, Demariofort, Oklahoma, 43050',
+  permanentAddress: '456 Elm St, Demariofort, Oklahoma, 43050'
+}
+2023-12-16 19:32:30 - info: Retrieved user's full name: Mrs. Gail Feil
+2023-12-16 19:32:30 - info: Retrieved user's email: Keshawn.Stroman@demoqa.com
+2023-12-16 19:32:30 - info: Retrieved user's current address: 44412 Liza Mount, Demariofort, Oklahoma, 43050
+2023-12-16 19:32:30 - info: Retrieved user's permanent address: 456 Elm St, Demariofort, Oklahoma, 43050
+***Removed Content from INPUTS*** {
+  removedFullName: '',
+  removedEmail: '',
+  removedCurrentAddress: '',
+  removedPermanentAddress: ''
+}

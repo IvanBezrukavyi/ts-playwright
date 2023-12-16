@@ -1,0 +1,4 @@
+2023-12-16 19:34:21 - info: Retrieved user's full name: Mrs. Marlene Goldner
+2023-12-16 19:34:21 - info: Retrieved user's email: River_Dickens-Larkin@demoqa.com
+2023-12-16 19:34:21 - info: Retrieved user's current address: 383 Ruecker Manors, Coltfort, Texas, 90122-9908
+2023-12-16 19:34:21 - info: Retrieved user's permanent address: 456 Elm St, Coltfort, Texas, 90122-9908
