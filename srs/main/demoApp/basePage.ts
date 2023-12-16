@@ -13,7 +13,6 @@ export class BasePage {
     public readonly expEmail: Locator
     public readonly expCurrentAddress: Locator
     public readonly expPermanentAddress: Locator
-    protected readonly submitButton: Locator
 
     constructor(page: Page) {
         this.page = page
@@ -23,7 +22,6 @@ export class BasePage {
         this.email = page.locator('#userEmail')
         this.currentAddress = page.locator('#currentAddress')
         this.permanentAddress = page.locator('#permanentAddress')
-        this.submitButton = page.locator('#submit')
         this.expFullName = page.locator('#name')
         this.expEmail = page.locator('#email')
         this.expCurrentAddress = page.locator("p[id*='currentAddress']")
@@ -75,10 +73,6 @@ export class BasePage {
         logger.info(`Retrieved user's permanent address: ${permanentAddress}`)
 
         return { fullName, email, currentAddress, permanentAddress }
-    }
-
-    async submitTextBoxForm(): Promise<void> {
-        await this.submitButton.click()
     }
 
     async getSubmittedData(): Promise<{
