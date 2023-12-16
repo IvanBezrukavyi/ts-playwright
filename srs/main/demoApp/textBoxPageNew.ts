@@ -18,6 +18,10 @@ export class TextBoxMouseActions extends BasePage {
         this.submitButton = page.locator('#submit')
     }
 
+    async submitTextBoxForm(): Promise<void> {
+        await this.submitButton.click()
+    }
+
     async removeInputContent(inputLocators: Locator[]): Promise<void> {
         for (const inputLocator of inputLocators) {
             await inputLocator.nth(0).focus()
