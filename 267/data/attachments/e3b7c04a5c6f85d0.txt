@@ -1,0 +1,4 @@
+2023-12-16 19:15:11 - info: Retrieved user's full name: Darren Hintz
+2023-12-16 19:15:11 - info: Retrieved user's email: Israel44@demoqa.com
+2023-12-16 19:15:11 - info: Retrieved user's current address: 67719 Heidi Radial, Heaneyfurt, Texas, 07487
+2023-12-16 19:15:11 - info: Retrieved user's permanent address: 456 Elm St, Heaneyfurt, Texas, 07487

@@ -1,0 +1,16 @@
+***Generated User Data*** {
+  fullName: 'Mildred Jones',
+  email: 'Selina.Torp-Kutch1@demoqa.com',
+  currentAddress: '841 Wintheiser Crossroad, New Xzavier, West Virginia, 44588',
+  permanentAddress: '456 Elm St, New Xzavier, West Virginia, 44588'
+}
+2023-12-16 19:13:25 - info: Retrieved user's full name: Mildred Jones
+2023-12-16 19:13:25 - info: Retrieved user's email: Selina.Torp-Kutch1@demoqa.com
+2023-12-16 19:13:25 - info: Retrieved user's current address: 841 Wintheiser Crossroad, New Xzavier, West Virginia, 44588
+2023-12-16 19:13:25 - info: Retrieved user's permanent address: 456 Elm St, New Xzavier, West Virginia, 44588
+***Removed Content from INPUTS*** {
+  removedFullName: '',
+  removedEmail: '',
+  removedCurrentAddress: '',
+  removedPermanentAddress: ''
+}
