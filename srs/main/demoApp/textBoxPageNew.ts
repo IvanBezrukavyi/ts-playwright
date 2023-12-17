@@ -1,23 +1,7 @@
-import { Locator, Page } from 'playwright'
+import { Locator } from 'playwright'
 import { BasePage } from './basePage'
 
 export class TextBoxMouseActions extends BasePage {
-    readonly fullName: Locator
-    readonly email: Locator
-    readonly currentAddress: Locator
-    readonly permanentAddress: Locator
-    protected submitButton: Locator
-
-    constructor(page: Page) {
-        super(page)
-
-        this.fullName = this.page.locator('#userName')
-        this.email = this.page.locator('#userEmail')
-        this.currentAddress = this.page.locator('#currentAddress')
-        this.permanentAddress = this.page.locator('#permanentAddress')
-        this.submitButton = page.locator('#submit')
-    }
-
     async submitTextBoxForm(): Promise<void> {
         await this.submitButton.click()
     }
@@ -34,23 +18,6 @@ export class TextBoxMouseActions extends BasePage {
 }
 
 export class TextBoxKeyboardShortcuts extends BasePage {
-    readonly fullName: Locator
-    readonly email: Locator
-    readonly currentAddress: Locator
-    readonly permanentAddress: Locator
-    protected readonly submitButton: Locator
-
-    // eslint-disable-next-line @typescript-eslint/no-useless-constructor
-    constructor(page: Page) {
-        super(page)
-
-        this.fullName = this.page.locator('#userName')
-        this.email = this.page.locator('#userEmail')
-        this.currentAddress = this.page.locator('#currentAddress')
-        this.permanentAddress = this.page.locator('#permanentAddress')
-        this.submitButton = page.locator('#submit')
-    }
-
     async fillInputsByShortcuts(
         fullName: string,
         email: string,

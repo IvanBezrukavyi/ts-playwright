@@ -5,14 +5,15 @@ export class BasePage {
     protected readonly page: Page
     protected readonly elementsMenu: Locator
     protected readonly textBoxMenu: Locator
-    public readonly fullName: Locator
-    public readonly email: Locator
-    public readonly currentAddress: Locator
-    public readonly permanentAddress: Locator
-    public readonly expFullName: Locator
-    public readonly expEmail: Locator
-    public readonly expCurrentAddress: Locator
-    public readonly expPermanentAddress: Locator
+    protected readonly fullName: Locator
+    protected readonly email: Locator
+    protected readonly currentAddress: Locator
+    protected readonly permanentAddress: Locator
+    protected readonly expFullName: Locator
+    protected readonly expEmail: Locator
+    protected readonly expCurrentAddress: Locator
+    protected readonly expPermanentAddress: Locator
+    protected readonly submitButton: Locator
 
     constructor(page: Page) {
         this.page = page
@@ -26,6 +27,7 @@ export class BasePage {
         this.expEmail = page.locator('#email')
         this.expCurrentAddress = page.locator("p[id*='currentAddress']")
         this.expPermanentAddress = page.locator("p[id*='permanentAddress']")
+        this.submitButton = page.locator('#submit')
     }
 
     async goTo(): Promise<void> {
