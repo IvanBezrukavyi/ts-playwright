@@ -1,0 +1,4 @@
+2023-12-17 12:00:33 - info: Retrieved user's full name: May Sipes
+2023-12-17 12:00:33 - info: Retrieved user's email: Cassandra_Boehm41@demoqa.com
+2023-12-17 12:00:33 - info: Retrieved user's current address: 186 Morissette Neck, Kinghaven, Alaska, 64904
+2023-12-17 12:00:33 - info: Retrieved user's permanent address: 456 Elm St, Kinghaven, Alaska, 64904
