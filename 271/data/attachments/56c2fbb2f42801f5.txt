@@ -1,0 +1,4 @@
+2023-12-17 09:44:23 - info: Retrieved user's full name: Angelica Bosco
+2023-12-17 09:44:23 - info: Retrieved user's email: Violette.Windler12@demoqa.com
+2023-12-17 09:44:23 - info: Retrieved user's current address: 3128 6th Street, South Ethyl, North Dakota, 73930
+2023-12-17 09:44:23 - info: Retrieved user's permanent address: 456 Elm St, South Ethyl, North Dakota, 73930

@@ -1,0 +1,16 @@
+***Generated User Data*** {
+  fullName: 'Vanessa Schinner',
+  email: 'Annie87@demoqa.com',
+  currentAddress: '1729 Main Avenue, North Melyssa, South Carolina, 95753-9628',
+  permanentAddress: '456 Elm St, North Melyssa, South Carolina, 95753-9628'
+}
+2023-12-17 09:42:35 - info: Retrieved user's full name: Vanessa Schinner
+2023-12-17 09:42:35 - info: Retrieved user's email: Annie87@demoqa.com
+2023-12-17 09:42:35 - info: Retrieved user's current address: 1729 Main Avenue, North Melyssa, South Carolina, 95753-9628
+2023-12-17 09:42:35 - info: Retrieved user's permanent address: 456 Elm St, North Melyssa, South Carolina, 95753-9628
+***Removed Content from INPUTS*** {
+  removedFullName: '',
+  removedEmail: '',
+  removedCurrentAddress: '',
+  removedPermanentAddress: ''
+}
