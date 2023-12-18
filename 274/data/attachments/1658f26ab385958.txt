@@ -1,0 +1,16 @@
+***Generated User Data*** {
+  fullName: 'Nettie Waters',
+  email: 'Tyree38@demoqa.com',
+  currentAddress: '60889 S Main Street, Ullrichshire, Montana, 58286-5269',
+  permanentAddress: '456 Elm St, Ullrichshire, Montana, 58286-5269'
+}
+2023-12-18 09:39:33 - info: Retrieved user's full name: Nettie Waters
+2023-12-18 09:39:33 - info: Retrieved user's email: Tyree38@demoqa.com
+2023-12-18 09:39:33 - info: Retrieved user's current address: 60889 S Main Street, Ullrichshire, Montana, 58286-5269
+2023-12-18 09:39:33 - info: Retrieved user's permanent address: 456 Elm St, Ullrichshire, Montana, 58286-5269
+***Removed Content from INPUTS*** {
+  removedFullName: '',
+  removedEmail: '',
+  removedCurrentAddress: '',
+  removedPermanentAddress: ''
+}
