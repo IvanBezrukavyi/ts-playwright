@@ -30,23 +30,23 @@ export class BasePage {
         this.submitButton = page.locator('#submit')
     }
 
-    // async goTo(): Promise<void> {
-    //     await this.page.goto('')
-    // }
+    async goTo(): Promise<void> {
+        await this.page.goto('')
+    }
 
-    // async selectElementsMenu(): Promise<void> {
-    //     if (!this.elementsMenu) {
-    //         throw new Error('elementsMenu locator is not initialized')
-    //     }
-    //     await this.elementsMenu.click()
-    // }
+    async selectElementsMenu(): Promise<void> {
+        if (!this.elementsMenu) {
+            throw new Error('elementsMenu locator is not initialized')
+        }
+        await this.elementsMenu.click()
+    }
 
-    // async selectTextBoxMenu(): Promise<void> {
-    //     if (!this.elementsMenu) {
-    //         throw new Error('textBoxMenu locator is not initialized')
-    //     }
-    //     await this.textBoxMenu.click()
-    // }
+    async selectTextBoxMenu(): Promise<void> {
+        if (!this.elementsMenu) {
+            throw new Error('textBoxMenu locator is not initialized')
+        }
+        await this.textBoxMenu.click()
+    }
 
     async fillInputsByValues(fullName: string, email: string, currentAddress: string, permanentAddress: string) {
         await this.fullName.fill(fullName)
