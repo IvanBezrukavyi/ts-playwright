@@ -24,8 +24,6 @@ test.describe('@Demoqa Text Box Tests', () => {
     let userTestData: UserData
 
     test.beforeEach(async ({ page, textBoxPage }) => {
-        //const textBoxPage = await test.
-
         textBoxMouseActions = new TextBoxMouseActions(page)
         textBoxKeyboardShortcuts = new TextBoxKeyboardShortcuts(page)
         userTestData = UserDataGeneration.generateUserData()
