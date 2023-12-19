@@ -1,0 +1,4 @@
+2023-12-19 16:07:59 - info: Retrieved user's full name: Dr. Ian Sanford
+2023-12-19 16:08:00 - info: Retrieved user's email: Milan.Dickens@demoqa.com
+2023-12-19 16:08:00 - info: Retrieved user's current address: 3845 Konopelski Spur, Lake Jimmy, Colorado, 83109-5389
+2023-12-19 16:08:00 - info: Retrieved user's permanent address: 456 Elm St, Lake Jimmy, Colorado, 83109-5389
