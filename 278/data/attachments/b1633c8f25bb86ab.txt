@@ -1,0 +1,7 @@
+[
+  'zara coat 3',
+  'adidas original',
+  'iphone 13 pro',
+  'I Phone',
+  'I Phone'
+]
