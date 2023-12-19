@@ -1,0 +1,16 @@
+***Generated User Data*** {
+  fullName: 'Bert Bechtelar',
+  email: 'Maynard87@demoqa.com',
+  currentAddress: '146 Bayer Way, Vivianeboro, South Carolina, 71758',
+  permanentAddress: '456 Elm St, Vivianeboro, South Carolina, 71758'
+}
+2023-12-19 09:39:18 - info: Retrieved user's full name: Bert Bechtelar
+2023-12-19 09:39:19 - info: Retrieved user's email: Maynard87@demoqa.com
+2023-12-19 09:39:19 - info: Retrieved user's current address: 146 Bayer Way, Vivianeboro, South Carolina, 71758
+2023-12-19 09:39:19 - info: Retrieved user's permanent address: 456 Elm St, Vivianeboro, South Carolina, 71758
+***Removed Content from INPUTS*** {
+  removedFullName: '',
+  removedEmail: '',
+  removedCurrentAddress: '',
+  removedPermanentAddress: ''
+}

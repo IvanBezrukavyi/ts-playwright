@@ -1,0 +1,4 @@
+2023-12-19 09:39:34 - info: Retrieved user's full name: Dwayne Kuvalis
+2023-12-19 09:39:34 - info: Retrieved user's email: Leo.Kovacek@demoqa.com
+2023-12-19 09:39:34 - info: Retrieved user's current address: 956 Neil Road, Lake Darylview, Nebraska, 27901-4635
+2023-12-19 09:39:34 - info: Retrieved user's permanent address: 456 Elm St, Lake Darylview, Nebraska, 27901-4635
