@@ -1,6 +1,0 @@
-***Generated User Data*** {
-  fullName: 'Candice Franey',
-  email: 'Alvera_Daugherty@demoqa.com',
-  currentAddress: '43430 Bethel Valleys, Lehnerchester, Wyoming, 52008',
-  permanentAddress: '456 Elm St, Lehnerchester, Wyoming, 52008'
-}

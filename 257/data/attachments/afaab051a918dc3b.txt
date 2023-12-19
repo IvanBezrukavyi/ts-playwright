@@ -1,8 +1,0 @@
-***Generated User Data*** {
-  fullName: 'Omar Rodriguez',
-  email: 'Quinton.DAmore@demoqa.com',
-  currentAddress: '3633 Pine Street, Thompsonborough, New Hampshire, 95965',
-  permanentAddress: '456 Elm St, Thompsonborough, New Hampshire, 95965'
-}
-Inputs filled successfully!
-***Entered Data*** { fullName: '', email: '', currentAddress: '', permanentAddress: '' }

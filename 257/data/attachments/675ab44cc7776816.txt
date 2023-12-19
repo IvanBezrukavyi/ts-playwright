@@ -1,8 +1,0 @@
-***Generated User Data*** {
-  fullName: 'Perry Pouros',
-  email: 'Margarette_Stamm@demoqa.com',
-  currentAddress: '578 Destany Ridge, Lake Jimmie, New Jersey, 37501',
-  permanentAddress: '456 Elm St, Lake Jimmie, New Jersey, 37501'
-}
-Inputs filled successfully!
-***Entered Data*** { fullName: '', email: '', currentAddress: '', permanentAddress: '' }
