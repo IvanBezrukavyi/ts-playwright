@@ -1,6 +1,6 @@
 import { UserDataGeneration } from '../Utils/userDataGeneration'
 import { TextBoxKeyboardShortcuts, TextBoxMouseActions } from '../srs/main/demoApp/textBoxPageNew'
-import { textBoxFixture, test, expect } from '../srs/fixtures/fixturePages'
+import { test, expect } from '../srs/fixtures/fixturePages'
 
 interface UserData {
     fullName: string
@@ -23,9 +23,11 @@ test.describe('@Demoqa Text Box Tests', () => {
     let textBoxKeyboardShortcuts: TextBoxKeyboardShortcuts
     let userTestData: UserData
 
-    textBoxFixture.beforeEach(async ({ textBoxPage }) => {
-        textBoxMouseActions = new TextBoxMouseActions(textBoxPage)
-        textBoxKeyboardShortcuts = new TextBoxKeyboardShortcuts(textBoxPage)
+    test.beforeEach(async ({ page, textBoxPage }) => {
+        //const textBoxPage = await test.
+
+        textBoxMouseActions = new TextBoxMouseActions(page)
+        textBoxKeyboardShortcuts = new TextBoxKeyboardShortcuts(page)
         userTestData = UserDataGeneration.generateUserData()
     })
 
