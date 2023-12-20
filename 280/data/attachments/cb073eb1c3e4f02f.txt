@@ -1,0 +1,3 @@
+I Phone
+LOG: Product list titles is:  [ 'I Phone', 'I Phone', 'I Phone', 'I Phone', 'I Phone', 'I Phone' ]
+LOG: Checkout counter equals to 0
