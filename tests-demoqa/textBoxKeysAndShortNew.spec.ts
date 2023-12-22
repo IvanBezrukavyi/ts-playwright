@@ -23,10 +23,10 @@ test.describe('@Demoqa Text Box Tests', () => {
     let textBoxKeyboardShortcuts: TextBoxKeyboardShortcuts
     let userTestData: UserData
 
-    test.beforeEach(async ({ page, textBoxPage }) => {
-        await textBoxPage.goTo()
-        await textBoxPage.selectElementsMenu()
-        await textBoxPage.selectTextBoxMenu()
+    test.beforeEach(async ({ page, navigationTextBoxPage }) => {
+        await navigationTextBoxPage.goTo()
+        await navigationTextBoxPage.selectElementsMenu()
+        await navigationTextBoxPage.selectTextBoxMenu()
         textBoxMouseActions = new TextBoxMouseActions(page)
         textBoxKeyboardShortcuts = new TextBoxKeyboardShortcuts(page)
         userTestData = UserDataGeneration.generateUserData()
