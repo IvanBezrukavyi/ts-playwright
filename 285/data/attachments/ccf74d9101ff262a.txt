@@ -1,0 +1,16 @@
+***Generated User Data*** {
+  fullName: 'Frances Zulauf',
+  email: 'Minerva.Aufderhar@demoqa.com',
+  currentAddress: '56591 Alejandra Summit, Port Deion, West Virginia, 13543-8432',
+  permanentAddress: '456 Elm St, Port Deion, West Virginia, 13543-8432'
+}
+2023-12-22 10:17:18 - info: Retrieved user's full name: Frances Zulauf
+2023-12-22 10:17:18 - info: Retrieved user's email: Minerva.Aufderhar@demoqa.com
+2023-12-22 10:17:18 - info: Retrieved user's current address: 56591 Alejandra Summit, Port Deion, West Virginia, 13543-8432
+2023-12-22 10:17:18 - info: Retrieved user's permanent address: 456 Elm St, Port Deion, West Virginia, 13543-8432
+***Removed Content from INPUTS*** {
+  removedFullName: '',
+  removedEmail: '',
+  removedCurrentAddress: '',
+  removedPermanentAddress: ''
+}
