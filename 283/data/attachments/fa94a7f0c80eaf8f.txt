@@ -1,0 +1,4 @@
+2023-12-22 09:09:13 - info: Retrieved user's full name: Clifford Schaden
+2023-12-22 09:09:13 - info: Retrieved user's email: Coby_Moore@demoqa.com
+2023-12-22 09:09:13 - info: Retrieved user's current address: 4485 Turner Port, Bethville, Wyoming, 69068
+2023-12-22 09:09:13 - info: Retrieved user's permanent address: 456 Elm St, Bethville, Wyoming, 69068
