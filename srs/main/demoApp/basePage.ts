@@ -5,6 +5,7 @@ export class BasePage {
     protected readonly page: Page
     protected readonly elementsMenu: Locator
     protected readonly textBoxMenu: Locator
+    protected readonly dynamicProperties: Locator
     protected readonly fullName: Locator
     protected readonly email: Locator
     protected readonly currentAddress: Locator
@@ -19,6 +20,7 @@ export class BasePage {
         this.page = page
         this.elementsMenu = page.locator("h5:has-text('Elements')")
         this.textBoxMenu = page.locator("span:has-text('Text Box')")
+        this.dynamicProperties = page.locator("span:has-text('Dynamic Properties')")
         this.fullName = page.locator('#userName')
         this.email = page.locator('#userEmail')
         this.currentAddress = page.locator('#currentAddress')
@@ -46,6 +48,13 @@ export class BasePage {
             throw new Error('textBoxMenu locator is not initialized')
         }
         await this.textBoxMenu.click()
+    }
+
+    async selectDynamicProMenu(): Promise<void> {
+        if (!this.dynamicProperties) {
+            throw new Error('selectDynamicProMenu locator is not initialized')
+        }
+        await this.dynamicProperties.click()
     }
 
     async fillInputsByValues(fullName: string, email: string, currentAddress: string, permanentAddress: string) {
