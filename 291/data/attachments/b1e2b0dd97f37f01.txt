@@ -1,0 +1,4 @@
+2023-12-23 18:56:34 - info: Retrieved user's full name: Kayla Prohaska
+2023-12-23 18:56:34 - info: Retrieved user's email: Tabitha.Koelpin@demoqa.com
+2023-12-23 18:56:34 - info: Retrieved user's current address: 5819 Kings Highway, West Art, Massachusetts, 19872-7438
+2023-12-23 18:56:34 - info: Retrieved user's permanent address: 456 Elm St, West Art, Massachusetts, 19872-7438

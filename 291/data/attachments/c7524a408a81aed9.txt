@@ -1,0 +1,16 @@
+***Generated User Data*** {
+  fullName: 'Mr. Luis Nader',
+  email: 'Royce_McCullough@demoqa.com',
+  currentAddress: '5819 Lake Street, Fort Pinkhaven, Michigan, 67766-4294',
+  permanentAddress: '456 Elm St, Fort Pinkhaven, Michigan, 67766-4294'
+}
+2023-12-23 18:56:17 - info: Retrieved user's full name: Mr. Luis Nader
+2023-12-23 18:56:17 - info: Retrieved user's email: Royce_McCullough@demoqa.com
+2023-12-23 18:56:17 - info: Retrieved user's current address: 5819 Lake Street, Fort Pinkhaven, Michigan, 67766-4294
+2023-12-23 18:56:17 - info: Retrieved user's permanent address: 456 Elm St, Fort Pinkhaven, Michigan, 67766-4294
+***Removed Content from INPUTS*** {
+  removedFullName: '',
+  removedEmail: '',
+  removedCurrentAddress: '',
+  removedPermanentAddress: ''
+}
