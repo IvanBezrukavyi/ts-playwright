@@ -15,5 +15,6 @@
             "playwright-report",
             "test-results"
         ]
-    }
+    },
+    "cSpell.words": ["Bezrukavyi", "Demoqa", "filechooser", "sonarlint"]
 }
