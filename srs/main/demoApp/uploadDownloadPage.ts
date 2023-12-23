@@ -4,8 +4,7 @@ import * as path from 'path'
 import * as fs from 'fs'
 import { logger } from '../../logger/winston.config'
 
-const SINGLE_FILE_PATH =
-    '/Users/ibez/Desktop/repos/ts-playwright/srs/resources/files/upload/Customer_Flight_Activity.csv'
+const SINGLE_FILE_PATH = 'srs/resources/files/upload/Customer_Flight_Activity.csv'
 
 const MULTI_FILE_PATHS = [
     '/Users/ibez/Desktop/repos/ts-playwright/srs/resources/files/upload/Customer_Flight_Activity.csv',

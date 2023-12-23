@@ -2,8 +2,7 @@ import path from 'path'
 import { UploadAndDownload } from '../srs/main/demoApp/uploadDownloadPage'
 import { test, expect } from 'playwright/test'
 
-const SINGLE_FILE_PATH =
-    '/Users/ibez/Desktop/repos/ts-playwright/srs/resources/files/upload/Customer_Flight_Activity.csv'
+const SINGLE_FILE_PATH = 'srs/resources/files/upload/Customer_Flight_Activity.csv'
 
 test.describe('@Demoqa Download and Upload tests', () => {
     let uploadDownloadPage: UploadAndDownload
