@@ -1,0 +1,4 @@
+2023-12-23 18:18:32 - info: Retrieved user's full name: Kelli Bailey
+2023-12-23 18:18:33 - info: Retrieved user's email: Mara91@demoqa.com
+2023-12-23 18:18:33 - info: Retrieved user's current address: 457 Hackett Lights, Fort Sarah, Oregon, 15993-4685
+2023-12-23 18:18:33 - info: Retrieved user's permanent address: 456 Elm St, Fort Sarah, Oregon, 15993-4685

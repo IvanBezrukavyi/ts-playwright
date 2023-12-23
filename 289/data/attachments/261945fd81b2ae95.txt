@@ -1,0 +1,2 @@
+2023-12-23 18:21:27 - info: Constructed file path:
+2023-12-23 18:21:27 - error: File not found: /Users/ibez/Desktop/repos/ts-playwright/srs/resources/files/upload/Customer_Flight_Activity.csv
