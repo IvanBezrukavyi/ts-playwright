@@ -1,13 +1,16 @@
 import { Locator, Page } from 'playwright'
 import { BasePage } from './basePage'
 import * as path from 'path'
-import { fileURLToPath } from 'url'
-import { dirname } from 'path'
 import * as fs from 'fs'
 import { logger } from '../../logger/winston.config'
 
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = dirname(__filename)
+const SINGLE_FILE_PATH =
+    '/Users/ibez/Desktop/repos/ts-playwright/srs/resources/files/upload/Customer_Flight_Activity.csv'
+
+const MULTI_FILE_PATHS = [
+    '/Users/ibez/Desktop/repos/ts-playwright/srs/resources/files/upload/Customer_Flight_Activity.csv',
+    '/Users/ibez/Desktop/repos/ts-playwright/srs/resources/files/upload/Customer_Loyalty_History.csv'
+]
 
 export class UploadAndDownload extends BasePage {
     protected downloadButton: Locator
@@ -31,16 +34,28 @@ export class UploadAndDownload extends BasePage {
     }
 
     async selectAndUploadFile() {
-        const filePath =
-            '/Users/ibez/Desktop/repos/ts-playwright/srs/resources/files/upload/Customer_Flight_Activity.csv'
-        logger.info('Constructed file path:', filePath)
+        logger.info('Constructed file path:', SINGLE_FILE_PATH)
 
-        if (!fs.existsSync(filePath)) {
-            logger.error(`File not found: ${filePath}`)
+        if (!fs.existsSync(SINGLE_FILE_PATH)) {
+            logger.error(`File not found: ${SINGLE_FILE_PATH}`)
             throw new Error('File not found')
         }
 
-        await this.uploadButton.setInputFiles(filePath)
+        await this.uploadButton.setInputFiles(SINGLE_FILE_PATH)
+    }
+
+    async selectAndUploadMultiFile() {
+        MULTI_FILE_PATHS.forEach((filePath) => {
+            logger.info('Constructed file path:', filePath)
+        })
+
+        if (!MULTI_FILE_PATHS.every((filePath) => fs.existsSync(filePath))) {
+            const nonExistentFiles = MULTI_FILE_PATHS.filter((filePath) => !fs.existsSync(filePath))
+            logger.error(`File not found: ${nonExistentFiles}`)
+            throw new Error('File not found')
+        }
+
+        await this.uploadButton.setInputFiles(MULTI_FILE_PATHS)
     }
 
     async getUploadedFilePath(): Promise<string> {
