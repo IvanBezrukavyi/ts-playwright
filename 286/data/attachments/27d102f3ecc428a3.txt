@@ -1,0 +1,12 @@
+T-Shirt
+LOG: Product list titles is:  [
+  'T-Shirt',  'T-shirt',
+  'T-shirt',  'T-shirt',
+  'qwerty',   'I Phone1',
+  'I Phone2', 'I Phone3'
+]
+LOG: Checkout counter equals to 0
+Button text:  British Indian Ocean Territory
+Button text:  India
+Matching country found: India
+ | 6586afa19fd99c85e8f1b14e | 

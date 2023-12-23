@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Dec 23 09:59:53 GMT 2023","Sat Dec 23 10:00:03 GMT 2023","9592","client app","clientAppWithExternalDataAndParametriazation.spec.ts","","","","TC: E2E for ordering qwerty",""
+"passed","Sat Dec 23 09:38:20 GMT 2023","Sat Dec 23 09:38:25 GMT 2023","5165","client app","clientAppWithExternalDataAndParametriazation.spec.ts","","","","TC: Verify success login to client app with nspprotest@gmail.com and Pl@ywright_test_m1",""
+"passed","Sat Dec 23 10:00:03 GMT 2023","Sat Dec 23 10:00:03 GMT 2023","36","teardown","auth.tearDown.spec.ts","Teardown","","","Remove ${authFile} after running client app tests",""
+"passed","Sat Dec 23 09:38:25 GMT 2023","Sat Dec 23 09:38:30 GMT 2023","4873","client app","clientAppWithExternalDataAndParametriazation.spec.ts","","","","TC: Verify success login to client app with anshika@gmail.com and Iamking@000",""
+"passed","Sat Dec 23 09:38:18 GMT 2023","Sat Dec 23 09:38:19 GMT 2023","1149","setup","auth.setupNew.spec.ts","","","","default authentication for client app",""
+"broken","Sat Dec 23 09:54:32 GMT 2023","Sat Dec 23 09:59:53 GMT 2023","320304","client app","clientAppWithExternalDataAndParametriazation.spec.ts","","","","TC: E2E for ordering I Phone",""
