@@ -13,8 +13,9 @@ test.describe('@Demoqa Download and Upload tests', () => {
         await uploadDownloadPage.selectUploadAndDownloadMenu()
     })
 
-    test('TC: Verify uploading file', async () => {
+    test('TC: Verify uploading 1 file', async () => {
         await uploadDownloadPage.selectAndUploadFile()
-        expect(uploadDownloadPage.getUploadedFilePath).toContain('Legal Hold Data Sample1.pdf')
+        const uploadedFilePath = await uploadDownloadPage.getUploadedFilePath()
+        expect(uploadedFilePath).toContain('Customer_Flight_Activity.csv')
     })
 })

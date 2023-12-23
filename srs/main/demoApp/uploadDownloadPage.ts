@@ -1,8 +1,13 @@
 import { Locator, Page } from 'playwright'
 import { BasePage } from './basePage'
 import * as path from 'path'
+import { fileURLToPath } from 'url'
+import { dirname } from 'path'
 import * as fs from 'fs'
 import { logger } from '../../logger/winston.config'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = dirname(__filename)
 
 export class UploadAndDownload extends BasePage {
     protected downloadButton: Locator
@@ -26,18 +31,16 @@ export class UploadAndDownload extends BasePage {
     }
 
     async selectAndUploadFile() {
-        const filePath = path.join(__dirname, '..', 'resources', 'files', 'upload', 'Legal Hold Data Sample1.pdf')
-        logger.debug('Constructed file path:', filePath)
-
-        await this.uploadButton.focus()
-        await this.uploadButton.waitFor({ state: 'visible' })
+        const filePath =
+            '/Users/ibez/Desktop/repos/ts-playwright/srs/resources/files/upload/Customer_Flight_Activity.csv'
+        logger.info('Constructed file path:', filePath)
 
         if (!fs.existsSync(filePath)) {
             logger.error(`File not found: ${filePath}`)
             throw new Error('File not found')
         }
 
-        await this.uploadButton.setInputFiles(path.join(__dirname, filePath))
+        await this.uploadButton.setInputFiles(filePath)
     }
 
     async getUploadedFilePath(): Promise<string> {
