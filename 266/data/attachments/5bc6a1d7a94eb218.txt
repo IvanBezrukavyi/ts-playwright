@@ -1,4 +1,0 @@
-2023-12-16 13:16:01 - info: Retrieved user's full name: Earl Pagac
-2023-12-16 13:16:01 - info: Retrieved user's email: Jordane.Buckridge86@demoqa.com
-2023-12-16 13:16:01 - info: Retrieved user's current address: 55658 Morris Causeway, Meghanhaven, Arkansas, 67772-4096
-2023-12-16 13:16:02 - info: Retrieved user's permanent address: 456 Elm St, Meghanhaven, Arkansas, 67772-4096

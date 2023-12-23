@@ -1,0 +1,4 @@
+2023-12-23 16:44:35 - info: Retrieved user's full name: Charlene Murray-Wuckert
+2023-12-23 16:44:36 - info: Retrieved user's email: Annie_Ankunding75@demoqa.com
+2023-12-23 16:44:36 - info: Retrieved user's current address: 13918 Lubowitz Lights, Jakubowskimouth, South Dakota, 42451-6664
+2023-12-23 16:44:36 - info: Retrieved user's permanent address: 456 Elm St, Jakubowskimouth, South Dakota, 42451-6664
