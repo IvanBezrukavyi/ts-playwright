@@ -1,7 +1,7 @@
 import { Locator, Page } from 'playwright'
+import * as fs from 'fs/promises'
 import { BasePage } from './basePage'
 import * as path from 'path'
-import * as fs from 'fs'
 import { logger } from '../../logger/winston.config'
 
 const SINGLE_FILE_PATH = process.env.SINGLE_FILE_PATH || 'srs/resources/files/upload/Customer_Flight_Activity.csv'
@@ -25,11 +25,48 @@ export class UploadAndDownload extends BasePage {
     }
 
     async downloadFile() {
+        logger.info('Starting file download process')
+
         const downloadPromise = this.page.waitForEvent('download')
         await this.downloadButton.click()
+
+        logger.debug('Download event triggered')
+
         const download = await downloadPromise
 
-        await download.saveAs(path.join('srs/resources/files/download', download.suggestedFilename()))
+        const now = new Date()
+        const filenamePrefix = 'upload-sample-'
+        const dateString = now.toISOString().slice(0, 10) // YYYY-MM-DD
+        const timeString = now.toISOString().slice(11, 16) // HH:mm
+        const customFileName = `${filenamePrefix}${dateString}-${timeString}.jpeg`
+
+        logger.info(`Saving file as: ${customFileName}`)
+
+        await download.saveAs(path.join('srs/resources/files/download', customFileName))
+
+        logger.info('File download completed successfully')
+
+        return customFileName
+    }
+
+    async retrieveDownloadedFile(
+        fileName: string,
+        downloadPath: string = 'srs/resources/files/download'
+    ): Promise<{ filePath: string; fileName: string }> {
+        try {
+            const filePath = path.join(downloadPath, fileName)
+
+            logger.info(`Retrieving downloaded file path: ${filePath}`)
+
+            await fs.access(filePath)
+
+            logger.info('File retrieval completed successfully')
+
+            return { filePath, fileName }
+        } catch (error) {
+            logger.error(`Error during file retrieval: ${error.message}`)
+            throw error
+        }
     }
 
     async selectAndUploadFile() {
