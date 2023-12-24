@@ -18,6 +18,8 @@ jobs:
       CLIENT_APP_URL: ${{ secrets.CLIENT_APP_URL }}
       USER_EMAIL: ${{ secrets.USER_EMAIL }}
       USER_PASSWORD: ${{ secrets.USER_PASSWORD }}
+      SINGLE_FILE_PATH: ${{ secrets.SINGLE_FILE_PATH}}
+      MULTI_FILE_PATHS: ${{ secrets.MULTI_FILE_PATHS}}
       node-version: '20'  
 
     steps:
