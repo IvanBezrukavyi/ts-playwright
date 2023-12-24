@@ -1,0 +1,16 @@
+***Generated User Data*** {
+  fullName: 'Micheal Grady',
+  email: 'Hollis6@demoqa.com',
+  currentAddress: '404 N Monroe Street, East Jacky, Pennsylvania, 53107-3421',
+  permanentAddress: '456 Elm St, East Jacky, Pennsylvania, 53107-3421'
+}
+2023-12-24 19:57:34 - info: Retrieved user's full name: Micheal Grady
+2023-12-24 19:57:34 - info: Retrieved user's email: Hollis6@demoqa.com
+2023-12-24 19:57:34 - info: Retrieved user's current address: 404 N Monroe Street, East Jacky, Pennsylvania, 53107-3421
+2023-12-24 19:57:34 - info: Retrieved user's permanent address: 456 Elm St, East Jacky, Pennsylvania, 53107-3421
+***Removed Content from INPUTS*** {
+  removedFullName: '',
+  removedEmail: '',
+  removedCurrentAddress: '',
+  removedPermanentAddress: ''
+}
