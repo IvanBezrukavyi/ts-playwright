@@ -1,4 +1,0 @@
-2023-12-18 09:39:50 - info: Retrieved user's full name: Dewey Roob
-2023-12-18 09:39:50 - info: Retrieved user's email: Edmond53@demoqa.com
-2023-12-18 09:39:50 - info: Retrieved user's current address: 657 W 4th Street, North Nedra, Ohio, 40240
-2023-12-18 09:39:50 - info: Retrieved user's permanent address: 456 Elm St, North Nedra, Ohio, 40240

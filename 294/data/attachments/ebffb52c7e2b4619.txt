@@ -1,0 +1,12 @@
+T-Shirt
+LOG: Product list titles is:  [
+  'T-Shirt',
+  'T-shirt',
+  'T-shirt',
+  'T-shirt',
+  'qwerty',
+  'ZARA COAT 3',
+  'ADIDAS ORIGINAL',
+  'IPHONE 13 PRO'
+]
+LOG: Checkout counter equals to 0
