@@ -1,4 +1,0 @@
-2023-12-24 15:10:42 - info: Retrieved user's full name: Glenn Veum
-2023-12-24 15:10:42 - info: Retrieved user's email: Edwina_Haag@demoqa.com
-2023-12-24 15:10:42 - info: Retrieved user's current address: 6776 N Franklin Street, Kadeburgh, North Carolina, 08585
-2023-12-24 15:10:42 - info: Retrieved user's permanent address: 456 Elm St, Kadeburgh, North Carolina, 08585

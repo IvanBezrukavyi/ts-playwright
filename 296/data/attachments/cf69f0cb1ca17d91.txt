@@ -1,0 +1,4 @@
+2023-12-24 15:10:31 - info: Retrieved user's full name: Lee McKenzie
+2023-12-24 15:10:31 - info: Retrieved user's email: Santiago.Turcotte80@demoqa.com
+2023-12-24 15:10:32 - info: Retrieved user's current address: 85851 W Washington Avenue, South Kaydentown, Massachusetts, 53209
+2023-12-24 15:10:32 - info: Retrieved user's permanent address: 456 Elm St, South Kaydentown, Massachusetts, 53209

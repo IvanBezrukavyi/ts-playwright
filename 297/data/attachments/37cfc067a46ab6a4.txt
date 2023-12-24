@@ -1,3 +1,0 @@
-2023-12-24 15:09:07 - info: Starting set up auth process
-2023-12-24 15:09:08 - info: API request sent to:
-2023-12-24 15:09:08 - info: Login response received:
