@@ -1,0 +1,16 @@
+***Generated User Data*** {
+  fullName: 'Mrs. Vicki Thiel',
+  email: 'Cecilia.Corkery63@demoqa.com',
+  currentAddress: '569 Destinee Grove, Hageneston, Alabama, 62575-9830',
+  permanentAddress: '456 Elm St, Hageneston, Alabama, 62575-9830'
+}
+2023-12-24 15:10:05 - info: Retrieved user's full name: Mrs. Vicki Thiel
+2023-12-24 15:10:05 - info: Retrieved user's email: Cecilia.Corkery63@demoqa.com
+2023-12-24 15:10:05 - info: Retrieved user's current address: 569 Destinee Grove, Hageneston, Alabama, 62575-9830
+2023-12-24 15:10:05 - info: Retrieved user's permanent address: 456 Elm St, Hageneston, Alabama, 62575-9830
+***Removed Content from INPUTS*** {
+  removedFullName: '',
+  removedEmail: '',
+  removedCurrentAddress: '',
+  removedPermanentAddress: ''
+}
