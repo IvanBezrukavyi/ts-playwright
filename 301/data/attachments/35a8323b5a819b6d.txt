@@ -1,0 +1,4 @@
+2023-12-25 09:42:45 - info: Retrieved user's full name: Terence Dare I
+2023-12-25 09:42:45 - info: Retrieved user's email: Curt1@demoqa.com
+2023-12-25 09:42:45 - info: Retrieved user's current address: 60450 Ridge Road, New Lucasbury, Ohio, 14420
+2023-12-25 09:42:45 - info: Retrieved user's permanent address: 456 Elm St, New Lucasbury, Ohio, 14420

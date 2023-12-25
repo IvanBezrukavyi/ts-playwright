@@ -1,0 +1,16 @@
+***Generated User Data*** {
+  fullName: 'Taylor Predovic DVM',
+  email: 'Sydney.Ebert95@demoqa.com',
+  currentAddress: '997 E Central Avenue, New Brennon, Virginia, 58344',
+  permanentAddress: '456 Elm St, New Brennon, Virginia, 58344'
+}
+2023-12-25 09:40:59 - info: Retrieved user's full name: Taylor Predovic DVM
+2023-12-25 09:40:59 - info: Retrieved user's email: Sydney.Ebert95@demoqa.com
+2023-12-25 09:40:59 - info: Retrieved user's current address: 997 E Central Avenue, New Brennon, Virginia, 58344
+2023-12-25 09:40:59 - info: Retrieved user's permanent address: 456 Elm St, New Brennon, Virginia, 58344
+***Removed Content from INPUTS*** {
+  removedFullName: '',
+  removedEmail: '',
+  removedCurrentAddress: '',
+  removedPermanentAddress: ''
+}
