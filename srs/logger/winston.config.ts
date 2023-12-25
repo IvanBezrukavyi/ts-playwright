@@ -16,8 +16,10 @@ export const levels: Level = {
 }
 
 const formatMessage = (info) => {
-    const { timestamp, level, message } = info
-    return `${timestamp} - ${level}: ${message}`
+    const { timestamp, level, message, ...metadata } = info
+    const filePath = metadata.filePath ? ` ${metadata.filePath}` : '' // Check if filePath is defined
+
+    return `${timestamp} - ${level}: ${message}${filePath}`
 }
 
 export const logger = winston.createLogger({

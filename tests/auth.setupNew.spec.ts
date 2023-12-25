@@ -14,7 +14,7 @@ setup('default authentication for client app', async ({ context, request }) => {
         userEmail,
         userPassword
     }
-    logger.debug('Sending login request with body:', { requestBody })
+    logger.info('Sending login request with body:', { requestBody: JSON.stringify(requestBody) })
 
     const loginResponse = await request.post(authLoginEndPoint, {
         data: requestBody

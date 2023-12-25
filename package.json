@@ -17,7 +17,7 @@
         "husky": "^8.0.3",
         "lint-staged": "^15.2.0",
         "prettier": "^3.1.0",
-        "typescript": "^5.3.2"
+        "typescript": "^5.3.3"
     },
     "scripts": {
         "regression": "npx playwright test",
@@ -27,7 +27,7 @@
         "demoqa": "npx playwright test --grep @Demoqa",
         "debug": "npx playwright test -g TC 2: E2E. Enter and remove data from input text fields and via keys and shortcuts and cycle --debug",
         "debug-ui": "npx playwright test --grep @PO --debug",
-        "debug2": "npx playwright test textBoxKeysAndShortOld.spec.ts --debug",
+        "debug2": "npx playwright test upalodAndDownload.spec.ts --debug",
         "lint": "eslint ./tests/*.spec.ts",
         "lint-fix": "eslint ./tests/*.spec.ts",
         "prepare": "husky install"
