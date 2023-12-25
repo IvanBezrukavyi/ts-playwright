@@ -1,0 +1,16 @@
+***Generated User Data*** {
+  fullName: 'Dr. Jerry Lakin',
+  email: 'Peyton97@demoqa.com',
+  currentAddress: '639 S East Street, Novaworth, Alaska, 33946',
+  permanentAddress: '456 Elm St, Novaworth, Alaska, 33946'
+}
+2023-12-25 06:03:56 - info: Retrieved user's full name: Dr. Jerry Lakin
+2023-12-25 06:03:56 - info: Retrieved user's email: Peyton97@demoqa.com
+2023-12-25 06:03:56 - info: Retrieved user's current address: 639 S East Street, Novaworth, Alaska, 33946
+2023-12-25 06:03:57 - info: Retrieved user's permanent address: 456 Elm St, Novaworth, Alaska, 33946
+***Removed Content from INPUTS*** {
+  removedFullName: '',
+  removedEmail: '',
+  removedCurrentAddress: '',
+  removedPermanentAddress: ''
+}
