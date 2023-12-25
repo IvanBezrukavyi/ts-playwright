@@ -1,0 +1,4 @@
+2023-12-25 06:26:06 - info: Retrieved user's full name: Debra Hoppe
+2023-12-25 06:26:07 - info: Retrieved user's email: Aglae.DuBuque74@demoqa.com
+2023-12-25 06:26:07 - info: Retrieved user's current address: 663 Jacobs Burg, Runtestead, Virginia, 86768-8817
+2023-12-25 06:26:07 - info: Retrieved user's permanent address: 456 Elm St, Runtestead, Virginia, 86768-8817
