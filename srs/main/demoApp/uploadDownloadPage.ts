@@ -72,7 +72,7 @@ export class UploadAndDownload extends BasePage {
     async selectAndUploadFile() {
         logger.info('Constructed file path:', { filePath: SINGLE_FILE_PATH })
 
-        if (!fs.existsSync(SINGLE_FILE_PATH)) {
+        if (!fs.access(SINGLE_FILE_PATH)) {
             logger.error(`File not found: ${SINGLE_FILE_PATH}`)
             throw new Error('File not found')
         }
@@ -85,8 +85,8 @@ export class UploadAndDownload extends BasePage {
             logger.info('Constructed file path:', { filePath })
         })
 
-        if (!MULTI_FILE_PATHS.every((filePath) => fs.existsSync(filePath))) {
-            const nonExistentFiles = MULTI_FILE_PATHS.filter((filePath) => !fs.existsSync(filePath))
+        if (!MULTI_FILE_PATHS.every((filePath) => fs.access(filePath))) {
+            const nonExistentFiles = MULTI_FILE_PATHS.filter((filePath) => !fs.access(filePath))
             logger.error(`File not found: ${nonExistentFiles}`)
             throw new Error('File not found')
         }

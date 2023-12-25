@@ -21,12 +21,12 @@ test.describe('@Demoqa Download and Upload tests', () => {
         const customFileName = await uploadDownloadPage.downloadFile()
         const actualFilePath = await uploadDownloadPage.retrieveDownloadedFile(customFileName)
 
-        expect(actualFilePath.filePath).toBe(path.join(UPL_FILE_PATH, customFileName))
+        expect(actualFilePath.filePath, 'Expected download file path').toBe(path.join(UPL_FILE_PATH, customFileName))
     })
 
     test('TC_2: Verify uploading 1 file', async () => {
         await uploadDownloadPage.selectAndUploadFile()
         const uploadedFilePath = await uploadDownloadPage.getUploadedFilePath()
-        expect(uploadedFilePath, 'Expected uploaded file path').toContain(path.basename(SINGLE_FILE_PATH))
+        expect(uploadedFilePath, 'Expected upload file path').toContain(path.basename(SINGLE_FILE_PATH))
     })
 })
