@@ -1,0 +1,4 @@
+2023-12-26 09:39:46 - info: Retrieved user's full name: Shawna Erdman-Swift
+2023-12-26 09:39:46 - info: Retrieved user's email: Dylan59@demoqa.com
+2023-12-26 09:39:47 - info: Retrieved user's current address: 5088 Ariane Rapids, New Kipland, Utah, 13774
+2023-12-26 09:39:47 - info: Retrieved user's permanent address: 456 Elm St, New Kipland, Utah, 13774
