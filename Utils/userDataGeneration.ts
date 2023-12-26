@@ -16,12 +16,21 @@ export class UserDataGeneration {
         const state = faker.location.state()
         const zipCode = faker.location.zipCode()
 
+        const minAge = 18
+        const maxAge = 120
+        const age = faker.date.between({ from: minAge, to: maxAge })
+
+        const salary = faker.finance.amount(5, 10, 5, '', true)
+        const department = faker.person.jobArea()
         const currentAddress = `${streetAddress}, ${city}, ${state}, ${zipCode}`
         const permanentAddress = `456 Elm St, ${city}, ${state}, ${zipCode}`
 
         const userData = {
             fullName,
             email,
+            age,
+            salary,
+            department,
             currentAddress,
             permanentAddress
         }
