@@ -1,6 +1,0 @@
-I Phone
-LOG: Product list titles is:  [ 'I Phone', 'I Phone', 'I Phone', 'I Phone', 'I Phone', 'I Phone' ]
-LOG: Checkout counter equals to 0
-Button text:  Ukraine
-Matching country found: Ukraine
- | 658551b39fd99c85e8f10f27 | 
