@@ -1,4 +1,0 @@
-2023-12-22 09:39:45 - info: Retrieved user's full name: Jennifer Harvey Jr.
-2023-12-22 09:39:45 - info: Retrieved user's email: Kadin.Kerluke10@demoqa.com
-2023-12-22 09:39:45 - info: Retrieved user's current address: 2478 Rogers Radial, East Kathryneboro, Illinois, 08052-4170
-2023-12-22 09:39:45 - info: Retrieved user's permanent address: 456 Elm St, East Kathryneboro, Illinois, 08052-4170

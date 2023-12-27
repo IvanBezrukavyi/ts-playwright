@@ -1,0 +1,4 @@
+2023-12-27 09:39:40 - info: Retrieved user's full name: Winston Smitham
+2023-12-27 09:39:40 - info: Retrieved user's email: Clemmie23@demoqa.com
+2023-12-27 09:39:40 - info: Retrieved user's current address: 58906 S Broadway, Fort Santiago, Virginia, 51934-3786
+2023-12-27 09:39:40 - info: Retrieved user's permanent address: 456 Elm St, Fort Santiago, Virginia, 51934-3786
