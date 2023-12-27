@@ -1,1 +1,0 @@
-[ 'I Phone', 'I Phone', 'I Phone', 'I Phone', 'I Phone', 'I Phone' ]

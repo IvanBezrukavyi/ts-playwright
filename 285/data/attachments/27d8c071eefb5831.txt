@@ -1,4 +1,0 @@
-2023-12-22 10:17:37 - info: Retrieved user's full name: Charlie Bogisich
-2023-12-22 10:17:37 - info: Retrieved user's email: Kamryn75@demoqa.com
-2023-12-22 10:17:37 - info: Retrieved user's current address: 6571 Zboncak Walks, Lake Bellefield, Connecticut, 02506
-2023-12-22 10:17:37 - info: Retrieved user's permanent address: 456 Elm St, Lake Bellefield, Connecticut, 02506
