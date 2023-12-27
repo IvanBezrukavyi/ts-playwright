@@ -41,6 +41,12 @@
     },
     "type": "module",
     "lint-staged": {
-        "**/*": "prettier --write --ignore-unknown"
+        "**/*.ts": [
+            "prettier --write --ignore-unknown",
+            "eslint",
+            "npm run sonarlint"
+        ],
+        "*.md": "prettier --list-different"
+       
     }
 }
