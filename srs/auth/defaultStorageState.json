@@ -1,0 +1,15 @@
+{
+    "cookies": [
+        {
+            "name": "JWToken",
+            "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTI5Mjk3YjcyNDQ0OTBmOTVjYmYxY2QiLCJ1c2VyRW1haWwiOiJuc3Bwcm90ZXN0QGdtYWlsLmNvbSIsInVzZXJNb2JpbGUiOjE5Njk2NDY1NjQsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3MDM1ODkyODgsImV4cCI6MTczNTE0Njg4OH0.5QgvR1zwFarJUQdNVSB58wprqwSPJbWJUsEQDh3_2VA",
+            "domain": "rahulshettyacademy.com",
+            "path": "/",
+            "expires": -1,
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "Lax"
+        }
+    ],
+    "origins": []
+}
