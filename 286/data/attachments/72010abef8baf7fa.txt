@@ -1,3 +1,0 @@
-I Phone1
-LOG: Product list titles is:  [ 'I Phone1', 'I Phone2', 'I Phone3' ]
-LOG: Checkout counter equals to 0

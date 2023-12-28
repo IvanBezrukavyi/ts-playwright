@@ -1,0 +1,16 @@
+***Generated User Data*** {
+  fullName: 'Elvira Schimmel MD',
+  email: 'Reyes90@demoqa.com',
+  currentAddress: '4643 Oak Street, Maryjaneland, Missouri, 11022',
+  permanentAddress: '456 Elm St, Maryjaneland, Missouri, 11022'
+}
+2023-12-28 09:41:02 - info: Retrieved user's full name: Elvira Schimmel MD
+2023-12-28 09:41:02 - info: Retrieved user's email: Reyes90@demoqa.com
+2023-12-28 09:41:02 - info: Retrieved user's current address: 4643 Oak Street, Maryjaneland, Missouri, 11022
+2023-12-28 09:41:02 - info: Retrieved user's permanent address: 456 Elm St, Maryjaneland, Missouri, 11022
+***Removed Content from INPUTS*** {
+  removedFullName: '',
+  removedEmail: '',
+  removedCurrentAddress: '',
+  removedPermanentAddress: ''
+}
