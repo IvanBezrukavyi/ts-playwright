@@ -42,11 +42,14 @@
     "type": "module",
     "lint-staged": {
         "**/*.ts": [
-            "prettier --write --ignore-unknown",
-            "eslint",
-            "npm run sonarlint"
+            "prettier --write",
+            "eslint"
         ],
-        "*.md": "prettier --list-different"
+        "*.md": [
+            "prettier --list-different",
+            "remark-cli"
+
+        ]
        
     }
 }
