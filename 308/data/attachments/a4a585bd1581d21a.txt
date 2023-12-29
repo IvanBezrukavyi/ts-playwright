@@ -1,0 +1,4 @@
+2023-12-29 09:40:18 - info: Retrieved user's full name: Anna Casper-Wisoky DDS
+2023-12-29 09:40:18 - info: Retrieved user's email: Lauren.Blick97@demoqa.com
+2023-12-29 09:40:18 - info: Retrieved user's current address: 65215 E 12th Street, Webstertown, Delaware, 91981-1385
+2023-12-29 09:40:18 - info: Retrieved user's permanent address: 456 Elm St, Webstertown, Delaware, 91981-1385

@@ -1,0 +1,16 @@
+***Generated User Data*** {
+  fullName: 'Marjorie Mann',
+  email: 'Dawn.Wolf@demoqa.com',
+  currentAddress: '5559 Lincoln Avenue, Reichertcester, Idaho, 55175-8863',
+  permanentAddress: '456 Elm St, Reichertcester, Idaho, 55175-8863'
+}
+2023-12-29 09:39:25 - info: Retrieved user's full name: Marjorie Mann
+2023-12-29 09:39:25 - info: Retrieved user's email: Dawn.Wolf@demoqa.com
+2023-12-29 09:39:25 - info: Retrieved user's current address: 5559 Lincoln Avenue, Reichertcester, Idaho, 55175-8863
+2023-12-29 09:39:25 - info: Retrieved user's permanent address: 456 Elm St, Reichertcester, Idaho, 55175-8863
+***Removed Content from INPUTS*** {
+  removedFullName: '',
+  removedEmail: '',
+  removedCurrentAddress: '',
+  removedPermanentAddress: ''
+}
