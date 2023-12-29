@@ -1,0 +1,4 @@
+2023-12-29 18:21:33 - info: Retrieved user's full name: Vernon Glover-Adams
+2023-12-29 18:21:33 - info: Retrieved user's email: Finn24@demoqa.com
+2023-12-29 18:21:33 - info: Retrieved user's current address: 25189 Valley Road, Lake Zella, Kentucky, 00871-0022
+2023-12-29 18:21:33 - info: Retrieved user's permanent address: 456 Elm St, Lake Zella, Kentucky, 00871-0022

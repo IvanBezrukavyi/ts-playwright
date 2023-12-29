@@ -1,0 +1,5 @@
+2023-12-29 18:20:52 - info: Retrieved user's full name: Faye Lakin
+2023-12-29 18:20:52 - info: Retrieved user's email: Florine_Armstrong43@demoqa.com
+2023-12-29 18:20:53 - info: Retrieved user's current address: 411 Hahn Lights, Weberfurt, New Jersey, 92510
+2023-12-29 18:20:53 - info: Retrieved user's permanent address: 456 Elm St, Weberfurt, New Jersey, 92510
+2023-12-29 18:20:57 - info: ***Removed Content from INPUTS***
