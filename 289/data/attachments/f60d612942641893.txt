@@ -1,6 +1,0 @@
-ZARA COAT 3
-LOG: Product list titles is:  [ 'ZARA COAT 3', 'I Phone2', 'I Phone3' ]
-LOG: Checkout counter equals to 0
-Button text:  Ukraine
-Matching country found: Ukraine
- | 6587244f9fd99c85e8f1f803 | 
