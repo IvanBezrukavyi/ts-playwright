@@ -59,8 +59,7 @@ export default defineConfig({
                 headless: true,
                 screenshot: 'on',
                 video: 'retain-on-failure'
-            },
-            teardown: 'tests-demoqa/demoqa.tearDown.spec.ts'
+            }
         }
     ]
 })
