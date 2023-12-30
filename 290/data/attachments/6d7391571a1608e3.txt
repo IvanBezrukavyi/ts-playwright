@@ -1,4 +1,0 @@
-2023-12-23 18:48:06 - info: Retrieved user's full name: Margarita Rau
-2023-12-23 18:48:06 - info: Retrieved user's email: Bret98@demoqa.com
-2023-12-23 18:48:06 - info: Retrieved user's current address: 28396 Lauren Center, New Britneyview, South Carolina, 02937
-2023-12-23 18:48:06 - info: Retrieved user's permanent address: 456 Elm St, New Britneyview, South Carolina, 02937
