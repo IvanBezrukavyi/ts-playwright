@@ -1,4 +1,0 @@
-2023-12-23 19:03:32 - info: Retrieved user's full name: Annie Sanford
-2023-12-23 19:03:32 - info: Retrieved user's email: Adolphus.Swift-Medhurst@demoqa.com
-2023-12-23 19:03:32 - info: Retrieved user's current address: 71754 Darrell Manors, Fredastead, Texas, 18028
-2023-12-23 19:03:32 - info: Retrieved user's permanent address: 456 Elm St, Fredastead, Texas, 18028

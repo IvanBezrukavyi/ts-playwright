@@ -1,0 +1,4 @@
+2023-12-30 09:41:35 - info: Retrieved user's full name: Derrick Gislason
+2023-12-30 09:41:35 - info: Retrieved user's email: Shea_Gerlach98@demoqa.com
+2023-12-30 09:41:35 - info: Retrieved user's current address: 172 Franklin Road, Caroleboro, Georgia, 26968-5291
+2023-12-30 09:41:35 - info: Retrieved user's permanent address: 456 Elm St, Caroleboro, Georgia, 26968-5291
