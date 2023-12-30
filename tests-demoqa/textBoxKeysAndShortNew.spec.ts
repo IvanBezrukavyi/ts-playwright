@@ -1,6 +1,6 @@
-import { test, expect } from 'playwright/test'
 import { UserDataGeneration } from '../Utils/userDataGeneration'
-import { TextBoxKeyboardShortcuts, TextBoxMouseActions } from '../srs/main/demoApp/textBoxPageNew'
+import { test, expect } from '../srs/fixtures/fixturePages'
+import { logger } from '../srs/logger/winston.config'
 
 interface UserData {
     fullName: string
@@ -18,34 +18,34 @@ function getUserData(userData: UserData): Pick<UserData, 'fullName' | 'email' | 
     }
 }
 
+export const navigateToTextBoxPage = async ({ navigationTextBoxPage }) => {
+    await navigationTextBoxPage.goTo()
+    await navigationTextBoxPage.selectElementsMenu()
+    await navigationTextBoxPage.selectTextBoxMenu()
+}
+
 test.describe('@Demoqa Text Box Tests', () => {
-    let textBoxMouseActions: TextBoxMouseActions
-    let textBoxKeyboardShortcuts: TextBoxKeyboardShortcuts
     let userTestData: UserData
 
-    test.beforeEach(async ({ page }) => {
-        textBoxMouseActions = new TextBoxMouseActions(page)
-        textBoxKeyboardShortcuts = new TextBoxKeyboardShortcuts(page)
+    test.beforeEach(async ({}) => {
         userTestData = UserDataGeneration.generateUserData()
-
-        await textBoxMouseActions.goTo()
-        await textBoxMouseActions.selectElementsMenu()
-        await textBoxMouseActions.selectTextBoxMenu()
     })
 
-    test('TC 2: E2E. Enter and remove data from input text fields and via keys and shortcuts and cycle', async () => {
+    test('TC 2: E2E. Enter and remove data from input text fields and via keys and shortcuts and cycle', async ({
+        navigationTextBoxPage,
+        textBoxPageWithMouseActions
+    }) => {
         const userData = getUserData(userTestData)
 
-        console.log('***Generated User Data***', userData)
-
         await test.step('Step 1. Fill inputs by valid data for TC 2', async () => {
-            await textBoxMouseActions.fillInputsByValues(
+            await navigateToTextBoxPage({ navigationTextBoxPage })
+            await textBoxPageWithMouseActions.fillInputsByValues(
                 userData.fullName,
                 userData.email,
                 userData.currentAddress,
                 userData.permanentAddress
             )
-            const enteredData = await textBoxMouseActions.getEnteredData()
+            const enteredData = await textBoxPageWithMouseActions.getEnteredData()
             expect(enteredData.fullName, 'Expected the entered full name').toMatch(userData.fullName)
             expect(enteredData.email, 'Expected the entered email').toMatch(userData.email)
             expect(enteredData.currentAddress, 'Expected the entered current address').toMatch(userData.currentAddress)
@@ -55,9 +55,9 @@ test.describe('@Demoqa Text Box Tests', () => {
         })
 
         await test.step('Step 2. Click Submit button and Verify submitted data', async () => {
-            await textBoxMouseActions.submitTextBoxForm()
+            await textBoxPageWithMouseActions.submitTextBoxForm()
 
-            const submittedData = await textBoxMouseActions.getSubmittedData()
+            const submittedData = await textBoxPageWithMouseActions.getSubmittedData()
 
             expect(submittedData.expFullName, 'Expected the submitted full name').toMatch(userData.fullName)
             expect(submittedData.expEmail, 'Expected the submitted email').toMatch(userData.email)
@@ -70,19 +70,19 @@ test.describe('@Demoqa Text Box Tests', () => {
         })
 
         await test.step('Step 3. Remove data from All inputs', async () => {
-            await textBoxMouseActions.removeInputContent([
-                textBoxMouseActions.fullName,
-                textBoxMouseActions.email,
-                textBoxMouseActions.currentAddress,
-                textBoxMouseActions.permanentAddress
+            await textBoxPageWithMouseActions.removeInputContent([
+                textBoxPageWithMouseActions.fullName,
+                textBoxPageWithMouseActions.email,
+                textBoxPageWithMouseActions.currentAddress,
+                textBoxPageWithMouseActions.permanentAddress
             ])
         })
 
         await test.step('Step 4. Click Submit button and Verify absence data after removing it', async () => {
-            await textBoxMouseActions.submitTextBoxForm()
-            const removedInputContent = await textBoxMouseActions.getRemovedInputContent()
+            await textBoxPageWithMouseActions.submitTextBoxForm()
+            const removedInputContent = await textBoxPageWithMouseActions.getRemovedInputContent()
 
-            console.log(`***Removed Content from INPUTS***`, removedInputContent)
+            logger.info(`***Removed Content from INPUTS***`, removedInputContent)
             expect(removedInputContent.removedFullName, 'Expected empty Full Name input field').toMatch('')
             expect(removedInputContent.removedEmail, 'Expected empty Email input field').toMatch('')
             expect(removedInputContent.removedCurrentAddress, 'Expected empty Current Address input field').toMatch('')
@@ -92,17 +92,21 @@ test.describe('@Demoqa Text Box Tests', () => {
         })
     })
 
-    test('TC 3: E2E. Enter and remove data from input text fields and via keys and shortcuts', async () => {
+    test('TC 3: E2E. Enter and remove data from input text fields and via keys and shortcuts', async ({
+        navigationTextBoxPage,
+        textBoxPageWithKeyboardShortcuts
+    }) => {
         const userData = getUserData(userTestData)
 
         await test.step('Step 1. Fill inputs by valid data', async () => {
-            await textBoxKeyboardShortcuts.fillInputsByShortcuts(
+            await navigateToTextBoxPage({ navigationTextBoxPage })
+            await textBoxPageWithKeyboardShortcuts.fillInputsByShortcuts(
                 userTestData.fullName,
                 userTestData.email,
                 userTestData.currentAddress,
                 userTestData.permanentAddress
             )
-            const enteredData = await textBoxKeyboardShortcuts.getEnteredData()
+            const enteredData = await textBoxPageWithKeyboardShortcuts.getEnteredData()
 
             expect(enteredData.fullName, 'Expected the entered full name').toMatch(userData.fullName)
             expect(enteredData.email, 'Expected the entered email').toMatch(userData.email)
@@ -113,9 +117,8 @@ test.describe('@Demoqa Text Box Tests', () => {
         })
 
         await test.step('Step 2. Click Submit button', async () => {
-            await textBoxKeyboardShortcuts.submitTextBoxFormByEnter()
-
-            const submittedData = await textBoxKeyboardShortcuts.getSubmittedData()
+            await textBoxPageWithKeyboardShortcuts.submitTextBoxFormByEnter()
+            const submittedData = await textBoxPageWithKeyboardShortcuts.getSubmittedData()
 
             expect(submittedData.expFullName, 'Expected the submitted full name').toContain(userData.fullName)
             expect(submittedData.expEmail, 'Expected the submitted email').toContain(userData.email)
@@ -129,17 +132,17 @@ test.describe('@Demoqa Text Box Tests', () => {
 
         await test.step('Step 3. Select all data in input and remove it', async () => {
             const inputLocators = [
-                textBoxKeyboardShortcuts.fullName,
-                textBoxKeyboardShortcuts.email,
-                textBoxKeyboardShortcuts.currentAddress,
-                textBoxKeyboardShortcuts.permanentAddress
+                textBoxPageWithKeyboardShortcuts.fullName,
+                textBoxPageWithKeyboardShortcuts.email,
+                textBoxPageWithKeyboardShortcuts.currentAddress,
+                textBoxPageWithKeyboardShortcuts.permanentAddress
             ]
-            await textBoxKeyboardShortcuts.clearInputs(inputLocators)
+            await textBoxPageWithKeyboardShortcuts.clearInputs(inputLocators)
         })
 
         await test.step('Step 4. Click Submit button and Verify absence data after removing it', async () => {
-            await textBoxKeyboardShortcuts.submitTextBoxFormByEnter()
-            const removedInputContent = await textBoxKeyboardShortcuts.getRemovedInputContent()
+            await textBoxPageWithKeyboardShortcuts.submitTextBoxFormByEnter()
+            const removedInputContent = await textBoxPageWithKeyboardShortcuts.getRemovedInputContent()
             expect(removedInputContent.removedFullName, 'Expected empty Full Name input field').toBe('')
             expect(removedInputContent.removedEmail, 'Expected empty Email input field').toBe('')
             expect(removedInputContent.removedCurrentAddress, 'Expected empty Current Address input field').toBe('')

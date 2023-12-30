@@ -1,32 +1,26 @@
 import * as path from 'path'
-import { UploadAndDownload } from '../srs/main/demoApp/uploadDownloadPage'
-import { test, expect } from 'playwright/test'
+import { test, expect } from '../srs/fixtures/fixturePages'
 
 const SINGLE_FILE_PATH = process.env.SINGLE_FILE_PATH || 'srs/resources/files/upload/Customer_Flight_Activity.csv'
 const UPL_FILE_PATH = 'srs/resources/files/download'
 
 test.describe('@Demoqa Download and Upload tests', () => {
-    let uploadDownloadPage: UploadAndDownload
-
-    test.beforeEach(async ({ page }) => {
-        uploadDownloadPage = new UploadAndDownload(page)
-
-        await uploadDownloadPage.goTo()
-        await uploadDownloadPage.selectElementsMenu()
-        await uploadDownloadPage.selectTextBoxMenu()
-        await uploadDownloadPage.selectUploadAndDownloadMenu()
+    test.beforeEach(async ({ navigationUploadDownloadPage }) => {
+        await navigationUploadDownloadPage.goTo()
+        await navigationUploadDownloadPage.selectElementsMenu()
+        await navigationUploadDownloadPage.selectUploadAndDownloadMenu()
     })
 
-    test('TC_1: Verify downloading 1 file', async () => {
-        const customFileName = await uploadDownloadPage.downloadFile()
-        const actualFilePath = await uploadDownloadPage.retrieveDownloadedFile(customFileName)
+    test('TC_1: Verify downloading 1 file', async ({ navigationUploadDownloadPage }) => {
+        const customFileName = await navigationUploadDownloadPage.downloadFile()
+        const actualFilePath = await navigationUploadDownloadPage.retrieveDownloadedFile(customFileName)
 
         expect(actualFilePath.filePath, 'Expected download file path').toBe(path.join(UPL_FILE_PATH, customFileName))
     })
 
-    test('TC_2: Verify uploading 1 file', async () => {
-        await uploadDownloadPage.selectAndUploadFile()
-        const uploadedFilePath = await uploadDownloadPage.getUploadedFilePath()
+    test('TC_2: Verify uploading 1 file', async ({ navigationUploadDownloadPage }) => {
+        await navigationUploadDownloadPage.selectAndUploadFile()
+        const uploadedFilePath = await navigationUploadDownloadPage.getUploadedFilePath()
         expect(uploadedFilePath, 'Expected upload file path').toContain(path.basename(SINGLE_FILE_PATH))
     })
 })

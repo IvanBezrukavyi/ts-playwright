@@ -1,8 +1,8 @@
 import { Locator, Page } from 'playwright'
 import * as fs from 'fs/promises'
-import { BasePage } from './basePage'
 import * as path from 'path'
 import { logger } from '../../logger/winston.config'
+import { TextBoxMenuItems } from './textBoxMenuItems'
 
 const SINGLE_FILE_PATH = process.env.SINGLE_FILE_PATH || 'srs/resources/files/upload/Customer_Flight_Activity.csv'
 
@@ -11,7 +11,7 @@ const MULTI_FILE_PATHS = process.env.MULTI_FILE_PATHS || [
     '/Users/ibez/Desktop/repos/ts-playwright/srs/resources/files/upload/Customer_Loyalty_History.csv'
 ]
 
-export class UploadAndDownload extends BasePage {
+export class UploadAndDownload extends TextBoxMenuItems {
     protected downloadButton: Locator
     protected uploadButton: Locator
     protected uploadedFilePath: Locator

@@ -41,6 +41,15 @@
     },
     "type": "module",
     "lint-staged": {
-        "**/*": "prettier --write --ignore-unknown"
+        "**/*.ts": [
+            "prettier --write",
+            "eslint"
+        ],
+        "*.md": [
+            "prettier --list-different",
+            "remark-cli"
+
+        ]
+       
     }
 }
