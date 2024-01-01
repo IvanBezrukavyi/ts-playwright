@@ -1,0 +1,5 @@
+2024-01-01 09:39:29 - info: Retrieved user's full name: Kevin Howe
+2024-01-01 09:39:29 - info: Retrieved user's email: Hans_Bergnaum74@demoqa.com
+2024-01-01 09:39:29 - info: Retrieved user's current address: 6082 Rath Course, Fort Dina, North Dakota, 33760
+2024-01-01 09:39:29 - info: Retrieved user's permanent address: 456 Elm St, Fort Dina, North Dakota, 33760
+2024-01-01 09:39:34 - info: ***Removed Content from INPUTS***
