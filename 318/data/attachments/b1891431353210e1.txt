@@ -1,0 +1,5 @@
+2024-01-03 09:39:16 - info: Retrieved user's full name: Clara Bednar
+2024-01-03 09:39:16 - info: Retrieved user's email: Josue_Kuphal13@demoqa.com
+2024-01-03 09:39:16 - info: Retrieved user's current address: 489 Kaya Shores, West Eldora, Ohio, 26038
+2024-01-03 09:39:16 - info: Retrieved user's permanent address: 456 Elm St, West Eldora, Ohio, 26038
+2024-01-03 09:39:21 - info: ***Removed Content from INPUTS***
