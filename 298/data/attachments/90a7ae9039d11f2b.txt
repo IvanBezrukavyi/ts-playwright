@@ -1,4 +1,0 @@
-2023-12-24 19:58:19 - info: Retrieved user's full name: Juana McCullough
-2023-12-24 19:58:19 - info: Retrieved user's email: Kelvin40@demoqa.com
-2023-12-24 19:58:19 - info: Retrieved user's current address: 96623 12th Street, Beercester, New Mexico, 98378-8269
-2023-12-24 19:58:19 - info: Retrieved user's permanent address: 456 Elm St, Beercester, New Mexico, 98378-8269

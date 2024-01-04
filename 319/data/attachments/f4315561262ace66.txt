@@ -1,0 +1,5 @@
+2024-01-04 09:39:27 - info: Retrieved user's full name: Sherry Casper DDS
+2024-01-04 09:39:27 - info: Retrieved user's email: Jerrold.Effertz@demoqa.com
+2024-01-04 09:39:27 - info: Retrieved user's current address: 185 River Street, Casimirview, Oklahoma, 55068
+2024-01-04 09:39:27 - info: Retrieved user's permanent address: 456 Elm St, Casimirview, Oklahoma, 55068
+2024-01-04 09:39:32 - info: ***Removed Content from INPUTS***
