@@ -1,4 +1,0 @@
-2023-12-25 06:04:11 - info: Retrieved user's full name: Gene Kiehn
-2023-12-25 06:04:11 - info: Retrieved user's email: Cory10@demoqa.com
-2023-12-25 06:04:11 - info: Retrieved user's current address: 5163 Beth Green, Port Moseston, Maryland, 19509-9692
-2023-12-25 06:04:11 - info: Retrieved user's permanent address: 456 Elm St, Port Moseston, Maryland, 19509-9692
