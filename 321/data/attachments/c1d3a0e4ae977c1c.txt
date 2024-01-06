@@ -1,0 +1,5 @@
+2024-01-06 09:39:07 - info: Retrieved user's full name: Dr. Evan Batz
+2024-01-06 09:39:07 - info: Retrieved user's email: Crystal_Rolfson15@demoqa.com
+2024-01-06 09:39:07 - info: Retrieved user's current address: 805 Hessel Ridge, East Bradleyhaven, New York, 41563
+2024-01-06 09:39:07 - info: Retrieved user's permanent address: 456 Elm St, East Bradleyhaven, New York, 41563
+2024-01-06 09:39:20 - info: ***Removed Content from INPUTS***
