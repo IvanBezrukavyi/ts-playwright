@@ -1,0 +1,5 @@
+2024-01-07 09:41:33 - info: Retrieved user's full name: Naomi Schimmel
+2024-01-07 09:41:33 - info: Retrieved user's email: Kylee.Davis2@demoqa.com
+2024-01-07 09:41:33 - info: Retrieved user's current address: 17899 Douglas Meadows, Ulisesshire, Ohio, 42451-2977
+2024-01-07 09:41:33 - info: Retrieved user's permanent address: 456 Elm St, Ulisesshire, Ohio, 42451-2977
+2024-01-07 09:41:37 - info: ***Removed Content from INPUTS***
