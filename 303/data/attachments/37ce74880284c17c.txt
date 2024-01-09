@@ -1,4 +1,0 @@
-2023-12-26 10:36:09 - info: Retrieved user's full name: Rick Beier
-2023-12-26 10:36:09 - info: Retrieved user's email: Guillermo.Wunsch@demoqa.com
-2023-12-26 10:36:09 - info: Retrieved user's current address: 278 N Franklin Street, Fort Orvalshire, New Mexico, 32923-5008
-2023-12-26 10:36:09 - info: Retrieved user's permanent address: 456 Elm St, Fort Orvalshire, New Mexico, 32923-5008
