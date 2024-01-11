@@ -1,0 +1,5 @@
+2024-01-11 09:40:08 - info: Retrieved user's full name: Francisco Schoen II
+2024-01-11 09:40:08 - info: Retrieved user's email: Elton59@demoqa.com
+2024-01-11 09:40:09 - info: Retrieved user's current address: 5781 Lenna Plains, West Howard, Delaware, 85297
+2024-01-11 09:40:09 - info: Retrieved user's permanent address: 456 Elm St, West Howard, Delaware, 85297
+2024-01-11 09:40:12 - info: ***Removed Content from INPUTS***

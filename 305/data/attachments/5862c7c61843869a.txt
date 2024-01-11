@@ -1,4 +1,0 @@
-2023-12-27 09:36:31 - info: Retrieved user's full name: Terri Runte
-2023-12-27 09:36:31 - info: Retrieved user's email: Lempi_Schulist@demoqa.com
-2023-12-27 09:36:31 - info: Retrieved user's current address: 601 Garland Route, Rogahnville, Maine, 55053
-2023-12-27 09:36:31 - info: Retrieved user's permanent address: 456 Elm St, Rogahnville, Maine, 55053

@@ -1,0 +1,4 @@
+2024-01-11 09:40:20 - info: Retrieved user's full name: Tasha Bruen
+2024-01-11 09:40:20 - info: Retrieved user's email: Aditya13@demoqa.com
+2024-01-11 09:40:20 - info: Retrieved user's current address: 884 Maude Passage, Mohrburgh, Delaware, 04322-5152
+2024-01-11 09:40:20 - info: Retrieved user's permanent address: 456 Elm St, Mohrburgh, Delaware, 04322-5152
