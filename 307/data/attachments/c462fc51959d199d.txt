@@ -1,4 +1,0 @@
-2023-12-28 09:42:47 - info: Retrieved user's full name: Nathan Heidenreich
-2023-12-28 09:42:47 - info: Retrieved user's email: Eleonore.Ward@demoqa.com
-2023-12-28 09:42:47 - info: Retrieved user's current address: 6837 Waino Walk, Gutkowskifield, Oklahoma, 96214
-2023-12-28 09:42:47 - info: Retrieved user's permanent address: 456 Elm St, Gutkowskifield, Oklahoma, 96214

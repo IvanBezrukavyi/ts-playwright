@@ -1,0 +1,5 @@
+2024-01-13 09:39:31 - info: Retrieved user's full name: Adrian Marks
+2024-01-13 09:39:31 - info: Retrieved user's email: Leopoldo.Kohler33@demoqa.com
+2024-01-13 09:39:31 - info: Retrieved user's current address: 884 Dickinson Trace, West Allanworth, West Virginia, 65719-6009
+2024-01-13 09:39:31 - info: Retrieved user's permanent address: 456 Elm St, West Allanworth, West Virginia, 65719-6009
+2024-01-13 09:39:43 - info: ***Removed Content from INPUTS***
