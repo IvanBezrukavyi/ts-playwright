@@ -1,0 +1,5 @@
+2024-01-14 09:40:19 - info: Retrieved user's full name: Ms. Theresa Smith
+2024-01-14 09:40:19 - info: Retrieved user's email: Vivianne.Hyatt@demoqa.com
+2024-01-14 09:40:19 - info: Retrieved user's current address: 589 River Street, West Turnercester, Indiana, 44213
+2024-01-14 09:40:19 - info: Retrieved user's permanent address: 456 Elm St, West Turnercester, Indiana, 44213
+2024-01-14 09:40:24 - info: ***Removed Content from INPUTS***
