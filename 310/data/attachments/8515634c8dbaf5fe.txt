@@ -1,5 +1,0 @@
-2023-12-30 08:45:41 - info: Retrieved user's full name: Kimberly Gibson
-2023-12-30 08:45:41 - info: Retrieved user's email: Vergie.Reichert51@demoqa.com
-2023-12-30 08:45:41 - info: Retrieved user's current address: 72465 Ibrahim Avenue, Tarynview, Kentucky, 35254
-2023-12-30 08:45:41 - info: Retrieved user's permanent address: 456 Elm St, Tarynview, Kentucky, 35254
-2023-12-30 08:45:46 - info: ***Removed Content from INPUTS***

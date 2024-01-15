@@ -1,4 +1,0 @@
-2023-12-30 08:46:29 - info: Retrieved user's full name: Beatrice Spinka Sr.
-2023-12-30 08:46:29 - info: Retrieved user's email: Brandy.Gislason70@demoqa.com
-2023-12-30 08:46:29 - info: Retrieved user's current address: 572 Rolfson Walk, Fort Aimee, New Mexico, 33908-0174
-2023-12-30 08:46:29 - info: Retrieved user's permanent address: 456 Elm St, Fort Aimee, New Mexico, 33908-0174
