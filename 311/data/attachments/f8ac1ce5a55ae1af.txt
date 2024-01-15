@@ -1,4 +1,0 @@
-2023-12-30 08:57:29 - info: Retrieved user's full name: Claudia Reynolds
-2023-12-30 08:57:29 - info: Retrieved user's email: Kailyn.Boyle-Crona@demoqa.com
-2023-12-30 08:57:29 - info: Retrieved user's current address: 266 Carmella Forks, Dickensburgh, Washington, 69998
-2023-12-30 08:57:29 - info: Retrieved user's permanent address: 456 Elm St, Dickensburgh, Washington, 69998

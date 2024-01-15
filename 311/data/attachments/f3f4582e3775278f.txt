@@ -1,5 +1,0 @@
-2023-12-30 08:57:16 - info: Retrieved user's full name: Miss Yvonne Bode
-2023-12-30 08:57:16 - info: Retrieved user's email: Quinton_Macejkovic@demoqa.com
-2023-12-30 08:57:16 - info: Retrieved user's current address: 63244 Madison Street, Lake Corine, Alaska, 87777
-2023-12-30 08:57:16 - info: Retrieved user's permanent address: 456 Elm St, Lake Corine, Alaska, 87777
-2023-12-30 08:57:21 - info: ***Removed Content from INPUTS***
