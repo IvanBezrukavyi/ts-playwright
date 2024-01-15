@@ -12,12 +12,10 @@ for (const data of dataset) {
     test(`TC: Verify success login to client app with ${data.userName} and ${data.userPass}`, async ({ page }) => {
         const pomManager = new POManager(page)
         const loginPage = pomManager.getLoginPage()
+        const dashboardPage = pomManager.getDashboardPage()
         loginPage.goTo()
         loginPage.validLogin(data.userName, data.userPass)
-        const list = page.locator('.card-body b')
-        await page.locator('.card-body b').first().waitFor()
-        console.log(await list.allTextContents())
-        expect(await list.count()).toBeGreaterThan(0)
+        await expect(dashboardPage.getDashboardLogo()).toBeVisible()
     })
 }
 
