@@ -16,5 +16,11 @@
             "test-results"
         ]
     },
-    "cSpell.words": ["Bezrukavyi", "Demoqa", "filechooser", "sonarlint"]
+    "cSpell.words": [
+        "Bezrukavyi",
+        "Demoqa",
+        "filechooser",
+        "rawdata",
+        "sonarlint"
+    ]
 }

@@ -24,13 +24,13 @@ class CartPage {
         return currentUrl === expectedCartUrl
     }
 
-    async VerifyProductIsDisplayed(productName: string) {
+    async verifyProductIsDisplayed(productName: string) {
         await this.cartProducts.waitFor()
         const bool = await this.getProductLocator(productName).isVisible()
         expect(bool).toBeTruthy()
     }
 
-    async Checkout() {
+    async clickCheckoutButton() {
         await expect(this.checkout, 'Checkout button is active').toBeEnabled()
         await this.checkout.click()
     }

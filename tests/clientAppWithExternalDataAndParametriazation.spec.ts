@@ -45,13 +45,13 @@ for (const data of dataset) {
         })
 
         await test.step('Step 4. Verify presence of selected product on Cart page', async () => {
-            await cartPage.VerifyProductIsDisplayed(data.productName)
+            await cartPage.verifyProductIsDisplayed(data.productName)
             const isOnCartPage = await cartPage.isOnCartPage()
             expect(isOnCartPage, 'User is redirected on Cart page').toBeTruthy()
         })
 
         await test.step('Step 5. Click Checkout button', async () => {
-            await cartPage.Checkout()
+            await cartPage.clickCheckoutButton()
         })
 
         await test.step('Step 7. Fill out payment information with valid cvv, card name and selection of country', async () => {
