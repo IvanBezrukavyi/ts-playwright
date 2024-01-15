@@ -1,0 +1,5 @@
+2024-01-15 11:29:20 - info: Retrieved user's full name: Garry Hudson
+2024-01-15 11:29:20 - info: Retrieved user's email: Graham82@demoqa.com
+2024-01-15 11:29:20 - info: Retrieved user's current address: 119 Yvette Spring, Hillaryberg, South Dakota, 90125-6113
+2024-01-15 11:29:20 - info: Retrieved user's permanent address: 456 Elm St, Hillaryberg, South Dakota, 90125-6113
+2024-01-15 11:29:25 - info: ***Removed Content from INPUTS***

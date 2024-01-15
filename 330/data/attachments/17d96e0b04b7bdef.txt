@@ -1,0 +1,4 @@
+2024-01-15 11:29:32 - info: Retrieved user's full name: Lorena Stokes MD
+2024-01-15 11:29:32 - info: Retrieved user's email: Phyllis12@demoqa.com
+2024-01-15 11:29:32 - info: Retrieved user's current address: 778 Park Avenue, Fort Liafort, New York, 05802-9192
+2024-01-15 11:29:32 - info: Retrieved user's permanent address: 456 Elm St, Fort Liafort, New York, 05802-9192
