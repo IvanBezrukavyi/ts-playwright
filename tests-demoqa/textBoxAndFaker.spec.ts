@@ -32,12 +32,10 @@ test.describe('@Demoqa Text Box Tests', () => {
 
             const submittedData = await textBox.getSubmittedData()
 
-            await expect(submittedData.expFullName, 'Expected the submitted full name').toContain(fullName)
-            await expect(submittedData.expEmail, 'Expected the submitted email').toContain(email)
-            await expect(submittedData.expCurrentAddress, 'Expected the submitted current address').toContain(
-                currentAddress
-            )
-            await expect(submittedData.expPermanentAddress, 'Expected the submitted permanent address').toContain(
+            expect(submittedData.expFullName, 'Expected the submitted full name').toContain(fullName)
+            expect(submittedData.expEmail, 'Expected the submitted email').toContain(email)
+            expect(submittedData.expCurrentAddress, 'Expected the submitted current address').toContain(currentAddress)
+            expect(submittedData.expPermanentAddress, 'Expected the submitted permanent address').toContain(
                 permanentAddress
             )
         })
