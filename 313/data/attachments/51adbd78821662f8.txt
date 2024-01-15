@@ -1,5 +1,0 @@
-2023-12-30 09:39:52 - info: Retrieved user's full name: Jared Lynch
-2023-12-30 09:39:52 - info: Retrieved user's email: Kraig_Kiehn@demoqa.com
-2023-12-30 09:39:52 - info: Retrieved user's current address: 5386 Clifton Expressway, Fort Octavia, Tennessee, 87823-9135
-2023-12-30 09:39:52 - info: Retrieved user's permanent address: 456 Elm St, Fort Octavia, Tennessee, 87823-9135
-2023-12-30 09:39:57 - info: ***Removed Content from INPUTS***

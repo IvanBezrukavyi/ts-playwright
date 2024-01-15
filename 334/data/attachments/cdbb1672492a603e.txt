@@ -1,0 +1,4 @@
+2024-01-15 15:34:39 - info: Retrieved user's full name: Linda Johnston
+2024-01-15 15:34:39 - info: Retrieved user's email: Rahsaan.Osinski57@demoqa.com
+2024-01-15 15:34:39 - info: Retrieved user's current address: 15786 Spring Street, Katrineview, South Carolina, 60174
+2024-01-15 15:34:39 - info: Retrieved user's permanent address: 456 Elm St, Katrineview, South Carolina, 60174
