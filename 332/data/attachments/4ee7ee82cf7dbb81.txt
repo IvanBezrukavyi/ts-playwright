@@ -1,0 +1,5 @@
+2024-01-15 12:35:25 - info: Retrieved user's full name: Heidi Rowe
+2024-01-15 12:35:25 - info: Retrieved user's email: Johnathan.Mraz55@demoqa.com
+2024-01-15 12:35:25 - info: Retrieved user's current address: 615 Mill Street, South Claireshire, Connecticut, 18309-0894
+2024-01-15 12:35:25 - info: Retrieved user's permanent address: 456 Elm St, South Claireshire, Connecticut, 18309-0894
+2024-01-15 12:35:30 - info: ***Removed Content from INPUTS***
