@@ -1,4 +1,7 @@
 import { APIRequestContext } from '@playwright/test'
+import { logger } from '../srs/logger/winston.config'
+
+const authLoginEndPoint = process.env.AUTH_LOGIN_END_POINT || 'https://rahulshettyacademy.com/api/ecom/auth/login'
 
 interface LoginPayload {
     username: string
@@ -26,15 +29,15 @@ class ApiUtils {
 
     async getToken(): Promise<string> {
         try {
-            const loginResponse = await this.apiContext.post('https://rahulshettyacademy.com/api/ecom/auth/login', {
+            const loginResponse = await this.apiContext.post(authLoginEndPoint, {
                 data: this.loginPayload
             })
             const loginResponseJson = await loginResponse.json()
             const token: string = loginResponseJson.token
-            console.log(token)
+            logger.info(token)
             return token
         } catch (error) {
-            console.error('Error while getting token:', error)
+            logger.error('Error while getting token:', error)
             throw error
         }
     }
@@ -58,12 +61,12 @@ class ApiUtils {
             )
 
             const orderResponseJson = await orderResponse.json()
-            console.log(orderResponseJson)
+            logger.info(orderResponseJson)
             const orderId = orderResponseJson.orders[0]
             response.orderId = orderId
             return response
         } catch (error) {
-            console.error('Error while creating order:', error)
+            logger.error('Error while creating order:', error)
             throw error
         }
     }
