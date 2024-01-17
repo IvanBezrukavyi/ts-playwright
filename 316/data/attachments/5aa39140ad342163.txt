@@ -1,4 +1,0 @@
-2024-01-01 09:40:00 - info: Retrieved user's full name: Catherine Rowe
-2024-01-01 09:40:00 - info: Retrieved user's email: Nellie41@demoqa.com
-2024-01-01 09:40:00 - info: Retrieved user's current address: 51767 S Broadway, Lake Devan, Missouri, 47219
-2024-01-01 09:40:00 - info: Retrieved user's permanent address: 456 Elm St, Lake Devan, Missouri, 47219
