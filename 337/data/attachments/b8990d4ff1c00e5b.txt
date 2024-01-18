@@ -1,0 +1,5 @@
+2024-01-18 09:39:44 - info: Retrieved user's full name: Neal Hirthe
+2024-01-18 09:39:44 - info: Retrieved user's email: Piper.Hintz@demoqa.com
+2024-01-18 09:39:44 - info: Retrieved user's current address: 808 Sienna Well, Emardboro, Minnesota, 64482
+2024-01-18 09:39:44 - info: Retrieved user's permanent address: 456 Elm St, Emardboro, Minnesota, 64482
+2024-01-18 09:39:52 - info: ***Removed Content from INPUTS***

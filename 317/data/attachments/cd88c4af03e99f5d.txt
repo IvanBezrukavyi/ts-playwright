@@ -1,5 +1,0 @@
-2024-01-02 09:39:33 - info: Retrieved user's full name: Byron Strosin MD
-2024-01-02 09:39:33 - info: Retrieved user's email: Yasmin57@demoqa.com
-2024-01-02 09:39:33 - info: Retrieved user's current address: 197 Huel Springs, Judsonton, Maine, 95521-5899
-2024-01-02 09:39:33 - info: Retrieved user's permanent address: 456 Elm St, Judsonton, Maine, 95521-5899
-2024-01-02 09:39:39 - info: ***Removed Content from INPUTS***
