@@ -1,0 +1,5 @@
+2024-01-19 09:40:04 - info: Retrieved user's full name: Maryann Champlin
+2024-01-19 09:40:04 - info: Retrieved user's email: Sherman_Von@demoqa.com
+2024-01-19 09:40:04 - info: Retrieved user's current address: 586 Jaleel Views, Weberberg, Nebraska, 89131-2299
+2024-01-19 09:40:05 - info: Retrieved user's permanent address: 456 Elm St, Weberberg, Nebraska, 89131-2299
+2024-01-19 09:40:14 - info: ***Removed Content from INPUTS***

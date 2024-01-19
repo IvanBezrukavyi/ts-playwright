@@ -1,0 +1,4 @@
+2024-01-19 09:40:23 - info: Retrieved user's full name: Adrienne Bogan
+2024-01-19 09:40:23 - info: Retrieved user's email: Adolph78@demoqa.com
+2024-01-19 09:40:23 - info: Retrieved user's current address: 167 Bins Junction, Wisokyview, Hawaii, 24783
+2024-01-19 09:40:23 - info: Retrieved user's permanent address: 456 Elm St, Wisokyview, Hawaii, 24783
