@@ -1,0 +1,4 @@
+2024-01-20 09:40:41 - info: Retrieved user's full name: Garry Crist
+2024-01-20 09:40:41 - info: Retrieved user's email: Geo_Romaguera@demoqa.com
+2024-01-20 09:40:41 - info: Retrieved user's current address: 680 O'Keefe Track, Shanahanboro, Georgia, 93416
+2024-01-20 09:40:41 - info: Retrieved user's permanent address: 456 Elm St, Shanahanboro, Georgia, 93416
