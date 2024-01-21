@@ -1,5 +1,0 @@
-2024-01-05 09:41:39 - info: Retrieved user's full name: Sonia Zemlak
-2024-01-05 09:41:39 - info: Retrieved user's email: Eryn.Metz56@demoqa.com
-2024-01-05 09:41:39 - info: Retrieved user's current address: 121 W 2nd Street, Benedictshire, Maine, 47945
-2024-01-05 09:41:39 - info: Retrieved user's permanent address: 456 Elm St, Benedictshire, Maine, 47945
-2024-01-05 09:41:43 - info: ***Removed Content from INPUTS***
