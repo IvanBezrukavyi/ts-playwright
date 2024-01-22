@@ -1,4 +1,0 @@
-2024-01-06 09:39:58 - info: Retrieved user's full name: Javier Mertz
-2024-01-06 09:39:58 - info: Retrieved user's email: Oran75@demoqa.com
-2024-01-06 09:39:58 - info: Retrieved user's current address: 24344 Court Street, Port Damienhaven, Pennsylvania, 85458-3428
-2024-01-06 09:39:58 - info: Retrieved user's permanent address: 456 Elm St, Port Damienhaven, Pennsylvania, 85458-3428
