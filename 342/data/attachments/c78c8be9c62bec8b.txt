@@ -1,0 +1,4 @@
+2024-01-23 09:39:53 - info: Retrieved user's full name: Frank Hane
+2024-01-23 09:39:53 - info: Retrieved user's email: Ahmed_Wunsch@demoqa.com
+2024-01-23 09:39:53 - info: Retrieved user's current address: 88590 Kuhlman Pass, Fort Zoilaburgh, Kentucky, 17720-0662
+2024-01-23 09:39:53 - info: Retrieved user's permanent address: 456 Elm St, Fort Zoilaburgh, Kentucky, 17720-0662

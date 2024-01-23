@@ -1,4 +1,0 @@
-2024-01-07 09:43:16 - info: Retrieved user's full name: Lynn Olson
-2024-01-07 09:43:16 - info: Retrieved user's email: Lori.Schmitt-Pouros@demoqa.com
-2024-01-07 09:43:16 - info: Retrieved user's current address: 2274 S Broad Street, New Mariela, Nebraska, 12004
-2024-01-07 09:43:16 - info: Retrieved user's permanent address: 456 Elm St, New Mariela, Nebraska, 12004
