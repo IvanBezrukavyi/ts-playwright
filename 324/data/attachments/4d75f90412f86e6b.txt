@@ -1,4 +1,0 @@
-2024-01-09 09:40:39 - info: Retrieved user's full name: Jan Harber
-2024-01-09 09:40:40 - info: Retrieved user's email: Alana90@demoqa.com
-2024-01-09 09:40:40 - info: Retrieved user's current address: 60312 Little Overpass, Fort Lorenzaberg, Arkansas, 00533
-2024-01-09 09:40:40 - info: Retrieved user's permanent address: 456 Elm St, Fort Lorenzaberg, Arkansas, 00533
