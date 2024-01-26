@@ -1,4 +1,0 @@
-2024-01-10 09:39:37 - info: Retrieved user's full name: Julio McDermott MD
-2024-01-10 09:39:37 - info: Retrieved user's email: Tamia.Klocko24@demoqa.com
-2024-01-10 09:39:37 - info: Retrieved user's current address: 72354 Brooke Ports, New Orinworth, Ohio, 80939-2608
-2024-01-10 09:39:37 - info: Retrieved user's permanent address: 456 Elm St, New Orinworth, Ohio, 80939-2608

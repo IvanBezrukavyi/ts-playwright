@@ -1,5 +1,0 @@
-2024-01-10 09:39:25 - info: Retrieved user's full name: Edwin Baumbach
-2024-01-10 09:39:25 - info: Retrieved user's email: Lewis_Bechtelar-Prosacco63@demoqa.com
-2024-01-10 09:39:25 - info: Retrieved user's current address: 34600 Dessie Circles, Keonside, Maine, 36712
-2024-01-10 09:39:25 - info: Retrieved user's permanent address: 456 Elm St, Keonside, Maine, 36712
-2024-01-10 09:39:31 - info: ***Removed Content from INPUTS***
