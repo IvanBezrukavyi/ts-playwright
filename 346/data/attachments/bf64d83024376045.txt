@@ -1,0 +1,5 @@
+2024-01-27 09:39:05 - info: Retrieved user's full name: Silvia Conn II
+2024-01-27 09:39:05 - info: Retrieved user's email: Brooklyn69@demoqa.com
+2024-01-27 09:39:05 - info: Retrieved user's current address: 57229 Langworth Passage, Haleyhaven, Rhode Island, 72268-3447
+2024-01-27 09:39:05 - info: Retrieved user's permanent address: 456 Elm St, Haleyhaven, Rhode Island, 72268-3447
+2024-01-27 09:39:20 - info: ***Removed Content from INPUTS***
