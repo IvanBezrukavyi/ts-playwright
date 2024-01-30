@@ -1,0 +1,5 @@
+2024-01-30 09:39:34 - info: Retrieved user's full name: Sherman Price
+2024-01-30 09:39:34 - info: Retrieved user's email: Leonel79@demoqa.com
+2024-01-30 09:39:34 - info: Retrieved user's current address: 5674 Dejah Wells, Sydneytown, Arizona, 87988-4705
+2024-01-30 09:39:34 - info: Retrieved user's permanent address: 456 Elm St, Sydneytown, Arizona, 87988-4705
+2024-01-30 09:39:38 - info: ***Removed Content from INPUTS***

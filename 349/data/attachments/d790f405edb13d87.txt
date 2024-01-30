@@ -1,0 +1,4 @@
+2024-01-30 09:39:45 - info: Retrieved user's full name: Gayle Kuhic
+2024-01-30 09:39:45 - info: Retrieved user's email: Jeffery_Kilback-Sauer@demoqa.com
+2024-01-30 09:39:45 - info: Retrieved user's current address: 6610 Center Road, Port Clotildestead, Oklahoma, 15133
+2024-01-30 09:39:45 - info: Retrieved user's permanent address: 456 Elm St, Port Clotildestead, Oklahoma, 15133
