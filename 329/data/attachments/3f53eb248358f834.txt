@@ -1,4 +1,0 @@
-2024-01-14 09:40:32 - info: Retrieved user's full name: Leah Kling
-2024-01-14 09:40:32 - info: Retrieved user's email: Allison58@demoqa.com
-2024-01-14 09:40:32 - info: Retrieved user's current address: 719 Kristian Circle, North Cassidybury, New Jersey, 55404-1823
-2024-01-14 09:40:32 - info: Retrieved user's permanent address: 456 Elm St, North Cassidybury, New Jersey, 55404-1823
