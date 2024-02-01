@@ -1,0 +1,4 @@
+2024-02-01 09:40:07 - info: Retrieved user's full name: Opal Okuneva
+2024-02-01 09:40:07 - info: Retrieved user's email: Trevion.Oberbrunner@demoqa.com
+2024-02-01 09:40:07 - info: Retrieved user's current address: 329 Fay Lakes, Fort Louisa, Massachusetts, 76613
+2024-02-01 09:40:07 - info: Retrieved user's permanent address: 456 Elm St, Fort Louisa, Massachusetts, 76613
