@@ -1,0 +1,4 @@
+2024-02-02 09:39:56 - info: Retrieved user's full name: Sara Lakin V
+2024-02-02 09:39:56 - info: Retrieved user's email: Michelle_Kassulke96@demoqa.com
+2024-02-02 09:39:56 - info: Retrieved user's current address: 9503 Albin Route, McGlynnbury, West Virginia, 63274-7506
+2024-02-02 09:39:56 - info: Retrieved user's permanent address: 456 Elm St, McGlynnbury, West Virginia, 63274-7506

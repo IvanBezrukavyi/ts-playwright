@@ -1,0 +1,5 @@
+2024-02-02 09:39:40 - info: Retrieved user's full name: Clayton Little
+2024-02-02 09:39:40 - info: Retrieved user's email: Vernon66@demoqa.com
+2024-02-02 09:39:40 - info: Retrieved user's current address: 709 Nader Extension, Port Carley, Kansas, 29043-0961
+2024-02-02 09:39:40 - info: Retrieved user's permanent address: 456 Elm St, Port Carley, Kansas, 29043-0961
+2024-02-02 09:39:47 - info: ***Removed Content from INPUTS***
