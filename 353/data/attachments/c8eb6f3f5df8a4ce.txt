@@ -1,0 +1,5 @@
+2024-02-03 09:39:49 - info: Retrieved user's full name: Rudolph Olson
+2024-02-03 09:39:49 - info: Retrieved user's email: Nettie97@demoqa.com
+2024-02-03 09:39:49 - info: Retrieved user's current address: 782 Pollich Island, Croninstad, Virginia, 78137-0792
+2024-02-03 09:39:49 - info: Retrieved user's permanent address: 456 Elm St, Croninstad, Virginia, 78137-0792
+2024-02-03 09:39:55 - info: ***Removed Content from INPUTS***

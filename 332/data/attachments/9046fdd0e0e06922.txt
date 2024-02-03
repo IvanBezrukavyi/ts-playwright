@@ -1,4 +1,0 @@
-2024-01-15 12:36:14 - info: Retrieved user's full name: Curtis Romaguera II
-2024-01-15 12:36:14 - info: Retrieved user's email: Geovany_Hirthe67@demoqa.com
-2024-01-15 12:36:14 - info: Retrieved user's current address: 826 N 8th Street, Gutkowskiville, Delaware, 06128-5621
-2024-01-15 12:36:14 - info: Retrieved user's permanent address: 456 Elm St, Gutkowskiville, Delaware, 06128-5621
