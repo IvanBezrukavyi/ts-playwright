@@ -1,0 +1,5 @@
+2024-02-04 09:39:32 - info: Retrieved user's full name: Dianna Rempel
+2024-02-04 09:39:32 - info: Retrieved user's email: Pamela15@demoqa.com
+2024-02-04 09:39:32 - info: Retrieved user's current address: 79641 Reuben Shoal, New Jillianboro, California, 80002-3621
+2024-02-04 09:39:32 - info: Retrieved user's permanent address: 456 Elm St, New Jillianboro, California, 80002-3621
+2024-02-04 09:39:37 - info: ***Removed Content from INPUTS***
