@@ -1,5 +1,0 @@
-2024-01-15 15:34:03 - info: Retrieved user's full name: Enrique Hessel PhD
-2024-01-15 15:34:03 - info: Retrieved user's email: Chandler_Larson3@demoqa.com
-2024-01-15 15:34:03 - info: Retrieved user's current address: 5323 3rd Avenue, Hyattmouth, Montana, 24331
-2024-01-15 15:34:03 - info: Retrieved user's permanent address: 456 Elm St, Hyattmouth, Montana, 24331
-2024-01-15 15:34:13 - info: ***Removed Content from INPUTS***

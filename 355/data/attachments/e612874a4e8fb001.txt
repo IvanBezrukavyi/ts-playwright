@@ -1,0 +1,4 @@
+2024-02-05 09:40:11 - info: Retrieved user's full name: Miss Roxanne Balistreri III
+2024-02-05 09:40:11 - info: Retrieved user's email: Jose_Aufderhar97@demoqa.com
+2024-02-05 09:40:11 - info: Retrieved user's current address: 52121 S Bridge Street, East Mathildeboro, Mississippi, 25905
+2024-02-05 09:40:11 - info: Retrieved user's permanent address: 456 Elm St, East Mathildeboro, Mississippi, 25905
