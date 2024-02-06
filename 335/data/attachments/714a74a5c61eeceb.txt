@@ -1,4 +1,0 @@
-2024-01-16 09:40:06 - info: Retrieved user's full name: Nicole Oberbrunner
-2024-01-16 09:40:06 - info: Retrieved user's email: Florence38@demoqa.com
-2024-01-16 09:40:06 - info: Retrieved user's current address: 15446 Heidenreich Parkways, Thompsonchester, Minnesota, 82479-1211
-2024-01-16 09:40:06 - info: Retrieved user's permanent address: 456 Elm St, Thompsonchester, Minnesota, 82479-1211

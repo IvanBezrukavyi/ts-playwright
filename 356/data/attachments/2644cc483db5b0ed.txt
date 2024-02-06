@@ -1,0 +1,5 @@
+2024-02-06 09:39:38 - info: Retrieved user's full name: Craig Mann
+2024-02-06 09:39:38 - info: Retrieved user's email: Clarissa_Grimes@demoqa.com
+2024-02-06 09:39:38 - info: Retrieved user's current address: 55409 Spring Street, Pollichbury, Tennessee, 07451
+2024-02-06 09:39:38 - info: Retrieved user's permanent address: 456 Elm St, Pollichbury, Tennessee, 07451
+2024-02-06 09:39:44 - info: ***Removed Content from INPUTS***
