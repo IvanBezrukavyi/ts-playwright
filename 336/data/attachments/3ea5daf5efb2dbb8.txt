@@ -1,4 +1,0 @@
-2024-01-17 09:41:26 - info: Retrieved user's full name: Julie Ullrich
-2024-01-17 09:41:27 - info: Retrieved user's email: Juanita_Tremblay@demoqa.com
-2024-01-17 09:41:27 - info: Retrieved user's current address: 764 Isai Pine, New Sigrid, Pennsylvania, 17741
-2024-01-17 09:41:27 - info: Retrieved user's permanent address: 456 Elm St, New Sigrid, Pennsylvania, 17741
