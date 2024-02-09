@@ -1,0 +1,5 @@
+2024-02-09 09:40:11 - info: Retrieved user's full name: Elias Leannon
+2024-02-09 09:40:11 - info: Retrieved user's email: Rasheed98@demoqa.com
+2024-02-09 09:40:11 - info: Retrieved user's current address: 92125 E Center Street, Reyland, Louisiana, 52625
+2024-02-09 09:40:11 - info: Retrieved user's permanent address: 456 Elm St, Reyland, Louisiana, 52625
+2024-02-09 09:40:18 - info: ***Removed Content from INPUTS***
