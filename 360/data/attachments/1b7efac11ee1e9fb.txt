@@ -1,0 +1,5 @@
+2024-02-10 09:39:06 - info: Retrieved user's full name: Harry Stark
+2024-02-10 09:39:06 - info: Retrieved user's email: Gordon80@demoqa.com
+2024-02-10 09:39:06 - info: Retrieved user's current address: 6695 Carmel Burgs, New Milford, Indiana, 27132
+2024-02-10 09:39:06 - info: Retrieved user's permanent address: 456 Elm St, New Milford, Indiana, 27132
+2024-02-10 09:39:11 - info: ***Removed Content from INPUTS***

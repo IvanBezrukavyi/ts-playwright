@@ -1,5 +1,0 @@
-2024-01-20 09:39:53 - info: Retrieved user's full name: Corey Runolfsdottir
-2024-01-20 09:39:53 - info: Retrieved user's email: Darren.Hackett35@demoqa.com
-2024-01-20 09:39:53 - info: Retrieved user's current address: 8381 Layla Cove, Murphyburgh, Wyoming, 56982-8286
-2024-01-20 09:39:53 - info: Retrieved user's permanent address: 456 Elm St, Murphyburgh, Wyoming, 56982-8286
-2024-01-20 09:40:03 - info: ***Removed Content from INPUTS***

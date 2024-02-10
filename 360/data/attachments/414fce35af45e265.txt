@@ -1,0 +1,4 @@
+2024-02-10 09:39:38 - info: Retrieved user's full name: Sarah Legros
+2024-02-10 09:39:38 - info: Retrieved user's email: Llewellyn_Mueller@demoqa.com
+2024-02-10 09:39:38 - info: Retrieved user's current address: 43762 Velda Pass, Shyanneton, New Jersey, 68049-7938
+2024-02-10 09:39:38 - info: Retrieved user's permanent address: 456 Elm St, Shyanneton, New Jersey, 68049-7938
