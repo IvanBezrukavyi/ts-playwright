@@ -1,4 +1,0 @@
-2024-01-21 09:40:22 - info: Retrieved user's full name: Arthur Price
-2024-01-21 09:40:22 - info: Retrieved user's email: Jose_Feeney46@demoqa.com
-2024-01-21 09:40:23 - info: Retrieved user's current address: 5664 Kuhic Brooks, South Mohammed, Wyoming, 03103
-2024-01-21 09:40:23 - info: Retrieved user's permanent address: 456 Elm St, South Mohammed, Wyoming, 03103

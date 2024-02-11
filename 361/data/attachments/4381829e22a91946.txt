@@ -1,0 +1,5 @@
+2024-02-11 09:18:06 - info: Retrieved user's full name: Warren Labadie
+2024-02-11 09:18:07 - info: Retrieved user's email: Wilma.Jerde96@demoqa.com
+2024-02-11 09:18:07 - info: Retrieved user's current address: 7203 Ashly Expressway, Declanfort, Maine, 36168
+2024-02-11 09:18:07 - info: Retrieved user's permanent address: 456 Elm St, Declanfort, Maine, 36168
+2024-02-11 09:18:18 - info: ***Removed Content from INPUTS***
