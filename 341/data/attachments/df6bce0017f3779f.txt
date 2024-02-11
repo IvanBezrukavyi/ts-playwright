@@ -1,5 +1,0 @@
-2024-01-22 09:39:55 - info: Retrieved user's full name: Deborah Senger
-2024-01-22 09:39:55 - info: Retrieved user's email: Keshawn.Goyette21@demoqa.com
-2024-01-22 09:39:55 - info: Retrieved user's current address: 313 Toy Fork, Sylviamouth, Washington, 02681
-2024-01-22 09:39:55 - info: Retrieved user's permanent address: 456 Elm St, Sylviamouth, Washington, 02681
-2024-01-22 09:40:05 - info: ***Removed Content from INPUTS***

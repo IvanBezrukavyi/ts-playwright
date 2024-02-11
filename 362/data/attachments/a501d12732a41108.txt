@@ -1,0 +1,5 @@
+2024-02-11 09:39:28 - info: Retrieved user's full name: Alan Hyatt
+2024-02-11 09:39:28 - info: Retrieved user's email: Emie.Bailey18@demoqa.com
+2024-02-11 09:39:28 - info: Retrieved user's current address: 14140 Park Drive, Rosieborough, Georgia, 21756-7131
+2024-02-11 09:39:28 - info: Retrieved user's permanent address: 456 Elm St, Rosieborough, Georgia, 21756-7131
+2024-02-11 09:39:32 - info: ***Removed Content from INPUTS***
