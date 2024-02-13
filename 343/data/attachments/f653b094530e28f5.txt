@@ -1,4 +1,0 @@
-2024-01-24 09:40:20 - info: Retrieved user's full name: Violet Reilly III
-2024-01-24 09:40:20 - info: Retrieved user's email: Alessia21@demoqa.com
-2024-01-24 09:40:20 - info: Retrieved user's current address: 82796 Paris Views, Jaketown, Alaska, 04330
-2024-01-24 09:40:20 - info: Retrieved user's permanent address: 456 Elm St, Jaketown, Alaska, 04330

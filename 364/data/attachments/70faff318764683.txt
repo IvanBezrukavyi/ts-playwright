@@ -1,0 +1,5 @@
+2024-02-13 09:39:59 - info: Retrieved user's full name: Mr. Mitchell Crooks
+2024-02-13 09:40:00 - info: Retrieved user's email: Lucy_Mueller@demoqa.com
+2024-02-13 09:40:00 - info: Retrieved user's current address: 5422 3rd Street, South Zeldafort, Maine, 61484
+2024-02-13 09:40:00 - info: Retrieved user's permanent address: 456 Elm St, South Zeldafort, Maine, 61484
+2024-02-13 09:40:08 - info: ***Removed Content from INPUTS***

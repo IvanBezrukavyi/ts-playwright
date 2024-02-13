@@ -1,5 +1,0 @@
-2024-01-24 09:39:40 - info: Retrieved user's full name: Robin Treutel
-2024-01-24 09:39:40 - info: Retrieved user's email: Tad.Koss@demoqa.com
-2024-01-24 09:39:40 - info: Retrieved user's current address: 24046 Hayes Burgs, Edwardberg, Maryland, 58209
-2024-01-24 09:39:40 - info: Retrieved user's permanent address: 456 Elm St, Edwardberg, Maryland, 58209
-2024-01-24 09:39:43 - info: ***Removed Content from INPUTS***
