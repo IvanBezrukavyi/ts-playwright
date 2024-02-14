@@ -1,0 +1,5 @@
+2024-02-14 09:39:50 - info: Retrieved user's full name: Leticia Cronin
+2024-02-14 09:39:50 - info: Retrieved user's email: Randi_Wunsch9@demoqa.com
+2024-02-14 09:39:50 - info: Retrieved user's current address: 86855 N Maple Street, South Garrisonfort, Mississippi, 58622
+2024-02-14 09:39:51 - info: Retrieved user's permanent address: 456 Elm St, South Garrisonfort, Mississippi, 58622
+2024-02-14 09:40:05 - info: ***Removed Content from INPUTS***

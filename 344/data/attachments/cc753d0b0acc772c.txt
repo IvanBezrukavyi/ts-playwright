@@ -1,4 +1,0 @@
-2024-01-25 09:39:23 - info: Retrieved user's full name: Duane Batz
-2024-01-25 09:39:23 - info: Retrieved user's email: Nels.Jast@demoqa.com
-2024-01-25 09:39:24 - info: Retrieved user's current address: 11554 O'Conner Trafficway, Lake Hudson, Connecticut, 82966
-2024-01-25 09:39:24 - info: Retrieved user's permanent address: 456 Elm St, Lake Hudson, Connecticut, 82966

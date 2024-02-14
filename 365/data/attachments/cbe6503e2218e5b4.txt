@@ -1,0 +1,4 @@
+2024-02-14 09:40:13 - info: Retrieved user's full name: Natasha Quigley
+2024-02-14 09:40:13 - info: Retrieved user's email: Rhiannon.Krajcik@demoqa.com
+2024-02-14 09:40:13 - info: Retrieved user's current address: 895 Rachelle Wall, West Rodrigoworth, Wyoming, 44210
+2024-02-14 09:40:13 - info: Retrieved user's permanent address: 456 Elm St, West Rodrigoworth, Wyoming, 44210
