@@ -1,4 +1,0 @@
-2024-01-26 09:41:07 - info: Retrieved user's full name: Luz Schumm
-2024-01-26 09:41:07 - info: Retrieved user's email: Maybell_Roob@demoqa.com
-2024-01-26 09:41:07 - info: Retrieved user's current address: 30606 S Monroe Street, Bashirianhaven, South Carolina, 33151-2020
-2024-01-26 09:41:07 - info: Retrieved user's permanent address: 456 Elm St, Bashirianhaven, South Carolina, 33151-2020

@@ -1,0 +1,5 @@
+2024-02-15 09:39:35 - info: Retrieved user's full name: Leona Wisoky
+2024-02-15 09:39:35 - info: Retrieved user's email: Jamil17@demoqa.com
+2024-02-15 09:39:35 - info: Retrieved user's current address: 35153 Emilie Stravenue, Laurettafurt, Indiana, 26889
+2024-02-15 09:39:35 - info: Retrieved user's permanent address: 456 Elm St, Laurettafurt, Indiana, 26889
+2024-02-15 09:39:38 - info: ***Removed Content from INPUTS***

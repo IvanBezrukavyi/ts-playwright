@@ -1,5 +1,0 @@
-2024-01-26 09:40:57 - info: Retrieved user's full name: Myra Green
-2024-01-26 09:40:57 - info: Retrieved user's email: Bettye7@demoqa.com
-2024-01-26 09:40:57 - info: Retrieved user's current address: 8349 Barry Mill, Gorczanychester, Ohio, 42872
-2024-01-26 09:40:57 - info: Retrieved user's permanent address: 456 Elm St, Gorczanychester, Ohio, 42872
-2024-01-26 09:41:00 - info: ***Removed Content from INPUTS***
