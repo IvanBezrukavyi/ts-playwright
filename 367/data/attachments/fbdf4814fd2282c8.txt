@@ -1,0 +1,4 @@
+2024-02-16 09:40:03 - info: Retrieved user's full name: Owen Schuster V
+2024-02-16 09:40:03 - info: Retrieved user's email: Chaim.Kirlin24@demoqa.com
+2024-02-16 09:40:03 - info: Retrieved user's current address: 28352 Park Street, Letitiaview, Rhode Island, 27726
+2024-02-16 09:40:03 - info: Retrieved user's permanent address: 456 Elm St, Letitiaview, Rhode Island, 27726
