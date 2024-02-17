@@ -1,5 +1,0 @@
-2024-01-29 09:40:11 - info: Retrieved user's full name: Tom Williamson
-2024-01-29 09:40:11 - info: Retrieved user's email: Augustine.Heller35@demoqa.com
-2024-01-29 09:40:11 - info: Retrieved user's current address: 90477 Quigley Flats, Daijaworth, Virginia, 51016-9160
-2024-01-29 09:40:11 - info: Retrieved user's permanent address: 456 Elm St, Daijaworth, Virginia, 51016-9160
-2024-01-29 09:40:15 - info: ***Removed Content from INPUTS***

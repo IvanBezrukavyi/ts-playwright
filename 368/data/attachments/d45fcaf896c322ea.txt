@@ -1,0 +1,5 @@
+2024-02-17 09:39:02 - info: Retrieved user's full name: Derrick Sipes
+2024-02-17 09:39:02 - info: Retrieved user's email: Bonita_Hartmann@demoqa.com
+2024-02-17 09:39:02 - info: Retrieved user's current address: 7167 Railroad Avenue, Clarefort, Kentucky, 91662-8634
+2024-02-17 09:39:02 - info: Retrieved user's permanent address: 456 Elm St, Clarefort, Kentucky, 91662-8634
+2024-02-17 09:39:08 - info: ***Removed Content from INPUTS***
