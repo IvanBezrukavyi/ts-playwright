@@ -1,0 +1,5 @@
+2024-02-18 09:39:36 - info: Retrieved user's full name: Lance Spinka
+2024-02-18 09:39:36 - info: Retrieved user's email: Octavia7@demoqa.com
+2024-02-18 09:39:36 - info: Retrieved user's current address: 37314 Lura Terrace, New Jeremy, Montana, 54504-5397
+2024-02-18 09:39:36 - info: Retrieved user's permanent address: 456 Elm St, New Jeremy, Montana, 54504-5397
+2024-02-18 09:39:44 - info: ***Removed Content from INPUTS***
