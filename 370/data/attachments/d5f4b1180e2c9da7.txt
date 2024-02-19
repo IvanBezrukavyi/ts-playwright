@@ -1,0 +1,4 @@
+2024-02-19 09:41:01 - info: Retrieved user's full name: Dr. Sidney Rau
+2024-02-19 09:41:01 - info: Retrieved user's email: Leda_Thiel@demoqa.com
+2024-02-19 09:41:01 - info: Retrieved user's current address: 1300 Theodore Walk, New Ferneville, Texas, 50508-5717
+2024-02-19 09:41:01 - info: Retrieved user's permanent address: 456 Elm St, New Ferneville, Texas, 50508-5717
