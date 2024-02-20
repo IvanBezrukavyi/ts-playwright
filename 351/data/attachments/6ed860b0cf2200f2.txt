@@ -1,5 +1,0 @@
-2024-02-01 09:39:52 - info: Retrieved user's full name: Ronnie McClure
-2024-02-01 09:39:52 - info: Retrieved user's email: Reid.OKeefe43@demoqa.com
-2024-02-01 09:39:52 - info: Retrieved user's current address: 1782 Alden Pines, North Hopefield, Oregon, 02044-8656
-2024-02-01 09:39:52 - info: Retrieved user's permanent address: 456 Elm St, North Hopefield, Oregon, 02044-8656
-2024-02-01 09:39:59 - info: ***Removed Content from INPUTS***
