@@ -1,0 +1,4 @@
+2024-02-21 09:40:07 - info: Retrieved user's full name: Essie Ernser
+2024-02-21 09:40:07 - info: Retrieved user's email: Asa.Ferry-Kuhic73@demoqa.com
+2024-02-21 09:40:07 - info: Retrieved user's current address: 809 Kris Forks, New Jovani, Missouri, 93613
+2024-02-21 09:40:08 - info: Retrieved user's permanent address: 456 Elm St, New Jovani, Missouri, 93613
