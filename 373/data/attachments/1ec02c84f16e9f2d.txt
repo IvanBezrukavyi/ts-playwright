@@ -1,0 +1,4 @@
+2024-02-22 09:39:36 - info: Retrieved user's full name: Nicole Mohr
+2024-02-22 09:39:36 - info: Retrieved user's email: Aisha.Rowe69@demoqa.com
+2024-02-22 09:39:36 - info: Retrieved user's current address: 27572 Bruen Lodge, New Carlottastead, Delaware, 15982-9913
+2024-02-22 09:39:36 - info: Retrieved user's permanent address: 456 Elm St, New Carlottastead, Delaware, 15982-9913

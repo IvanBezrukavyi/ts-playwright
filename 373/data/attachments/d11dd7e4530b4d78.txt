@@ -1,0 +1,5 @@
+2024-02-22 09:39:21 - info: Retrieved user's full name: Bob Jacobs
+2024-02-22 09:39:21 - info: Retrieved user's email: Lincoln_Cormier81@demoqa.com
+2024-02-22 09:39:21 - info: Retrieved user's current address: 25190 Orn Place, Luettgenstad, Ohio, 53243-8839
+2024-02-22 09:39:21 - info: Retrieved user's permanent address: 456 Elm St, Luettgenstad, Ohio, 53243-8839
+2024-02-22 09:39:27 - info: ***Removed Content from INPUTS***
