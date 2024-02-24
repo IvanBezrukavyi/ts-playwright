@@ -1,5 +1,0 @@
-2024-02-05 09:39:23 - info: Retrieved user's full name: Stella Muller
-2024-02-05 09:39:23 - info: Retrieved user's email: Angel.Konopelski@demoqa.com
-2024-02-05 09:39:23 - info: Retrieved user's current address: 1149 S 3rd Street, North Felix, Virginia, 06100-5436
-2024-02-05 09:39:23 - info: Retrieved user's permanent address: 456 Elm St, North Felix, Virginia, 06100-5436
-2024-02-05 09:39:34 - info: ***Removed Content from INPUTS***

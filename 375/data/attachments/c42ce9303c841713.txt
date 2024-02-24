@@ -1,0 +1,5 @@
+2024-02-24 09:39:08 - info: Retrieved user's full name: Miss Ruth Grimes
+2024-02-24 09:39:08 - info: Retrieved user's email: Quentin_Roberts@demoqa.com
+2024-02-24 09:39:08 - info: Retrieved user's current address: 150 W 5th Street, Preciousfurt, Wisconsin, 76254
+2024-02-24 09:39:08 - info: Retrieved user's permanent address: 456 Elm St, Preciousfurt, Wisconsin, 76254
+2024-02-24 09:39:16 - info: ***Removed Content from INPUTS***
