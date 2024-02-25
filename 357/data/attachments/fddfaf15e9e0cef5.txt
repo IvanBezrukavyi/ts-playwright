@@ -1,4 +1,0 @@
-2024-02-07 09:40:02 - info: Retrieved user's full name: Mr. Jim Schamberger
-2024-02-07 09:40:02 - info: Retrieved user's email: Micaela6@demoqa.com
-2024-02-07 09:40:02 - info: Retrieved user's current address: 634 Cruickshank Alley, New Keely, Montana, 27526
-2024-02-07 09:40:02 - info: Retrieved user's permanent address: 456 Elm St, New Keely, Montana, 27526

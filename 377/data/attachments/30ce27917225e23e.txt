@@ -1,0 +1,5 @@
+2024-02-25 13:14:14 - info: Retrieved user's full name: Kathy Gorczany
+2024-02-25 13:14:14 - info: Retrieved user's email: Jessy_Rath89@demoqa.com
+2024-02-25 13:14:14 - info: Retrieved user's current address: 27250 Lehner Rapid, Lake Xander, New Hampshire, 99546
+2024-02-25 13:14:14 - info: Retrieved user's permanent address: 456 Elm St, Lake Xander, New Hampshire, 99546
+2024-02-25 13:14:20 - info: ***Removed Content from INPUTS***

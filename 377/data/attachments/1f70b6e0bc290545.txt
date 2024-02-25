@@ -1,0 +1,4 @@
+2024-02-25 13:14:29 - info: Retrieved user's full name: Belinda Kozey
+2024-02-25 13:14:29 - info: Retrieved user's email: Denis36@demoqa.com
+2024-02-25 13:14:29 - info: Retrieved user's current address: 44209 Jackson Avenue, New Elvera, Massachusetts, 60118
+2024-02-25 13:14:29 - info: Retrieved user's permanent address: 456 Elm St, New Elvera, Massachusetts, 60118

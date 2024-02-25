@@ -1,5 +1,0 @@
-2024-02-07 09:39:49 - info: Retrieved user's full name: Allen Emard
-2024-02-07 09:39:49 - info: Retrieved user's email: Pedro62@demoqa.com
-2024-02-07 09:39:49 - info: Retrieved user's current address: 7718 Clarabelle Manors, Reillyton, Massachusetts, 51406
-2024-02-07 09:39:49 - info: Retrieved user's permanent address: 456 Elm St, Reillyton, Massachusetts, 51406
-2024-02-07 09:39:53 - info: ***Removed Content from INPUTS***
