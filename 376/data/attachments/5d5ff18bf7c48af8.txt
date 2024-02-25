@@ -1,0 +1,5 @@
+2024-02-25 09:39:45 - info: Retrieved user's full name: Eva Marvin Sr.
+2024-02-25 09:39:46 - info: Retrieved user's email: Korbin_Kilback31@demoqa.com
+2024-02-25 09:39:46 - info: Retrieved user's current address: 2303 Stracke Plaza, Kihnview, Iowa, 66928-5045
+2024-02-25 09:39:46 - info: Retrieved user's permanent address: 456 Elm St, Kihnview, Iowa, 66928-5045
+2024-02-25 09:39:56 - info: ***Removed Content from INPUTS***

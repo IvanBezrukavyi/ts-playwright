@@ -1,4 +1,0 @@
-2024-02-06 09:40:10 - info: Retrieved user's full name: Sean Morar
-2024-02-06 09:40:10 - info: Retrieved user's email: Noemy51@demoqa.com
-2024-02-06 09:40:10 - info: Retrieved user's current address: 73130 Ziemann-Baumbach Spring, Mraztown, Kansas, 05842
-2024-02-06 09:40:10 - info: Retrieved user's permanent address: 456 Elm St, Mraztown, Kansas, 05842
