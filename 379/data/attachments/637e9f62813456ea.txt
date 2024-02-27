@@ -1,0 +1,5 @@
+2024-02-27 09:40:08 - info: Retrieved user's full name: Mrs. Marjorie Connelly
+2024-02-27 09:40:08 - info: Retrieved user's email: Wilton20@demoqa.com
+2024-02-27 09:40:08 - info: Retrieved user's current address: 3889 Quincy Skyway, Jaysonview, New Mexico, 09819
+2024-02-27 09:40:08 - info: Retrieved user's permanent address: 456 Elm St, Jaysonview, New Mexico, 09819
+2024-02-27 09:40:14 - info: ***Removed Content from INPUTS***

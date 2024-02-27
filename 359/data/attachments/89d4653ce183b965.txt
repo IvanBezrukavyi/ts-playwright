@@ -1,4 +1,0 @@
-2024-02-09 09:41:03 - info: Retrieved user's full name: Jimmy Fadel
-2024-02-09 09:41:03 - info: Retrieved user's email: Mary20@demoqa.com
-2024-02-09 09:41:03 - info: Retrieved user's current address: 507 Shields Unions, East Amayaview, New Hampshire, 31718-3565
-2024-02-09 09:41:03 - info: Retrieved user's permanent address: 456 Elm St, East Amayaview, New Hampshire, 31718-3565
