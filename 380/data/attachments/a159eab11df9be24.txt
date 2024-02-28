@@ -1,0 +1,5 @@
+2024-02-28 09:42:22 - info: Starting file download process
+2024-02-28 09:42:23 - info: Saving file as: upload-sample-2024-02-28-09:42.jpeg
+2024-02-28 09:42:23 - info: File download completed successfully
+2024-02-28 09:42:23 - info: Retrieving downloaded file path: srs/resources/files/download/upload-sample-2024-02-28-09:42.jpeg
+2024-02-28 09:42:23 - info: File retrieval completed successfully

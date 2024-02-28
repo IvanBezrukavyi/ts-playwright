@@ -1,0 +1,4 @@
+2024-02-28 09:41:09 - info: Retrieved user's full name: Jeannie Kassulke
+2024-02-28 09:41:09 - info: Retrieved user's email: Peter_Gusikowski85@demoqa.com
+2024-02-28 09:41:10 - info: Retrieved user's current address: 56835 Karianne Mews, Fritzfurt, Oklahoma, 44556-3192
+2024-02-28 09:41:10 - info: Retrieved user's permanent address: 456 Elm St, Fritzfurt, Oklahoma, 44556-3192
