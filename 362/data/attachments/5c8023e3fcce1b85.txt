@@ -1,4 +1,0 @@
-2024-02-11 09:39:59 - info: Retrieved user's full name: Moses Gleichner
-2024-02-11 09:39:59 - info: Retrieved user's email: Mack.Streich67@demoqa.com
-2024-02-11 09:39:59 - info: Retrieved user's current address: 50398 Howard Street, Altenwerthchester, Wisconsin, 66730-0307
-2024-02-11 09:39:59 - info: Retrieved user's permanent address: 456 Elm St, Altenwerthchester, Wisconsin, 66730-0307

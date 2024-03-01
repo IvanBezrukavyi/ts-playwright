@@ -1,0 +1,5 @@
+2024-03-01 09:39:49 - info: Retrieved user's full name: Diane Jones
+2024-03-01 09:39:49 - info: Retrieved user's email: Darrin_Konopelski@demoqa.com
+2024-03-01 09:39:49 - info: Retrieved user's current address: 601 Swift Ports, Schmittport, Texas, 33989
+2024-03-01 09:39:49 - info: Retrieved user's permanent address: 456 Elm St, Schmittport, Texas, 33989
+2024-03-01 09:40:02 - info: ***Removed Content from INPUTS***
