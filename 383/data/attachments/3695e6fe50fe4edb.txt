@@ -1,0 +1,5 @@
+2024-03-02 09:39:38 - info: Retrieved user's full name: Mr. Danny Weissnat
+2024-03-02 09:39:39 - info: Retrieved user's email: Madilyn_Fisher49@demoqa.com
+2024-03-02 09:39:39 - info: Retrieved user's current address: 9239 Dare Drives, Amieburgh, Alaska, 03960-0207
+2024-03-02 09:39:39 - info: Retrieved user's permanent address: 456 Elm St, Amieburgh, Alaska, 03960-0207
+2024-03-02 09:39:53 - info: ***Removed Content from INPUTS***

@@ -1,0 +1,4 @@
+2024-03-02 09:40:01 - info: Retrieved user's full name: Emily Mertz
+2024-03-02 09:40:01 - info: Retrieved user's email: Annamarie_Feeney4@demoqa.com
+2024-03-02 09:40:01 - info: Retrieved user's current address: 1812 Lind Manor, Cummingsburgh, Nevada, 53399
+2024-03-02 09:40:01 - info: Retrieved user's permanent address: 456 Elm St, Cummingsburgh, Nevada, 53399

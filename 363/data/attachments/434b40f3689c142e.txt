@@ -1,4 +1,0 @@
-2024-02-12 09:40:23 - info: Retrieved user's full name: Eva Bauch
-2024-02-12 09:40:23 - info: Retrieved user's email: Kieran.Hudson68@demoqa.com
-2024-02-12 09:40:24 - info: Retrieved user's current address: 3143 Brakus Walk, Lake Terrenceton, North Dakota, 06304
-2024-02-12 09:40:24 - info: Retrieved user's permanent address: 456 Elm St, Lake Terrenceton, North Dakota, 06304

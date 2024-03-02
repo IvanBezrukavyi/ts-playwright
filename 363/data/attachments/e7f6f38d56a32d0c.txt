@@ -1,5 +1,0 @@
-2024-02-12 09:39:32 - info: Retrieved user's full name: Margarita Barrows
-2024-02-12 09:39:32 - info: Retrieved user's email: Martine_Corwin-Kunze90@demoqa.com
-2024-02-12 09:39:32 - info: Retrieved user's current address: 824 E Cedar Street, Ricestead, Idaho, 84913-8199
-2024-02-12 09:39:32 - info: Retrieved user's permanent address: 456 Elm St, Ricestead, Idaho, 84913-8199
-2024-02-12 09:39:41 - info: ***Removed Content from INPUTS***
