@@ -1,4 +1,0 @@
-2024-02-13 09:40:47 - info: Retrieved user's full name: Edmund Hamill
-2024-02-13 09:40:47 - info: Retrieved user's email: Kaylah24@demoqa.com
-2024-02-13 09:40:47 - info: Retrieved user's current address: 78017 Spencer Motorway, North Evelynview, Arizona, 15559
-2024-02-13 09:40:47 - info: Retrieved user's permanent address: 456 Elm St, North Evelynview, Arizona, 15559
