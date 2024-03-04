@@ -1,0 +1,5 @@
+2024-03-04 11:17:13 - info: Retrieved user's full name: Dr. Woodrow Hickle
+2024-03-04 11:17:13 - info: Retrieved user's email: Brown.Watsica64@demoqa.com
+2024-03-04 11:17:14 - info: Retrieved user's current address: 7856 Tate Wall, Fort Zelma, New Hampshire, 42271-6110
+2024-03-04 11:17:14 - info: Retrieved user's permanent address: 456 Elm St, Fort Zelma, New Hampshire, 42271-6110
+2024-03-04 11:17:29 - info: ***Removed Content from INPUTS***
