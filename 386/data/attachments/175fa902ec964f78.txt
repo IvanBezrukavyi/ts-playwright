@@ -1,0 +1,4 @@
+2024-03-05 09:40:39 - info: Retrieved user's full name: Louis Miller DVM
+2024-03-05 09:40:39 - info: Retrieved user's email: Finn.Doyle46@demoqa.com
+2024-03-05 09:40:39 - info: Retrieved user's current address: 48530 Schuster Views, Joesphfurt, Kansas, 80102-5507
+2024-03-05 09:40:39 - info: Retrieved user's permanent address: 456 Elm St, Joesphfurt, Kansas, 80102-5507

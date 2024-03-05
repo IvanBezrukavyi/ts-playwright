@@ -1,4 +1,0 @@
-2024-02-15 09:39:44 - info: Retrieved user's full name: Angelina Bernier
-2024-02-15 09:39:44 - info: Retrieved user's email: Kaia_Lindgren50@demoqa.com
-2024-02-15 09:39:44 - info: Retrieved user's current address: 50284 River Street, Elvaboro, Idaho, 41653
-2024-02-15 09:39:44 - info: Retrieved user's permanent address: 456 Elm St, Elvaboro, Idaho, 41653
