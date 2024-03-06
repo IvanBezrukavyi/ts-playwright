@@ -1,0 +1,4 @@
+2024-03-06 09:39:20 - info: Retrieved user's full name: Peter Stamm
+2024-03-06 09:39:20 - info: Retrieved user's email: Muhammad_Langosh63@demoqa.com
+2024-03-06 09:39:20 - info: Retrieved user's current address: 62995 Herzog Pass, South Moniqueside, New Jersey, 97550
+2024-03-06 09:39:20 - info: Retrieved user's permanent address: 456 Elm St, South Moniqueside, New Jersey, 97550
