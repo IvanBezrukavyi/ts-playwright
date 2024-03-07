@@ -1,0 +1,4 @@
+2024-03-07 09:50:01 - info: Retrieved user's full name: Kenny Prosacco
+2024-03-07 09:50:01 - info: Retrieved user's email: Morris.Ratke@demoqa.com
+2024-03-07 09:50:01 - info: Retrieved user's current address: 105 Luther Dale, McLaughlinfield, South Carolina, 28913
+2024-03-07 09:50:01 - info: Retrieved user's permanent address: 456 Elm St, McLaughlinfield, South Carolina, 28913
