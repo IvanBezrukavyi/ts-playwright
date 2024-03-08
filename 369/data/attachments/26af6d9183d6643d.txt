@@ -1,4 +1,0 @@
-2024-02-18 09:40:21 - info: Retrieved user's full name: Marilyn Wehner
-2024-02-18 09:40:21 - info: Retrieved user's email: Ottilie.Veum@demoqa.com
-2024-02-18 09:40:21 - info: Retrieved user's current address: 6261 Hauck Corners, Christinafield, Vermont, 54844-6808
-2024-02-18 09:40:21 - info: Retrieved user's permanent address: 456 Elm St, Christinafield, Vermont, 54844-6808
