@@ -1,0 +1,5 @@
+2024-03-10 09:39:00 - info: Retrieved user's full name: Mr. Alejandro Ruecker
+2024-03-10 09:39:00 - info: Retrieved user's email: Maxine.Kunze@demoqa.com
+2024-03-10 09:39:00 - info: Retrieved user's current address: 21633 Ariel Drive, West Lavernville, New Mexico, 07302-5458
+2024-03-10 09:39:01 - info: Retrieved user's permanent address: 456 Elm St, West Lavernville, New Mexico, 07302-5458
+2024-03-10 09:39:14 - info: ***Removed Content from INPUTS***

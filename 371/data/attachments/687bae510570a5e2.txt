@@ -1,5 +1,0 @@
-2024-02-20 09:39:56 - info: Retrieved user's full name: Mr. Bradley Weissnat
-2024-02-20 09:39:56 - info: Retrieved user's email: Baron_Sauer@demoqa.com
-2024-02-20 09:39:56 - info: Retrieved user's current address: 89122 Lockman Route, Lueilwitzville, Washington, 08557
-2024-02-20 09:39:56 - info: Retrieved user's permanent address: 456 Elm St, Lueilwitzville, Washington, 08557
-2024-02-20 09:40:02 - info: ***Removed Content from INPUTS***
