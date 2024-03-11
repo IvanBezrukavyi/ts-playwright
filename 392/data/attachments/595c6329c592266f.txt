@@ -1,0 +1,4 @@
+2024-03-11 09:42:25 - info: Retrieved user's full name: Eduardo Treutel
+2024-03-11 09:42:25 - info: Retrieved user's email: Imelda.Beer28@demoqa.com
+2024-03-11 09:42:25 - info: Retrieved user's current address: 100 Veda Camp, Port Geovanniland, Massachusetts, 64720-2899
+2024-03-11 09:42:25 - info: Retrieved user's permanent address: 456 Elm St, Port Geovanniland, Massachusetts, 64720-2899

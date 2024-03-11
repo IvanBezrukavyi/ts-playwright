@@ -1,5 +1,0 @@
-2024-02-21 09:39:54 - info: Retrieved user's full name: Kari Green
-2024-02-21 09:39:54 - info: Retrieved user's email: Fernando93@demoqa.com
-2024-02-21 09:39:54 - info: Retrieved user's current address: 7881 Christina Well, Albaworth, Georgia, 31672-7972
-2024-02-21 09:39:54 - info: Retrieved user's permanent address: 456 Elm St, Albaworth, Georgia, 31672-7972
-2024-02-21 09:39:58 - info: ***Removed Content from INPUTS***
