@@ -1,0 +1,4 @@
+2024-03-12 09:41:32 - info: Retrieved user's full name: Elijah Pollich
+2024-03-12 09:41:32 - info: Retrieved user's email: Emmitt.Marvin-Treutel@demoqa.com
+2024-03-12 09:41:32 - info: Retrieved user's current address: 48669 E Maple Street, Zulaland, North Carolina, 21687
+2024-03-12 09:41:32 - info: Retrieved user's permanent address: 456 Elm St, Zulaland, North Carolina, 21687

@@ -1,0 +1,5 @@
+2024-03-12 09:41:10 - info: Retrieved user's full name: Ms. Sherry Runte
+2024-03-12 09:41:10 - info: Retrieved user's email: Beau16@demoqa.com
+2024-03-12 09:41:10 - info: Retrieved user's current address: 73243 Macey Shores, East Deondre, Missouri, 21022-6463
+2024-03-12 09:41:11 - info: Retrieved user's permanent address: 456 Elm St, East Deondre, Missouri, 21022-6463
+2024-03-12 09:41:23 - info: ***Removed Content from INPUTS***
