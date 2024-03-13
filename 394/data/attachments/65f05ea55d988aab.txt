@@ -1,0 +1,5 @@
+2024-03-13 09:40:45 - info: Retrieved user's full name: Joey Kreiger
+2024-03-13 09:40:45 - info: Retrieved user's email: Minnie.Russel@demoqa.com
+2024-03-13 09:40:45 - info: Retrieved user's current address: 7992 2nd Avenue, Kesslerborough, Arizona, 07643
+2024-03-13 09:40:46 - info: Retrieved user's permanent address: 456 Elm St, Kesslerborough, Arizona, 07643
+2024-03-13 09:40:57 - info: ***Removed Content from INPUTS***

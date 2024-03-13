@@ -1,4 +1,0 @@
-2024-02-23 09:40:15 - info: Retrieved user's full name: Santos Hammes
-2024-02-23 09:40:15 - info: Retrieved user's email: Iva49@demoqa.com
-2024-02-23 09:40:15 - info: Retrieved user's current address: 88965 Bogan Gardens, North Kingburgh, Texas, 46993
-2024-02-23 09:40:15 - info: Retrieved user's permanent address: 456 Elm St, North Kingburgh, Texas, 46993

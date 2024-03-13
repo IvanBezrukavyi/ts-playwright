@@ -1,5 +1,0 @@
-2024-02-23 09:39:28 - info: Retrieved user's full name: Madeline Hilpert II
-2024-02-23 09:39:28 - info: Retrieved user's email: Emile55@demoqa.com
-2024-02-23 09:39:28 - info: Retrieved user's current address: 19229 Izaiah Square, Skilesside, Kentucky, 44875-0003
-2024-02-23 09:39:28 - info: Retrieved user's permanent address: 456 Elm St, Skilesside, Kentucky, 44875-0003
-2024-02-23 09:39:31 - info: ***Removed Content from INPUTS***
