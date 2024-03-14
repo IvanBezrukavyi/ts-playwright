@@ -1,0 +1,5 @@
+2024-03-14 09:39:22 - info: Retrieved user's full name: Levi Berge
+2024-03-14 09:39:22 - info: Retrieved user's email: Izaiah.Adams45@demoqa.com
+2024-03-14 09:39:22 - info: Retrieved user's current address: 28404 Jarret River, Krisstead, North Dakota, 20785-7146
+2024-03-14 09:39:22 - info: Retrieved user's permanent address: 456 Elm St, Krisstead, North Dakota, 20785-7146
+2024-03-14 09:39:28 - info: ***Removed Content from INPUTS***
