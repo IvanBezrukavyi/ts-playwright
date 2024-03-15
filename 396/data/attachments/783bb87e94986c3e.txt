@@ -1,0 +1,5 @@
+2024-03-15 09:39:34 - info: Retrieved user's full name: Stacy Bosco
+2024-03-15 09:39:34 - info: Retrieved user's email: Rachel_Auer@demoqa.com
+2024-03-15 09:39:34 - info: Retrieved user's current address: 157 Terrence Trace, Bahringerfort, Minnesota, 39115
+2024-03-15 09:39:34 - info: Retrieved user's permanent address: 456 Elm St, Bahringerfort, Minnesota, 39115
+2024-03-15 09:39:39 - info: ***Removed Content from INPUTS***

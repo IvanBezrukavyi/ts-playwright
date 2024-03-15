@@ -1,0 +1,4 @@
+2024-03-15 09:39:46 - info: Retrieved user's full name: Tanya Gerlach
+2024-03-15 09:39:46 - info: Retrieved user's email: Jeffry27@demoqa.com
+2024-03-15 09:39:46 - info: Retrieved user's current address: 23523 Main, South Orlandoworth, Massachusetts, 82336-1763
+2024-03-15 09:39:46 - info: Retrieved user's permanent address: 456 Elm St, South Orlandoworth, Massachusetts, 82336-1763
