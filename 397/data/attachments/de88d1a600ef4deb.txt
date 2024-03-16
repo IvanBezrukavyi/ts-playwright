@@ -1,0 +1,4 @@
+2024-03-16 09:41:20 - info: Retrieved user's full name: Douglas Sipes V
+2024-03-16 09:41:20 - info: Retrieved user's email: Alana9@demoqa.com
+2024-03-16 09:41:20 - info: Retrieved user's current address: 6915 Bay Street, Millschester, Ohio, 37277
+2024-03-16 09:41:20 - info: Retrieved user's permanent address: 456 Elm St, Millschester, Ohio, 37277

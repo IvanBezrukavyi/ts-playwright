@@ -1,0 +1,5 @@
+2024-03-16 09:40:20 - info: Retrieved user's full name: June Kassulke
+2024-03-16 09:40:20 - info: Retrieved user's email: Brandt99@demoqa.com
+2024-03-16 09:40:20 - info: Retrieved user's current address: 1291 Harmon Brook, Watsicaton, Wyoming, 95749
+2024-03-16 09:40:20 - info: Retrieved user's permanent address: 456 Elm St, Watsicaton, Wyoming, 95749
+2024-03-16 09:40:26 - info: ***Removed Content from INPUTS***
