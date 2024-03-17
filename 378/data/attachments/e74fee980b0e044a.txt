@@ -1,5 +1,0 @@
-2024-02-26 09:45:01 - info: Retrieved user's full name: Mindy Haley DVM
-2024-02-26 09:45:01 - info: Retrieved user's email: Leatha_Denesik40@demoqa.com
-2024-02-26 09:45:01 - info: Retrieved user's current address: 122 Daron Tunnel, Fort Alethashire, Vermont, 73814-9468
-2024-02-26 09:45:02 - info: Retrieved user's permanent address: 456 Elm St, Fort Alethashire, Vermont, 73814-9468
-2024-02-26 09:45:18 - info: ***Removed Content from INPUTS***

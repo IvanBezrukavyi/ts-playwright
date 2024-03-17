@@ -1,4 +1,0 @@
-2024-02-26 09:45:28 - info: Retrieved user's full name: Maria Auer
-2024-02-26 09:45:28 - info: Retrieved user's email: Jared.Goodwin61@demoqa.com
-2024-02-26 09:45:29 - info: Retrieved user's current address: 8105 N State Street, Webertown, Indiana, 64475-3859
-2024-02-26 09:45:29 - info: Retrieved user's permanent address: 456 Elm St, Webertown, Indiana, 64475-3859
