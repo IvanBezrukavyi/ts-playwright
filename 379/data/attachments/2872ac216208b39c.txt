@@ -1,4 +1,0 @@
-2024-02-27 09:40:24 - info: Retrieved user's full name: Omar Luettgen
-2024-02-27 09:40:24 - info: Retrieved user's email: Fay79@demoqa.com
-2024-02-27 09:40:24 - info: Retrieved user's current address: 70155 E 2nd Street, North Emelie, Colorado, 39859-1389
-2024-02-27 09:40:24 - info: Retrieved user's permanent address: 456 Elm St, North Emelie, Colorado, 39859-1389
