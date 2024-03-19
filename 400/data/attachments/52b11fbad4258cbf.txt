@@ -1,0 +1,5 @@
+2024-03-19 09:39:54 - info: Retrieved user's full name: Kelly Lakin
+2024-03-19 09:39:54 - info: Retrieved user's email: Ansley.Homenick81@demoqa.com
+2024-03-19 09:39:54 - info: Retrieved user's current address: 2761 Cassie Route, Rutherfordfort, Florida, 92143-5851
+2024-03-19 09:39:54 - info: Retrieved user's permanent address: 456 Elm St, Rutherfordfort, Florida, 92143-5851
+2024-03-19 09:40:00 - info: ***Removed Content from INPUTS***

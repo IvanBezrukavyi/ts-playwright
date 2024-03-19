@@ -1,5 +1,0 @@
-2024-02-28 09:40:53 - info: Retrieved user's full name: Evelyn Oberbrunner
-2024-02-28 09:40:53 - info: Retrieved user's email: Enola_McLaughlin@demoqa.com
-2024-02-28 09:40:53 - info: Retrieved user's current address: 64389 Rolfson Harbor, Romaguerachester, Nevada, 46430-3752
-2024-02-28 09:40:53 - info: Retrieved user's permanent address: 456 Elm St, Romaguerachester, Nevada, 46430-3752
-2024-02-28 09:41:00 - info: ***Removed Content from INPUTS***
