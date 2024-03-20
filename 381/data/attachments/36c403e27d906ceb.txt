@@ -1,4 +1,0 @@
-2024-02-29 09:39:31 - info: Retrieved user's full name: Karla Lind
-2024-02-29 09:39:32 - info: Retrieved user's email: Alice_Dickinson71@demoqa.com
-2024-02-29 09:39:32 - info: Retrieved user's current address: 496 Mitchell Court, North Cyrusfield, North Carolina, 54294-1440
-2024-02-29 09:39:32 - info: Retrieved user's permanent address: 456 Elm St, North Cyrusfield, North Carolina, 54294-1440

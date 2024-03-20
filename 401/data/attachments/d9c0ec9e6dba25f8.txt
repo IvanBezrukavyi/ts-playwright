@@ -1,0 +1,5 @@
+2024-03-20 09:40:06 - info: Retrieved user's full name: Kurt Runte IV
+2024-03-20 09:40:06 - info: Retrieved user's email: Stephen_Lehner17@demoqa.com
+2024-03-20 09:40:06 - info: Retrieved user's current address: 61392 Mraz Row, Batzside, Tennessee, 76178
+2024-03-20 09:40:06 - info: Retrieved user's permanent address: 456 Elm St, Batzside, Tennessee, 76178
+2024-03-20 09:40:11 - info: ***Removed Content from INPUTS***

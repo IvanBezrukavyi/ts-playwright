@@ -1,5 +1,0 @@
-2024-02-29 09:39:09 - info: Retrieved user's full name: Brett Hammes
-2024-02-29 09:39:09 - info: Retrieved user's email: Celia.Keebler58@demoqa.com
-2024-02-29 09:39:09 - info: Retrieved user's current address: 9113 O'Kon Key, Port Lavonneton, Nebraska, 59183-6536
-2024-02-29 09:39:10 - info: Retrieved user's permanent address: 456 Elm St, Port Lavonneton, Nebraska, 59183-6536
-2024-02-29 09:39:23 - info: ***Removed Content from INPUTS***
