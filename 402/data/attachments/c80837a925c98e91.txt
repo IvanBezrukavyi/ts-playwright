@@ -1,0 +1,4 @@
+2024-03-21 09:39:53 - info: Retrieved user's full name: Stephen Terry
+2024-03-21 09:39:53 - info: Retrieved user's email: Beth_Moen1@demoqa.com
+2024-03-21 09:39:53 - info: Retrieved user's current address: 4544 Hayes Mall, West Garrettberg, South Carolina, 24871-7761
+2024-03-21 09:39:53 - info: Retrieved user's permanent address: 456 Elm St, West Garrettberg, South Carolina, 24871-7761

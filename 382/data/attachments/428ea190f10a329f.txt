@@ -1,4 +1,0 @@
-2024-03-01 09:40:13 - info: Retrieved user's full name: Leslie Shields
-2024-03-01 09:40:13 - info: Retrieved user's email: Reynold.OReilly30@demoqa.com
-2024-03-01 09:40:13 - info: Retrieved user's current address: 841 Adams Avenue, Leopoldchester, Missouri, 09975
-2024-03-01 09:40:13 - info: Retrieved user's permanent address: 456 Elm St, Leopoldchester, Missouri, 09975
