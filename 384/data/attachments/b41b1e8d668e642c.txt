@@ -1,5 +1,0 @@
-2024-03-03 09:40:21 - info: Retrieved user's full name: Phyllis O'Hara
-2024-03-03 09:40:21 - info: Retrieved user's email: Mireya96@demoqa.com
-2024-03-03 09:40:21 - info: Retrieved user's current address: 83277 Martin Luther King Drive, South Jermain, Minnesota, 60678-7199
-2024-03-03 09:40:21 - info: Retrieved user's permanent address: 456 Elm St, South Jermain, Minnesota, 60678-7199
-2024-03-03 09:40:27 - info: ***Removed Content from INPUTS***

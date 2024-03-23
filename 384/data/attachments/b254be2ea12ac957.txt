@@ -1,4 +1,0 @@
-2024-03-03 09:40:34 - info: Retrieved user's full name: Clay Becker
-2024-03-03 09:40:34 - info: Retrieved user's email: Elwin47@demoqa.com
-2024-03-03 09:40:34 - info: Retrieved user's current address: 578 Marquardt Mills, Bartonworth, Louisiana, 97644-2320
-2024-03-03 09:40:34 - info: Retrieved user's permanent address: 456 Elm St, Bartonworth, Louisiana, 97644-2320
