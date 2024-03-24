@@ -1,0 +1,4 @@
+2024-03-24 09:40:12 - info: Retrieved user's full name: Beth Nader
+2024-03-24 09:40:12 - info: Retrieved user's email: Kade_Grant@demoqa.com
+2024-03-24 09:40:12 - info: Retrieved user's current address: 24835 Bode Track, Rosamondtown, North Carolina, 37993-3938
+2024-03-24 09:40:12 - info: Retrieved user's permanent address: 456 Elm St, Rosamondtown, North Carolina, 37993-3938

@@ -1,4 +1,0 @@
-2024-03-04 11:17:39 - info: Retrieved user's full name: Mr. Alan Thompson
-2024-03-04 11:17:39 - info: Retrieved user's email: Ezra90@demoqa.com
-2024-03-04 11:17:39 - info: Retrieved user's current address: 999 Lee Street, Lake Alexandro, North Dakota, 54216
-2024-03-04 11:17:39 - info: Retrieved user's permanent address: 456 Elm St, Lake Alexandro, North Dakota, 54216
