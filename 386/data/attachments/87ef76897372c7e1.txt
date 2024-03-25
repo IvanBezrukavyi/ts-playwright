@@ -1,5 +1,0 @@
-2024-03-05 09:39:42 - info: Retrieved user's full name: Bonnie Marvin
-2024-03-05 09:39:42 - info: Retrieved user's email: Concepcion28@demoqa.com
-2024-03-05 09:39:43 - info: Retrieved user's current address: 8935 Jadon Parkway, Lake Georgianaworth, New Jersey, 71689
-2024-03-05 09:39:43 - info: Retrieved user's permanent address: 456 Elm St, Lake Georgianaworth, New Jersey, 71689
-2024-03-05 09:40:00 - info: ***Removed Content from INPUTS***

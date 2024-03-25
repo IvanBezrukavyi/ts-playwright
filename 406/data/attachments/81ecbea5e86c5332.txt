@@ -1,0 +1,4 @@
+2024-03-25 09:40:10 - info: Retrieved user's full name: Cassandra Hudson
+2024-03-25 09:40:10 - info: Retrieved user's email: Deondre.Schmitt66@demoqa.com
+2024-03-25 09:40:10 - info: Retrieved user's current address: 7777 S Elm Street, New Chanelle, Oregon, 39214
+2024-03-25 09:40:10 - info: Retrieved user's permanent address: 456 Elm St, New Chanelle, Oregon, 39214
