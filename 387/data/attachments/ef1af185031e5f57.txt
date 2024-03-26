@@ -1,5 +1,0 @@
-2024-03-06 09:39:06 - info: Retrieved user's full name: Lorena Hintz
-2024-03-06 09:39:06 - info: Retrieved user's email: Bryana36@demoqa.com
-2024-03-06 09:39:06 - info: Retrieved user's current address: 28949 Sydnie Ports, Zandertown, Ohio, 08544
-2024-03-06 09:39:06 - info: Retrieved user's permanent address: 456 Elm St, Zandertown, Ohio, 08544
-2024-03-06 09:39:10 - info: ***Removed Content from INPUTS***
