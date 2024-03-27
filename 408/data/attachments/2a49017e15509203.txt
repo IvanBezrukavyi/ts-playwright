@@ -1,0 +1,5 @@
+2024-03-27 09:39:28 - info: Retrieved user's full name: Albert Kuhic
+2024-03-27 09:39:28 - info: Retrieved user's email: Arjun_Christiansen53@demoqa.com
+2024-03-27 09:39:28 - info: Retrieved user's current address: 839 Greenfelder Underpass, Larkinworth, Illinois, 37088
+2024-03-27 09:39:28 - info: Retrieved user's permanent address: 456 Elm St, Larkinworth, Illinois, 37088
+2024-03-27 09:39:33 - info: ***Removed Content from INPUTS***

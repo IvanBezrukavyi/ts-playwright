@@ -1,5 +1,0 @@
-2024-03-07 09:44:34 - info: Retrieved user's full name: Vernon Connelly
-2024-03-07 09:44:34 - info: Retrieved user's email: Carli_Christiansen74@demoqa.com
-2024-03-07 09:44:34 - info: Retrieved user's current address: 327 West Road, Wolffmouth, Nebraska, 29844
-2024-03-07 09:44:34 - info: Retrieved user's permanent address: 456 Elm St, Wolffmouth, Nebraska, 29844
-2024-03-07 09:44:48 - info: ***Removed Content from INPUTS***
