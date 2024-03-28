@@ -1,0 +1,5 @@
+2024-03-28 09:41:00 - info: Retrieved user's full name: Dr. Pete Wintheiser Jr.
+2024-03-28 09:41:00 - info: Retrieved user's email: Assunta40@demoqa.com
+2024-03-28 09:41:00 - info: Retrieved user's current address: 30729 Meta Estate, Carolinafurt, California, 88573-1561
+2024-03-28 09:41:01 - info: Retrieved user's permanent address: 456 Elm St, Carolinafurt, California, 88573-1561
+2024-03-28 09:41:06 - info: ***Removed Content from INPUTS***
