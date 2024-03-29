@@ -1,5 +1,0 @@
-2024-03-09 09:39:19 - info: Retrieved user's full name: Lydia Schneider
-2024-03-09 09:39:20 - info: Retrieved user's email: Veronica.Graham@demoqa.com
-2024-03-09 09:39:20 - info: Retrieved user's current address: 5154 Feeney Manor, Hellercester, Oregon, 72275-7146
-2024-03-09 09:39:20 - info: Retrieved user's permanent address: 456 Elm St, Hellercester, Oregon, 72275-7146
-2024-03-09 09:39:32 - info: ***Removed Content from INPUTS***

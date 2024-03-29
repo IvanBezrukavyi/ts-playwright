@@ -1,4 +1,0 @@
-2024-03-09 09:39:38 - info: Retrieved user's full name: Faye Kautzer
-2024-03-09 09:39:38 - info: Retrieved user's email: Hilbert.Wolff61@demoqa.com
-2024-03-09 09:39:38 - info: Retrieved user's current address: 7170 Marisa Burgs, Port Macy, Alabama, 00660-7913
-2024-03-09 09:39:38 - info: Retrieved user's permanent address: 456 Elm St, Port Macy, Alabama, 00660-7913
