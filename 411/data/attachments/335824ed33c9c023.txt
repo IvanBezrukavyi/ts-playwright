@@ -1,0 +1,5 @@
+2024-03-30 09:39:02 - info: Retrieved user's full name: Eddie Schumm
+2024-03-30 09:39:02 - info: Retrieved user's email: Amber_Koch@demoqa.com
+2024-03-30 09:39:02 - info: Retrieved user's current address: 7100 Ole Causeway, Katrineborough, Hawaii, 72644
+2024-03-30 09:39:02 - info: Retrieved user's permanent address: 456 Elm St, Katrineborough, Hawaii, 72644
+2024-03-30 09:39:07 - info: ***Removed Content from INPUTS***
