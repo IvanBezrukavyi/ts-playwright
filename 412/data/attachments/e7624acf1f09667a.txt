@@ -1,0 +1,5 @@
+2024-03-31 09:41:00 - info: Retrieved user's full name: Mr. Brian Hills
+2024-03-31 09:41:01 - info: Retrieved user's email: Hassan_Streich26@demoqa.com
+2024-03-31 09:41:01 - info: Retrieved user's current address: 7119 Elm Street, South Louie, South Dakota, 20488
+2024-03-31 09:41:01 - info: Retrieved user's permanent address: 456 Elm St, South Louie, South Dakota, 20488
+2024-03-31 09:41:07 - info: ***Removed Content from INPUTS***

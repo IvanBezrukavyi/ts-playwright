@@ -1,0 +1,4 @@
+2024-03-31 09:41:16 - info: Retrieved user's full name: Dr. Kay Toy
+2024-03-31 09:41:16 - info: Retrieved user's email: Ora_Jenkins@demoqa.com
+2024-03-31 09:41:16 - info: Retrieved user's current address: 2066 Shawn Fort, Omafurt, Virginia, 63285
+2024-03-31 09:41:16 - info: Retrieved user's permanent address: 456 Elm St, Omafurt, Virginia, 63285
