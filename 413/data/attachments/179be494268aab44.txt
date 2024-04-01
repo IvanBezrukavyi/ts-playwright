@@ -1,0 +1,4 @@
+2024-04-01 09:40:54 - info: Retrieved user's full name: Terri Breitenberg
+2024-04-01 09:40:54 - info: Retrieved user's email: Carolanne_Bradtke13@demoqa.com
+2024-04-01 09:40:54 - info: Retrieved user's current address: 881 Kacey Expressway, Port Alyssonfurt, Hawaii, 75673
+2024-04-01 09:40:54 - info: Retrieved user's permanent address: 456 Elm St, Port Alyssonfurt, Hawaii, 75673
