@@ -1,0 +1,4 @@
+2024-04-02 09:39:42 - info: Retrieved user's full name: Mr. Glen Schulist
+2024-04-02 09:39:42 - info: Retrieved user's email: Jacquelyn.Kohler@demoqa.com
+2024-04-02 09:39:42 - info: Retrieved user's current address: 212 Roxanne Via, Schoenboro, Wisconsin, 07188-7339
+2024-04-02 09:39:42 - info: Retrieved user's permanent address: 456 Elm St, Schoenboro, Wisconsin, 07188-7339

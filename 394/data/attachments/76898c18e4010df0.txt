@@ -1,4 +1,0 @@
-2024-03-13 09:41:04 - info: Retrieved user's full name: Christie Bernier
-2024-03-13 09:41:04 - info: Retrieved user's email: Jessika_Williamson@demoqa.com
-2024-03-13 09:41:04 - info: Retrieved user's current address: 4447 Elm Street, Langworthside, New York, 20938
-2024-03-13 09:41:04 - info: Retrieved user's permanent address: 456 Elm St, Langworthside, New York, 20938
