@@ -1,4 +1,0 @@
-2024-03-14 09:39:34 - info: Retrieved user's full name: Ruth Rippin
-2024-03-14 09:39:34 - info: Retrieved user's email: Jennifer.Dooley@demoqa.com
-2024-03-14 09:39:34 - info: Retrieved user's current address: 4364 N Elm Street, New Harmon, Idaho, 90292-8053
-2024-03-14 09:39:34 - info: Retrieved user's permanent address: 456 Elm St, New Harmon, Idaho, 90292-8053
