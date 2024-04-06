@@ -1,4 +1,0 @@
-2024-03-17 09:40:20 - info: Retrieved user's full name: Christie Cruickshank
-2024-03-17 09:40:20 - info: Retrieved user's email: Lura.Wolf75@demoqa.com
-2024-03-17 09:40:20 - info: Retrieved user's current address: 9647 Kirlin Union, West Tatumberg, Maine, 40644
-2024-03-17 09:40:20 - info: Retrieved user's permanent address: 456 Elm St, West Tatumberg, Maine, 40644
