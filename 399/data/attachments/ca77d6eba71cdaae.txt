@@ -1,4 +1,0 @@
-2024-03-18 09:41:13 - info: Retrieved user's full name: Nicolas Gutkowski
-2024-03-18 09:41:13 - info: Retrieved user's email: Erin.McKenzie@demoqa.com
-2024-03-18 09:41:13 - info: Retrieved user's current address: 918 Rowan Overpass, Bauchland, Ohio, 78697
-2024-03-18 09:41:13 - info: Retrieved user's permanent address: 456 Elm St, Bauchland, Ohio, 78697

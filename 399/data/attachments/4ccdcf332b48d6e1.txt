@@ -1,5 +1,0 @@
-2024-03-18 09:41:01 - info: Retrieved user's full name: Miss Molly Kozey
-2024-03-18 09:41:01 - info: Retrieved user's email: Camille.Will@demoqa.com
-2024-03-18 09:41:01 - info: Retrieved user's current address: 787 Amely Rapids, Mantefort, Texas, 14163
-2024-03-18 09:41:01 - info: Retrieved user's permanent address: 456 Elm St, Mantefort, Texas, 14163
-2024-03-18 09:41:07 - info: ***Removed Content from INPUTS***
