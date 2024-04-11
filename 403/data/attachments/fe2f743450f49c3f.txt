@@ -1,4 +1,0 @@
-2024-03-22 09:39:47 - info: Retrieved user's full name: Elsie MacGyver
-2024-03-22 09:39:47 - info: Retrieved user's email: Gregory46@demoqa.com
-2024-03-22 09:39:47 - info: Retrieved user's current address: 1872 Runolfsdottir-Littel Overpass, Port Harvey, Alabama, 76896-9838
-2024-03-22 09:39:47 - info: Retrieved user's permanent address: 456 Elm St, Port Harvey, Alabama, 76896-9838
