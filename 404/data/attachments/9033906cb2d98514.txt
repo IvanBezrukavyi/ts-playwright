@@ -1,5 +1,0 @@
-2024-03-23 09:39:32 - info: Retrieved user's full name: Patricia Stracke
-2024-03-23 09:39:32 - info: Retrieved user's email: Chad21@demoqa.com
-2024-03-23 09:39:32 - info: Retrieved user's current address: 793 Aufderhar Run, Myleston, Louisiana, 17423
-2024-03-23 09:39:32 - info: Retrieved user's permanent address: 456 Elm St, Myleston, Louisiana, 17423
-2024-03-23 09:39:37 - info: ***Removed Content from INPUTS***

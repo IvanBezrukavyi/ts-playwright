@@ -1,0 +1,5 @@
+2024-04-12 09:40:34 - info: Retrieved user's full name: Curtis Wisozk
+2024-04-12 09:40:34 - info: Retrieved user's email: Demetris28@demoqa.com
+2024-04-12 09:40:34 - info: Retrieved user's current address: 75578 Batz Roads, Rubencester, West Virginia, 96558-0599
+2024-04-12 09:40:35 - info: Retrieved user's permanent address: 456 Elm St, Rubencester, West Virginia, 96558-0599
+2024-04-12 09:40:39 - info: ***Removed Content from INPUTS***
