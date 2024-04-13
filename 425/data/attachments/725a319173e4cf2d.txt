@@ -1,0 +1,5 @@
+2024-04-13 09:39:22 - info: Retrieved user's full name: Nettie Rohan
+2024-04-13 09:39:22 - info: Retrieved user's email: Graciela.Stiedemann@demoqa.com
+2024-04-13 09:39:22 - info: Retrieved user's current address: 50449 Haley Curve, Frankieview, Wisconsin, 69968
+2024-04-13 09:39:22 - info: Retrieved user's permanent address: 456 Elm St, Frankieview, Wisconsin, 69968
+2024-04-13 09:39:26 - info: ***Removed Content from INPUTS***

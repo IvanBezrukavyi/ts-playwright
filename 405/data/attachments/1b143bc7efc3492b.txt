@@ -1,5 +1,0 @@
-2024-03-24 09:39:18 - info: Retrieved user's full name: Alice Becker
-2024-03-24 09:39:18 - info: Retrieved user's email: Vivianne_Kerluke1@demoqa.com
-2024-03-24 09:39:18 - info: Retrieved user's current address: 92459 10th Street, South Anjalibury, Nevada, 37929
-2024-03-24 09:39:18 - info: Retrieved user's permanent address: 456 Elm St, South Anjalibury, Nevada, 37929
-2024-03-24 09:39:23 - info: ***Removed Content from INPUTS***
