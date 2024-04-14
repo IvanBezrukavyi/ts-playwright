@@ -1,5 +1,0 @@
-2024-03-25 09:40:01 - info: Retrieved user's full name: Courtney Windler
-2024-03-25 09:40:01 - info: Retrieved user's email: Selina_Nikolaus@demoqa.com
-2024-03-25 09:40:01 - info: Retrieved user's current address: 9161 Spruce Street, Susanfurt, Iowa, 69009
-2024-03-25 09:40:01 - info: Retrieved user's permanent address: 456 Elm St, Susanfurt, Iowa, 69009
-2024-03-25 09:40:05 - info: ***Removed Content from INPUTS***
