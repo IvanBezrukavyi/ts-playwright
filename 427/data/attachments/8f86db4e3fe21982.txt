@@ -1,0 +1,5 @@
+2024-04-15 09:39:24 - info: Retrieved user's full name: Beulah Willms
+2024-04-15 09:39:24 - info: Retrieved user's email: Isabelle_Lemke19@demoqa.com
+2024-04-15 09:39:24 - info: Retrieved user's current address: 42388 W Center Street, Schinnerworth, Georgia, 79028
+2024-04-15 09:39:24 - info: Retrieved user's permanent address: 456 Elm St, Schinnerworth, Georgia, 79028
+2024-04-15 09:39:28 - info: ***Removed Content from INPUTS***
