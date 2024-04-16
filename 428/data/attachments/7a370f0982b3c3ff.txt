@@ -1,0 +1,5 @@
+2024-04-16 09:39:52 - info: Retrieved user's full name: Frank Hauck-Bosco
+2024-04-16 09:39:52 - info: Retrieved user's email: Ezra23@demoqa.com
+2024-04-16 09:39:52 - info: Retrieved user's current address: 98851 Johns-Smitham Valley, West Itzelboro, Alaska, 23667-8997
+2024-04-16 09:39:52 - info: Retrieved user's permanent address: 456 Elm St, West Itzelboro, Alaska, 23667-8997
+2024-04-16 09:40:00 - info: ***Removed Content from INPUTS***

@@ -1,0 +1,4 @@
+2024-04-16 09:40:07 - info: Retrieved user's full name: Betty Mueller
+2024-04-16 09:40:07 - info: Retrieved user's email: Randi_Mueller9@demoqa.com
+2024-04-16 09:40:07 - info: Retrieved user's current address: 6927 Willy Loaf, Port Alan, Maryland, 40809-7966
+2024-04-16 09:40:07 - info: Retrieved user's permanent address: 456 Elm St, Port Alan, Maryland, 40809-7966

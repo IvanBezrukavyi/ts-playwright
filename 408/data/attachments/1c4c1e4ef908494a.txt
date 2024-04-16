@@ -1,4 +1,0 @@
-2024-03-27 09:40:19 - info: Retrieved user's full name: Guillermo Considine
-2024-03-27 09:40:19 - info: Retrieved user's email: Elias_Ryan9@demoqa.com
-2024-03-27 09:40:19 - info: Retrieved user's current address: 87115 Alexane Landing, Torpstead, Pennsylvania, 45107-3925
-2024-03-27 09:40:19 - info: Retrieved user's permanent address: 456 Elm St, Torpstead, Pennsylvania, 45107-3925
