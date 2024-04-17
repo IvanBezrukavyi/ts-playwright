@@ -1,0 +1,4 @@
+2024-04-17 09:40:22 - info: Retrieved user's full name: Whitney Huels
+2024-04-17 09:40:22 - info: Retrieved user's email: Rosendo81@demoqa.com
+2024-04-17 09:40:22 - info: Retrieved user's current address: 35662 N Pearl Street, Port Frances, Pennsylvania, 79628
+2024-04-17 09:40:23 - info: Retrieved user's permanent address: 456 Elm St, Port Frances, Pennsylvania, 79628

@@ -1,4 +1,0 @@
-2024-03-28 09:41:53 - info: Retrieved user's full name: Luke Von
-2024-03-28 09:41:53 - info: Retrieved user's email: Tressa.Cummings22@demoqa.com
-2024-03-28 09:41:53 - info: Retrieved user's current address: 473 Euna Gardens, Mantefurt, South Dakota, 70129-3838
-2024-03-28 09:41:53 - info: Retrieved user's permanent address: 456 Elm St, Mantefurt, South Dakota, 70129-3838

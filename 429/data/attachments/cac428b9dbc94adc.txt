@@ -1,0 +1,5 @@
+2024-04-17 09:40:08 - info: Retrieved user's full name: Marilyn McGlynn
+2024-04-17 09:40:08 - info: Retrieved user's email: Chet.Smitham@demoqa.com
+2024-04-17 09:40:08 - info: Retrieved user's current address: 9218 Natasha Keys, Wayneburgh, Maine, 75140-9518
+2024-04-17 09:40:08 - info: Retrieved user's permanent address: 456 Elm St, Wayneburgh, Maine, 75140-9518
+2024-04-17 09:40:14 - info: ***Removed Content from INPUTS***
