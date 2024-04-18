@@ -1,4 +1,0 @@
-2024-03-29 09:39:45 - info: Retrieved user's full name: Melissa Block
-2024-03-29 09:39:45 - info: Retrieved user's email: Nyah.Kertzmann@demoqa.com
-2024-03-29 09:39:45 - info: Retrieved user's current address: 60099 Mueller Corner, Wilberland, South Dakota, 75685-4824
-2024-03-29 09:39:45 - info: Retrieved user's permanent address: 456 Elm St, Wilberland, South Dakota, 75685-4824
