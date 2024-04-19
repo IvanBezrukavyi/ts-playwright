@@ -1,4 +1,0 @@
-2024-03-30 09:39:53 - info: Retrieved user's full name: Saul Breitenberg
-2024-03-30 09:39:53 - info: Retrieved user's email: Lyda_Terry14@demoqa.com
-2024-03-30 09:39:53 - info: Retrieved user's current address: 192 Bergstrom Cove, Fisherboro, Florida, 71818
-2024-03-30 09:39:53 - info: Retrieved user's permanent address: 456 Elm St, Fisherboro, Florida, 71818
