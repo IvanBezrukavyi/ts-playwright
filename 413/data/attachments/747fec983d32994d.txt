@@ -1,5 +1,0 @@
-2024-04-01 09:40:03 - info: Retrieved user's full name: Julia Moore-Brekke
-2024-04-01 09:40:04 - info: Retrieved user's email: Rosie.Terry77@demoqa.com
-2024-04-01 09:40:04 - info: Retrieved user's current address: 3771 Barton Hollow, Kovacekboro, Kentucky, 33863
-2024-04-01 09:40:04 - info: Retrieved user's permanent address: 456 Elm St, Kovacekboro, Kentucky, 33863
-2024-04-01 09:40:09 - info: ***Removed Content from INPUTS***

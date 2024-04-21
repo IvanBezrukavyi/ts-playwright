@@ -1,0 +1,4 @@
+2024-04-21 09:39:21 - info: Retrieved user's full name: Miranda Paucek
+2024-04-21 09:39:21 - info: Retrieved user's email: Estel63@demoqa.com
+2024-04-21 09:39:21 - info: Retrieved user's current address: 62331 Bartoletti Loop, Aglaechester, Wisconsin, 49243-5406
+2024-04-21 09:39:21 - info: Retrieved user's permanent address: 456 Elm St, Aglaechester, Wisconsin, 49243-5406
