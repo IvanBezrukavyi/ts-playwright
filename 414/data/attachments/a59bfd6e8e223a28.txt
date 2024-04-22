@@ -1,5 +1,0 @@
-2024-04-02 09:39:29 - info: Retrieved user's full name: Antonio Tillman
-2024-04-02 09:39:29 - info: Retrieved user's email: Ima.Fritsch@demoqa.com
-2024-04-02 09:39:30 - info: Retrieved user's current address: 7948 Romaguera Grove, Wintheiserboro, Nevada, 21664-4391
-2024-04-02 09:39:30 - info: Retrieved user's permanent address: 456 Elm St, Wintheiserboro, Nevada, 21664-4391
-2024-04-02 09:39:36 - info: ***Removed Content from INPUTS***

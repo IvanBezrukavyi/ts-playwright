@@ -1,0 +1,4 @@
+2024-04-22 09:41:02 - info: Retrieved user's full name: Felipe Cremin
+2024-04-22 09:41:02 - info: Retrieved user's email: Alvah.Kuhlman@demoqa.com
+2024-04-22 09:41:02 - info: Retrieved user's current address: 525 First Street, North Earnestineberg, New York, 96392-7090
+2024-04-22 09:41:02 - info: Retrieved user's permanent address: 456 Elm St, North Earnestineberg, New York, 96392-7090
