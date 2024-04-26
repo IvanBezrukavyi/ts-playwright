@@ -1,0 +1,4 @@
+2024-04-26 09:39:06 - info: Retrieved user's full name: Frank Brown
+2024-04-26 09:39:06 - info: Retrieved user's email: Demetris_Cremin35@demoqa.com
+2024-04-26 09:39:07 - info: Retrieved user's current address: 9071 Alexa Rue, Jacqueston, North Carolina, 93576
+2024-04-26 09:39:07 - info: Retrieved user's permanent address: 456 Elm St, Jacqueston, North Carolina, 93576
