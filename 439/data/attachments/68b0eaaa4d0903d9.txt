@@ -1,0 +1,4 @@
+2024-04-27 09:39:24 - info: Retrieved user's full name: Mr. Alfonso Ziemann
+2024-04-27 09:39:24 - info: Retrieved user's email: Lisa4@demoqa.com
+2024-04-27 09:39:24 - info: Retrieved user's current address: 32622 Lake Road, New Dashawn, Oregon, 96161
+2024-04-27 09:39:24 - info: Retrieved user's permanent address: 456 Elm St, New Dashawn, Oregon, 96161
