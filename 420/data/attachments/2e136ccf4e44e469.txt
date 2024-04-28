@@ -1,4 +1,0 @@
-2024-04-08 09:39:44 - info: Retrieved user's full name: Johnny Nolan
-2024-04-08 09:39:44 - info: Retrieved user's email: Darby_Hudson@demoqa.com
-2024-04-08 09:39:44 - info: Retrieved user's current address: 68708 Monahan Forge, Fredabury, Kentucky, 64015
-2024-04-08 09:39:44 - info: Retrieved user's permanent address: 456 Elm St, Fredabury, Kentucky, 64015

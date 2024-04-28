@@ -1,0 +1,4 @@
+2024-04-28 09:39:59 - info: Retrieved user's full name: Nicolas Renner
+2024-04-28 09:39:59 - info: Retrieved user's email: Angeline1@demoqa.com
+2024-04-28 09:39:59 - info: Retrieved user's current address: 9287 Jaylan Unions, Cynthiastad, Nevada, 23417
+2024-04-28 09:39:59 - info: Retrieved user's permanent address: 456 Elm St, Cynthiastad, Nevada, 23417

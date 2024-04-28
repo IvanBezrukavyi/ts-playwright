@@ -1,0 +1,5 @@
+2024-04-28 09:39:49 - info: Retrieved user's full name: Louis Lang
+2024-04-28 09:39:49 - info: Retrieved user's email: Tiffany.Veum@demoqa.com
+2024-04-28 09:39:49 - info: Retrieved user's current address: 77687 Glenna Parkways, East Consuelo, Ohio, 85249-5005
+2024-04-28 09:39:49 - info: Retrieved user's permanent address: 456 Elm St, East Consuelo, Ohio, 85249-5005
+2024-04-28 09:39:53 - info: ***Removed Content from INPUTS***
