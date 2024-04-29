@@ -1,4 +1,0 @@
-2024-04-09 09:41:19 - info: Retrieved user's full name: Louis Swift
-2024-04-09 09:41:19 - info: Retrieved user's email: Ashleigh80@demoqa.com
-2024-04-09 09:41:19 - info: Retrieved user's current address: 72787 W Walnut Street, Port Pricecester, Mississippi, 60414
-2024-04-09 09:41:19 - info: Retrieved user's permanent address: 456 Elm St, Port Pricecester, Mississippi, 60414

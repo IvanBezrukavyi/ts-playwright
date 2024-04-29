@@ -1,5 +1,0 @@
-2024-04-09 09:40:27 - info: Retrieved user's full name: Myra Fisher
-2024-04-09 09:40:27 - info: Retrieved user's email: Cristobal17@demoqa.com
-2024-04-09 09:40:27 - info: Retrieved user's current address: 672 Rice Ville, Port Destany, Mississippi, 79233
-2024-04-09 09:40:27 - info: Retrieved user's permanent address: 456 Elm St, Port Destany, Mississippi, 79233
-2024-04-09 09:40:32 - info: ***Removed Content from INPUTS***
