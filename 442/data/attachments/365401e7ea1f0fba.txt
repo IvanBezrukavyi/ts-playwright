@@ -1,0 +1,5 @@
+2024-04-30 09:40:50 - info: Retrieved user's full name: Taylor Berge
+2024-04-30 09:40:50 - info: Retrieved user's email: Marie.Cassin20@demoqa.com
+2024-04-30 09:40:50 - info: Retrieved user's current address: 3813 S Chestnut Street, East Myriamburgh, Delaware, 49442-7524
+2024-04-30 09:40:50 - info: Retrieved user's permanent address: 456 Elm St, East Myriamburgh, Delaware, 49442-7524
+2024-04-30 09:40:54 - info: ***Removed Content from INPUTS***

@@ -1,5 +1,0 @@
-2024-04-10 09:39:03 - info: Retrieved user's full name: Carlos Rosenbaum I
-2024-04-10 09:39:03 - info: Retrieved user's email: Leon0@demoqa.com
-2024-04-10 09:39:03 - info: Retrieved user's current address: 3298 Derick Ford, South Deon, New York, 08723-4049
-2024-04-10 09:39:03 - info: Retrieved user's permanent address: 456 Elm St, South Deon, New York, 08723-4049
-2024-04-10 09:39:09 - info: ***Removed Content from INPUTS***

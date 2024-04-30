@@ -1,4 +1,0 @@
-2024-04-10 09:39:15 - info: Retrieved user's full name: Alice Lindgren-D'Amore
-2024-04-10 09:39:15 - info: Retrieved user's email: Reginald83@demoqa.com
-2024-04-10 09:39:15 - info: Retrieved user's current address: 3871 Littel Neck, South Ellsworth, New Mexico, 51629
-2024-04-10 09:39:15 - info: Retrieved user's permanent address: 456 Elm St, South Ellsworth, New Mexico, 51629
