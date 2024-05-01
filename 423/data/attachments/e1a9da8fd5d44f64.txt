@@ -1,5 +1,0 @@
-2024-04-11 09:38:56 - info: Retrieved user's full name: Byron Crist
-2024-04-11 09:38:56 - info: Retrieved user's email: Casimer.Kling39@demoqa.com
-2024-04-11 09:38:56 - info: Retrieved user's current address: 707 Charlie Forge, Lehnerfort, Florida, 28145
-2024-04-11 09:38:56 - info: Retrieved user's permanent address: 456 Elm St, Lehnerfort, Florida, 28145
-2024-04-11 09:39:04 - info: ***Removed Content from INPUTS***

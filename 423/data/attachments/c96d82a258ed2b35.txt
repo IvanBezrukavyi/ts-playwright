@@ -1,4 +1,0 @@
-2024-04-11 09:39:11 - info: Retrieved user's full name: Dr. Dwayne Simonis
-2024-04-11 09:39:11 - info: Retrieved user's email: Newton.Yost@demoqa.com
-2024-04-11 09:39:11 - info: Retrieved user's current address: 7794 Center Street, Port Muhammad, Alaska, 30012-5330
-2024-04-11 09:39:11 - info: Retrieved user's permanent address: 456 Elm St, Port Muhammad, Alaska, 30012-5330

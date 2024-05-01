@@ -1,0 +1,5 @@
+2024-05-01 09:40:25 - info: Retrieved user's full name: Jordan Dickens
+2024-05-01 09:40:25 - info: Retrieved user's email: Thad.Yundt@demoqa.com
+2024-05-01 09:40:25 - info: Retrieved user's current address: 31107 Clark Street, West Elissa, Florida, 66785-2541
+2024-05-01 09:40:25 - info: Retrieved user's permanent address: 456 Elm St, West Elissa, Florida, 66785-2541
+2024-05-01 09:40:29 - info: ***Removed Content from INPUTS***
