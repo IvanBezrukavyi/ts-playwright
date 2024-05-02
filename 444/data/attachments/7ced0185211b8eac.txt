@@ -1,0 +1,5 @@
+2024-05-02 09:40:46 - info: Retrieved user's full name: Edgar West
+2024-05-02 09:40:46 - info: Retrieved user's email: Cassandre_Schaefer@demoqa.com
+2024-05-02 09:40:46 - info: Retrieved user's current address: 9270 Riverside Drive, North Rachelboro, North Carolina, 11194-1320
+2024-05-02 09:40:46 - info: Retrieved user's permanent address: 456 Elm St, North Rachelboro, North Carolina, 11194-1320
+2024-05-02 09:40:52 - info: ***Removed Content from INPUTS***

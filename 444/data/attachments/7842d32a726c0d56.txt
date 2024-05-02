@@ -1,0 +1,4 @@
+2024-05-02 09:41:00 - info: Retrieved user's full name: Eleanor Zieme
+2024-05-02 09:41:00 - info: Retrieved user's email: Edythe.Lakin72@demoqa.com
+2024-05-02 09:41:00 - info: Retrieved user's current address: 3504 Kling Mount, Lake Sophie, Arkansas, 34909
+2024-05-02 09:41:00 - info: Retrieved user's permanent address: 456 Elm St, Lake Sophie, Arkansas, 34909

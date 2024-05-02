@@ -1,4 +1,0 @@
-2024-04-12 09:40:46 - info: Retrieved user's full name: Margaret Mitchell V
-2024-04-12 09:40:46 - info: Retrieved user's email: Aniyah73@demoqa.com
-2024-04-12 09:40:46 - info: Retrieved user's current address: 87309 Langworth Curve, Schneiderboro, New Mexico, 22101-2495
-2024-04-12 09:40:46 - info: Retrieved user's permanent address: 456 Elm St, Schneiderboro, New Mexico, 22101-2495
