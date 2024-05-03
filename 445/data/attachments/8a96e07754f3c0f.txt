@@ -1,0 +1,4 @@
+2024-05-03 09:40:51 - info: Retrieved user's full name: Kendra Hilll
+2024-05-03 09:40:51 - info: Retrieved user's email: Ryley15@demoqa.com
+2024-05-03 09:40:51 - info: Retrieved user's current address: 173 Wiza Dam, South Fred, Nebraska, 70048
+2024-05-03 09:40:51 - info: Retrieved user's permanent address: 456 Elm St, South Fred, Nebraska, 70048
