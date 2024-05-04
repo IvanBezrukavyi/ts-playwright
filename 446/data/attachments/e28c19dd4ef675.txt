@@ -1,0 +1,5 @@
+2024-05-04 09:39:33 - info: Retrieved user's full name: Jeanne Leuschke
+2024-05-04 09:39:33 - info: Retrieved user's email: Kali_Gibson87@demoqa.com
+2024-05-04 09:39:33 - info: Retrieved user's current address: 603 Leffler Junction, Lake Christiana, Indiana, 62094
+2024-05-04 09:39:34 - info: Retrieved user's permanent address: 456 Elm St, Lake Christiana, Indiana, 62094
+2024-05-04 09:39:39 - info: ***Removed Content from INPUTS***

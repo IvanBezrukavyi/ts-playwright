@@ -1,5 +1,0 @@
-2024-04-14 11:30:09 - info: Retrieved user's full name: Rogelio Lehner
-2024-04-14 11:30:09 - info: Retrieved user's email: Erin89@demoqa.com
-2024-04-14 11:30:09 - info: Retrieved user's current address: 7654 Santina Bridge, New Jedediahhaven, Washington, 18001
-2024-04-14 11:30:09 - info: Retrieved user's permanent address: 456 Elm St, New Jedediahhaven, Washington, 18001
-2024-04-14 11:30:11 - info: ***Removed Content from INPUTS***

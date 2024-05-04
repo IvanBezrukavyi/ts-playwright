@@ -1,0 +1,4 @@
+2024-05-04 09:39:45 - info: Retrieved user's full name: Sonja O'Kon
+2024-05-04 09:39:45 - info: Retrieved user's email: Mia.Steuber22@demoqa.com
+2024-05-04 09:39:45 - info: Retrieved user's current address: 840 Norbert Fields, Cummingsport, Vermont, 85060
+2024-05-04 09:39:46 - info: Retrieved user's permanent address: 456 Elm St, Cummingsport, Vermont, 85060
