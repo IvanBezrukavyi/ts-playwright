@@ -1,4 +1,0 @@
-2024-04-15 09:39:34 - info: Retrieved user's full name: Vicki Little
-2024-04-15 09:39:34 - info: Retrieved user's email: Burnice.Strosin23@demoqa.com
-2024-04-15 09:39:34 - info: Retrieved user's current address: 24861 Monroe Street, Feeneyview, Pennsylvania, 10981-4972
-2024-04-15 09:39:34 - info: Retrieved user's permanent address: 456 Elm St, Feeneyview, Pennsylvania, 10981-4972
