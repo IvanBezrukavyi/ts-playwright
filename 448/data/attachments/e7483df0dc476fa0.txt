@@ -1,0 +1,4 @@
+2024-05-06 09:40:17 - info: Retrieved user's full name: Ian Heaney I
+2024-05-06 09:40:17 - info: Retrieved user's email: Fae.Bergstrom@demoqa.com
+2024-05-06 09:40:17 - info: Retrieved user's current address: 7666 Rose Centers, South Dallas, Tennessee, 60742-0697
+2024-05-06 09:40:17 - info: Retrieved user's permanent address: 456 Elm St, South Dallas, Tennessee, 60742-0697
