@@ -1,0 +1,5 @@
+2024-05-07 09:39:16 - info: Retrieved user's full name: Mona D'Amore MD
+2024-05-07 09:39:16 - info: Retrieved user's email: Caitlyn35@demoqa.com
+2024-05-07 09:39:16 - info: Retrieved user's current address: 64970 Springfield Road, Port Jodieside, Wisconsin, 28105-3371
+2024-05-07 09:39:16 - info: Retrieved user's permanent address: 456 Elm St, Port Jodieside, Wisconsin, 28105-3371
+2024-05-07 09:39:22 - info: ***Removed Content from INPUTS***

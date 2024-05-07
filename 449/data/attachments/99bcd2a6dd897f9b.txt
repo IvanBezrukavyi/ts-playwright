@@ -1,0 +1,4 @@
+2024-05-07 09:39:28 - info: Retrieved user's full name: Myron Weber
+2024-05-07 09:39:29 - info: Retrieved user's email: Giuseppe_Douglas67@demoqa.com
+2024-05-07 09:39:29 - info: Retrieved user's current address: 872 N Pearl Street, West Manleyshire, Florida, 76266
+2024-05-07 09:39:29 - info: Retrieved user's permanent address: 456 Elm St, West Manleyshire, Florida, 76266
