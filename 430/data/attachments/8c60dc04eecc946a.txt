@@ -1,5 +1,0 @@
-2024-04-18 09:40:37 - info: Retrieved user's full name: Fannie Little
-2024-04-18 09:40:37 - info: Retrieved user's email: Sean.Padberg80@demoqa.com
-2024-04-18 09:40:37 - info: Retrieved user's current address: 366 Magali Wells, Rogelioboro, Delaware, 25767-4516
-2024-04-18 09:40:37 - info: Retrieved user's permanent address: 456 Elm St, Rogelioboro, Delaware, 25767-4516
-2024-04-18 09:40:41 - info: ***Removed Content from INPUTS***

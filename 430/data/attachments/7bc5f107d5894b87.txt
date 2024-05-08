@@ -1,4 +1,0 @@
-2024-04-18 09:40:47 - info: Retrieved user's full name: Nicolas Reilly
-2024-04-18 09:40:47 - info: Retrieved user's email: Magdalena_Treutel43@demoqa.com
-2024-04-18 09:40:47 - info: Retrieved user's current address: 917 Joshua View, North Beverly, Minnesota, 70635-9101
-2024-04-18 09:40:47 - info: Retrieved user's permanent address: 456 Elm St, North Beverly, Minnesota, 70635-9101
