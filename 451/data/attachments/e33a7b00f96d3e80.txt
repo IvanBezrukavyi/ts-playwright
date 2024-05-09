@@ -1,0 +1,4 @@
+2024-05-09 09:40:13 - info: Retrieved user's full name: Melanie Leuschke Jr.
+2024-05-09 09:40:13 - info: Retrieved user's email: Theresia34@demoqa.com
+2024-05-09 09:40:13 - info: Retrieved user's current address: 290 Kuhn Keys, Urielstead, Utah, 61332-9185
+2024-05-09 09:40:13 - info: Retrieved user's permanent address: 456 Elm St, Urielstead, Utah, 61332-9185

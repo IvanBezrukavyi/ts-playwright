@@ -1,5 +1,0 @@
-2024-04-19 09:39:31 - info: Retrieved user's full name: Inez Lakin
-2024-04-19 09:39:31 - info: Retrieved user's email: Chris_Kshlerin@demoqa.com
-2024-04-19 09:39:31 - info: Retrieved user's current address: 18778 Harvey Vista, Port Savion, Arkansas, 49315
-2024-04-19 09:39:31 - info: Retrieved user's permanent address: 456 Elm St, Port Savion, Arkansas, 49315
-2024-04-19 09:39:36 - info: ***Removed Content from INPUTS***
