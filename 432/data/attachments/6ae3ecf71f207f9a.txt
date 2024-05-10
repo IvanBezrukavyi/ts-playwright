@@ -1,5 +1,0 @@
-2024-04-20 09:39:32 - info: Retrieved user's full name: Catherine Konopelski
-2024-04-20 09:39:32 - info: Retrieved user's email: Ella_Pagac@demoqa.com
-2024-04-20 09:39:32 - info: Retrieved user's current address: 3965 Tyson Highway, McLaughlinfort, Rhode Island, 43532
-2024-04-20 09:39:33 - info: Retrieved user's permanent address: 456 Elm St, McLaughlinfort, Rhode Island, 43532
-2024-04-20 09:39:38 - info: ***Removed Content from INPUTS***

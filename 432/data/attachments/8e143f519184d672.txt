@@ -1,4 +1,0 @@
-2024-04-20 09:39:43 - info: Retrieved user's full name: Grady Ritchie
-2024-04-20 09:39:43 - info: Retrieved user's email: Cheyenne_Torp@demoqa.com
-2024-04-20 09:39:43 - info: Retrieved user's current address: 146 Okey Knoll, Halvorsonmouth, Mississippi, 37809-1630
-2024-04-20 09:39:43 - info: Retrieved user's permanent address: 456 Elm St, Halvorsonmouth, Mississippi, 37809-1630
