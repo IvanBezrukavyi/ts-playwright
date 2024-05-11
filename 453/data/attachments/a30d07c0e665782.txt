@@ -1,0 +1,5 @@
+2024-05-11 09:39:25 - info: Retrieved user's full name: Eleanor Larkin
+2024-05-11 09:39:25 - info: Retrieved user's email: Cristal_Mayer@demoqa.com
+2024-05-11 09:39:25 - info: Retrieved user's current address: 319 Schumm Extensions, Mertieport, New Jersey, 34712-0524
+2024-05-11 09:39:25 - info: Retrieved user's permanent address: 456 Elm St, Mertieport, New Jersey, 34712-0524
+2024-05-11 09:39:33 - info: ***Removed Content from INPUTS***
