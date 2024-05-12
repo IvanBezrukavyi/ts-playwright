@@ -1,0 +1,4 @@
+2024-05-12 09:40:53 - info: Retrieved user's full name: Josefina Balistreri
+2024-05-12 09:40:53 - info: Retrieved user's email: Jarvis.Hegmann92@demoqa.com
+2024-05-12 09:40:53 - info: Retrieved user's current address: 3781 Hazle Trail, Corkeryhaven, Texas, 90510
+2024-05-12 09:40:53 - info: Retrieved user's permanent address: 456 Elm St, Corkeryhaven, Texas, 90510

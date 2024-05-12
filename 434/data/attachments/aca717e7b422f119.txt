@@ -1,5 +1,0 @@
-2024-04-22 09:40:51 - info: Retrieved user's full name: Garry Mante
-2024-04-22 09:40:51 - info: Retrieved user's email: Elena.Hudson@demoqa.com
-2024-04-22 09:40:51 - info: Retrieved user's current address: 3925 Gutkowski Terrace, Dorthyland, Washington, 37978-5376
-2024-04-22 09:40:52 - info: Retrieved user's permanent address: 456 Elm St, Dorthyland, Washington, 37978-5376
-2024-04-22 09:40:57 - info: ***Removed Content from INPUTS***

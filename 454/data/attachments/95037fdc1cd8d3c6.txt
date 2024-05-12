@@ -1,0 +1,5 @@
+2024-05-12 09:40:02 - info: Retrieved user's full name: Clyde Yundt
+2024-05-12 09:40:02 - info: Retrieved user's email: Reyes_Stanton@demoqa.com
+2024-05-12 09:40:02 - info: Retrieved user's current address: 8175 W Lake Street, South Elfrieda, Vermont, 64716
+2024-05-12 09:40:02 - info: Retrieved user's permanent address: 456 Elm St, South Elfrieda, Vermont, 64716
+2024-05-12 09:40:07 - info: ***Removed Content from INPUTS***
