@@ -1,0 +1,4 @@
+2024-05-13 09:42:28 - info: Retrieved user's full name: Miss Gretchen Gutmann Sr.
+2024-05-13 09:42:28 - info: Retrieved user's email: Zoila91@demoqa.com
+2024-05-13 09:42:28 - info: Retrieved user's current address: 91637 Cleora Mill, South Marie, South Dakota, 06980-2826
+2024-05-13 09:42:28 - info: Retrieved user's permanent address: 456 Elm St, South Marie, South Dakota, 06980-2826

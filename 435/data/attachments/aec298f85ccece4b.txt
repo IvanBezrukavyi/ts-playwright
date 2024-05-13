@@ -1,5 +1,0 @@
-2024-04-23 09:41:07 - info: Retrieved user's full name: Ellis Schneider
-2024-04-23 09:41:07 - info: Retrieved user's email: Giovanni1@demoqa.com
-2024-04-23 09:41:07 - info: Retrieved user's current address: 5345 Devin Camp, South Jonshire, Massachusetts, 70770
-2024-04-23 09:41:08 - info: Retrieved user's permanent address: 456 Elm St, South Jonshire, Massachusetts, 70770
-2024-04-23 09:41:13 - info: ***Removed Content from INPUTS***
