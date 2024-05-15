@@ -1,5 +1,0 @@
-2024-04-25 09:44:51 - info: Retrieved user's full name: Woodrow Hintz
-2024-04-25 09:44:51 - info: Retrieved user's email: Horace.Skiles@demoqa.com
-2024-04-25 09:44:51 - info: Retrieved user's current address: 194 Gislason Circle, Kshlerinville, Georgia, 23253-2442
-2024-04-25 09:44:51 - info: Retrieved user's permanent address: 456 Elm St, Kshlerinville, Georgia, 23253-2442
-2024-04-25 09:44:56 - info: ***Removed Content from INPUTS***
