@@ -1,5 +1,0 @@
-2024-04-26 09:38:55 - info: Retrieved user's full name: Herbert Shanahan
-2024-04-26 09:38:55 - info: Retrieved user's email: Francesco.Spencer@demoqa.com
-2024-04-26 09:38:55 - info: Retrieved user's current address: 60279 Aurelia Plain, Fort Joannyshire, Georgia, 98455
-2024-04-26 09:38:55 - info: Retrieved user's permanent address: 456 Elm St, Fort Joannyshire, Georgia, 98455
-2024-04-26 09:39:00 - info: ***Removed Content from INPUTS***
