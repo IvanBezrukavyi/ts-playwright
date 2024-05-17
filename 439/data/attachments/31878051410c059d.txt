@@ -1,5 +1,0 @@
-2024-04-27 09:39:11 - info: Retrieved user's full name: Grace Rohan
-2024-04-27 09:39:11 - info: Retrieved user's email: Alvena.Little-Kemmer@demoqa.com
-2024-04-27 09:39:11 - info: Retrieved user's current address: 9849 Center Street, Fort Tristian, Montana, 24916-1374
-2024-04-27 09:39:12 - info: Retrieved user's permanent address: 456 Elm St, Fort Tristian, Montana, 24916-1374
-2024-04-27 09:39:17 - info: ***Removed Content from INPUTS***

@@ -1,0 +1,4 @@
+2024-05-17 09:40:00 - info: Retrieved user's full name: Jesse Gutkowski
+2024-05-17 09:40:00 - info: Retrieved user's email: Marty_Klocko57@demoqa.com
+2024-05-17 09:40:00 - info: Retrieved user's current address: 746 Leffler-Jakubowski Springs, East Darbybury, Wisconsin, 24314
+2024-05-17 09:40:00 - info: Retrieved user's permanent address: 456 Elm St, East Darbybury, Wisconsin, 24314
