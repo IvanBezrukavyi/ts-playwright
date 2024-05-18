@@ -1,0 +1,4 @@
+2024-05-18 09:40:28 - info: Retrieved user's full name: Audrey Ondricka
+2024-05-18 09:40:28 - info: Retrieved user's email: Stanford40@demoqa.com
+2024-05-18 09:40:28 - info: Retrieved user's current address: 98009 Mueller Pike, West Lynnworth, Florida, 47661-2637
+2024-05-18 09:40:29 - info: Retrieved user's permanent address: 456 Elm St, West Lynnworth, Florida, 47661-2637
