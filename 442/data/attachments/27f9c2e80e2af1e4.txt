@@ -1,4 +1,0 @@
-2024-04-30 09:40:59 - info: Retrieved user's full name: Kelley Daugherty
-2024-04-30 09:40:59 - info: Retrieved user's email: Kelley_Stanton95@demoqa.com
-2024-04-30 09:40:59 - info: Retrieved user's current address: 97765 Wilderman-Cremin Locks, New Carolyne, Montana, 33034
-2024-04-30 09:40:59 - info: Retrieved user's permanent address: 456 Elm St, New Carolyne, Montana, 33034

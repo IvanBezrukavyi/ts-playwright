@@ -1,0 +1,4 @@
+2024-05-20 09:42:08 - info: Retrieved user's full name: Rosemarie Howell
+2024-05-20 09:42:08 - info: Retrieved user's email: Jarrod_Schmidt16@demoqa.com
+2024-05-20 09:42:08 - info: Retrieved user's current address: 84798 Boehm Shoal, Kaileystead, Hawaii, 40825
+2024-05-20 09:42:08 - info: Retrieved user's permanent address: 456 Elm St, Kaileystead, Hawaii, 40825
