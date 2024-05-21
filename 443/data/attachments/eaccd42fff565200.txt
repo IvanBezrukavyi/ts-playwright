@@ -1,4 +1,0 @@
-2024-05-01 09:40:35 - info: Retrieved user's full name: Jacob Von MD
-2024-05-01 09:40:35 - info: Retrieved user's email: Coy54@demoqa.com
-2024-05-01 09:40:35 - info: Retrieved user's current address: 51569 Chance Falls, Uptoncester, Vermont, 30873
-2024-05-01 09:40:35 - info: Retrieved user's permanent address: 456 Elm St, Uptoncester, Vermont, 30873

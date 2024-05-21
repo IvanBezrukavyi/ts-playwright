@@ -1,0 +1,5 @@
+2024-05-21 09:39:25 - info: Retrieved user's full name: Dewey Trantow
+2024-05-21 09:39:25 - info: Retrieved user's email: Kayden_OKon@demoqa.com
+2024-05-21 09:39:25 - info: Retrieved user's current address: 2007 Kiera Forge, Lake Bernie, Hawaii, 95482-9174
+2024-05-21 09:39:25 - info: Retrieved user's permanent address: 456 Elm St, Lake Bernie, Hawaii, 95482-9174
+2024-05-21 09:39:32 - info: ***Removed Content from INPUTS***
