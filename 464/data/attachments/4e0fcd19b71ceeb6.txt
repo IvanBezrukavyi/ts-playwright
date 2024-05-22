@@ -1,0 +1,4 @@
+2024-05-22 09:42:38 - info: Retrieved user's full name: Roderick Weimann-Connelly
+2024-05-22 09:42:38 - info: Retrieved user's email: Marcellus79@demoqa.com
+2024-05-22 09:42:38 - info: Retrieved user's current address: 2886 Summer Harbors, Fort Delphiastead, Arizona, 31286
+2024-05-22 09:42:38 - info: Retrieved user's permanent address: 456 Elm St, Fort Delphiastead, Arizona, 31286
