@@ -1,5 +1,0 @@
-2024-05-03 09:39:51 - info: Retrieved user's full name: Ana Pollich
-2024-05-03 09:39:51 - info: Retrieved user's email: Rosella_Zulauf18@demoqa.com
-2024-05-03 09:39:51 - info: Retrieved user's current address: 43450 S Union Street, Pietrohaven, Tennessee, 20107
-2024-05-03 09:39:51 - info: Retrieved user's permanent address: 456 Elm St, Pietrohaven, Tennessee, 20107
-2024-05-03 09:39:55 - info: ***Removed Content from INPUTS***

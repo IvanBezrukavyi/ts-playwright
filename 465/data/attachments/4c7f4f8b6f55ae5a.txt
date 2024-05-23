@@ -1,0 +1,4 @@
+2024-05-23 09:40:27 - info: Retrieved user's full name: Luz Tromp I
+2024-05-23 09:40:27 - info: Retrieved user's email: Summer40@demoqa.com
+2024-05-23 09:40:27 - info: Retrieved user's current address: 709 Leda Falls, Lake Madalynmouth, Kansas, 21144-8978
+2024-05-23 09:40:27 - info: Retrieved user's permanent address: 456 Elm St, Lake Madalynmouth, Kansas, 21144-8978
