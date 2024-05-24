@@ -1,0 +1,4 @@
+2024-05-24 09:40:10 - info: Retrieved user's full name: Dr. Wallace Huel
+2024-05-24 09:40:10 - info: Retrieved user's email: Keara.Brekke25@demoqa.com
+2024-05-24 09:40:10 - info: Retrieved user's current address: 28158 Emory Ford, South Jeniferfurt, Louisiana, 63978
+2024-05-24 09:40:11 - info: Retrieved user's permanent address: 456 Elm St, South Jeniferfurt, Louisiana, 63978
