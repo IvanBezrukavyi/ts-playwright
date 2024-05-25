@@ -1,0 +1,5 @@
+2024-05-25 09:39:39 - info: Retrieved user's full name: Angelina Fahey
+2024-05-25 09:39:39 - info: Retrieved user's email: Theresia_Stroman@demoqa.com
+2024-05-25 09:39:39 - info: Retrieved user's current address: 828 E 4th Avenue, East Una, Iowa, 34141-8467
+2024-05-25 09:39:39 - info: Retrieved user's permanent address: 456 Elm St, East Una, Iowa, 34141-8467
+2024-05-25 09:39:45 - info: ***Removed Content from INPUTS***

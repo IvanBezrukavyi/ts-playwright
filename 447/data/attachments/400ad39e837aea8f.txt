@@ -1,5 +1,0 @@
-2024-05-05 09:39:01 - info: Retrieved user's full name: Charlotte Rogahn
-2024-05-05 09:39:01 - info: Retrieved user's email: Rosella.Powlowski@demoqa.com
-2024-05-05 09:39:01 - info: Retrieved user's current address: 334 Bechtelar Manors, Hilllfield, Kansas, 04280-8678
-2024-05-05 09:39:01 - info: Retrieved user's permanent address: 456 Elm St, Hilllfield, Kansas, 04280-8678
-2024-05-05 09:39:05 - info: ***Removed Content from INPUTS***
