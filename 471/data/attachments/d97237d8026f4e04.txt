@@ -1,0 +1,4 @@
+2024-05-29 09:41:48 - info: Starting set up auth process
+2024-05-29 09:41:48 - info: Sending login request with body:
+2024-05-29 09:41:49 - info: API request sent to:
+2024-05-29 09:41:49 - info: Login response received:

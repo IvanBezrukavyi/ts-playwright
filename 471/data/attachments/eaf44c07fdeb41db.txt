@@ -1,0 +1,4 @@
+2024-05-29 09:39:53 - info: Retrieved user's full name: Bryant Lakin
+2024-05-29 09:39:53 - info: Retrieved user's email: Helga.OHara55@demoqa.com
+2024-05-29 09:39:53 - info: Retrieved user's current address: 70608 Harrison Street, Mauriciofield, Indiana, 19092-7830
+2024-05-29 09:39:53 - info: Retrieved user's permanent address: 456 Elm St, Mauriciofield, Indiana, 19092-7830

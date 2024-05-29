@@ -1,0 +1,5 @@
+2024-05-29 09:39:03 - info: Retrieved user's full name: Marie Sauer-Sawayn
+2024-05-29 09:39:03 - info: Retrieved user's email: Scotty.Bailey@demoqa.com
+2024-05-29 09:39:03 - info: Retrieved user's current address: 5051 Harrison Hills, Port Giuseppemouth, Maine, 93206
+2024-05-29 09:39:03 - info: Retrieved user's permanent address: 456 Elm St, Port Giuseppemouth, Maine, 93206
+2024-05-29 09:39:10 - info: ***Removed Content from INPUTS***

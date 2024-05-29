@@ -1,5 +1,0 @@
-2024-05-06 09:39:25 - info: Retrieved user's full name: Dawn Fritsch
-2024-05-06 09:39:25 - info: Retrieved user's email: Yesenia_Sawayn-Muller@demoqa.com
-2024-05-06 09:39:26 - info: Retrieved user's current address: 861 Torp Union, East Wade, Minnesota, 34251
-2024-05-06 09:39:26 - info: Retrieved user's permanent address: 456 Elm St, East Wade, Minnesota, 34251
-2024-05-06 09:39:30 - info: ***Removed Content from INPUTS***
