@@ -1,5 +1,0 @@
-2024-05-08 09:39:32 - info: Retrieved user's full name: Debra Hamill V
-2024-05-08 09:39:32 - info: Retrieved user's email: Jonatan.Bogan14@demoqa.com
-2024-05-08 09:39:32 - info: Retrieved user's current address: 74779 Beer Pass, Labadieview, Oklahoma, 02996
-2024-05-08 09:39:32 - info: Retrieved user's permanent address: 456 Elm St, Labadieview, Oklahoma, 02996
-2024-05-08 09:39:37 - info: ***Removed Content from INPUTS***
