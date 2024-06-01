@@ -1,5 +1,0 @@
-2024-05-09 09:39:22 - info: Retrieved user's full name: Latoya Gleason
-2024-05-09 09:39:22 - info: Retrieved user's email: Santino_Donnelly@demoqa.com
-2024-05-09 09:39:22 - info: Retrieved user's current address: 59144 Billie Junction, Daniellaville, Pennsylvania, 09033
-2024-05-09 09:39:22 - info: Retrieved user's permanent address: 456 Elm St, Daniellaville, Pennsylvania, 09033
-2024-05-09 09:39:27 - info: ***Removed Content from INPUTS***

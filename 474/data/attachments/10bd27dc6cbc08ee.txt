@@ -1,0 +1,5 @@
+2024-06-01 09:39:08 - info: Retrieved user's full name: Jack Denesik
+2024-06-01 09:39:08 - info: Retrieved user's email: Tony4@demoqa.com
+2024-06-01 09:39:08 - info: Retrieved user's current address: 92242 Tommie Points, Haleyfurt, Indiana, 45909
+2024-06-01 09:39:09 - info: Retrieved user's permanent address: 456 Elm St, Haleyfurt, Indiana, 45909
+2024-06-01 09:39:16 - info: ***Removed Content from INPUTS***
