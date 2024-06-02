@@ -1,4 +1,0 @@
-2024-05-10 09:39:19 - info: Retrieved user's full name: Shelley Moen
-2024-05-10 09:39:19 - info: Retrieved user's email: Arianna18@demoqa.com
-2024-05-10 09:39:19 - info: Retrieved user's current address: 5680 E 9th Street, North Francisworth, Oklahoma, 13954-7436
-2024-05-10 09:39:19 - info: Retrieved user's permanent address: 456 Elm St, North Francisworth, Oklahoma, 13954-7436

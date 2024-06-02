@@ -1,5 +1,0 @@
-2024-05-10 09:39:06 - info: Retrieved user's full name: Hattie Hahn IV
-2024-05-10 09:39:06 - info: Retrieved user's email: Zachary12@demoqa.com
-2024-05-10 09:39:06 - info: Retrieved user's current address: 80199 W Monroe Street, Eliezerville, Indiana, 04897-5785
-2024-05-10 09:39:06 - info: Retrieved user's permanent address: 456 Elm St, Eliezerville, Indiana, 04897-5785
-2024-05-10 09:39:11 - info: ***Removed Content from INPUTS***
