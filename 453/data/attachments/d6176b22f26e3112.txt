@@ -1,4 +1,0 @@
-2024-05-11 09:40:17 - info: Retrieved user's full name: Kellie Hahn
-2024-05-11 09:40:17 - info: Retrieved user's email: Guido68@demoqa.com
-2024-05-11 09:40:17 - info: Retrieved user's current address: 9043 Carlie Ferry, Skylamouth, Oklahoma, 12494-2667
-2024-05-11 09:40:17 - info: Retrieved user's permanent address: 456 Elm St, Skylamouth, Oklahoma, 12494-2667
