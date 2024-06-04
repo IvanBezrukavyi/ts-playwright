@@ -1,0 +1,5 @@
+2024-06-04 09:40:15 - info: Retrieved user's full name: Molly Schroeder
+2024-06-04 09:40:15 - info: Retrieved user's email: Bethel73@demoqa.com
+2024-06-04 09:40:15 - info: Retrieved user's current address: 205 Leila Extension, North Antwan, Minnesota, 37595-1682
+2024-06-04 09:40:15 - info: Retrieved user's permanent address: 456 Elm St, North Antwan, Minnesota, 37595-1682
+2024-06-04 09:40:19 - info: ***Removed Content from INPUTS***
