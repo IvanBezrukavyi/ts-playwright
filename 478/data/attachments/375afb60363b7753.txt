@@ -1,0 +1,5 @@
+2024-06-05 09:40:06 - info: Retrieved user's full name: Stanley Schowalter
+2024-06-05 09:40:06 - info: Retrieved user's email: Nyasia19@demoqa.com
+2024-06-05 09:40:06 - info: Retrieved user's current address: 31438 Kale Ville, Herminiafort, Washington, 84433
+2024-06-05 09:40:06 - info: Retrieved user's permanent address: 456 Elm St, Herminiafort, Washington, 84433
+2024-06-05 09:40:12 - info: ***Removed Content from INPUTS***

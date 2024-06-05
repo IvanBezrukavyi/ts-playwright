@@ -1,0 +1,4 @@
+2024-06-05 09:40:23 - info: Retrieved user's full name: Mandy Champlin
+2024-06-05 09:40:23 - info: Retrieved user's email: Domenica_Nicolas42@demoqa.com
+2024-06-05 09:40:23 - info: Retrieved user's current address: 3190 College Street, East Marcoschester, Missouri, 64026
+2024-06-05 09:40:23 - info: Retrieved user's permanent address: 456 Elm St, East Marcoschester, Missouri, 64026

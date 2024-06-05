@@ -1,5 +1,0 @@
-2024-05-13 09:41:28 - info: Retrieved user's full name: Viola Lynch
-2024-05-13 09:41:28 - info: Retrieved user's email: Brianne_Reichert@demoqa.com
-2024-05-13 09:41:28 - info: Retrieved user's current address: 42792 Lueilwitz Cliff, Venafort, Iowa, 74473
-2024-05-13 09:41:28 - info: Retrieved user's permanent address: 456 Elm St, Venafort, Iowa, 74473
-2024-05-13 09:41:34 - info: ***Removed Content from INPUTS***
