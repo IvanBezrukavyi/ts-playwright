@@ -1,5 +1,0 @@
-2024-05-14 09:41:07 - info: Retrieved user's full name: Irma Cassin
-2024-05-14 09:41:07 - info: Retrieved user's email: Nora_Stiedemann17@demoqa.com
-2024-05-14 09:41:07 - info: Retrieved user's current address: 222 Bailee Underpass, New Brooke, Arizona, 31739-7551
-2024-05-14 09:41:08 - info: Retrieved user's permanent address: 456 Elm St, New Brooke, Arizona, 31739-7551
-2024-05-14 09:41:14 - info: ***Removed Content from INPUTS***

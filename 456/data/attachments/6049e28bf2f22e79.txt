@@ -1,4 +1,0 @@
-2024-05-14 09:41:20 - info: Retrieved user's full name: Marta Corkery
-2024-05-14 09:41:20 - info: Retrieved user's email: Alisa_Schaden13@demoqa.com
-2024-05-14 09:41:20 - info: Retrieved user's current address: 31449 Main Avenue, Port Mitchellburgh, Arkansas, 99689-9184
-2024-05-14 09:41:20 - info: Retrieved user's permanent address: 456 Elm St, Port Mitchellburgh, Arkansas, 99689-9184
