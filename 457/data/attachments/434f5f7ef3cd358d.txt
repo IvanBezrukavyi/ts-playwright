@@ -1,5 +1,0 @@
-2024-05-15 09:40:50 - info: Retrieved user's full name: Santiago Ankunding
-2024-05-15 09:40:50 - info: Retrieved user's email: Jovany_Pouros@demoqa.com
-2024-05-15 09:40:50 - info: Retrieved user's current address: 80712 S West Street, Bridgettestad, Indiana, 08488-7235
-2024-05-15 09:40:50 - info: Retrieved user's permanent address: 456 Elm St, Bridgettestad, Indiana, 08488-7235
-2024-05-15 09:40:55 - info: ***Removed Content from INPUTS***

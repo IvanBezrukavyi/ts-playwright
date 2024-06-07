@@ -1,4 +1,0 @@
-2024-05-15 09:41:00 - info: Retrieved user's full name: Nicolas Willms
-2024-05-15 09:41:00 - info: Retrieved user's email: Randal50@demoqa.com
-2024-05-15 09:41:00 - info: Retrieved user's current address: 84418 Mac Roads, Port Danykahaven, Michigan, 48488
-2024-05-15 09:41:00 - info: Retrieved user's permanent address: 456 Elm St, Port Danykahaven, Michigan, 48488
