@@ -1,0 +1,5 @@
+2024-06-08 09:40:51 - info: Retrieved user's full name: Charlene Cronin
+2024-06-08 09:40:51 - info: Retrieved user's email: Cheyenne.Stoltenberg@demoqa.com
+2024-06-08 09:40:52 - info: Retrieved user's current address: 239 Corkery Junctions, Metzbury, Virginia, 33757-5805
+2024-06-08 09:40:52 - info: Retrieved user's permanent address: 456 Elm St, Metzbury, Virginia, 33757-5805
+2024-06-08 09:40:57 - info: ***Removed Content from INPUTS***

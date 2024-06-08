@@ -1,5 +1,0 @@
-2024-05-16 09:49:45 - info: Retrieved user's full name: Kristin Hand
-2024-05-16 09:49:45 - info: Retrieved user's email: Clyde32@demoqa.com
-2024-05-16 09:49:45 - info: Retrieved user's current address: 108 Bernhard Squares, Croninside, Louisiana, 87104-4436
-2024-05-16 09:49:45 - info: Retrieved user's permanent address: 456 Elm St, Croninside, Louisiana, 87104-4436
-2024-05-16 09:49:51 - info: ***Removed Content from INPUTS***
