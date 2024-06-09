@@ -1,5 +1,0 @@
-2024-05-17 09:39:47 - info: Retrieved user's full name: Alberta Ebert
-2024-05-17 09:39:47 - info: Retrieved user's email: Buford39@demoqa.com
-2024-05-17 09:39:47 - info: Retrieved user's current address: 720 N College Street, South Lula, Delaware, 40217
-2024-05-17 09:39:47 - info: Retrieved user's permanent address: 456 Elm St, South Lula, Delaware, 40217
-2024-05-17 09:39:52 - info: ***Removed Content from INPUTS***
