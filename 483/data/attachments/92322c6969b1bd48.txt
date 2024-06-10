@@ -1,0 +1,96 @@
+Error while submitting order and getting order ID: locator.textContent: Error: strict mode violation: locator('.em-spacer-1 .ng-star-inserted') resolved to 2 elements:
+    1) <label _ngcontent-ljh-c39="" class="ng-star-inserted"> | 6666c9e7ae2afd4c0bf85f81 | </label> aka getByText('| 6666c9e7ae2afd4c0bf85f81 |')
+    2) <label _ngcontent-ljh-c39="" class="ng-star-inserted"> | 6666c9e7ae2afd4c0bf85f85 | </label> aka getByText('| 6666c9e7ae2afd4c0bf85f85 |')
+
+Call log:
+  - waiting for locator('.em-spacer-1 .ng-star-inserted')
+
+    at CompleteOrderPage.SubmitAndGetOrderId (/home/runner/work/ts-playwright/ts-playwright/srs/main/clientApp/completeOrderPage.ts:76:39)
+    at /home/runner/work/ts-playwright/ts-playwright/tests/clientAppWithExternalDataAndParametriazation.spec.ts:72:27
+    at /home/runner/work/ts-playwright/ts-playwright/tests/clientAppWithExternalDataAndParametriazation.spec.ts:71:13 {
+  [Symbol(step)]: {
+    stepId: 'pw:api@59',
+    location: {
+      file: '/home/runner/work/ts-playwright/ts-playwright/srs/main/clientApp/completeOrderPage.ts',
+      line: 76,
+      column: 39,
+      function: 'CompleteOrderPage.SubmitAndGetOrderId'
+    },
+    category: 'pw:api',
+    title: 'locator.textContent(.em-spacer-1 .ng-star-inserted)',
+    apiName: 'locator.textContent',
+    params: { selector: '.em-spacer-1 .ng-star-inserted', strict: true },
+    wallTime: 1718012391591,
+    laxParent: false,
+    boxedStack: undefined,
+    steps: [],
+    complete: [Function: complete],
+    endWallTime: 1718012391602,
+    error: {
+      message: "Error: locator.textContent: Error: strict mode violation: locator('.em-spacer-1 .ng-star-inserted') resolved to 2 elements:\n" +
+        `    1) <label _ngcontent-ljh-c39="" class="ng-star-inserted"> | 6666c9e7ae2afd4c0bf85f81 | </label> aka getByText('| 6666c9e7ae2afd4c0bf85f81 |')\n` +
+        `    2) <label _ngcontent-ljh-c39="" class="ng-star-inserted"> | 6666c9e7ae2afd4c0bf85f85 | </label> aka getByText('| 6666c9e7ae2afd4c0bf85f85 |')\n` +
+        '\n' +
+        'Call log:\n' +
+        "  \x1B[2m- waiting for locator('.em-spacer-1 .ng-star-inserted')\x1B[22m\n",
+      stack: "Error: locator.textContent: Error: strict mode violation: locator('.em-spacer-1 .ng-star-inserted') resolved to 2 elements:\n" +
+        `    1) <label _ngcontent-ljh-c39="" class="ng-star-inserted"> | 6666c9e7ae2afd4c0bf85f81 | </label> aka getByText('| 6666c9e7ae2afd4c0bf85f81 |')\n` +
+        `    2) <label _ngcontent-ljh-c39="" class="ng-star-inserted"> | 6666c9e7ae2afd4c0bf85f85 | </label> aka getByText('| 6666c9e7ae2afd4c0bf85f85 |')\n` +
+        '\n' +
+        'Call log:\n' +
+        "  \x1B[2m- waiting for locator('.em-spacer-1 .ng-star-inserted')\x1B[22m\n" +
+        '\n' +
+        '    at CompleteOrderPage.SubmitAndGetOrderId (/home/runner/work/ts-playwright/ts-playwright/srs/main/clientApp/completeOrderPage.ts:76:39)\n' +
+        '    at /home/runner/work/ts-playwright/ts-playwright/tests/clientAppWithExternalDataAndParametriazation.spec.ts:72:27\n' +
+        '    at /home/runner/work/ts-playwright/ts-playwright/tests/clientAppWithExternalDataAndParametriazation.spec.ts:71:13'
+    }
+  }
+}
+Failed to submit order: locator.textContent: Error: strict mode violation: locator('.em-spacer-1 .ng-star-inserted') resolved to 2 elements:
+    1) <label _ngcontent-ljh-c39="" class="ng-star-inserted"> | 6666c9e7ae2afd4c0bf85f81 | </label> aka getByText('| 6666c9e7ae2afd4c0bf85f81 |')
+    2) <label _ngcontent-ljh-c39="" class="ng-star-inserted"> | 6666c9e7ae2afd4c0bf85f85 | </label> aka getByText('| 6666c9e7ae2afd4c0bf85f85 |')
+
+Call log:
+  - waiting for locator('.em-spacer-1 .ng-star-inserted')
+
+    at CompleteOrderPage.SubmitAndGetOrderId (/home/runner/work/ts-playwright/ts-playwright/srs/main/clientApp/completeOrderPage.ts:76:39)
+    at /home/runner/work/ts-playwright/ts-playwright/tests/clientAppWithExternalDataAndParametriazation.spec.ts:72:27
+    at /home/runner/work/ts-playwright/ts-playwright/tests/clientAppWithExternalDataAndParametriazation.spec.ts:71:13 {
+  [Symbol(step)]: {
+    stepId: 'pw:api@59',
+    location: {
+      file: '/home/runner/work/ts-playwright/ts-playwright/srs/main/clientApp/completeOrderPage.ts',
+      line: 76,
+      column: 39,
+      function: 'CompleteOrderPage.SubmitAndGetOrderId'
+    },
+    category: 'pw:api',
+    title: 'locator.textContent(.em-spacer-1 .ng-star-inserted)',
+    apiName: 'locator.textContent',
+    params: { selector: '.em-spacer-1 .ng-star-inserted', strict: true },
+    wallTime: 1718012391591,
+    laxParent: false,
+    boxedStack: undefined,
+    steps: [],
+    complete: [Function: complete],
+    endWallTime: 1718012391602,
+    error: {
+      message: "Error: locator.textContent: Error: strict mode violation: locator('.em-spacer-1 .ng-star-inserted') resolved to 2 elements:\n" +
+        `    1) <label _ngcontent-ljh-c39="" class="ng-star-inserted"> | 6666c9e7ae2afd4c0bf85f81 | </label> aka getByText('| 6666c9e7ae2afd4c0bf85f81 |')\n` +
+        `    2) <label _ngcontent-ljh-c39="" class="ng-star-inserted"> | 6666c9e7ae2afd4c0bf85f85 | </label> aka getByText('| 6666c9e7ae2afd4c0bf85f85 |')\n` +
+        '\n' +
+        'Call log:\n' +
+        "  \x1B[2m- waiting for locator('.em-spacer-1 .ng-star-inserted')\x1B[22m\n",
+      stack: "Error: locator.textContent: Error: strict mode violation: locator('.em-spacer-1 .ng-star-inserted') resolved to 2 elements:\n" +
+        `    1) <label _ngcontent-ljh-c39="" class="ng-star-inserted"> | 6666c9e7ae2afd4c0bf85f81 | </label> aka getByText('| 6666c9e7ae2afd4c0bf85f81 |')\n` +
+        `    2) <label _ngcontent-ljh-c39="" class="ng-star-inserted"> | 6666c9e7ae2afd4c0bf85f85 | </label> aka getByText('| 6666c9e7ae2afd4c0bf85f85 |')\n` +
+        '\n' +
+        'Call log:\n' +
+        "  \x1B[2m- waiting for locator('.em-spacer-1 .ng-star-inserted')\x1B[22m\n" +
+        '\n' +
+        '    at CompleteOrderPage.SubmitAndGetOrderId (/home/runner/work/ts-playwright/ts-playwright/srs/main/clientApp/completeOrderPage.ts:76:39)\n' +
+        '    at /home/runner/work/ts-playwright/ts-playwright/tests/clientAppWithExternalDataAndParametriazation.spec.ts:72:27\n' +
+        '    at /home/runner/work/ts-playwright/ts-playwright/tests/clientAppWithExternalDataAndParametriazation.spec.ts:71:13'
+    }
+  }
+}

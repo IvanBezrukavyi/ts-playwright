@@ -1,5 +1,0 @@
-2024-05-18 09:39:42 - info: Retrieved user's full name: Francis Homenick
-2024-05-18 09:39:42 - info: Retrieved user's email: Grover_Rippin@demoqa.com
-2024-05-18 09:39:42 - info: Retrieved user's current address: 410 E 2nd Street, West Kaitlyn, Kentucky, 08242-0751
-2024-05-18 09:39:42 - info: Retrieved user's permanent address: 456 Elm St, West Kaitlyn, Kentucky, 08242-0751
-2024-05-18 09:39:47 - info: ***Removed Content from INPUTS***
