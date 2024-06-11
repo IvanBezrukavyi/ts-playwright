@@ -1,0 +1,4 @@
+2024-06-11 09:40:58 - info: Retrieved user's full name: Suzanne Abernathy
+2024-06-11 09:40:58 - info: Retrieved user's email: Charlotte84@demoqa.com
+2024-06-11 09:40:58 - info: Retrieved user's current address: 824 Lemuel Drive, Libbybury, Nebraska, 04479
+2024-06-11 09:40:58 - info: Retrieved user's permanent address: 456 Elm St, Libbybury, Nebraska, 04479
