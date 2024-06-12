@@ -1,0 +1,4 @@
+2024-06-12 09:39:54 - info: Retrieved user's full name: Kayla Sanford
+2024-06-12 09:39:55 - info: Retrieved user's email: Carlie88@demoqa.com
+2024-06-12 09:39:55 - info: Retrieved user's current address: 3589 Huels Cliffs, Lockmanstead, Oklahoma, 86133
+2024-06-12 09:39:55 - info: Retrieved user's permanent address: 456 Elm St, Lockmanstead, Oklahoma, 86133
