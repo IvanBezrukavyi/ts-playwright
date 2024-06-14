@@ -1,0 +1,5 @@
+2024-06-14 09:39:15 - info: Retrieved user's full name: Dr. Jackie Leuschke
+2024-06-14 09:39:15 - info: Retrieved user's email: Tommie.Lueilwitz62@demoqa.com
+2024-06-14 09:39:15 - info: Retrieved user's current address: 65720 E Washington Avenue, Flatleyburgh, West Virginia, 14859-4074
+2024-06-14 09:39:15 - info: Retrieved user's permanent address: 456 Elm St, Flatleyburgh, West Virginia, 14859-4074
+2024-06-14 09:39:25 - info: ***Removed Content from INPUTS***

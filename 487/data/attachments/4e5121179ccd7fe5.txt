@@ -1,0 +1,4 @@
+2024-06-14 09:40:04 - info: Retrieved user's full name: Monique Kirlin
+2024-06-14 09:40:04 - info: Retrieved user's email: Quentin47@demoqa.com
+2024-06-14 09:40:04 - info: Retrieved user's current address: 909 Julius Valleys, Hammesboro, South Dakota, 21503
+2024-06-14 09:40:04 - info: Retrieved user's permanent address: 456 Elm St, Hammesboro, South Dakota, 21503

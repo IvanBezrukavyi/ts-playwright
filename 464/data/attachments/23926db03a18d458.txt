@@ -1,5 +1,0 @@
-2024-05-22 09:41:47 - info: Retrieved user's full name: Kristy McKenzie
-2024-05-22 09:41:47 - info: Retrieved user's email: Alexanne.Rolfson@demoqa.com
-2024-05-22 09:41:47 - info: Retrieved user's current address: 796 N Washington Street, Pollyhaven, Colorado, 46390-2512
-2024-05-22 09:41:47 - info: Retrieved user's permanent address: 456 Elm St, Pollyhaven, Colorado, 46390-2512
-2024-05-22 09:41:53 - info: ***Removed Content from INPUTS***
