@@ -1,5 +1,0 @@
-2024-05-23 09:40:11 - info: Retrieved user's full name: Byron Quitzon
-2024-05-23 09:40:11 - info: Retrieved user's email: Cyrus_Morissette-Russel71@demoqa.com
-2024-05-23 09:40:11 - info: Retrieved user's current address: 2993 Tyrell Square, Gusikowskiburgh, Colorado, 12933
-2024-05-23 09:40:12 - info: Retrieved user's permanent address: 456 Elm St, Gusikowskiburgh, Colorado, 12933
-2024-05-23 09:40:18 - info: ***Removed Content from INPUTS***
