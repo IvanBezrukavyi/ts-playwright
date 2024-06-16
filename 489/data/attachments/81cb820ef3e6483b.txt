@@ -1,0 +1,4 @@
+2024-06-16 09:40:32 - info: Retrieved user's full name: Kent Jaskolski
+2024-06-16 09:40:32 - info: Retrieved user's email: Haleigh.Schneider@demoqa.com
+2024-06-16 09:40:32 - info: Retrieved user's current address: 5771 North Road, Waelchicester, New Hampshire, 53192-4119
+2024-06-16 09:40:32 - info: Retrieved user's permanent address: 456 Elm St, Waelchicester, New Hampshire, 53192-4119
