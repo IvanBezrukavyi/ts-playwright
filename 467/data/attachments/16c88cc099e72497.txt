@@ -1,4 +1,0 @@
-2024-05-25 09:39:52 - info: Retrieved user's full name: Jerry Koepp
-2024-05-25 09:39:52 - info: Retrieved user's email: Kristy_Stark97@demoqa.com
-2024-05-25 09:39:52 - info: Retrieved user's current address: 4978 11th Street, Fort Jeanieland, California, 31240-9504
-2024-05-25 09:39:52 - info: Retrieved user's permanent address: 456 Elm St, Fort Jeanieland, California, 31240-9504
