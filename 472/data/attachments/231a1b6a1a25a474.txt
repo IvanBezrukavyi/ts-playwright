@@ -1,5 +1,0 @@
-2024-05-30 09:39:05 - info: Retrieved user's full name: Rudy Kuphal
-2024-05-30 09:39:05 - info: Retrieved user's email: Sheila.Schuppe15@demoqa.com
-2024-05-30 09:39:05 - info: Retrieved user's current address: 6258 W Market Street, Fort Nicolastead, Montana, 25503-2128
-2024-05-30 09:39:05 - info: Retrieved user's permanent address: 456 Elm St, Fort Nicolastead, Montana, 25503-2128
-2024-05-30 09:39:10 - info: ***Removed Content from INPUTS***

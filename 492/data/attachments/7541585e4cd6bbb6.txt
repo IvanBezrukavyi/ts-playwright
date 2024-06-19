@@ -1,0 +1,4 @@
+2024-06-19 09:40:23 - info: Retrieved user's full name: Belinda Olson
+2024-06-19 09:40:23 - info: Retrieved user's email: Bryon.Lesch49@demoqa.com
+2024-06-19 09:40:23 - info: Retrieved user's current address: 73269 D'Amore Streets, Osinskistead, Louisiana, 35675
+2024-06-19 09:40:23 - info: Retrieved user's permanent address: 456 Elm St, Osinskistead, Louisiana, 35675

@@ -1,4 +1,0 @@
-2024-05-30 09:39:17 - info: Retrieved user's full name: Nicholas Schaden
-2024-05-30 09:39:17 - info: Retrieved user's email: Breana_Rath@demoqa.com
-2024-05-30 09:39:17 - info: Retrieved user's current address: 8066 N 3rd Street, West Bellside, Missouri, 50689-8916
-2024-05-30 09:39:17 - info: Retrieved user's permanent address: 456 Elm St, West Bellside, Missouri, 50689-8916

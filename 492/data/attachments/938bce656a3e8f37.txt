@@ -1,0 +1,5 @@
+2024-06-19 09:40:10 - info: Retrieved user's full name: Dr. Freda McCullough
+2024-06-19 09:40:10 - info: Retrieved user's email: Evie.Pfeffer@demoqa.com
+2024-06-19 09:40:10 - info: Retrieved user's current address: 14841 Padberg Ridges, Townebury, Maine, 51480-3158
+2024-06-19 09:40:10 - info: Retrieved user's permanent address: 456 Elm St, Townebury, Maine, 51480-3158
+2024-06-19 09:40:15 - info: ***Removed Content from INPUTS***
