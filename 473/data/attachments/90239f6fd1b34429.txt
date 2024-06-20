@@ -1,5 +1,0 @@
-2024-05-31 09:44:25 - info: Retrieved user's full name: Rickey Robel
-2024-05-31 09:44:25 - info: Retrieved user's email: Marcelo12@demoqa.com
-2024-05-31 09:44:25 - info: Retrieved user's current address: 3883 Thiel Expressway, West Jenniferstad, Indiana, 12745
-2024-05-31 09:44:26 - info: Retrieved user's permanent address: 456 Elm St, West Jenniferstad, Indiana, 12745
-2024-05-31 09:44:36 - info: ***Removed Content from INPUTS***
