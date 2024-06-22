@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Jun 22 09:39:58 GMT 2024","Sat Jun 22 09:40:07 GMT 2024","9075","client app","clientAppWithExternalDataAndParametriazation.spec.ts","","","","TC: E2E for ordering IPHONE 13 PRO",""
+"passed","Sat Jun 22 09:39:27 GMT 2024","Sat Jun 22 09:39:28 GMT 2024","1300","setup","auth.setupNew.spec.ts","","","","default authentication for client app",""
+"passed","Sat Jun 22 09:39:28 GMT 2024","Sat Jun 22 09:39:33 GMT 2024","4826","client app","clientAppWithExternalDataAndParametriazation.spec.ts","","","","TC: Verify success login to client app with nspprotest@gmail.com and Pl@ywright_test_m1",""
+"passed","Sat Jun 22 09:40:47 GMT 2024","Sat Jun 22 09:40:47 GMT 2024","34","teardown","auth.tearDown.spec.ts","Teardown","","","Remove ${authFile} after running client app tests",""
+"failed","Sat Jun 22 09:40:37 GMT 2024","Sat Jun 22 09:40:47 GMT 2024","9535","client app","clientAppWithExternalDataAndParametriazation.spec.ts","","","","TC: E2E for ordering ZARA COAT 3",""
+"failed","Sat Jun 22 09:39:52 GMT 2024","Sat Jun 22 09:39:58 GMT 2024","5862","client app","clientAppWithExternalDataAndParametriazation.spec.ts","","","","TC: Verify success login to client app with anshika@gmail.com and Iamking@000",""

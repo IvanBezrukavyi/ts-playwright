@@ -1,4 +1,0 @@
-2024-06-02 09:39:44 - info: Retrieved user's full name: Erin Langworth
-2024-06-02 09:39:44 - info: Retrieved user's email: Blaise70@demoqa.com
-2024-06-02 09:39:44 - info: Retrieved user's current address: 43985 Baumbach Spur, Leliafield, Washington, 32010-1791
-2024-06-02 09:39:44 - info: Retrieved user's permanent address: 456 Elm St, Leliafield, Washington, 32010-1791
