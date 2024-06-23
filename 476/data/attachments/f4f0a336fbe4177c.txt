@@ -1,5 +1,0 @@
-2024-06-03 09:39:01 - info: Retrieved user's full name: Kate Anderson
-2024-06-03 09:39:02 - info: Retrieved user's email: Felix_Harvey81@demoqa.com
-2024-06-03 09:39:02 - info: Retrieved user's current address: 30122 N 9th Street, West Valentinemouth, Pennsylvania, 20146-0255
-2024-06-03 09:39:02 - info: Retrieved user's permanent address: 456 Elm St, West Valentinemouth, Pennsylvania, 20146-0255
-2024-06-03 09:39:09 - info: ***Removed Content from INPUTS***

@@ -1,4 +1,0 @@
-2024-06-03 09:39:50 - info: Retrieved user's full name: Paulette Olson
-2024-06-03 09:39:50 - info: Retrieved user's email: Gilda_Botsford57@demoqa.com
-2024-06-03 09:39:50 - info: Retrieved user's current address: 3706 W River Road, West Makennaborough, Ohio, 86699-4876
-2024-06-03 09:39:50 - info: Retrieved user's permanent address: 456 Elm St, West Makennaborough, Ohio, 86699-4876
