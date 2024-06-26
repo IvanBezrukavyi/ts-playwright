@@ -1,0 +1,4 @@
+2024-06-26 09:41:03 - info: Retrieved user's full name: Terry Walsh
+2024-06-26 09:41:03 - info: Retrieved user's email: Jayden_Jenkins@demoqa.com
+2024-06-26 09:41:04 - info: Retrieved user's current address: 6100 Muriel Dam, Morarport, Nebraska, 28275-8065
+2024-06-26 09:41:04 - info: Retrieved user's permanent address: 456 Elm St, Morarport, Nebraska, 28275-8065

@@ -1,4 +1,0 @@
-2024-06-06 10:00:03 - info: Retrieved user's full name: Sonia Kemmer MD
-2024-06-06 10:00:03 - info: Retrieved user's email: Mallory51@demoqa.com
-2024-06-06 10:00:03 - info: Retrieved user's current address: 5363 Rolfson Glen, Ibrahimcester, Mississippi, 51019
-2024-06-06 10:00:03 - info: Retrieved user's permanent address: 456 Elm St, Ibrahimcester, Mississippi, 51019
