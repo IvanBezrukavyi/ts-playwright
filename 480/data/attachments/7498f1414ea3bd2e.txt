@@ -1,5 +1,0 @@
-2024-06-07 09:44:20 - info: Retrieved user's full name: Simon Metz V
-2024-06-07 09:44:20 - info: Retrieved user's email: Alphonso40@demoqa.com
-2024-06-07 09:44:20 - info: Retrieved user's current address: 26790 Lake Road, Lessietown, Oregon, 38620
-2024-06-07 09:44:20 - info: Retrieved user's permanent address: 456 Elm St, Lessietown, Oregon, 38620
-2024-06-07 09:44:29 - info: ***Removed Content from INPUTS***
