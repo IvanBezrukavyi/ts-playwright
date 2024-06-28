@@ -1,4 +1,0 @@
-2024-06-08 09:41:09 - info: Retrieved user's full name: Lois Willms
-2024-06-08 09:41:09 - info: Retrieved user's email: Kobe.Quigley79@demoqa.com
-2024-06-08 09:41:09 - info: Retrieved user's current address: 1788 Hector Club, West Terrell, Maryland, 60323
-2024-06-08 09:41:10 - info: Retrieved user's permanent address: 456 Elm St, West Terrell, Maryland, 60323

@@ -1,0 +1,5 @@
+2024-06-28 09:39:26 - info: Retrieved user's full name: Kayla Beahan
+2024-06-28 09:39:26 - info: Retrieved user's email: Gerald.DAmore@demoqa.com
+2024-06-28 09:39:26 - info: Retrieved user's current address: 595 Lueilwitz Isle, Gibsonside, Indiana, 94631
+2024-06-28 09:39:26 - info: Retrieved user's permanent address: 456 Elm St, Gibsonside, Indiana, 94631
+2024-06-28 09:39:32 - info: ***Removed Content from INPUTS***
