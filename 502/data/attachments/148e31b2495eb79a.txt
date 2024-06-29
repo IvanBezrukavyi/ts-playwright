@@ -1,0 +1,4 @@
+2024-06-29 09:40:26 - info: Retrieved user's full name: Lynette Connelly
+2024-06-29 09:40:26 - info: Retrieved user's email: Angus_Johnson@demoqa.com
+2024-06-29 09:40:26 - info: Retrieved user's current address: 8072 Zemlak Extension, Harveyton, North Dakota, 84526-9746
+2024-06-29 09:40:26 - info: Retrieved user's permanent address: 456 Elm St, Harveyton, North Dakota, 84526-9746

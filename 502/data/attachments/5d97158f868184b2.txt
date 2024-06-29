@@ -1,0 +1,5 @@
+2024-06-29 09:40:11 - info: Retrieved user's full name: Anna Gottlieb
+2024-06-29 09:40:11 - info: Retrieved user's email: Hillary.Fadel55@demoqa.com
+2024-06-29 09:40:12 - info: Retrieved user's current address: 9828 East Avenue, Dachview, Washington, 45882-6911
+2024-06-29 09:40:12 - info: Retrieved user's permanent address: 456 Elm St, Dachview, Washington, 45882-6911
+2024-06-29 09:40:19 - info: ***Removed Content from INPUTS***

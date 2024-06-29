@@ -1,5 +1,0 @@
-2024-06-09 09:41:02 - info: Retrieved user's full name: Rolando Windler
-2024-06-09 09:41:02 - info: Retrieved user's email: Jackie.Will94@demoqa.com
-2024-06-09 09:41:02 - info: Retrieved user's current address: 473 Wisoky Via, New Landen, Virginia, 75237-0476
-2024-06-09 09:41:02 - info: Retrieved user's permanent address: 456 Elm St, New Landen, Virginia, 75237-0476
-2024-06-09 09:41:16 - info: ***Removed Content from INPUTS***
