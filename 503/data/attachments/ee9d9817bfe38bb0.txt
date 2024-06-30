@@ -1,0 +1,5 @@
+2024-06-30 09:39:57 - info: Retrieved user's full name: Jonathon Cole
+2024-06-30 09:39:57 - info: Retrieved user's email: Ali65@demoqa.com
+2024-06-30 09:39:57 - info: Retrieved user's current address: 53028 Springfield Road, Howemouth, Oklahoma, 98073
+2024-06-30 09:39:57 - info: Retrieved user's permanent address: 456 Elm St, Howemouth, Oklahoma, 98073
+2024-06-30 09:40:03 - info: ***Removed Content from INPUTS***

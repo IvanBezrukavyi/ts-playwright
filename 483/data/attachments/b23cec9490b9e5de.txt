@@ -1,5 +1,0 @@
-2024-06-10 10:10:50 - info: Retrieved user's full name: Christy O'Conner
-2024-06-10 10:10:50 - info: Retrieved user's email: Rosalind21@demoqa.com
-2024-06-10 10:10:50 - info: Retrieved user's current address: 1788 Yost Alley, Beierstad, Connecticut, 24836-0142
-2024-06-10 10:10:50 - info: Retrieved user's permanent address: 456 Elm St, Beierstad, Connecticut, 24836-0142
-2024-06-10 10:11:02 - info: ***Removed Content from INPUTS***
