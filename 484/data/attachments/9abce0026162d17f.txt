@@ -1,5 +1,0 @@
-2024-06-11 09:40:03 - info: Retrieved user's full name: Lowell Pollich
-2024-06-11 09:40:03 - info: Retrieved user's email: Brenda.Huel@demoqa.com
-2024-06-11 09:40:03 - info: Retrieved user's current address: 770 Broadway, North Jaydahaven, Delaware, 13580-7472
-2024-06-11 09:40:04 - info: Retrieved user's permanent address: 456 Elm St, North Jaydahaven, Delaware, 13580-7472
-2024-06-11 09:40:10 - info: ***Removed Content from INPUTS***
