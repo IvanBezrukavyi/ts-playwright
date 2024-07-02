@@ -1,5 +1,0 @@
-2024-06-12 09:39:37 - info: Retrieved user's full name: Eleanor Schulist
-2024-06-12 09:39:37 - info: Retrieved user's email: Hershel52@demoqa.com
-2024-06-12 09:39:37 - info: Retrieved user's current address: 92449 S Jefferson Street, Bartellfort, Kentucky, 51300-0931
-2024-06-12 09:39:37 - info: Retrieved user's permanent address: 456 Elm St, Bartellfort, Kentucky, 51300-0931
-2024-06-12 09:39:45 - info: ***Removed Content from INPUTS***
