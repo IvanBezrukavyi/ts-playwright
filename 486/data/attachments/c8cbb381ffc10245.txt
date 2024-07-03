@@ -1,4 +1,0 @@
-2024-06-13 09:40:06 - info: Retrieved user's full name: Clay Jones
-2024-06-13 09:40:06 - info: Retrieved user's email: Hipolito35@demoqa.com
-2024-06-13 09:40:06 - info: Retrieved user's current address: 774 Matilde Fork, Charlesmouth, Montana, 23650
-2024-06-13 09:40:06 - info: Retrieved user's permanent address: 456 Elm St, Charlesmouth, Montana, 23650

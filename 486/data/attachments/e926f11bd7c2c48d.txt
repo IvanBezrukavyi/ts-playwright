@@ -1,5 +1,0 @@
-2024-06-13 09:39:51 - info: Retrieved user's full name: Gary Oberbrunner
-2024-06-13 09:39:51 - info: Retrieved user's email: Kelsie_Ledner11@demoqa.com
-2024-06-13 09:39:51 - info: Retrieved user's current address: 13044 Noemie Valleys, Marquardtfield, Oregon, 73171
-2024-06-13 09:39:51 - info: Retrieved user's permanent address: 456 Elm St, Marquardtfield, Oregon, 73171
-2024-06-13 09:39:56 - info: ***Removed Content from INPUTS***
