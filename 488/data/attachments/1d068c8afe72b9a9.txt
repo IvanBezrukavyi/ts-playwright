@@ -1,4 +1,0 @@
-2024-06-15 09:39:54 - info: Retrieved user's full name: Kelvin Howell
-2024-06-15 09:39:54 - info: Retrieved user's email: Jerrell_Kling@demoqa.com
-2024-06-15 09:39:54 - info: Retrieved user's current address: 7977 S 14th Street, Schulisthaven, Wisconsin, 31476
-2024-06-15 09:39:54 - info: Retrieved user's permanent address: 456 Elm St, Schulisthaven, Wisconsin, 31476

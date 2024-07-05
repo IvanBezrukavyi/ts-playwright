@@ -1,5 +1,0 @@
-2024-06-15 09:39:40 - info: Retrieved user's full name: Geraldine Tromp
-2024-06-15 09:39:40 - info: Retrieved user's email: Tracey27@demoqa.com
-2024-06-15 09:39:40 - info: Retrieved user's current address: 22171 7th Avenue, New Ole, Georgia, 36799-4136
-2024-06-15 09:39:40 - info: Retrieved user's permanent address: 456 Elm St, New Ole, Georgia, 36799-4136
-2024-06-15 09:39:45 - info: ***Removed Content from INPUTS***
