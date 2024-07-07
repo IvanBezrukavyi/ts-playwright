@@ -1,4 +1,0 @@
-2024-06-17 09:40:34 - info: Retrieved user's full name: Darrin Walsh
-2024-06-17 09:40:34 - info: Retrieved user's email: Grayce.Lakin@demoqa.com
-2024-06-17 09:40:34 - info: Retrieved user's current address: 88428 N 4th Street, South Mertie, South Carolina, 93366-6211
-2024-06-17 09:40:34 - info: Retrieved user's permanent address: 456 Elm St, South Mertie, South Carolina, 93366-6211

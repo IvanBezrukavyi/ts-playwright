@@ -1,5 +1,0 @@
-2024-06-17 09:39:46 - info: Retrieved user's full name: Phyllis Kiehn
-2024-06-17 09:39:46 - info: Retrieved user's email: Efren_Kuvalis66@demoqa.com
-2024-06-17 09:39:46 - info: Retrieved user's current address: 2365 Bergstrom Crossing, Othotown, Rhode Island, 80531-0360
-2024-06-17 09:39:46 - info: Retrieved user's permanent address: 456 Elm St, Othotown, Rhode Island, 80531-0360
-2024-06-17 09:39:54 - info: ***Removed Content from INPUTS***
