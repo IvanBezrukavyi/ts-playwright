@@ -1,4 +1,0 @@
-2024-06-18 09:41:05 - info: Retrieved user's full name: Vincent Fahey
-2024-06-18 09:41:05 - info: Retrieved user's email: Lilla5@demoqa.com
-2024-06-18 09:41:05 - info: Retrieved user's current address: 5592 Runolfsdottir Run, Weimannland, New Mexico, 89451-3187
-2024-06-18 09:41:06 - info: Retrieved user's permanent address: 456 Elm St, Weimannland, New Mexico, 89451-3187

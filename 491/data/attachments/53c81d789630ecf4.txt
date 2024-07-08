@@ -1,5 +1,0 @@
-2024-06-18 09:40:47 - info: Retrieved user's full name: Samantha Abshire
-2024-06-18 09:40:47 - info: Retrieved user's email: Larry_Waelchi@demoqa.com
-2024-06-18 09:40:47 - info: Retrieved user's current address: 62038 Hugh Fort, North Karsonhaven, Virginia, 35574-6301
-2024-06-18 09:40:48 - info: Retrieved user's permanent address: 456 Elm St, North Karsonhaven, Virginia, 35574-6301
-2024-06-18 09:40:56 - info: ***Removed Content from INPUTS***
