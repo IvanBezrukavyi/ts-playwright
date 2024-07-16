@@ -1,5 +1,0 @@
-2024-06-26 09:40:04 - info: Retrieved user's full name: Mrs. Connie White
-2024-06-26 09:40:04 - info: Retrieved user's email: Bridie.Block@demoqa.com
-2024-06-26 09:40:04 - info: Retrieved user's current address: 729 Mason Turnpike, Klingworth, Tennessee, 89611
-2024-06-26 09:40:04 - info: Retrieved user's permanent address: 456 Elm St, Klingworth, Tennessee, 89611
-2024-06-26 09:40:15 - info: ***Removed Content from INPUTS***
