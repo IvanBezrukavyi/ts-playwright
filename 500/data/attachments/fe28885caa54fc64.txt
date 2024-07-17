@@ -1,5 +1,0 @@
-2024-06-27 09:38:57 - info: Retrieved user's full name: Rudolph Harvey III
-2024-06-27 09:38:58 - info: Retrieved user's email: Brando.Block@demoqa.com
-2024-06-27 09:38:58 - info: Retrieved user's current address: 9245 Marisol Gateway, West Luz, Wyoming, 47725
-2024-06-27 09:38:58 - info: Retrieved user's permanent address: 456 Elm St, West Luz, Wyoming, 47725
-2024-06-27 09:39:02 - info: ***Removed Content from INPUTS***

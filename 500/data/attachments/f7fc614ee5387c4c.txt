@@ -1,4 +1,0 @@
-2024-06-27 09:39:09 - info: Retrieved user's full name: Mr. Alfred Hodkiewicz
-2024-06-27 09:39:09 - info: Retrieved user's email: Madyson.Nikolaus@demoqa.com
-2024-06-27 09:39:09 - info: Retrieved user's current address: 177 Lind Creek, Gradymouth, New York, 67414
-2024-06-27 09:39:09 - info: Retrieved user's permanent address: 456 Elm St, Gradymouth, New York, 67414
