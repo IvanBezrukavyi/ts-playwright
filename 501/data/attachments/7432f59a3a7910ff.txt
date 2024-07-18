@@ -1,4 +1,0 @@
-2024-06-28 09:40:16 - info: Retrieved user's full name: Jamie Franey
-2024-06-28 09:40:16 - info: Retrieved user's email: Destin_Conroy@demoqa.com
-2024-06-28 09:40:16 - info: Retrieved user's current address: 72499 Rosenbaum Ranch, Lake Freddieport, Wyoming, 45676
-2024-06-28 09:40:16 - info: Retrieved user's permanent address: 456 Elm St, Lake Freddieport, Wyoming, 45676
