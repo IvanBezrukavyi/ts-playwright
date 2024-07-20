@@ -1,4 +1,0 @@
-2024-06-30 09:40:46 - info: Retrieved user's full name: Jason Jenkins
-2024-06-30 09:40:46 - info: Retrieved user's email: Margarete.Bins19@demoqa.com
-2024-06-30 09:40:46 - info: Retrieved user's current address: 71198 Bailey Divide, Port Frances, Delaware, 95635-4427
-2024-06-30 09:40:46 - info: Retrieved user's permanent address: 456 Elm St, Port Frances, Delaware, 95635-4427
