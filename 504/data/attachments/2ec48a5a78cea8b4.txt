@@ -1,4 +1,0 @@
-2024-07-01 09:41:19 - info: Retrieved user's full name: Monique Stokes
-2024-07-01 09:41:19 - info: Retrieved user's email: Ettie.Abshire15@demoqa.com
-2024-07-01 09:41:20 - info: Retrieved user's current address: 3940 Division Street, East Isac, Tennessee, 15187
-2024-07-01 09:41:20 - info: Retrieved user's permanent address: 456 Elm St, East Isac, Tennessee, 15187
