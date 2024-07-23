@@ -1,7 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Wed Jul 03 09:38:41 GMT 2024","Wed Jul 03 09:38:47 GMT 2024","5824","client app","clientAppWithExternalDataAndParametriazation.spec.ts","","","","TC: Verify success login to client app with anshika@gmail.com and Iamking@000",""
-"passed","Wed Jul 03 09:38:14 GMT 2024","Wed Jul 03 09:38:15 GMT 2024","1152","setup","auth.setupNew.spec.ts","","","","default authentication for client app",""
-"failed","Wed Jul 03 09:39:25 GMT 2024","Wed Jul 03 09:39:33 GMT 2024","8936","client app","clientAppWithExternalDataAndParametriazation.spec.ts","","","","TC: E2E for ordering ZARA COAT 3",""
-"passed","Wed Jul 03 09:39:34 GMT 2024","Wed Jul 03 09:39:34 GMT 2024","33","teardown","auth.tearDown.spec.ts","Teardown","","","Remove ${authFile} after running client app tests",""
-"passed","Wed Jul 03 09:38:16 GMT 2024","Wed Jul 03 09:38:23 GMT 2024","6749","client app","clientAppWithExternalDataAndParametriazation.spec.ts","","","","TC: Verify success login to client app with nspprotest@gmail.com and Pl@ywright_test_m1",""
-"passed","Wed Jul 03 09:38:47 GMT 2024","Wed Jul 03 09:38:55 GMT 2024","8048","client app","clientAppWithExternalDataAndParametriazation.spec.ts","","","","TC: E2E for ordering IPHONE 13 PRO",""
