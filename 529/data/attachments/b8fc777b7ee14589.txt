@@ -1,0 +1,5 @@
+2024-07-26 09:38:58 - info: Retrieved user's full name: Joyce Berge
+2024-07-26 09:38:58 - info: Retrieved user's email: Chesley2@demoqa.com
+2024-07-26 09:38:58 - info: Retrieved user's current address: 267 Cole Drive, North Patriciaworth, Wyoming, 96686
+2024-07-26 09:38:58 - info: Retrieved user's permanent address: 456 Elm St, North Patriciaworth, Wyoming, 96686
+2024-07-26 09:39:10 - info: ***Removed Content from INPUTS***
