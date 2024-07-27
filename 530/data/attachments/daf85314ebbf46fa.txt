@@ -1,0 +1,5 @@
+2024-07-27 09:40:13 - info: Retrieved user's full name: Lillie Gusikowski
+2024-07-27 09:40:13 - info: Retrieved user's email: Cassidy20@demoqa.com
+2024-07-27 09:40:13 - info: Retrieved user's current address: 328 Reyes Ports, West Kayastead, Colorado, 27254
+2024-07-27 09:40:13 - info: Retrieved user's permanent address: 456 Elm St, West Kayastead, Colorado, 27254
+2024-07-27 09:40:18 - info: ***Removed Content from INPUTS***
