@@ -1,0 +1,5 @@
+2024-07-29 09:40:43 - info: Retrieved user's full name: Sergio Wyman
+2024-07-29 09:40:43 - info: Retrieved user's email: Marion_Stroman@demoqa.com
+2024-07-29 09:40:43 - info: Retrieved user's current address: 4437 E Cedar Street, New Maryjanehaven, Georgia, 82089
+2024-07-29 09:40:43 - info: Retrieved user's permanent address: 456 Elm St, New Maryjanehaven, Georgia, 82089
+2024-07-29 09:40:54 - info: ***Removed Content from INPUTS***
