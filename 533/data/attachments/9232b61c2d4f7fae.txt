@@ -1,0 +1,4 @@
+2024-07-30 09:41:26 - info: Retrieved user's full name: Lola Dickinson
+2024-07-30 09:41:26 - info: Retrieved user's email: Dangelo14@demoqa.com
+2024-07-30 09:41:26 - info: Retrieved user's current address: 8047 Reyes Greens, Hilllfield, California, 35821
+2024-07-30 09:41:26 - info: Retrieved user's permanent address: 456 Elm St, Hilllfield, California, 35821
