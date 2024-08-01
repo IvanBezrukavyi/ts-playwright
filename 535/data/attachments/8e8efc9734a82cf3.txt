@@ -1,0 +1,4 @@
+2024-08-01 09:40:40 - info: Retrieved user's full name: Dora Marquardt
+2024-08-01 09:40:40 - info: Retrieved user's email: Gerard.Hahn@demoqa.com
+2024-08-01 09:40:40 - info: Retrieved user's current address: 93717 W Park Street, North Magalitown, Virginia, 87256-9217
+2024-08-01 09:40:40 - info: Retrieved user's permanent address: 456 Elm St, North Magalitown, Virginia, 87256-9217
