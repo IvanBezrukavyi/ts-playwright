@@ -1,0 +1,4 @@
+2024-08-03 09:39:35 - info: Retrieved user's full name: Ida Hamill Sr.
+2024-08-03 09:39:35 - info: Retrieved user's email: Sherman86@demoqa.com
+2024-08-03 09:39:35 - info: Retrieved user's current address: 962 Abel Mount, East Chestermouth, Colorado, 35949-1331
+2024-08-03 09:39:35 - info: Retrieved user's permanent address: 456 Elm St, East Chestermouth, Colorado, 35949-1331

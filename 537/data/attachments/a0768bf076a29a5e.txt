@@ -1,0 +1,5 @@
+2024-08-03 09:39:19 - info: Retrieved user's full name: Duane Ortiz
+2024-08-03 09:39:19 - info: Retrieved user's email: Elbert_Stanton31@demoqa.com
+2024-08-03 09:39:20 - info: Retrieved user's current address: 913 Paucek Pass, New Zoey, Alabama, 54548-1964
+2024-08-03 09:39:20 - info: Retrieved user's permanent address: 456 Elm St, New Zoey, Alabama, 54548-1964
+2024-08-03 09:39:26 - info: ***Removed Content from INPUTS***
