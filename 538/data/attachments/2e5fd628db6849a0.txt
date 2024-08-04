@@ -1,0 +1,4 @@
+2024-08-04 09:40:29 - info: Retrieved user's full name: Tonya Weber II
+2024-08-04 09:40:29 - info: Retrieved user's email: Bonita15@demoqa.com
+2024-08-04 09:40:29 - info: Retrieved user's current address: 297 Mante Forges, Boganstad, West Virginia, 59473
+2024-08-04 09:40:29 - info: Retrieved user's permanent address: 456 Elm St, Boganstad, West Virginia, 59473
