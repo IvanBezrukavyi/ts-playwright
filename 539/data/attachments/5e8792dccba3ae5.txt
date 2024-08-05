@@ -1,0 +1,5 @@
+2024-08-05 09:39:44 - info: Retrieved user's full name: Lorenzo Treutel
+2024-08-05 09:39:44 - info: Retrieved user's email: Fleta_Keeling@demoqa.com
+2024-08-05 09:39:44 - info: Retrieved user's current address: 456 Alan Lane, South Hermann, Alabama, 27814
+2024-08-05 09:39:44 - info: Retrieved user's permanent address: 456 Elm St, South Hermann, Alabama, 27814
+2024-08-05 09:39:50 - info: ***Removed Content from INPUTS***
