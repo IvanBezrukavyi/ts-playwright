@@ -1,0 +1,4 @@
+2024-08-08 09:40:32 - info: Retrieved user's full name: Sherri Zulauf
+2024-08-08 09:40:32 - info: Retrieved user's email: Wilburn.Ferry@demoqa.com
+2024-08-08 09:40:32 - info: Retrieved user's current address: 60373 E Grand Avenue, North Hester, North Dakota, 93362-0568
+2024-08-08 09:40:32 - info: Retrieved user's permanent address: 456 Elm St, North Hester, North Dakota, 93362-0568
