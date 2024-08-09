@@ -1,0 +1,5 @@
+2024-08-09 09:40:44 - info: Retrieved user's full name: Arnold Hammes
+2024-08-09 09:40:44 - info: Retrieved user's email: Cayla82@demoqa.com
+2024-08-09 09:40:44 - info: Retrieved user's current address: 492 Baumbach Bridge, Rogahnview, Utah, 11876
+2024-08-09 09:40:44 - info: Retrieved user's permanent address: 456 Elm St, Rogahnview, Utah, 11876
+2024-08-09 09:40:51 - info: ***Removed Content from INPUTS***
