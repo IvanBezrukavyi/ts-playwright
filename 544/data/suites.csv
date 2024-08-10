@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Aug 10 09:38:26 GMT 2024","Sat Aug 10 09:38:27 GMT 2024","1257","setup","auth.setupNew.spec.ts","","","","default authentication for client app",""
+"failed","Sat Aug 10 09:39:10 GMT 2024","Sat Aug 10 09:39:14 GMT 2024","4255","client app","clientAppWithExternalDataAndParametriazation.spec.ts","","","","TC: Verify success login to client app with anshika@gmail.com and Iamking@000",""
+"passed","Sat Aug 10 09:41:37 GMT 2024","Sat Aug 10 09:44:01 GMT 2024","143195","client app","clientAppWithExternalDataAndParametriazation.spec.ts","","","","TC: E2E for ordering ZARA COAT 3",""
+"failed","Sat Aug 10 09:38:49 GMT 2024","Sat Aug 10 09:38:53 GMT 2024","4236","client app","clientAppWithExternalDataAndParametriazation.spec.ts","","","","TC: Verify success login to client app with nspprotest@gmail.com and Pl@ywright_test_m1",""
+"passed","Sat Aug 10 09:39:14 GMT 2024","Sat Aug 10 09:41:37 GMT 2024","143169","client app","clientAppWithExternalDataAndParametriazation.spec.ts","","","","TC: E2E for ordering IPHONE 13 PRO",""
+"passed","Sat Aug 10 09:44:01 GMT 2024","Sat Aug 10 09:44:01 GMT 2024","33","teardown","auth.tearDown.spec.ts","Teardown","","","Remove ${authFile} after running client app tests",""
