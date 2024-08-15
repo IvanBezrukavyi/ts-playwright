@@ -1,4 +1,0 @@
-2024-07-26 09:39:46 - info: Retrieved user's full name: Roland Mayer
-2024-07-26 09:39:46 - info: Retrieved user's email: Samara_Sanford91@demoqa.com
-2024-07-26 09:39:46 - info: Retrieved user's current address: 465 Rigoberto Ferry, Lake Mortimer, Louisiana, 58718-5098
-2024-07-26 09:39:46 - info: Retrieved user's permanent address: 456 Elm St, Lake Mortimer, Louisiana, 58718-5098
