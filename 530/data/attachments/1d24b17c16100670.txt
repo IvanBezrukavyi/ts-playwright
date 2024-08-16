@@ -1,4 +1,0 @@
-2024-07-27 09:41:02 - info: Retrieved user's full name: Cheryl Kulas
-2024-07-27 09:41:02 - info: Retrieved user's email: Euna91@demoqa.com
-2024-07-27 09:41:03 - info: Retrieved user's current address: 4173 Gerhold Street, Elisaport, Vermont, 40687
-2024-07-27 09:41:03 - info: Retrieved user's permanent address: 456 Elm St, Elisaport, Vermont, 40687
