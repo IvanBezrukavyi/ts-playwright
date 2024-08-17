@@ -1,5 +1,0 @@
-2024-07-28 09:39:20 - info: Retrieved user's full name: Russell Fisher-Schneider I
-2024-07-28 09:39:20 - info: Retrieved user's email: Levi51@demoqa.com
-2024-07-28 09:39:20 - info: Retrieved user's current address: 98871 Hammes Lock, Rebekaton, Delaware, 14482
-2024-07-28 09:39:20 - info: Retrieved user's permanent address: 456 Elm St, Rebekaton, Delaware, 14482
-2024-07-28 09:39:30 - info: ***Removed Content from INPUTS***

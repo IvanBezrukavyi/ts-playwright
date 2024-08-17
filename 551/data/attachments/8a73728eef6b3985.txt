@@ -1,0 +1,5 @@
+2024-08-17 09:39:53 - info: Retrieved user's full name: Madeline Schmidt
+2024-08-17 09:39:53 - info: Retrieved user's email: Lizeth.Leffler74@demoqa.com
+2024-08-17 09:39:54 - info: Retrieved user's current address: 4479 S Grand Avenue, Clementinafurt, Idaho, 73508
+2024-08-17 09:39:54 - info: Retrieved user's permanent address: 456 Elm St, Clementinafurt, Idaho, 73508
+2024-08-17 09:40:01 - info: ***Removed Content from INPUTS***

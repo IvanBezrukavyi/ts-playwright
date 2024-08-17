@@ -1,4 +1,0 @@
-2024-07-28 09:39:38 - info: Retrieved user's full name: Dr. Alicia Buckridge
-2024-07-28 09:39:39 - info: Retrieved user's email: Zetta12@demoqa.com
-2024-07-28 09:39:39 - info: Retrieved user's current address: 6625 Erin Divide, Schroederworth, Oregon, 03430-6094
-2024-07-28 09:39:39 - info: Retrieved user's permanent address: 456 Elm St, Schroederworth, Oregon, 03430-6094
