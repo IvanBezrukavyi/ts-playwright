@@ -1,4 +1,0 @@
-2024-07-29 09:41:03 - info: Retrieved user's full name: Nathaniel Donnelly
-2024-07-29 09:41:03 - info: Retrieved user's email: Nicolette.Rodriguez@demoqa.com
-2024-07-29 09:41:03 - info: Retrieved user's current address: 7000 Richmond Alley, Katherynworth, Indiana, 47222-9148
-2024-07-29 09:41:03 - info: Retrieved user's permanent address: 456 Elm St, Katherynworth, Indiana, 47222-9148
