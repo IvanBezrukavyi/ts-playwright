@@ -1,0 +1,5 @@
+2024-08-19 09:40:14 - info: Retrieved user's full name: Audrey Huel
+2024-08-19 09:40:14 - info: Retrieved user's email: Vincenza41@demoqa.com
+2024-08-19 09:40:14 - info: Retrieved user's current address: 577 Franklin Road, Port Dariana, Arkansas, 09178-4347
+2024-08-19 09:40:15 - info: Retrieved user's permanent address: 456 Elm St, Port Dariana, Arkansas, 09178-4347
+2024-08-19 09:40:23 - info: ***Removed Content from INPUTS***

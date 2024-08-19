@@ -1,5 +1,0 @@
-2024-07-30 09:41:05 - info: Retrieved user's full name: Stacey Erdman
-2024-07-30 09:41:05 - info: Retrieved user's email: Candace_Cummings58@demoqa.com
-2024-07-30 09:41:06 - info: Retrieved user's current address: 2493 Andrew Mill, Andersonstad, Maryland, 30268
-2024-07-30 09:41:06 - info: Retrieved user's permanent address: 456 Elm St, Andersonstad, Maryland, 30268
-2024-07-30 09:41:16 - info: ***Removed Content from INPUTS***
