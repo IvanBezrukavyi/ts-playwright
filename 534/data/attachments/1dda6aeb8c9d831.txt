@@ -1,4 +1,0 @@
-2024-07-31 09:39:31 - info: Retrieved user's full name: Wallace Monahan III
-2024-07-31 09:39:31 - info: Retrieved user's email: Dasia_Padberg81@demoqa.com
-2024-07-31 09:39:31 - info: Retrieved user's current address: 9365 4th Avenue, East Kyle, West Virginia, 36483-9143
-2024-07-31 09:39:31 - info: Retrieved user's permanent address: 456 Elm St, East Kyle, West Virginia, 36483-9143

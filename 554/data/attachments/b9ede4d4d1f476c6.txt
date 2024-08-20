@@ -1,0 +1,5 @@
+2024-08-20 09:39:45 - info: Retrieved user's full name: Vicky Barton
+2024-08-20 09:39:45 - info: Retrieved user's email: Vivienne36@demoqa.com
+2024-08-20 09:39:45 - info: Retrieved user's current address: 9927 Katherine Unions, Lewside, Pennsylvania, 35757-4402
+2024-08-20 09:39:45 - info: Retrieved user's permanent address: 456 Elm St, Lewside, Pennsylvania, 35757-4402
+2024-08-20 09:39:50 - info: ***Removed Content from INPUTS***
