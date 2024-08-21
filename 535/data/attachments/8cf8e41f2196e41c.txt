@@ -1,5 +1,0 @@
-2024-08-01 09:40:20 - info: Retrieved user's full name: Frank Greenfelder IV
-2024-08-01 09:40:21 - info: Retrieved user's email: Maurice.Lindgren@demoqa.com
-2024-08-01 09:40:21 - info: Retrieved user's current address: 930 Marques Coves, North Ethelyn, Arkansas, 16463
-2024-08-01 09:40:21 - info: Retrieved user's permanent address: 456 Elm St, North Ethelyn, Arkansas, 16463
-2024-08-01 09:40:31 - info: ***Removed Content from INPUTS***

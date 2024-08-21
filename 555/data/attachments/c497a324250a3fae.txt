@@ -1,0 +1,5 @@
+2024-08-21 09:39:53 - info: Retrieved user's full name: Erick Botsford
+2024-08-21 09:39:54 - info: Retrieved user's email: Mikayla.Balistreri95@demoqa.com
+2024-08-21 09:39:54 - info: Retrieved user's current address: 25701 Carter Stravenue, Reillychester, Hawaii, 95786
+2024-08-21 09:39:54 - info: Retrieved user's permanent address: 456 Elm St, Reillychester, Hawaii, 95786
+2024-08-21 09:40:07 - info: ***Removed Content from INPUTS***
