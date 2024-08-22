@@ -1,5 +1,0 @@
-2024-08-02 09:40:18 - info: Retrieved user's full name: Dr. Alfred Hoppe
-2024-08-02 09:40:18 - info: Retrieved user's email: Gerry_Beier@demoqa.com
-2024-08-02 09:40:18 - info: Retrieved user's current address: 868 Frontage Road, Port Francescoside, Iowa, 94807
-2024-08-02 09:40:18 - info: Retrieved user's permanent address: 456 Elm St, Port Francescoside, Iowa, 94807
-2024-08-02 09:40:27 - info: ***Removed Content from INPUTS***

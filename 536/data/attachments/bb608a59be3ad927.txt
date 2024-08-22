@@ -1,4 +1,0 @@
-2024-08-02 09:40:35 - info: Retrieved user's full name: Valerie Deckow
-2024-08-02 09:40:35 - info: Retrieved user's email: Dahlia27@demoqa.com
-2024-08-02 09:40:35 - info: Retrieved user's current address: 738 N 8th Street, Lake Jarrett, Colorado, 15862-7733
-2024-08-02 09:40:35 - info: Retrieved user's permanent address: 456 Elm St, Lake Jarrett, Colorado, 15862-7733
