@@ -1,0 +1,4 @@
+2024-08-23 09:40:16 - info: Retrieved user's full name: Tami Ledner
+2024-08-23 09:40:16 - info: Retrieved user's email: Ernestine12@demoqa.com
+2024-08-23 09:40:16 - info: Retrieved user's current address: 755 Monroe Mall, East Gillianville, Utah, 48634
+2024-08-23 09:40:16 - info: Retrieved user's permanent address: 456 Elm St, East Gillianville, Utah, 48634
