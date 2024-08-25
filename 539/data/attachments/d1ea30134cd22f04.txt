@@ -1,4 +1,0 @@
-2024-08-05 09:40:25 - info: Retrieved user's full name: Pat Herzog
-2024-08-05 09:40:25 - info: Retrieved user's email: Reba62@demoqa.com
-2024-08-05 09:40:25 - info: Retrieved user's current address: 2584 Merlin Hollow, Fort Neil, West Virginia, 95067
-2024-08-05 09:40:25 - info: Retrieved user's permanent address: 456 Elm St, Fort Neil, West Virginia, 95067
