@@ -1,4 +1,0 @@
-2024-08-06 09:39:55 - info: Retrieved user's full name: Maggie McClure
-2024-08-06 09:39:55 - info: Retrieved user's email: Harvey_Sauer15@demoqa.com
-2024-08-06 09:39:55 - info: Retrieved user's current address: 629 Daugherty Fall, Lake Reina, Illinois, 60561-9973
-2024-08-06 09:39:55 - info: Retrieved user's permanent address: 456 Elm St, Lake Reina, Illinois, 60561-9973

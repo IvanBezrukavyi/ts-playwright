@@ -1,5 +1,0 @@
-2024-08-06 09:39:09 - info: Retrieved user's full name: Nicolas Muller
-2024-08-06 09:39:09 - info: Retrieved user's email: Jennings76@demoqa.com
-2024-08-06 09:39:09 - info: Retrieved user's current address: 3623 Jorge Crescent, Noemyport, Colorado, 07095
-2024-08-06 09:39:09 - info: Retrieved user's permanent address: 456 Elm St, Noemyport, Colorado, 07095
-2024-08-06 09:39:17 - info: ***Removed Content from INPUTS***
