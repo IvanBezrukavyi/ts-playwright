@@ -1,5 +1,0 @@
-2024-08-07 09:40:55 - info: Retrieved user's full name: Erica Grimes
-2024-08-07 09:40:55 - info: Retrieved user's email: Nick19@demoqa.com
-2024-08-07 09:40:55 - info: Retrieved user's current address: 8482 Beulah Roads, North Sarah, Kentucky, 30693-3984
-2024-08-07 09:40:55 - info: Retrieved user's permanent address: 456 Elm St, North Sarah, Kentucky, 30693-3984
-2024-08-07 09:41:02 - info: ***Removed Content from INPUTS***
