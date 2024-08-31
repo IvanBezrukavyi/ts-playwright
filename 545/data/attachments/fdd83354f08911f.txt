@@ -1,5 +1,0 @@
-2024-08-11 09:39:06 - info: Retrieved user's full name: Madeline Wyman
-2024-08-11 09:39:06 - info: Retrieved user's email: Chasity_Graham49@demoqa.com
-2024-08-11 09:39:07 - info: Retrieved user's current address: 60889 Orval Shores, East Devontebury, Kansas, 79983-9860
-2024-08-11 09:39:07 - info: Retrieved user's permanent address: 456 Elm St, East Devontebury, Kansas, 79983-9860
-2024-08-11 09:39:13 - info: ***Removed Content from INPUTS***

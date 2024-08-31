@@ -1,4 +1,0 @@
-2024-08-11 09:39:22 - info: Retrieved user's full name: Wilson Bechtelar
-2024-08-11 09:39:22 - info: Retrieved user's email: Verna_Tromp-Kunze31@demoqa.com
-2024-08-11 09:39:22 - info: Retrieved user's current address: 41249 S Main Avenue, Domingocester, New Hampshire, 56316
-2024-08-11 09:39:22 - info: Retrieved user's permanent address: 456 Elm St, Domingocester, New Hampshire, 56316

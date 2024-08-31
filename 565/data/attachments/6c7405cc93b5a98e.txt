@@ -1,0 +1,4 @@
+2024-08-31 09:41:00 - info: Retrieved user's full name: Angel Mosciski
+2024-08-31 09:41:00 - info: Retrieved user's email: Amy_Bahringer28@demoqa.com
+2024-08-31 09:41:00 - info: Retrieved user's current address: 86685 Lawrence Street, Ransomland, Rhode Island, 98962-7690
+2024-08-31 09:41:00 - info: Retrieved user's permanent address: 456 Elm St, Ransomland, Rhode Island, 98962-7690
