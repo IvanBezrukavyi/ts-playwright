@@ -1,0 +1,4 @@
+2024-09-01 09:41:43 - info: Retrieved user's full name: Viola Murazik PhD
+2024-09-01 09:41:43 - info: Retrieved user's email: Lourdes_Morissette86@demoqa.com
+2024-09-01 09:41:43 - info: Retrieved user's current address: 827 Morar Village, Kozeycester, Oregon, 34526-7225
+2024-09-01 09:41:43 - info: Retrieved user's permanent address: 456 Elm St, Kozeycester, Oregon, 34526-7225
