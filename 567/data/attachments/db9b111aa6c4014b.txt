@@ -1,0 +1,5 @@
+2024-09-02 09:42:21 - info: Retrieved user's full name: Bert Hodkiewicz
+2024-09-02 09:42:21 - info: Retrieved user's email: Rolando87@demoqa.com
+2024-09-02 09:42:21 - info: Retrieved user's current address: 5427 Satterfield Falls, West Kalimouth, Arkansas, 93510-8117
+2024-09-02 09:42:21 - info: Retrieved user's permanent address: 456 Elm St, West Kalimouth, Arkansas, 93510-8117
+2024-09-02 09:42:27 - info: ***Removed Content from INPUTS***

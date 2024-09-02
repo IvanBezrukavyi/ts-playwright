@@ -1,7 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue Aug 13 09:40:47 GMT 2024","Tue Aug 13 09:40:52 GMT 2024","5238","client app","clientAppWithExternalDataAndParametriazation.spec.ts","","","","TC: Verify success login to client app with anshika@gmail.com and Iamking@000",""
-"passed","Tue Aug 13 09:40:52 GMT 2024","Tue Aug 13 09:41:00 GMT 2024","8637","client app","clientAppWithExternalDataAndParametriazation.spec.ts","","","","TC: E2E for ordering IPHONE 13 PRO",""
-"passed","Tue Aug 13 09:41:00 GMT 2024","Tue Aug 13 09:41:10 GMT 2024","9295","client app","clientAppWithExternalDataAndParametriazation.spec.ts","","","","TC: E2E for ordering ZARA COAT 3",""
-"failed","Tue Aug 13 09:40:29 GMT 2024","Tue Aug 13 09:40:35 GMT 2024","5256","client app","clientAppWithExternalDataAndParametriazation.spec.ts","","","","TC: Verify success login to client app with nspprotest@gmail.com and Pl@ywright_test_m1",""
-"passed","Tue Aug 13 09:41:10 GMT 2024","Tue Aug 13 09:41:10 GMT 2024","35","teardown","auth.tearDown.spec.ts","Teardown","","","Remove ${authFile} after running client app tests",""
-"passed","Tue Aug 13 09:40:04 GMT 2024","Tue Aug 13 09:40:05 GMT 2024","1202","setup","auth.setupNew.spec.ts","","","","default authentication for client app",""
