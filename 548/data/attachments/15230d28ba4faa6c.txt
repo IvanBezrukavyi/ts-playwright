@@ -1,4 +1,0 @@
-2024-08-14 09:40:30 - info: Retrieved user's full name: Melba Nitzsche
-2024-08-14 09:40:30 - info: Retrieved user's email: Sunny34@demoqa.com
-2024-08-14 09:40:30 - info: Retrieved user's current address: 3608 Lesch Bypass, North Bernie, California, 18127-5748
-2024-08-14 09:40:30 - info: Retrieved user's permanent address: 456 Elm St, North Bernie, California, 18127-5748

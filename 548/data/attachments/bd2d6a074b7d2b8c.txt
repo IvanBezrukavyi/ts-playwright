@@ -1,5 +1,0 @@
-2024-08-14 09:40:14 - info: Retrieved user's full name: Richard Nader
-2024-08-14 09:40:14 - info: Retrieved user's email: Lavinia_Purdy-Littel76@demoqa.com
-2024-08-14 09:40:14 - info: Retrieved user's current address: 3893 Center Avenue, Fort Colleenstead, Rhode Island, 18623-8946
-2024-08-14 09:40:14 - info: Retrieved user's permanent address: 456 Elm St, Fort Colleenstead, Rhode Island, 18623-8946
-2024-08-14 09:40:21 - info: ***Removed Content from INPUTS***
