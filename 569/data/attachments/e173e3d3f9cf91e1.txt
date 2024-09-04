@@ -1,0 +1,5 @@
+2024-09-04 09:41:04 - info: Retrieved user's full name: Janice Wilkinson
+2024-09-04 09:41:04 - info: Retrieved user's email: Grover.Kub@demoqa.com
+2024-09-04 09:41:04 - info: Retrieved user's current address: 757 Cole Ridges, Destinymouth, Mississippi, 71592
+2024-09-04 09:41:04 - info: Retrieved user's permanent address: 456 Elm St, Destinymouth, Mississippi, 71592
+2024-09-04 09:41:07 - info: ***Removed Content from INPUTS***
