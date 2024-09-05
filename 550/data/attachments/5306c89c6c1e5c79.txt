@@ -1,4 +1,0 @@
-2024-08-16 09:40:35 - info: Retrieved user's full name: Mitchell Muller
-2024-08-16 09:40:35 - info: Retrieved user's email: Michael46@demoqa.com
-2024-08-16 09:40:35 - info: Retrieved user's current address: 2534 Grove Street, South Rebeka, Maryland, 83165
-2024-08-16 09:40:35 - info: Retrieved user's permanent address: 456 Elm St, South Rebeka, Maryland, 83165

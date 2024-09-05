@@ -1,5 +1,0 @@
-2024-08-16 09:40:21 - info: Retrieved user's full name: Santos Kihn
-2024-08-16 09:40:21 - info: Retrieved user's email: Salvatore_Gibson@demoqa.com
-2024-08-16 09:40:21 - info: Retrieved user's current address: 19554 W Division Street, New Arvilla, Louisiana, 25477-5219
-2024-08-16 09:40:21 - info: Retrieved user's permanent address: 456 Elm St, New Arvilla, Louisiana, 25477-5219
-2024-08-16 09:40:28 - info: ***Removed Content from INPUTS***

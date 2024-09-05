@@ -1,0 +1,5 @@
+2024-09-05 09:40:37 - info: Retrieved user's full name: Calvin Collier
+2024-09-05 09:40:37 - info: Retrieved user's email: Salvatore_Hickle63@demoqa.com
+2024-09-05 09:40:38 - info: Retrieved user's current address: 69819 Wyatt Forges, Schultzborough, Maine, 23494-2207
+2024-09-05 09:40:38 - info: Retrieved user's permanent address: 456 Elm St, Schultzborough, Maine, 23494-2207
+2024-09-05 09:40:48 - info: ***Removed Content from INPUTS***
