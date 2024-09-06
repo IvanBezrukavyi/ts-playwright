@@ -1,4 +1,0 @@
-2024-08-17 09:40:38 - info: Retrieved user's full name: Mr. Eddie Borer
-2024-08-17 09:40:38 - info: Retrieved user's email: Idella_Hessel@demoqa.com
-2024-08-17 09:40:38 - info: Retrieved user's current address: 5814 Roberts Manor, Xanderbury, Oregon, 47358
-2024-08-17 09:40:38 - info: Retrieved user's permanent address: 456 Elm St, Xanderbury, Oregon, 47358
