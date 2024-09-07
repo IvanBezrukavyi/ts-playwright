@@ -1,4 +1,0 @@
-2024-08-18 09:40:23 - info: Retrieved user's full name: Mathew Terry
-2024-08-18 09:40:23 - info: Retrieved user's email: Katlyn.Kunde-Larkin@demoqa.com
-2024-08-18 09:40:23 - info: Retrieved user's current address: 8406 Main, Maxstead, Arizona, 55772-9143
-2024-08-18 09:40:23 - info: Retrieved user's permanent address: 456 Elm St, Maxstead, Arizona, 55772-9143

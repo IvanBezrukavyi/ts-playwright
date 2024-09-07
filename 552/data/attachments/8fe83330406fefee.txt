@@ -1,5 +1,0 @@
-2024-08-18 09:40:05 - info: Retrieved user's full name: Ismael Fadel II
-2024-08-18 09:40:06 - info: Retrieved user's email: Christophe83@demoqa.com
-2024-08-18 09:40:06 - info: Retrieved user's current address: 868 Kuphal Rest, New Stefan, Wyoming, 49370-2706
-2024-08-18 09:40:06 - info: Retrieved user's permanent address: 456 Elm St, New Stefan, Wyoming, 49370-2706
-2024-08-18 09:40:15 - info: ***Removed Content from INPUTS***
