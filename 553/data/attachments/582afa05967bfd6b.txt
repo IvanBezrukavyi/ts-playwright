@@ -1,4 +1,0 @@
-2024-08-19 09:41:02 - info: Retrieved user's full name: Mark Jacobi
-2024-08-19 09:41:02 - info: Retrieved user's email: Ambrose56@demoqa.com
-2024-08-19 09:41:02 - info: Retrieved user's current address: 928 N Division Street, Lake Ernestine, Iowa, 11371
-2024-08-19 09:41:02 - info: Retrieved user's permanent address: 456 Elm St, Lake Ernestine, Iowa, 11371
