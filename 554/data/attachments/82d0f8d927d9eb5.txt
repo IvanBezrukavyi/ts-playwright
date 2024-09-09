@@ -1,4 +1,0 @@
-2024-08-20 09:40:28 - info: Retrieved user's full name: Nick Hickle
-2024-08-20 09:40:28 - info: Retrieved user's email: Alayna36@demoqa.com
-2024-08-20 09:40:28 - info: Retrieved user's current address: 67462 Miller Club, Hahnland, Louisiana, 27761
-2024-08-20 09:40:28 - info: Retrieved user's permanent address: 456 Elm St, Hahnland, Louisiana, 27761
