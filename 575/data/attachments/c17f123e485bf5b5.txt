@@ -1,0 +1,4 @@
+2024-09-10 09:42:25 - info: Retrieved user's full name: Marty Rau
+2024-09-10 09:42:25 - info: Retrieved user's email: Roosevelt_Smith47@demoqa.com
+2024-09-10 09:42:25 - info: Retrieved user's current address: 38026 Lincoln Avenue, Morarworth, Arizona, 18783-9948
+2024-09-10 09:42:25 - info: Retrieved user's permanent address: 456 Elm St, Morarworth, Arizona, 18783-9948

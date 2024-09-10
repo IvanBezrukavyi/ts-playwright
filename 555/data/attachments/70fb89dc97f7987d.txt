@@ -1,4 +1,0 @@
-2024-08-21 09:40:15 - info: Retrieved user's full name: Olivia Sauer I
-2024-08-21 09:40:15 - info: Retrieved user's email: Dessie.Bradtke@demoqa.com
-2024-08-21 09:40:15 - info: Retrieved user's current address: 726 Summer Springs, Malindafield, Connecticut, 36594-8019
-2024-08-21 09:40:15 - info: Retrieved user's permanent address: 456 Elm St, Malindafield, Connecticut, 36594-8019
