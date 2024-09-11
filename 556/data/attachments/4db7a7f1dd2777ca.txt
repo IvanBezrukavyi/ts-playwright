@@ -1,4 +1,0 @@
-2024-08-22 09:40:12 - info: Retrieved user's full name: Lula Price
-2024-08-22 09:40:12 - info: Retrieved user's email: Valentina91@demoqa.com
-2024-08-22 09:40:12 - info: Retrieved user's current address: 8327 Zoey Park, West Mollyshire, South Carolina, 64959
-2024-08-22 09:40:12 - info: Retrieved user's permanent address: 456 Elm St, West Mollyshire, South Carolina, 64959

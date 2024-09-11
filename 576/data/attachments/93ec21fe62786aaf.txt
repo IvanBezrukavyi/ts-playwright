@@ -1,0 +1,5 @@
+2024-09-11 09:42:21 - info: Retrieved user's full name: Casey Satterfield
+2024-09-11 09:42:21 - info: Retrieved user's email: Serenity_Pagac81@demoqa.com
+2024-09-11 09:42:21 - info: Retrieved user's current address: 3842 Lula Harbors, Waelchifurt, Texas, 89233-7018
+2024-09-11 09:42:21 - info: Retrieved user's permanent address: 456 Elm St, Waelchifurt, Texas, 89233-7018
+2024-09-11 09:42:29 - info: ***Removed Content from INPUTS***

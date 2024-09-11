@@ -1,5 +1,0 @@
-2024-08-22 09:39:57 - info: Retrieved user's full name: Brad Grady
-2024-08-22 09:39:57 - info: Retrieved user's email: Maribel17@demoqa.com
-2024-08-22 09:39:57 - info: Retrieved user's current address: 3280 E North Street, Schoenview, Missouri, 47054-4928
-2024-08-22 09:39:57 - info: Retrieved user's permanent address: 456 Elm St, Schoenview, Missouri, 47054-4928
-2024-08-22 09:40:04 - info: ***Removed Content from INPUTS***
