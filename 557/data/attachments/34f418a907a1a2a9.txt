@@ -1,5 +1,0 @@
-2024-08-23 09:40:01 - info: Retrieved user's full name: Abel Wiegand
-2024-08-23 09:40:02 - info: Retrieved user's email: Maida.Romaguera@demoqa.com
-2024-08-23 09:40:02 - info: Retrieved user's current address: 35066 W Oak Street, Kiarraburgh, Virginia, 65780-0263
-2024-08-23 09:40:02 - info: Retrieved user's permanent address: 456 Elm St, Kiarraburgh, Virginia, 65780-0263
-2024-08-23 09:40:08 - info: ***Removed Content from INPUTS***
