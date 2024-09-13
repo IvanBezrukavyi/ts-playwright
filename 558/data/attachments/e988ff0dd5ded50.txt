@@ -1,4 +1,0 @@
-2024-08-24 09:40:27 - info: Retrieved user's full name: Terry Dicki
-2024-08-24 09:40:27 - info: Retrieved user's email: Loren.Lubowitz@demoqa.com
-2024-08-24 09:40:27 - info: Retrieved user's current address: 293 Ozella Ridges, Vadaborough, Hawaii, 90311
-2024-08-24 09:40:27 - info: Retrieved user's permanent address: 456 Elm St, Vadaborough, Hawaii, 90311

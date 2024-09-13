@@ -1,5 +1,0 @@
-2024-08-24 09:40:11 - info: Retrieved user's full name: Edward Glover Sr.
-2024-08-24 09:40:11 - info: Retrieved user's email: Antonia9@demoqa.com
-2024-08-24 09:40:11 - info: Retrieved user's current address: 2369 Blick Causeway, Cicerocester, Ohio, 25379-4655
-2024-08-24 09:40:11 - info: Retrieved user's permanent address: 456 Elm St, Cicerocester, Ohio, 25379-4655
-2024-08-24 09:40:20 - info: ***Removed Content from INPUTS***
