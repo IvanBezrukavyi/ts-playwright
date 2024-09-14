@@ -1,0 +1,5 @@
+2024-09-14 09:40:28 - info: Retrieved user's full name: Neal Wuckert
+2024-09-14 09:40:28 - info: Retrieved user's email: Brad.Harris9@demoqa.com
+2024-09-14 09:40:28 - info: Retrieved user's current address: 1479 Reilly Meadow, Delmercester, Oklahoma, 60536
+2024-09-14 09:40:28 - info: Retrieved user's permanent address: 456 Elm St, Delmercester, Oklahoma, 60536
+2024-09-14 09:40:43 - info: ***Removed Content from INPUTS***

@@ -1,4 +1,0 @@
-2024-08-25 09:40:46 - info: Retrieved user's full name: Jacquelyn Hahn
-2024-08-25 09:40:46 - info: Retrieved user's email: Ernesto43@demoqa.com
-2024-08-25 09:40:46 - info: Retrieved user's current address: 4150 A Street, Alanaburgh, Hawaii, 02280-9091
-2024-08-25 09:40:46 - info: Retrieved user's permanent address: 456 Elm St, Alanaburgh, Hawaii, 02280-9091

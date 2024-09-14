@@ -1,5 +1,0 @@
-2024-08-25 09:40:30 - info: Retrieved user's full name: Alberta Powlowski
-2024-08-25 09:40:30 - info: Retrieved user's email: Krystal.Marvin@demoqa.com
-2024-08-25 09:40:30 - info: Retrieved user's current address: 8196 Kshlerin Burg, Orieboro, Utah, 31870
-2024-08-25 09:40:30 - info: Retrieved user's permanent address: 456 Elm St, Orieboro, Utah, 31870
-2024-08-25 09:40:38 - info: ***Removed Content from INPUTS***
