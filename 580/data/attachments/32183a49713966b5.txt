@@ -1,0 +1,5 @@
+2024-09-15 09:40:22 - info: Retrieved user's full name: Ella Fadel
+2024-09-15 09:40:22 - info: Retrieved user's email: Finn.Schaefer40@demoqa.com
+2024-09-15 09:40:23 - info: Retrieved user's current address: 7353 Jeffrey View, Mayerside, Illinois, 25288-0784
+2024-09-15 09:40:23 - info: Retrieved user's permanent address: 456 Elm St, Mayerside, Illinois, 25288-0784
+2024-09-15 09:40:28 - info: ***Removed Content from INPUTS***

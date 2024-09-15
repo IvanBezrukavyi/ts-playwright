@@ -1,5 +1,0 @@
-2024-08-26 09:40:06 - info: Retrieved user's full name: Della Klein
-2024-08-26 09:40:06 - info: Retrieved user's email: Daija75@demoqa.com
-2024-08-26 09:40:07 - info: Retrieved user's current address: 215 Fadel-Windler Trafficway, Brandtville, Massachusetts, 14965-8300
-2024-08-26 09:40:07 - info: Retrieved user's permanent address: 456 Elm St, Brandtville, Massachusetts, 14965-8300
-2024-08-26 09:40:14 - info: ***Removed Content from INPUTS***

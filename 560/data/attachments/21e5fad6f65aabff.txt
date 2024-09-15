@@ -1,4 +1,0 @@
-2024-08-26 09:40:21 - info: Retrieved user's full name: Isabel Schneider MD
-2024-08-26 09:40:21 - info: Retrieved user's email: Sibyl34@demoqa.com
-2024-08-26 09:40:21 - info: Retrieved user's current address: 5526 Littel Mountains, Conroyland, Florida, 33405
-2024-08-26 09:40:21 - info: Retrieved user's permanent address: 456 Elm St, Conroyland, Florida, 33405
