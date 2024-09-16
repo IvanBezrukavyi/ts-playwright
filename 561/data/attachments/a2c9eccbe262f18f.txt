@@ -1,5 +1,0 @@
-2024-08-27 09:39:40 - info: Retrieved user's full name: Cameron Johns
-2024-08-27 09:39:40 - info: Retrieved user's email: Eryn.Gutmann@demoqa.com
-2024-08-27 09:39:40 - info: Retrieved user's current address: 5062 Kemmer Radial, Hartmannview, Rhode Island, 05652
-2024-08-27 09:39:40 - info: Retrieved user's permanent address: 456 Elm St, Hartmannview, Rhode Island, 05652
-2024-08-27 09:39:44 - info: ***Removed Content from INPUTS***
