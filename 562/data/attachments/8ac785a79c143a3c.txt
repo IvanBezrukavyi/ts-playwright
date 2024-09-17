@@ -1,5 +1,0 @@
-2024-08-28 09:39:50 - info: Retrieved user's full name: Kristi Bernier
-2024-08-28 09:39:50 - info: Retrieved user's email: Chadrick26@demoqa.com
-2024-08-28 09:39:50 - info: Retrieved user's current address: 72576 Riverside Drive, New Aidanstead, Georgia, 73341-8947
-2024-08-28 09:39:50 - info: Retrieved user's permanent address: 456 Elm St, New Aidanstead, Georgia, 73341-8947
-2024-08-28 09:39:58 - info: ***Removed Content from INPUTS***

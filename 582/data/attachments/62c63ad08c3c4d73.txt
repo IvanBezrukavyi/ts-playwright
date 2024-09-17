@@ -1,0 +1,5 @@
+2024-09-17 09:40:52 - info: Retrieved user's full name: Aaron Gerlach
+2024-09-17 09:40:52 - info: Retrieved user's email: Simeon2@demoqa.com
+2024-09-17 09:40:52 - info: Retrieved user's current address: 998 Green Street, Claudiebury, South Dakota, 30706
+2024-09-17 09:40:52 - info: Retrieved user's permanent address: 456 Elm St, Claudiebury, South Dakota, 30706
+2024-09-17 09:40:55 - info: ***Removed Content from INPUTS***

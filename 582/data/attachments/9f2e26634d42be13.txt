@@ -1,0 +1,4 @@
+2024-09-17 09:41:01 - info: Retrieved user's full name: Natasha Kertzmann
+2024-09-17 09:41:01 - info: Retrieved user's email: Cecile.Bogisich@demoqa.com
+2024-09-17 09:41:01 - info: Retrieved user's current address: 988 Carter-Larson Dam, South Stacyborough, New York, 06957-1059
+2024-09-17 09:41:01 - info: Retrieved user's permanent address: 456 Elm St, South Stacyborough, New York, 06957-1059
