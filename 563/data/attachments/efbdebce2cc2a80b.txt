@@ -1,4 +1,0 @@
-2024-08-29 09:42:03 - info: Retrieved user's full name: Mario Treutel
-2024-08-29 09:42:03 - info: Retrieved user's email: Lizzie96@demoqa.com
-2024-08-29 09:42:04 - info: Retrieved user's current address: 4291 College Avenue, Wileytown, Iowa, 33637-4998
-2024-08-29 09:42:04 - info: Retrieved user's permanent address: 456 Elm St, Wileytown, Iowa, 33637-4998

@@ -1,0 +1,5 @@
+2024-09-18 09:41:48 - info: Retrieved user's full name: Tony Erdman
+2024-09-18 09:41:48 - info: Retrieved user's email: Gertrude_Greenfelder92@demoqa.com
+2024-09-18 09:41:48 - info: Retrieved user's current address: 916 Harvey Hills, O'Konstad, Hawaii, 78905-9112
+2024-09-18 09:41:48 - info: Retrieved user's permanent address: 456 Elm St, O'Konstad, Hawaii, 78905-9112
+2024-09-18 09:41:52 - info: ***Removed Content from INPUTS***

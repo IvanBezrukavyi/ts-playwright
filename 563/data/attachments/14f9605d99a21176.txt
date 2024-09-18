@@ -1,5 +1,0 @@
-2024-08-29 09:41:48 - info: Retrieved user's full name: Mr. Dan Baumbach
-2024-08-29 09:41:48 - info: Retrieved user's email: Therese.Hyatt52@demoqa.com
-2024-08-29 09:41:48 - info: Retrieved user's current address: 518 Elliot Gardens, Stiedemannboro, Arizona, 30511
-2024-08-29 09:41:48 - info: Retrieved user's permanent address: 456 Elm St, Stiedemannboro, Arizona, 30511
-2024-08-29 09:41:54 - info: ***Removed Content from INPUTS***
