@@ -1,5 +1,0 @@
-2024-08-30 09:40:42 - info: Retrieved user's full name: Celia Upton
-2024-08-30 09:40:42 - info: Retrieved user's email: Nia_Larson20@demoqa.com
-2024-08-30 09:40:42 - info: Retrieved user's current address: 635 Fleta Trace, South Randi, Ohio, 51323
-2024-08-30 09:40:42 - info: Retrieved user's permanent address: 456 Elm St, South Randi, Ohio, 51323
-2024-08-30 09:40:45 - info: ***Removed Content from INPUTS***

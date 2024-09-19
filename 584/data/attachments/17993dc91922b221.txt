@@ -1,0 +1,5 @@
+2024-09-19 09:41:04 - info: Retrieved user's full name: Patti Pollich
+2024-09-19 09:41:04 - info: Retrieved user's email: Charles.Stroman6@demoqa.com
+2024-09-19 09:41:04 - info: Retrieved user's current address: 1158 Irving Rest, North Lemuelton, Florida, 06443
+2024-09-19 09:41:04 - info: Retrieved user's permanent address: 456 Elm St, North Lemuelton, Florida, 06443
+2024-09-19 09:41:08 - info: ***Removed Content from INPUTS***

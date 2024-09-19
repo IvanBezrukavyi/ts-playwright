@@ -1,4 +1,0 @@
-2024-08-30 09:40:52 - info: Retrieved user's full name: Luz Oberbrunner
-2024-08-30 09:40:52 - info: Retrieved user's email: Hugh_Carroll@demoqa.com
-2024-08-30 09:40:52 - info: Retrieved user's current address: 16283 Ash Street, Leschboro, Alabama, 16407
-2024-08-30 09:40:52 - info: Retrieved user's permanent address: 456 Elm St, Leschboro, Alabama, 16407
