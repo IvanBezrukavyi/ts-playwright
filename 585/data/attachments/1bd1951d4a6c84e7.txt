@@ -1,0 +1,5 @@
+2024-09-20 09:44:37 - info: Retrieved user's full name: Jean Barton
+2024-09-20 09:44:37 - info: Retrieved user's email: Judge93@demoqa.com
+2024-09-20 09:44:37 - info: Retrieved user's current address: 98141 Crooks Oval, Allisoncester, South Dakota, 77059-9438
+2024-09-20 09:44:37 - info: Retrieved user's permanent address: 456 Elm St, Allisoncester, South Dakota, 77059-9438
+2024-09-20 09:44:45 - info: ***Removed Content from INPUTS***

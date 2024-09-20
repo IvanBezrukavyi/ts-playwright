@@ -1,5 +1,0 @@
-2024-08-31 09:40:07 - info: Retrieved user's full name: Janet Konopelski
-2024-08-31 09:40:07 - info: Retrieved user's email: Marisa_Schumm@demoqa.com
-2024-08-31 09:40:07 - info: Retrieved user's current address: 836 Haag Spurs, North Lacey, California, 34691
-2024-08-31 09:40:07 - info: Retrieved user's permanent address: 456 Elm St, North Lacey, California, 34691
-2024-08-31 09:40:10 - info: ***Removed Content from INPUTS***
