@@ -1,0 +1,5 @@
+2024-09-21 09:39:28 - info: Retrieved user's full name: Erika McGlynn
+2024-09-21 09:39:28 - info: Retrieved user's email: Solon_Heller@demoqa.com
+2024-09-21 09:39:29 - info: Retrieved user's current address: 49824 E 4th Street, Lake Diannafort, New Mexico, 30537
+2024-09-21 09:39:29 - info: Retrieved user's permanent address: 456 Elm St, Lake Diannafort, New Mexico, 30537
+2024-09-21 09:39:35 - info: ***Removed Content from INPUTS***

@@ -1,5 +1,0 @@
-2024-09-01 09:41:33 - info: Retrieved user's full name: Doris Tillman
-2024-09-01 09:41:33 - info: Retrieved user's email: Odessa_Crooks@demoqa.com
-2024-09-01 09:41:34 - info: Retrieved user's current address: 89284 Toy-Corwin Lodge, Crookscester, Utah, 15627
-2024-09-01 09:41:34 - info: Retrieved user's permanent address: 456 Elm St, Crookscester, Utah, 15627
-2024-09-01 09:41:37 - info: ***Removed Content from INPUTS***
