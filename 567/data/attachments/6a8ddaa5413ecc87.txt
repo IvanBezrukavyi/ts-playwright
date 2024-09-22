@@ -1,4 +1,0 @@
-2024-09-02 09:42:36 - info: Retrieved user's full name: Debbie Vandervort
-2024-09-02 09:42:36 - info: Retrieved user's email: Ryley_Mraz51@demoqa.com
-2024-09-02 09:42:36 - info: Retrieved user's current address: 9656 Langworth Cove, North Beverlyport, Washington, 94158
-2024-09-02 09:42:36 - info: Retrieved user's permanent address: 456 Elm St, North Beverlyport, Washington, 94158
