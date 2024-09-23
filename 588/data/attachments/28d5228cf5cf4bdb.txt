@@ -1,0 +1,4 @@
+2024-09-23 09:44:49 - info: Retrieved user's full name: Pauline Cassin
+2024-09-23 09:44:49 - info: Retrieved user's email: Estefania_Cummerata61@demoqa.com
+2024-09-23 09:44:49 - info: Retrieved user's current address: 717 S Bridge Street, South Alfredo, West Virginia, 22804-6410
+2024-09-23 09:44:49 - info: Retrieved user's permanent address: 456 Elm St, South Alfredo, West Virginia, 22804-6410
