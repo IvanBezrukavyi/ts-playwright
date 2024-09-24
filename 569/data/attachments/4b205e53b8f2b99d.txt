@@ -1,4 +1,0 @@
-2024-09-04 09:41:13 - info: Retrieved user's full name: Anita Beatty III
-2024-09-04 09:41:13 - info: Retrieved user's email: Rebecca.Nicolas@demoqa.com
-2024-09-04 09:41:13 - info: Retrieved user's current address: 38857 N Broadway, Goodwinport, West Virginia, 53175
-2024-09-04 09:41:13 - info: Retrieved user's permanent address: 456 Elm St, Goodwinport, West Virginia, 53175
