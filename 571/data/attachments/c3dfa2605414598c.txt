@@ -1,5 +1,0 @@
-2024-09-06 09:40:53 - info: Retrieved user's full name: Tommie Barton
-2024-09-06 09:40:53 - info: Retrieved user's email: Andreanne69@demoqa.com
-2024-09-06 09:40:53 - info: Retrieved user's current address: 971 Deckow Shores, Bradyhaven, Iowa, 16009-6981
-2024-09-06 09:40:53 - info: Retrieved user's permanent address: 456 Elm St, Bradyhaven, Iowa, 16009-6981
-2024-09-06 09:40:56 - info: ***Removed Content from INPUTS***
