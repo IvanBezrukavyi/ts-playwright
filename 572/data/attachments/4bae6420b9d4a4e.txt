@@ -1,4 +1,0 @@
-2024-09-07 09:39:46 - info: Retrieved user's full name: Diane Wisoky-Lang
-2024-09-07 09:39:46 - info: Retrieved user's email: Walter.Abshire57@demoqa.com
-2024-09-07 09:39:46 - info: Retrieved user's current address: 2984 Sydni Views, Windlerport, Mississippi, 81548-7498
-2024-09-07 09:39:46 - info: Retrieved user's permanent address: 456 Elm St, Windlerport, Mississippi, 81548-7498

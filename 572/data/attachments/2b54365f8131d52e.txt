@@ -1,5 +1,0 @@
-2024-09-07 09:39:33 - info: Retrieved user's full name: Shane Kertzmann
-2024-09-07 09:39:33 - info: Retrieved user's email: John_Upton@demoqa.com
-2024-09-07 09:39:33 - info: Retrieved user's current address: 17227 Hettinger Crest, Quitzonmouth, Wyoming, 75314
-2024-09-07 09:39:33 - info: Retrieved user's permanent address: 456 Elm St, Quitzonmouth, Wyoming, 75314
-2024-09-07 09:39:39 - info: ***Removed Content from INPUTS***

@@ -1,0 +1,5 @@
+2024-09-27 09:42:20 - info: Retrieved user's full name: George Muller
+2024-09-27 09:42:20 - info: Retrieved user's email: Norene39@demoqa.com
+2024-09-27 09:42:21 - info: Retrieved user's current address: 36975 Maple Avenue, Hayeshaven, Vermont, 77743
+2024-09-27 09:42:21 - info: Retrieved user's permanent address: 456 Elm St, Hayeshaven, Vermont, 77743
+2024-09-27 09:42:25 - info: ***Removed Content from INPUTS***
