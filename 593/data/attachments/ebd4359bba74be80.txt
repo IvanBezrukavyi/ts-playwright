@@ -1,0 +1,5 @@
+2024-09-28 09:40:14 - info: Retrieved user's full name: Dr. Elizabeth Ebert
+2024-09-28 09:40:14 - info: Retrieved user's email: Merlin34@demoqa.com
+2024-09-28 09:40:14 - info: Retrieved user's current address: 357 Kris Cove, New Morton, Idaho, 12688-7640
+2024-09-28 09:40:14 - info: Retrieved user's permanent address: 456 Elm St, New Morton, Idaho, 12688-7640
+2024-09-28 09:40:18 - info: ***Removed Content from INPUTS***

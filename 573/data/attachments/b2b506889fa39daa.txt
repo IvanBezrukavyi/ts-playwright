@@ -1,4 +1,0 @@
-2024-09-08 09:40:08 - info: Retrieved user's full name: Miss Jeannie Smith
-2024-09-08 09:40:08 - info: Retrieved user's email: Morton.Hermiston-Kub44@demoqa.com
-2024-09-08 09:40:08 - info: Retrieved user's current address: 34054 Roderick Unions, Beckerborough, Oklahoma, 28023-6924
-2024-09-08 09:40:08 - info: Retrieved user's permanent address: 456 Elm St, Beckerborough, Oklahoma, 28023-6924

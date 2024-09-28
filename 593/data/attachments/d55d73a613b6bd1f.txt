@@ -1,0 +1,4 @@
+2024-09-28 09:40:24 - info: Retrieved user's full name: Phil Doyle
+2024-09-28 09:40:24 - info: Retrieved user's email: Joana_Kulas82@demoqa.com
+2024-09-28 09:40:24 - info: Retrieved user's current address: 9717 King Points, Fort Rhiannon, Pennsylvania, 44235
+2024-09-28 09:40:24 - info: Retrieved user's permanent address: 456 Elm St, Fort Rhiannon, Pennsylvania, 44235
