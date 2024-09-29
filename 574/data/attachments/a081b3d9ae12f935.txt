@@ -1,5 +1,0 @@
-2024-09-09 09:41:45 - info: Retrieved user's full name: Juanita Halvorson
-2024-09-09 09:41:45 - info: Retrieved user's email: Jaiden_Wisoky@demoqa.com
-2024-09-09 09:41:45 - info: Retrieved user's current address: 770 Champlin-Herzog Summit, Missourifort, Connecticut, 81939-2908
-2024-09-09 09:41:45 - info: Retrieved user's permanent address: 456 Elm St, Missourifort, Connecticut, 81939-2908
-2024-09-09 09:42:00 - info: ***Removed Content from INPUTS***

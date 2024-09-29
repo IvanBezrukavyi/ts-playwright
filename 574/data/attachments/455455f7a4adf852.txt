@@ -1,4 +1,0 @@
-2024-09-09 09:47:12 - info: Retrieved user's full name: Rafael Lueilwitz
-2024-09-09 09:47:12 - info: Retrieved user's email: Kylee99@demoqa.com
-2024-09-09 09:47:12 - info: Retrieved user's current address: 4652 Cassin Shores, Lake Rubenborough, Maryland, 45516
-2024-09-09 09:47:12 - info: Retrieved user's permanent address: 456 Elm St, Lake Rubenborough, Maryland, 45516

@@ -1,0 +1,5 @@
+2024-09-29 09:39:57 - info: Retrieved user's full name: Rosalie Altenwerth
+2024-09-29 09:39:57 - info: Retrieved user's email: Joanny_Marks37@demoqa.com
+2024-09-29 09:39:57 - info: Retrieved user's current address: 78270 E South Street, Port Nehaland, Montana, 52097-2802
+2024-09-29 09:39:57 - info: Retrieved user's permanent address: 456 Elm St, Port Nehaland, Montana, 52097-2802
+2024-09-29 09:40:08 - info: ***Removed Content from INPUTS***
