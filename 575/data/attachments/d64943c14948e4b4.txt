@@ -1,5 +1,0 @@
-2024-09-10 09:41:34 - info: Retrieved user's full name: Cesar Upton
-2024-09-10 09:41:34 - info: Retrieved user's email: Friedrich.Baumbach@demoqa.com
-2024-09-10 09:41:34 - info: Retrieved user's current address: 67669 Nikolaus Mews, Dallinfort, Kentucky, 39813-2981
-2024-09-10 09:41:34 - info: Retrieved user's permanent address: 456 Elm St, Dallinfort, Kentucky, 39813-2981
-2024-09-10 09:41:43 - info: ***Removed Content from INPUTS***

@@ -1,0 +1,5 @@
+2024-09-30 09:42:59 - info: Retrieved user's full name: Jeanne Fisher
+2024-09-30 09:42:59 - info: Retrieved user's email: Lacy.Romaguera62@demoqa.com
+2024-09-30 09:42:59 - info: Retrieved user's current address: 1269 Old State Road, South Adolfoberg, North Dakota, 43718
+2024-09-30 09:42:59 - info: Retrieved user's permanent address: 456 Elm St, South Adolfoberg, North Dakota, 43718
+2024-09-30 09:43:09 - info: ***Removed Content from INPUTS***

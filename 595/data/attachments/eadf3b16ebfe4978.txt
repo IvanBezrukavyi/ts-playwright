@@ -1,0 +1,4 @@
+2024-09-30 09:43:16 - info: Retrieved user's full name: Alicia Shields
+2024-09-30 09:43:16 - info: Retrieved user's email: Ephraim_Jacobson69@demoqa.com
+2024-09-30 09:43:16 - info: Retrieved user's current address: 932 Skyline Drive, Kulasstad, New York, 63351-3293
+2024-09-30 09:43:16 - info: Retrieved user's permanent address: 456 Elm St, Kulasstad, New York, 63351-3293
