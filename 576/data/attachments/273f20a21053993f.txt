@@ -1,4 +1,0 @@
-2024-09-11 09:42:36 - info: Retrieved user's full name: Dr. Martin Schmidt
-2024-09-11 09:42:36 - info: Retrieved user's email: Pat_Heller97@demoqa.com
-2024-09-11 09:42:36 - info: Retrieved user's current address: 75448 Rolfson Parkway, South Tyreekbury, Arkansas, 72513-7046
-2024-09-11 09:42:36 - info: Retrieved user's permanent address: 456 Elm St, South Tyreekbury, Arkansas, 72513-7046
