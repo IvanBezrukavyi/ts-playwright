@@ -1,0 +1,5 @@
+2024-10-03 09:42:41 - info: Retrieved user's full name: Sergio Heidenreich
+2024-10-03 09:42:41 - info: Retrieved user's email: Meggie_Quigley@demoqa.com
+2024-10-03 09:42:41 - info: Retrieved user's current address: 56017 Pfeffer Terrace, Sengerton, Wyoming, 67242
+2024-10-03 09:42:41 - info: Retrieved user's permanent address: 456 Elm St, Sengerton, Wyoming, 67242
+2024-10-03 09:42:47 - info: ***Removed Content from INPUTS***
