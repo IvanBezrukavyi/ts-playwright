@@ -1,4 +1,0 @@
-2024-09-14 09:40:52 - info: Retrieved user's full name: Dr. Stewart Gleichner
-2024-09-14 09:40:53 - info: Retrieved user's email: Emmitt48@demoqa.com
-2024-09-14 09:40:53 - info: Retrieved user's current address: 868 Tyrell Camp, Fort Melvinacester, Tennessee, 51293-4084
-2024-09-14 09:40:53 - info: Retrieved user's permanent address: 456 Elm St, Fort Melvinacester, Tennessee, 51293-4084
