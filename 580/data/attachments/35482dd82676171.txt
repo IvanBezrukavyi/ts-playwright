@@ -1,4 +1,0 @@
-2024-09-15 09:40:36 - info: Retrieved user's full name: Sonia Turcotte
-2024-09-15 09:40:36 - info: Retrieved user's email: Akeem73@demoqa.com
-2024-09-15 09:40:36 - info: Retrieved user's current address: 54628 Swaniawski Ports, New Omaport, Indiana, 45122
-2024-09-15 09:40:37 - info: Retrieved user's permanent address: 456 Elm St, New Omaport, Indiana, 45122
