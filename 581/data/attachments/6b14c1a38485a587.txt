@@ -1,5 +1,0 @@
-2024-09-16 09:44:59 - info: Retrieved user's full name: Darin Beatty
-2024-09-16 09:44:59 - info: Retrieved user's email: Alayna_Renner@demoqa.com
-2024-09-16 09:44:59 - info: Retrieved user's current address: 2166 E Maple Street, West Alek, South Carolina, 28818
-2024-09-16 09:44:59 - info: Retrieved user's permanent address: 456 Elm St, West Alek, South Carolina, 28818
-2024-09-16 09:45:04 - info: ***Removed Content from INPUTS***
