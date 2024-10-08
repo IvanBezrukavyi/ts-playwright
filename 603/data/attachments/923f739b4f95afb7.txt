@@ -1,0 +1,4 @@
+2024-10-08 09:43:17 - info: Retrieved user's full name: Megan Kassulke V
+2024-10-08 09:43:17 - info: Retrieved user's email: Tatum_McDermott85@demoqa.com
+2024-10-08 09:43:17 - info: Retrieved user's current address: 4822 Weber Extensions, Ferryfurt, Kansas, 08908-6302
+2024-10-08 09:43:17 - info: Retrieved user's permanent address: 456 Elm St, Ferryfurt, Kansas, 08908-6302

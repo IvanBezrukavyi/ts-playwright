@@ -1,4 +1,0 @@
-2024-09-18 09:42:39 - info: Retrieved user's full name: Cedric Jaskolski
-2024-09-18 09:42:39 - info: Retrieved user's email: Zander.Lueilwitz5@demoqa.com
-2024-09-18 09:42:39 - info: Retrieved user's current address: 874 Hill Street, Raubury, Pennsylvania, 02103-3448
-2024-09-18 09:42:39 - info: Retrieved user's permanent address: 456 Elm St, Raubury, Pennsylvania, 02103-3448
