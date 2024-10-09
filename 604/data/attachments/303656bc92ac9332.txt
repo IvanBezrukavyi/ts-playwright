@@ -1,0 +1,5 @@
+2024-10-09 09:40:51 - info: Retrieved user's full name: Fred Boyer
+2024-10-09 09:40:51 - info: Retrieved user's email: Bridget.Harber@demoqa.com
+2024-10-09 09:40:51 - info: Retrieved user's current address: 6391 Kertzmann Heights, East Laurettacester, Wyoming, 79385-9443
+2024-10-09 09:40:51 - info: Retrieved user's permanent address: 456 Elm St, East Laurettacester, Wyoming, 79385-9443
+2024-10-09 09:40:58 - info: ***Removed Content from INPUTS***

@@ -1,0 +1,4 @@
+2024-10-09 09:41:40 - info: Retrieved user's full name: Wayne Hirthe-Jaskolski V
+2024-10-09 09:41:40 - info: Retrieved user's email: Adolf.Kuhlman31@demoqa.com
+2024-10-09 09:41:40 - info: Retrieved user's current address: 395 Pouros Lodge, Christyberg, North Carolina, 87043
+2024-10-09 09:41:40 - info: Retrieved user's permanent address: 456 Elm St, Christyberg, North Carolina, 87043
