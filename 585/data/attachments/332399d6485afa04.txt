@@ -1,4 +1,0 @@
-2024-09-20 09:44:52 - info: Retrieved user's full name: Jody Monahan
-2024-09-20 09:44:53 - info: Retrieved user's email: Lauriane.Yost@demoqa.com
-2024-09-20 09:44:53 - info: Retrieved user's current address: 859 Luettgen Keys, Lake Nikolas, Iowa, 54945
-2024-09-20 09:44:53 - info: Retrieved user's permanent address: 456 Elm St, Lake Nikolas, Iowa, 54945

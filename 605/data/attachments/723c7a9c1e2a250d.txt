@@ -1,0 +1,5 @@
+2024-10-10 09:41:44 - info: Retrieved user's full name: Olivia Sanford
+2024-10-10 09:41:44 - info: Retrieved user's email: Eric73@demoqa.com
+2024-10-10 09:41:44 - info: Retrieved user's current address: 9490 Feil View, Bradtkeboro, Hawaii, 27341
+2024-10-10 09:41:44 - info: Retrieved user's permanent address: 456 Elm St, Bradtkeboro, Hawaii, 27341
+2024-10-10 09:41:48 - info: ***Removed Content from INPUTS***
