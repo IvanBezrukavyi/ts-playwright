@@ -1,4 +1,0 @@
-2024-09-21 09:40:16 - info: Retrieved user's full name: Colleen Miller
-2024-09-21 09:40:17 - info: Retrieved user's email: Jevon.Funk81@demoqa.com
-2024-09-21 09:40:17 - info: Retrieved user's current address: 91357 Blaze Mews, Terryside, Maine, 64255-0623
-2024-09-21 09:40:17 - info: Retrieved user's permanent address: 456 Elm St, Terryside, Maine, 64255-0623
