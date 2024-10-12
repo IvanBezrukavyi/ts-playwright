@@ -1,5 +1,0 @@
-2024-09-22 09:39:22 - info: Retrieved user's full name: Mr. Angelo Harvey-Barrows
-2024-09-22 09:39:22 - info: Retrieved user's email: Julian.Ankunding73@demoqa.com
-2024-09-22 09:39:22 - info: Retrieved user's current address: 699 S Park Street, New Thurman, Nebraska, 64323-6031
-2024-09-22 09:39:22 - info: Retrieved user's permanent address: 456 Elm St, New Thurman, Nebraska, 64323-6031
-2024-09-22 09:39:27 - info: ***Removed Content from INPUTS***
