@@ -1,5 +1,0 @@
-2024-09-23 09:43:49 - info: Retrieved user's full name: Annette Reilly
-2024-09-23 09:43:49 - info: Retrieved user's email: Hollis51@demoqa.com
-2024-09-23 09:43:49 - info: Retrieved user's current address: 70429 Maynard Green, Raynorview, California, 63953
-2024-09-23 09:43:49 - info: Retrieved user's permanent address: 456 Elm St, Raynorview, California, 63953
-2024-09-23 09:43:54 - info: ***Removed Content from INPUTS***
