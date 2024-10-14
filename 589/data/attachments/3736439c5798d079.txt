@@ -1,5 +1,0 @@
-2024-09-24 09:42:36 - info: Retrieved user's full name: Sidney Farrell
-2024-09-24 09:42:36 - info: Retrieved user's email: Willard_Kuvalis20@demoqa.com
-2024-09-24 09:42:36 - info: Retrieved user's current address: 72605 Depot Street, South Maybelleshire, Indiana, 83426-3469
-2024-09-24 09:42:36 - info: Retrieved user's permanent address: 456 Elm St, South Maybelleshire, Indiana, 83426-3469
-2024-09-24 09:42:42 - info: ***Removed Content from INPUTS***

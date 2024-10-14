@@ -1,4 +1,0 @@
-2024-09-24 09:42:49 - info: Retrieved user's full name: Myron Robel
-2024-09-24 09:42:49 - info: Retrieved user's email: Dale_Schmidt@demoqa.com
-2024-09-24 09:42:49 - info: Retrieved user's current address: 75320 Blanda Shores, Burdettefield, New Mexico, 31947-0320
-2024-09-24 09:42:49 - info: Retrieved user's permanent address: 456 Elm St, Burdettefield, New Mexico, 31947-0320
