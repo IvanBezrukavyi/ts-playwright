@@ -1,5 +1,0 @@
-2024-09-25 09:42:51 - info: Retrieved user's full name: Ms. Desiree Turner
-2024-09-25 09:42:51 - info: Retrieved user's email: Isaias.Borer@demoqa.com
-2024-09-25 09:42:51 - info: Retrieved user's current address: 896 Hickory Street, Granttown, Kansas, 54086-0694
-2024-09-25 09:42:51 - info: Retrieved user's permanent address: 456 Elm St, Granttown, Kansas, 54086-0694
-2024-09-25 09:42:59 - info: ***Removed Content from INPUTS***

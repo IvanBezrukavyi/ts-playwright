@@ -1,4 +1,0 @@
-2024-09-25 09:43:38 - info: Retrieved user's full name: Edward Kutch Jr.
-2024-09-25 09:43:38 - info: Retrieved user's email: Darren_McGlynn2@demoqa.com
-2024-09-25 09:43:38 - info: Retrieved user's current address: 758 Cormier Underpass, Torphyburgh, Alabama, 09460-5947
-2024-09-25 09:43:38 - info: Retrieved user's permanent address: 456 Elm St, Torphyburgh, Alabama, 09460-5947
