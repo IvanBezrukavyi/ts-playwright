@@ -1,4 +1,0 @@
-2024-09-26 09:44:53 - info: Retrieved user's full name: Mrs. Bethany Schneider DVM
-2024-09-26 09:44:53 - info: Retrieved user's email: Cristobal5@demoqa.com
-2024-09-26 09:44:53 - info: Retrieved user's current address: 978 Wehner Rest, Smithamcester, Minnesota, 70260
-2024-09-26 09:44:53 - info: Retrieved user's permanent address: 456 Elm St, Smithamcester, Minnesota, 70260

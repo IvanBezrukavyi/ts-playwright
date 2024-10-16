@@ -1,5 +1,0 @@
-2024-09-26 09:44:41 - info: Retrieved user's full name: Blanche Huel
-2024-09-26 09:44:41 - info: Retrieved user's email: Reyes_Williamson@demoqa.com
-2024-09-26 09:44:42 - info: Retrieved user's current address: 36746 Third Street, Darleneville, Washington, 80243-0086
-2024-09-26 09:44:42 - info: Retrieved user's permanent address: 456 Elm St, Darleneville, Washington, 80243-0086
-2024-09-26 09:44:46 - info: ***Removed Content from INPUTS***
