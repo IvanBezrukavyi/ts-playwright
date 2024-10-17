@@ -1,0 +1,5 @@
+2024-10-17 09:42:25 - info: Retrieved user's full name: Jesus Baumbach
+2024-10-17 09:42:25 - info: Retrieved user's email: Gonzalo91@demoqa.com
+2024-10-17 09:42:25 - info: Retrieved user's current address: 2133 Arden Village, Jaydenborough, Idaho, 45029-3901
+2024-10-17 09:42:25 - info: Retrieved user's permanent address: 456 Elm St, Jaydenborough, Idaho, 45029-3901
+2024-10-17 09:42:32 - info: ***Removed Content from INPUTS***

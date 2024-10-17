@@ -1,4 +1,0 @@
-2024-09-27 09:42:34 - info: Retrieved user's full name: Patricia Roberts
-2024-09-27 09:42:34 - info: Retrieved user's email: Michele18@demoqa.com
-2024-09-27 09:42:34 - info: Retrieved user's current address: 676 Abbigail Parkway, West Ezekiel, Idaho, 17062-9644
-2024-09-27 09:42:34 - info: Retrieved user's permanent address: 456 Elm St, West Ezekiel, Idaho, 17062-9644
