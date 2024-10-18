@@ -1,0 +1,4 @@
+2024-10-18 09:41:48 - info: Retrieved user's full name: Clayton Wiegand
+2024-10-18 09:41:48 - info: Retrieved user's email: Emiliano3@demoqa.com
+2024-10-18 09:41:48 - info: Retrieved user's current address: 50439 E 9th Street, Lake Nina, Maine, 57131-7513
+2024-10-18 09:41:48 - info: Retrieved user's permanent address: 456 Elm St, Lake Nina, Maine, 57131-7513
