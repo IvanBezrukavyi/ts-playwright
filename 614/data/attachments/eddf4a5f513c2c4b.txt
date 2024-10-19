@@ -1,0 +1,4 @@
+2024-10-19 09:39:58 - info: Retrieved user's full name: Virginia Hansen
+2024-10-19 09:39:58 - info: Retrieved user's email: Isabelle78@demoqa.com
+2024-10-19 09:39:58 - info: Retrieved user's current address: 5919 Donato Path, West Gerdaworth, Vermont, 80855-0822
+2024-10-19 09:39:58 - info: Retrieved user's permanent address: 456 Elm St, West Gerdaworth, Vermont, 80855-0822

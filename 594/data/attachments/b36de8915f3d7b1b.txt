@@ -1,4 +1,0 @@
-2024-09-29 09:40:49 - info: Retrieved user's full name: Boyd Quitzon
-2024-09-29 09:40:49 - info: Retrieved user's email: Stanley64@demoqa.com
-2024-09-29 09:40:50 - info: Retrieved user's current address: 5414 E 2nd Street, North Elroy, North Dakota, 61290-7404
-2024-09-29 09:40:50 - info: Retrieved user's permanent address: 456 Elm St, North Elroy, North Dakota, 61290-7404
