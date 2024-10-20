@@ -1,0 +1,5 @@
+2024-10-20 09:40:14 - info: Retrieved user's full name: Dominick Purdy-Casper
+2024-10-20 09:40:14 - info: Retrieved user's email: Jordane.Huel15@demoqa.com
+2024-10-20 09:40:14 - info: Retrieved user's current address: 63831 Wintheiser Underpass, New Conradside, Oklahoma, 40204
+2024-10-20 09:40:14 - info: Retrieved user's permanent address: 456 Elm St, New Conradside, Oklahoma, 40204
+2024-10-20 09:40:18 - info: ***Removed Content from INPUTS***
