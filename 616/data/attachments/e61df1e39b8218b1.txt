@@ -1,0 +1,4 @@
+2024-10-21 09:42:48 - info: Retrieved user's full name: Sheila Collins
+2024-10-21 09:42:48 - info: Retrieved user's email: Jeremy.Roberts@demoqa.com
+2024-10-21 09:42:48 - info: Retrieved user's current address: 4327 W 6th Avenue, Orlomouth, Wyoming, 32269
+2024-10-21 09:42:48 - info: Retrieved user's permanent address: 456 Elm St, Orlomouth, Wyoming, 32269

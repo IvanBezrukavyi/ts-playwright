@@ -1,4 +1,0 @@
-2024-10-01 09:43:16 - info: Retrieved user's full name: Harriet Hickle
-2024-10-01 09:43:16 - info: Retrieved user's email: Florine12@demoqa.com
-2024-10-01 09:43:16 - info: Retrieved user's current address: 74150 Misael Via, New Lerahaven, Kansas, 64217
-2024-10-01 09:43:16 - info: Retrieved user's permanent address: 456 Elm St, New Lerahaven, Kansas, 64217

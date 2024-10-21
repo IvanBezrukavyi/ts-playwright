@@ -1,5 +1,0 @@
-2024-10-01 09:43:01 - info: Retrieved user's full name: Tiffany Ratke
-2024-10-01 09:43:01 - info: Retrieved user's email: Cruz.Hoppe39@demoqa.com
-2024-10-01 09:43:01 - info: Retrieved user's current address: 74508 Abbott Corners, Howellboro, Louisiana, 95614-6241
-2024-10-01 09:43:01 - info: Retrieved user's permanent address: 456 Elm St, Howellboro, Louisiana, 95614-6241
-2024-10-01 09:43:07 - info: ***Removed Content from INPUTS***
