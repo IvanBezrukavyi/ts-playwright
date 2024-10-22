@@ -1,4 +1,0 @@
-2024-10-02 09:42:30 - info: Retrieved user's full name: Tim Gibson
-2024-10-02 09:42:30 - info: Retrieved user's email: Addie18@demoqa.com
-2024-10-02 09:42:30 - info: Retrieved user's current address: 6886 Hahn Views, Gleichnerland, New York, 42652-4933
-2024-10-02 09:42:30 - info: Retrieved user's permanent address: 456 Elm St, Gleichnerland, New York, 42652-4933
