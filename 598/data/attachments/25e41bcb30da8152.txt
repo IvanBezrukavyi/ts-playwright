@@ -1,4 +1,0 @@
-2024-10-03 09:42:53 - info: Retrieved user's full name: Ross Fahey-Fisher
-2024-10-03 09:42:53 - info: Retrieved user's email: Freddie_Stiedemann@demoqa.com
-2024-10-03 09:42:53 - info: Retrieved user's current address: 332 Goldner Walk, East Rosaside, Hawaii, 08112-8735
-2024-10-03 09:42:53 - info: Retrieved user's permanent address: 456 Elm St, East Rosaside, Hawaii, 08112-8735

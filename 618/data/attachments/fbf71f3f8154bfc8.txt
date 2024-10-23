@@ -1,0 +1,5 @@
+2024-10-23 09:42:12 - info: Retrieved user's full name: Delores Stoltenberg
+2024-10-23 09:42:12 - info: Retrieved user's email: Jacinto59@demoqa.com
+2024-10-23 09:42:12 - info: Retrieved user's current address: 219 Bartoletti Forge, Blockstead, Minnesota, 31647-5098
+2024-10-23 09:42:12 - info: Retrieved user's permanent address: 456 Elm St, Blockstead, Minnesota, 31647-5098
+2024-10-23 09:42:17 - info: ***Removed Content from INPUTS***
