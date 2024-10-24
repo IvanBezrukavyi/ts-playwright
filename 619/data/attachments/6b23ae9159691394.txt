@@ -1,0 +1,1 @@
+2024-10-24 09:41:25 - info: Deleted ./srs/auth/defaultStorageState.json successfully

@@ -1,0 +1,4 @@
+2024-10-24 09:42:40 - info: Retrieved user's full name: Wilfred Batz
+2024-10-24 09:42:40 - info: Retrieved user's email: Favian_Renner@demoqa.com
+2024-10-24 09:42:40 - info: Retrieved user's current address: 802 Pagac Knolls, Cormiercester, Virginia, 47812-8614
+2024-10-24 09:42:40 - info: Retrieved user's permanent address: 456 Elm St, Cormiercester, Virginia, 47812-8614

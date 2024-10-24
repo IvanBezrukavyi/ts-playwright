@@ -1,4 +1,0 @@
-2024-10-04 09:44:11 - info: Retrieved user's full name: Lauren Nader
-2024-10-04 09:44:11 - info: Retrieved user's email: Suzanne.Kuhic@demoqa.com
-2024-10-04 09:44:11 - info: Retrieved user's current address: 16220 Jasper Parks, Welchton, Mississippi, 71894-7448
-2024-10-04 09:44:11 - info: Retrieved user's permanent address: 456 Elm St, Welchton, Mississippi, 71894-7448
