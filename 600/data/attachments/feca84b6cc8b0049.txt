@@ -1,4 +1,0 @@
-2024-10-05 09:42:53 - info: Retrieved user's full name: Gayle Weissnat
-2024-10-05 09:42:53 - info: Retrieved user's email: Weldon_Bayer@demoqa.com
-2024-10-05 09:42:53 - info: Retrieved user's current address: 85086 Lilian Ranch, Townefort, Delaware, 24249
-2024-10-05 09:42:53 - info: Retrieved user's permanent address: 456 Elm St, Townefort, Delaware, 24249

@@ -1,5 +1,0 @@
-2024-10-05 09:41:59 - info: Retrieved user's full name: Frankie Hamill PhD
-2024-10-05 09:41:59 - info: Retrieved user's email: Bonnie.Medhurst@demoqa.com
-2024-10-05 09:41:59 - info: Retrieved user's current address: 360 Stoltenberg Lake, South Alexandre, New Hampshire, 38353
-2024-10-05 09:41:59 - info: Retrieved user's permanent address: 456 Elm St, South Alexandre, New Hampshire, 38353
-2024-10-05 09:42:04 - info: ***Removed Content from INPUTS***
