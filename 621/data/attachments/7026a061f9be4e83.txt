@@ -1,0 +1,4 @@
+2024-10-26 09:40:06 - info: Retrieved user's full name: Erin Osinski
+2024-10-26 09:40:06 - info: Retrieved user's email: Adriana_Schuster@demoqa.com
+2024-10-26 09:40:06 - info: Retrieved user's current address: 41097 Ethan Creek, South Bayleeside, South Dakota, 79047
+2024-10-26 09:40:06 - info: Retrieved user's permanent address: 456 Elm St, South Bayleeside, South Dakota, 79047

@@ -1,5 +1,0 @@
-2024-10-06 09:40:16 - info: Retrieved user's full name: Laurie Leffler
-2024-10-06 09:40:16 - info: Retrieved user's email: Kiley.Schmidt14@demoqa.com
-2024-10-06 09:40:16 - info: Retrieved user's current address: 77237 E Broadway Street, Weissnatworth, Arkansas, 94881-1701
-2024-10-06 09:40:16 - info: Retrieved user's permanent address: 456 Elm St, Weissnatworth, Arkansas, 94881-1701
-2024-10-06 09:40:22 - info: ***Removed Content from INPUTS***

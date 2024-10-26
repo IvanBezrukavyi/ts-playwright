@@ -1,0 +1,5 @@
+2024-10-26 09:39:52 - info: Retrieved user's full name: Sharon Reichert
+2024-10-26 09:39:52 - info: Retrieved user's email: Marina98@demoqa.com
+2024-10-26 09:39:52 - info: Retrieved user's current address: 68328 Water Street, Norwoodbury, Kansas, 47896-3139
+2024-10-26 09:39:52 - info: Retrieved user's permanent address: 456 Elm St, Norwoodbury, Kansas, 47896-3139
+2024-10-26 09:39:57 - info: ***Removed Content from INPUTS***
