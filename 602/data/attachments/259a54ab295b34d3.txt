@@ -1,5 +1,0 @@
-2024-10-07 09:43:04 - info: Retrieved user's full name: Drew Skiles
-2024-10-07 09:43:04 - info: Retrieved user's email: Jude28@demoqa.com
-2024-10-07 09:43:05 - info: Retrieved user's current address: 3556 Madisyn Expressway, Gusikowskifield, North Carolina, 61029-6263
-2024-10-07 09:43:05 - info: Retrieved user's permanent address: 456 Elm St, Gusikowskifield, North Carolina, 61029-6263
-2024-10-07 09:43:17 - info: ***Removed Content from INPUTS***

@@ -1,4 +1,0 @@
-2024-10-07 09:43:25 - info: Retrieved user's full name: Nora Gutmann
-2024-10-07 09:43:25 - info: Retrieved user's email: Noble86@demoqa.com
-2024-10-07 09:43:25 - info: Retrieved user's current address: 372 Vine Street, West Marian, Wisconsin, 39438
-2024-10-07 09:43:25 - info: Retrieved user's permanent address: 456 Elm St, West Marian, Wisconsin, 39438

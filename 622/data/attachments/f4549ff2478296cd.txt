@@ -1,0 +1,5 @@
+2024-10-27 09:39:58 - info: Retrieved user's full name: Mr. Justin Batz
+2024-10-27 09:39:58 - info: Retrieved user's email: Meggie57@demoqa.com
+2024-10-27 09:39:58 - info: Retrieved user's current address: 5228 Jaylin Manor, Donnellyport, Iowa, 21674-1351
+2024-10-27 09:39:58 - info: Retrieved user's permanent address: 456 Elm St, Donnellyport, Iowa, 21674-1351
+2024-10-27 09:40:03 - info: ***Removed Content from INPUTS***
