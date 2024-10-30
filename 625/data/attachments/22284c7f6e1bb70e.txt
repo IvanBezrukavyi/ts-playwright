@@ -1,0 +1,4 @@
+2024-10-30 09:42:05 - info: Retrieved user's full name: Sergio McClure
+2024-10-30 09:42:05 - info: Retrieved user's email: Lester.Schulist@demoqa.com
+2024-10-30 09:42:05 - info: Retrieved user's current address: 4478 S 14th Street, Boyleland, Minnesota, 86613
+2024-10-30 09:42:05 - info: Retrieved user's permanent address: 456 Elm St, Boyleland, Minnesota, 86613

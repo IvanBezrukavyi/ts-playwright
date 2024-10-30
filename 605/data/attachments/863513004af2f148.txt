@@ -1,4 +1,0 @@
-2024-10-10 09:41:56 - info: Retrieved user's full name: Mr. Jonathan Wiza
-2024-10-10 09:41:56 - info: Retrieved user's email: Laurine4@demoqa.com
-2024-10-10 09:41:56 - info: Retrieved user's current address: 208 E Washington Avenue, Tylerfurt, Illinois, 55316
-2024-10-10 09:41:56 - info: Retrieved user's permanent address: 456 Elm St, Tylerfurt, Illinois, 55316
