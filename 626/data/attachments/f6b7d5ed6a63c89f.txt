@@ -1,0 +1,5 @@
+2024-10-31 09:41:57 - info: Retrieved user's full name: Cecelia Macejkovic
+2024-10-31 09:41:57 - info: Retrieved user's email: Theresa_Pacocha@demoqa.com
+2024-10-31 09:41:57 - info: Retrieved user's current address: 6825 Hermann Spring, Orphatown, Massachusetts, 88395-9298
+2024-10-31 09:41:57 - info: Retrieved user's permanent address: 456 Elm St, Orphatown, Massachusetts, 88395-9298
+2024-10-31 09:42:09 - info: ***Removed Content from INPUTS***
