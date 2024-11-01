@@ -1,0 +1,5 @@
+2024-11-01 09:41:19 - info: Retrieved user's full name: Mr. Pat Boyer-Mills II
+2024-11-01 09:41:19 - info: Retrieved user's email: Catalina.Huel15@demoqa.com
+2024-11-01 09:41:19 - info: Retrieved user's current address: 3426 W Washington Avenue, New Blanca, Tennessee, 67864
+2024-11-01 09:41:19 - info: Retrieved user's permanent address: 456 Elm St, New Blanca, Tennessee, 67864
+2024-11-01 09:41:24 - info: ***Removed Content from INPUTS***
