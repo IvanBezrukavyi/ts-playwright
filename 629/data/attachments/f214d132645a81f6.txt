@@ -1,0 +1,5 @@
+2024-11-03 09:41:50 - info: Retrieved user's full name: Dr. Lewis Stiedemann
+2024-11-03 09:41:50 - info: Retrieved user's email: Madelynn_Bernhard65@demoqa.com
+2024-11-03 09:41:50 - info: Retrieved user's current address: 6163 S Chestnut Street, North Babyshire, Nebraska, 00406-2743
+2024-11-03 09:41:50 - info: Retrieved user's permanent address: 456 Elm St, North Babyshire, Nebraska, 00406-2743
+2024-11-03 09:41:58 - info: ***Removed Content from INPUTS***
