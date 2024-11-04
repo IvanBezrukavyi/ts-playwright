@@ -1,0 +1,5 @@
+2024-11-04 09:42:23 - info: Retrieved user's full name: Ronnie Quigley MD
+2024-11-04 09:42:23 - info: Retrieved user's email: Garrett53@demoqa.com
+2024-11-04 09:42:23 - info: Retrieved user's current address: 566 Rutherford Groves, Hermistonfort, Illinois, 63008
+2024-11-04 09:42:23 - info: Retrieved user's permanent address: 456 Elm St, Hermistonfort, Illinois, 63008
+2024-11-04 09:42:27 - info: ***Removed Content from INPUTS***
