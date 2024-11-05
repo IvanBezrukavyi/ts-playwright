@@ -1,0 +1,5 @@
+2024-11-05 09:41:12 - info: Retrieved user's full name: Cristina O'Hara
+2024-11-05 09:41:12 - info: Retrieved user's email: Evelyn.Franey81@demoqa.com
+2024-11-05 09:41:12 - info: Retrieved user's current address: 25883 S 5th Street, Jaidenstad, Illinois, 06423-5726
+2024-11-05 09:41:12 - info: Retrieved user's permanent address: 456 Elm St, Jaidenstad, Illinois, 06423-5726
+2024-11-05 09:41:17 - info: ***Removed Content from INPUTS***
