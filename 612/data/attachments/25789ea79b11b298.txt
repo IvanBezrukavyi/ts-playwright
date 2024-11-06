@@ -1,4 +1,0 @@
-2024-10-17 09:47:42 - info: Retrieved user's full name: Dr. Mathew McDermott
-2024-10-17 09:47:42 - info: Retrieved user's email: Hector44@demoqa.com
-2024-10-17 09:47:42 - info: Retrieved user's current address: 18637 McClure Fort, Malcolmport, Texas, 94553-5604
-2024-10-17 09:47:42 - info: Retrieved user's permanent address: 456 Elm St, Malcolmport, Texas, 94553-5604

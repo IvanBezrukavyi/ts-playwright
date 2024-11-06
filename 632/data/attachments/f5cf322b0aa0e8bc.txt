@@ -1,0 +1,4 @@
+2024-11-06 09:44:30 - info: Retrieved user's full name: Cheryl Smith Sr.
+2024-11-06 09:44:30 - info: Retrieved user's email: Priscilla.Gerhold22@demoqa.com
+2024-11-06 09:44:30 - info: Retrieved user's current address: 63752 Marco Point, Thoraville, Delaware, 38145-8495
+2024-11-06 09:44:30 - info: Retrieved user's permanent address: 456 Elm St, Thoraville, Delaware, 38145-8495
