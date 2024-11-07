@@ -1,0 +1,4 @@
+2024-11-07 09:41:51 - info: Retrieved user's full name: Ben White
+2024-11-07 09:41:51 - info: Retrieved user's email: Winnifred.Stanton22@demoqa.com
+2024-11-07 09:41:51 - info: Retrieved user's current address: 19852 Klocko Trafficway, Boyerfort, Nevada, 84240-4288
+2024-11-07 09:41:51 - info: Retrieved user's permanent address: 456 Elm St, Boyerfort, Nevada, 84240-4288

@@ -1,0 +1,5 @@
+2024-11-07 09:40:58 - info: Retrieved user's full name: Laura Muller DVM
+2024-11-07 09:40:58 - info: Retrieved user's email: Hayley.Berge44@demoqa.com
+2024-11-07 09:40:59 - info: Retrieved user's current address: 28672 Russel Throughway, Langoshstead, Rhode Island, 86501-6247
+2024-11-07 09:40:59 - info: Retrieved user's permanent address: 456 Elm St, Langoshstead, Rhode Island, 86501-6247
+2024-11-07 09:41:05 - info: ***Removed Content from INPUTS***

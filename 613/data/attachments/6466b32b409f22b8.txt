@@ -1,5 +1,0 @@
-2024-10-18 09:41:36 - info: Retrieved user's full name: Alfredo Dicki
-2024-10-18 09:41:36 - info: Retrieved user's email: Casimer85@demoqa.com
-2024-10-18 09:41:36 - info: Retrieved user's current address: 361 Hudson Fort, Towneburgh, Wisconsin, 51545-4757
-2024-10-18 09:41:36 - info: Retrieved user's permanent address: 456 Elm St, Towneburgh, Wisconsin, 51545-4757
-2024-10-18 09:41:42 - info: ***Removed Content from INPUTS***
