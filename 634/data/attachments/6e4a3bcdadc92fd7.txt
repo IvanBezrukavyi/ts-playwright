@@ -1,0 +1,5 @@
+2024-11-08 09:40:36 - info: Retrieved user's full name: Harriet Ullrich
+2024-11-08 09:40:36 - info: Retrieved user's email: Esperanza40@demoqa.com
+2024-11-08 09:40:36 - info: Retrieved user's current address: 8457 Littel Greens, West Orie, Maryland, 97450
+2024-11-08 09:40:37 - info: Retrieved user's permanent address: 456 Elm St, West Orie, Maryland, 97450
+2024-11-08 09:40:42 - info: ***Removed Content from INPUTS***
