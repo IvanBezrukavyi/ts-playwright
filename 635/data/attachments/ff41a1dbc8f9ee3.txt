@@ -1,0 +1,4 @@
+2024-11-09 09:40:13 - info: Retrieved user's full name: Peggy Skiles
+2024-11-09 09:40:13 - info: Retrieved user's email: Louie.Rosenbaum88@demoqa.com
+2024-11-09 09:40:13 - info: Retrieved user's current address: 608 Kassulke Junctions, East Judgeburgh, Tennessee, 61273
+2024-11-09 09:40:13 - info: Retrieved user's permanent address: 456 Elm St, East Judgeburgh, Tennessee, 61273

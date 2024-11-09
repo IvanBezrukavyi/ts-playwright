@@ -1,4 +1,0 @@
-2024-10-20 09:41:05 - info: Retrieved user's full name: Gabriel Jenkins
-2024-10-20 09:41:05 - info: Retrieved user's email: Francisco.Steuber@demoqa.com
-2024-10-20 09:41:05 - info: Retrieved user's current address: 75356 S State Street, North Clayton, Pennsylvania, 04445-5143
-2024-10-20 09:41:05 - info: Retrieved user's permanent address: 456 Elm St, North Clayton, Pennsylvania, 04445-5143
