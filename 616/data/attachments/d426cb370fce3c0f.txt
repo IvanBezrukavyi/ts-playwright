@@ -1,5 +1,0 @@
-2024-10-21 09:42:31 - info: Retrieved user's full name: Tom Donnelly
-2024-10-21 09:42:31 - info: Retrieved user's email: Blanche82@demoqa.com
-2024-10-21 09:42:32 - info: Retrieved user's current address: 2248 Olson Cliffs, South Krystelview, Hawaii, 03701-5684
-2024-10-21 09:42:32 - info: Retrieved user's permanent address: 456 Elm St, South Krystelview, Hawaii, 03701-5684
-2024-10-21 09:42:40 - info: ***Removed Content from INPUTS***
