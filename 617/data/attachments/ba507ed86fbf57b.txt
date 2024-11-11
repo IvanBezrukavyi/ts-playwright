@@ -1,4 +1,0 @@
-2024-10-22 09:42:47 - info: Retrieved user's full name: Travis Mann
-2024-10-22 09:42:47 - info: Retrieved user's email: Ida69@demoqa.com
-2024-10-22 09:42:47 - info: Retrieved user's current address: 3498 Barry Crest, South Lura, South Dakota, 09486-7369
-2024-10-22 09:42:47 - info: Retrieved user's permanent address: 456 Elm St, South Lura, South Dakota, 09486-7369
