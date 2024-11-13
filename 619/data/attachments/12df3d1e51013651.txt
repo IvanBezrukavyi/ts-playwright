@@ -1,5 +1,0 @@
-2024-10-24 09:42:29 - info: Retrieved user's full name: Gilberto Abbott
-2024-10-24 09:42:29 - info: Retrieved user's email: Florida_Macejkovic@demoqa.com
-2024-10-24 09:42:29 - info: Retrieved user's current address: 3783 Roob Route, Fort Hettie, Colorado, 65114-3202
-2024-10-24 09:42:29 - info: Retrieved user's permanent address: 456 Elm St, Fort Hettie, Colorado, 65114-3202
-2024-10-24 09:42:33 - info: ***Removed Content from INPUTS***

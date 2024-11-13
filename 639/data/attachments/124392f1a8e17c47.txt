@@ -1,0 +1,5 @@
+2024-11-13 09:42:21 - info: Retrieved user's full name: Isaac Rohan
+2024-11-13 09:42:22 - info: Retrieved user's email: Fermin74@demoqa.com
+2024-11-13 09:42:22 - info: Retrieved user's current address: 29336 Moses Villages, South Joanyburgh, Illinois, 75600
+2024-11-13 09:42:22 - info: Retrieved user's permanent address: 456 Elm St, South Joanyburgh, Illinois, 75600
+2024-11-13 09:42:32 - info: ***Removed Content from INPUTS***

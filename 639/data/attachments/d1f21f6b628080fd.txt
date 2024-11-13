@@ -1,0 +1,4 @@
+2024-11-13 09:42:41 - info: Retrieved user's full name: Grace Mayert
+2024-11-13 09:42:41 - info: Retrieved user's email: Dexter_Dickens59@demoqa.com
+2024-11-13 09:42:41 - info: Retrieved user's current address: 7928 Carolina Junction, East Rosemaryburgh, New York, 48004-5598
+2024-11-13 09:42:41 - info: Retrieved user's permanent address: 456 Elm St, East Rosemaryburgh, New York, 48004-5598
