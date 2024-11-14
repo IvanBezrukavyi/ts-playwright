@@ -1,4 +1,0 @@
-2024-10-25 09:42:22 - info: Retrieved user's full name: Ginger Bartoletti
-2024-10-25 09:42:22 - info: Retrieved user's email: Rozella_Hermann@demoqa.com
-2024-10-25 09:42:22 - info: Retrieved user's current address: 530 Freddy Squares, East Genovevafort, Rhode Island, 56915
-2024-10-25 09:42:23 - info: Retrieved user's permanent address: 456 Elm St, East Genovevafort, Rhode Island, 56915

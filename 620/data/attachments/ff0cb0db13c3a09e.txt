@@ -1,5 +1,0 @@
-2024-10-25 09:41:30 - info: Retrieved user's full name: Luis Collins
-2024-10-25 09:41:30 - info: Retrieved user's email: Raul86@demoqa.com
-2024-10-25 09:41:30 - info: Retrieved user's current address: 740 Eudora Bridge, Reichertfurt, Idaho, 64299-5872
-2024-10-25 09:41:30 - info: Retrieved user's permanent address: 456 Elm St, Reichertfurt, Idaho, 64299-5872
-2024-10-25 09:41:35 - info: ***Removed Content from INPUTS***
