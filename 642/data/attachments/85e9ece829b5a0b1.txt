@@ -1,0 +1,5 @@
+2024-11-16 09:41:08 - info: Retrieved user's full name: Alfred Walsh
+2024-11-16 09:41:08 - info: Retrieved user's email: Kathleen.Grady51@demoqa.com
+2024-11-16 09:41:08 - info: Retrieved user's current address: 271 Litzy Drives, Carterbury, Kansas, 31746-1189
+2024-11-16 09:41:08 - info: Retrieved user's permanent address: 456 Elm St, Carterbury, Kansas, 31746-1189
+2024-11-16 09:41:16 - info: ***Removed Content from INPUTS***

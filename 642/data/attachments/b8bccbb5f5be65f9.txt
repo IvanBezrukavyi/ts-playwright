@@ -1,0 +1,4 @@
+2024-11-16 09:42:06 - info: Retrieved user's full name: Duane Aufderhar II
+2024-11-16 09:42:06 - info: Retrieved user's email: Amalia.Kris@demoqa.com
+2024-11-16 09:42:06 - info: Retrieved user's current address: 49538 W Elm Street, Hesselfort, Kansas, 55761-5050
+2024-11-16 09:42:06 - info: Retrieved user's permanent address: 456 Elm St, Hesselfort, Kansas, 55761-5050

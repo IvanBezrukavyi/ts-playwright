@@ -1,4 +1,0 @@
-2024-10-27 09:40:49 - info: Retrieved user's full name: Miss Ida Watsica IV
-2024-10-27 09:40:49 - info: Retrieved user's email: Isaac14@demoqa.com
-2024-10-27 09:40:49 - info: Retrieved user's current address: 6854 Greenville Road, Wehnerhaven, Oregon, 56079
-2024-10-27 09:40:49 - info: Retrieved user's permanent address: 456 Elm St, Wehnerhaven, Oregon, 56079
