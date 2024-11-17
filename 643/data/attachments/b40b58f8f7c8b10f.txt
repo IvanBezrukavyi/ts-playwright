@@ -1,0 +1,4 @@
+2024-11-17 09:43:00 - info: Retrieved user's full name: Mrs. Rebecca Kirlin
+2024-11-17 09:43:00 - info: Retrieved user's email: Lourdes_Bednar98@demoqa.com
+2024-11-17 09:43:00 - info: Retrieved user's current address: 1376 N Poplar Street, Quitzontown, Rhode Island, 86661-7654
+2024-11-17 09:43:00 - info: Retrieved user's permanent address: 456 Elm St, Quitzontown, Rhode Island, 86661-7654

@@ -1,5 +1,0 @@
-2024-10-28 09:43:04 - info: Retrieved user's full name: Kate Tremblay
-2024-10-28 09:43:04 - info: Retrieved user's email: Caleb14@demoqa.com
-2024-10-28 09:43:04 - info: Retrieved user's current address: 10257 Conn Walks, Nikoside, Washington, 16726
-2024-10-28 09:43:04 - info: Retrieved user's permanent address: 456 Elm St, Nikoside, Washington, 16726
-2024-10-28 09:43:08 - info: ***Removed Content from INPUTS***

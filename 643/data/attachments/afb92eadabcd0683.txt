@@ -1,0 +1,5 @@
+2024-11-17 09:42:08 - info: Retrieved user's full name: May Jenkins
+2024-11-17 09:42:08 - info: Retrieved user's email: Rafaela_Altenwerth@demoqa.com
+2024-11-17 09:42:08 - info: Retrieved user's current address: 84637 6th Avenue, Kentoncester, Michigan, 45061-9749
+2024-11-17 09:42:08 - info: Retrieved user's permanent address: 456 Elm St, Kentoncester, Michigan, 45061-9749
+2024-11-17 09:42:15 - info: ***Removed Content from INPUTS***
