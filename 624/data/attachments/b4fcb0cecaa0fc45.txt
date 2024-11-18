@@ -1,4 +1,0 @@
-2024-10-29 09:43:45 - info: Retrieved user's full name: Janis Kub
-2024-10-29 09:43:46 - info: Retrieved user's email: Eleanore.Dietrich@demoqa.com
-2024-10-29 09:43:46 - info: Retrieved user's current address: 97344 Porter Alley, Moenchester, Michigan, 51496
-2024-10-29 09:43:46 - info: Retrieved user's permanent address: 456 Elm St, Moenchester, Michigan, 51496

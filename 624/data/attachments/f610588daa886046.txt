@@ -1,5 +1,0 @@
-2024-10-29 09:42:46 - info: Retrieved user's full name: Kari Toy
-2024-10-29 09:42:46 - info: Retrieved user's email: Jaqueline38@demoqa.com
-2024-10-29 09:42:46 - info: Retrieved user's current address: 2843 N Locust Street, Elouisefort, Alaska, 78331
-2024-10-29 09:42:46 - info: Retrieved user's permanent address: 456 Elm St, Elouisefort, Alaska, 78331
-2024-10-29 09:42:56 - info: ***Removed Content from INPUTS***
