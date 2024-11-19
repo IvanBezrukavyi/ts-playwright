@@ -1,5 +1,0 @@
-2024-10-30 09:41:55 - info: Retrieved user's full name: Hope Ferry
-2024-10-30 09:41:55 - info: Retrieved user's email: Finn_Armstrong29@demoqa.com
-2024-10-30 09:41:55 - info: Retrieved user's current address: 78205 Fabiola Fields, Jeradport, Alabama, 51878-8864
-2024-10-30 09:41:55 - info: Retrieved user's permanent address: 456 Elm St, Jeradport, Alabama, 51878-8864
-2024-10-30 09:41:59 - info: ***Removed Content from INPUTS***
