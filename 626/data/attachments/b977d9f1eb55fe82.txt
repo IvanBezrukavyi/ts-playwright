@@ -1,4 +1,0 @@
-2024-10-31 09:42:16 - info: Retrieved user's full name: Willis Lind
-2024-10-31 09:42:16 - info: Retrieved user's email: Jada70@demoqa.com
-2024-10-31 09:42:16 - info: Retrieved user's current address: 458 E High Street, Andersonberg, Kansas, 64805
-2024-10-31 09:42:16 - info: Retrieved user's permanent address: 456 Elm St, Andersonberg, Kansas, 64805

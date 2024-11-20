@@ -1,0 +1,5 @@
+2024-11-20 09:43:24 - info: Retrieved user's full name: Marjorie Conn
+2024-11-20 09:43:24 - info: Retrieved user's email: Kamron.Marquardt67@demoqa.com
+2024-11-20 09:43:24 - info: Retrieved user's current address: 93160 Koss Villages, North Ramiro, Alaska, 19007-5147
+2024-11-20 09:43:24 - info: Retrieved user's permanent address: 456 Elm St, North Ramiro, Alaska, 19007-5147
+2024-11-20 09:43:30 - info: ***Removed Content from INPUTS***
