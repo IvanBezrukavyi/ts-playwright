@@ -1,4 +1,0 @@
-2024-11-01 09:42:12 - info: Retrieved user's full name: Barbara Mayer
-2024-11-01 09:42:12 - info: Retrieved user's email: Victoria8@demoqa.com
-2024-11-01 09:42:12 - info: Retrieved user's current address: 47391 E Jackson Street, West Darenbury, Vermont, 83018-7661
-2024-11-01 09:42:12 - info: Retrieved user's permanent address: 456 Elm St, West Darenbury, Vermont, 83018-7661
