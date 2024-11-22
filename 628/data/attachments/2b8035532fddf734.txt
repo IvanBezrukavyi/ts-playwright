@@ -1,5 +1,0 @@
-2024-11-02 09:39:39 - info: Retrieved user's full name: Thelma Batz
-2024-11-02 09:39:39 - info: Retrieved user's email: Thalia37@demoqa.com
-2024-11-02 09:39:39 - info: Retrieved user's current address: 308 Harrison Avenue, Fort Arliestead, Nevada, 10449-0599
-2024-11-02 09:39:39 - info: Retrieved user's permanent address: 456 Elm St, Fort Arliestead, Nevada, 10449-0599
-2024-11-02 09:39:43 - info: ***Removed Content from INPUTS***

@@ -1,4 +1,0 @@
-2024-11-02 09:39:48 - info: Retrieved user's full name: Nina Christiansen
-2024-11-02 09:39:48 - info: Retrieved user's email: Noemie.Stroman@demoqa.com
-2024-11-02 09:39:48 - info: Retrieved user's current address: 40277 Rogahn Motorway, South Roelton, Minnesota, 87942-7777
-2024-11-02 09:39:48 - info: Retrieved user's permanent address: 456 Elm St, South Roelton, Minnesota, 87942-7777
