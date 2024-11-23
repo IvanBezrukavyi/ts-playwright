@@ -1,4 +1,0 @@
-2024-11-03 09:42:05 - info: Retrieved user's full name: Sylvia Purdy MD
-2024-11-03 09:42:05 - info: Retrieved user's email: Reina_Koelpin-Wunsch@demoqa.com
-2024-11-03 09:42:05 - info: Retrieved user's current address: 965 W Grand Avenue, Fort Kristianside, Iowa, 09036-5266
-2024-11-03 09:42:05 - info: Retrieved user's permanent address: 456 Elm St, Fort Kristianside, Iowa, 09036-5266
