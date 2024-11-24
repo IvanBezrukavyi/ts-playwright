@@ -1,4 +1,0 @@
-2024-11-04 09:43:14 - info: Retrieved user's full name: Oliver Auer-Heller
-2024-11-04 09:43:14 - info: Retrieved user's email: Lysanne41@demoqa.com
-2024-11-04 09:43:14 - info: Retrieved user's current address: 4230 Lemke Stravenue, Peytonshire, Wisconsin, 94741
-2024-11-04 09:43:15 - info: Retrieved user's permanent address: 456 Elm St, Peytonshire, Wisconsin, 94741
