@@ -1,4 +1,0 @@
-2024-11-05 09:41:23 - info: Retrieved user's full name: Lewis Senger
-2024-11-05 09:41:23 - info: Retrieved user's email: Mossie.Mayert@demoqa.com
-2024-11-05 09:41:23 - info: Retrieved user's current address: 1323 Camilla Union, South Vancestad, Alabama, 34336
-2024-11-05 09:41:23 - info: Retrieved user's permanent address: 456 Elm St, South Vancestad, Alabama, 34336
