@@ -1,5 +1,0 @@
-2024-11-06 09:44:19 - info: Retrieved user's full name: Elijah Windler
-2024-11-06 09:44:19 - info: Retrieved user's email: Jenifer.Leuschke98@demoqa.com
-2024-11-06 09:44:19 - info: Retrieved user's current address: 591 Prospect Street, South Marionboro, North Dakota, 68977-4100
-2024-11-06 09:44:19 - info: Retrieved user's permanent address: 456 Elm St, South Marionboro, North Dakota, 68977-4100
-2024-11-06 09:44:24 - info: ***Removed Content from INPUTS***
