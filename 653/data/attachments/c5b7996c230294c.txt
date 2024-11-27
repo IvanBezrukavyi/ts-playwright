@@ -1,0 +1,4 @@
+2024-11-27 09:44:47 - info: Retrieved user's full name: Dr. Ruby Howe
+2024-11-27 09:44:47 - info: Retrieved user's email: Helga_Hermiston@demoqa.com
+2024-11-27 09:44:47 - info: Retrieved user's current address: 6295 Susan Stream, Treutelburgh, Maine, 19433
+2024-11-27 09:44:47 - info: Retrieved user's permanent address: 456 Elm St, Treutelburgh, Maine, 19433
