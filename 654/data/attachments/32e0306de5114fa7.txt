@@ -1,0 +1,16 @@
+ZARA COAT 3
+LOG: Product list titles is:  [
+  'ZARA COAT 3',
+  'ADIDAS ORIGINAL',
+  'IPHONE 13 PRO',
+  'qwerty',
+  'Laptop',
+  'Laptop',
+  'Laptop',
+  'Laptop'
+]
+LOG: Checkout counter equals to 0
+Button text:  British Indian Ocean Territory
+Button text:  India
+Matching country found: India
+ | 67483b5bae2afd4c0bd0ff48 | 
