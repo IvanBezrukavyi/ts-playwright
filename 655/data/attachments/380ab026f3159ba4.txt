@@ -1,0 +1,4 @@
+2024-11-29 09:43:31 - info: Retrieved user's full name: Ruby Willms
+2024-11-29 09:43:31 - info: Retrieved user's email: Georgiana44@demoqa.com
+2024-11-29 09:43:31 - info: Retrieved user's current address: 6048 Third Street, Julianberg, Kentucky, 92632-9494
+2024-11-29 09:43:31 - info: Retrieved user's permanent address: 456 Elm St, Julianberg, Kentucky, 92632-9494

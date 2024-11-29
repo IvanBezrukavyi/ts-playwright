@@ -1,5 +1,0 @@
-2024-11-09 09:39:23 - info: Retrieved user's full name: Emilio Hartmann
-2024-11-09 09:39:23 - info: Retrieved user's email: Malcolm_Braun58@demoqa.com
-2024-11-09 09:39:23 - info: Retrieved user's current address: 62886 Bernhard Heights, Lake Rowena, Wisconsin, 52449-2938
-2024-11-09 09:39:23 - info: Retrieved user's permanent address: 456 Elm St, Lake Rowena, Wisconsin, 52449-2938
-2024-11-09 09:39:28 - info: ***Removed Content from INPUTS***
