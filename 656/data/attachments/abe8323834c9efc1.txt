@@ -1,0 +1,5 @@
+2024-11-30 09:40:30 - info: Retrieved user's full name: Rudy Kautzer
+2024-11-30 09:40:30 - info: Retrieved user's email: Jennyfer_Lubowitz@demoqa.com
+2024-11-30 09:40:30 - info: Retrieved user's current address: 45854 Emiliano Coves, Jarretborough, Virginia, 18811
+2024-11-30 09:40:30 - info: Retrieved user's permanent address: 456 Elm St, Jarretborough, Virginia, 18811
+2024-11-30 09:40:35 - info: ***Removed Content from INPUTS***
