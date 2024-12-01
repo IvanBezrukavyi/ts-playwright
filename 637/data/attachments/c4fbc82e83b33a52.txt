@@ -1,5 +1,0 @@
-2024-11-11 09:41:37 - info: Retrieved user's full name: Tina Nikolaus
-2024-11-11 09:41:37 - info: Retrieved user's email: Darrick_Welch@demoqa.com
-2024-11-11 09:41:38 - info: Retrieved user's current address: 5581 Carolyn Manors, Fort Elizabethcester, Massachusetts, 65283-1093
-2024-11-11 09:41:38 - info: Retrieved user's permanent address: 456 Elm St, Fort Elizabethcester, Massachusetts, 65283-1093
-2024-11-11 09:41:51 - info: ***Removed Content from INPUTS***
