@@ -1,4 +1,0 @@
-2024-11-12 09:42:24 - info: Retrieved user's full name: Bridget Kuhn
-2024-11-12 09:42:24 - info: Retrieved user's email: Retha.Hintz42@demoqa.com
-2024-11-12 09:42:24 - info: Retrieved user's current address: 83560 E Franklin Street, East Tayafurt, Nevada, 91690
-2024-11-12 09:42:24 - info: Retrieved user's permanent address: 456 Elm St, East Tayafurt, Nevada, 91690

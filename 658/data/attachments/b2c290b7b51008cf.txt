@@ -1,0 +1,5 @@
+2024-12-02 09:44:45 - info: Retrieved user's full name: Katrina Gibson
+2024-12-02 09:44:45 - info: Retrieved user's email: Shanelle_Christiansen43@demoqa.com
+2024-12-02 09:44:45 - info: Retrieved user's current address: 85286 Kuvalis Mission, West Korbin, New Jersey, 95543-9554
+2024-12-02 09:44:45 - info: Retrieved user's permanent address: 456 Elm St, West Korbin, New Jersey, 95543-9554
+2024-12-02 09:44:50 - info: ***Removed Content from INPUTS***

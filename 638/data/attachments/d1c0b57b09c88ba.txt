@@ -1,5 +1,0 @@
-2024-11-12 09:42:10 - info: Retrieved user's full name: Brett Grant
-2024-11-12 09:42:11 - info: Retrieved user's email: Emerald.Farrell@demoqa.com
-2024-11-12 09:42:11 - info: Retrieved user's current address: 3157 Hector Parkway, North Terry, North Carolina, 18452
-2024-11-12 09:42:11 - info: Retrieved user's permanent address: 456 Elm St, North Terry, North Carolina, 18452
-2024-11-12 09:42:16 - info: ***Removed Content from INPUTS***
