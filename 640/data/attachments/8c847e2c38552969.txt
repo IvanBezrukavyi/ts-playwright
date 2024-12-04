@@ -1,4 +1,0 @@
-2024-11-14 09:42:38 - info: Retrieved user's full name: Ignacio Abbott
-2024-11-14 09:42:38 - info: Retrieved user's email: Marlon.Lehner@demoqa.com
-2024-11-14 09:42:38 - info: Retrieved user's current address: 405 Pearl Street, Fort Carliefield, Arizona, 84677
-2024-11-14 09:42:38 - info: Retrieved user's permanent address: 456 Elm St, Fort Carliefield, Arizona, 84677

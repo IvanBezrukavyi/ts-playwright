@@ -1,5 +1,0 @@
-2024-11-14 09:42:15 - info: Retrieved user's full name: Tracy Gorczany
-2024-11-14 09:42:15 - info: Retrieved user's email: Felton_Schamberger@demoqa.com
-2024-11-14 09:42:16 - info: Retrieved user's current address: 977 Post Road, Lake Arielleborough, Ohio, 55042-2610
-2024-11-14 09:42:16 - info: Retrieved user's permanent address: 456 Elm St, Lake Arielleborough, Ohio, 55042-2610
-2024-11-14 09:42:28 - info: ***Removed Content from INPUTS***

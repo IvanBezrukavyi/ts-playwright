@@ -1,0 +1,5 @@
+2024-12-04 09:44:13 - info: Retrieved user's full name: Janice Kovacek MD
+2024-12-04 09:44:13 - info: Retrieved user's email: Cory57@demoqa.com
+2024-12-04 09:44:14 - info: Retrieved user's current address: 83893 Rowe Place, South Jasonstad, California, 55086
+2024-12-04 09:44:14 - info: Retrieved user's permanent address: 456 Elm St, South Jasonstad, California, 55086
+2024-12-04 09:44:20 - info: ***Removed Content from INPUTS***
