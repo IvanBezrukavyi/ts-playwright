@@ -1,5 +1,0 @@
-2024-11-15 09:42:02 - info: Retrieved user's full name: Nicole Schuppe Jr.
-2024-11-15 09:42:02 - info: Retrieved user's email: Forest.Kuhic66@demoqa.com
-2024-11-15 09:42:03 - info: Retrieved user's current address: 669 Joanne Glens, Irwinshire, Alaska, 71378
-2024-11-15 09:42:03 - info: Retrieved user's permanent address: 456 Elm St, Irwinshire, Alaska, 71378
-2024-11-15 09:42:15 - info: ***Removed Content from INPUTS***

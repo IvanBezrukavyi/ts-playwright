@@ -1,4 +1,0 @@
-2024-11-15 09:42:23 - info: Retrieved user's full name: Fredrick Leuschke
-2024-11-15 09:42:23 - info: Retrieved user's email: Jordon1@demoqa.com
-2024-11-15 09:42:23 - info: Retrieved user's current address: 3243 Moore Summit, North Oliver, Arizona, 19795
-2024-11-15 09:42:23 - info: Retrieved user's permanent address: 456 Elm St, North Oliver, Arizona, 19795
