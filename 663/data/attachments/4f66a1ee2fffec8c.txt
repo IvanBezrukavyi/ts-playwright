@@ -1,0 +1,4 @@
+2024-12-07 09:42:27 - info: Retrieved user's full name: Gregg VonRueden
+2024-12-07 09:42:27 - info: Retrieved user's email: Mark29@demoqa.com
+2024-12-07 09:42:27 - info: Retrieved user's current address: 496 S 4th Street, South Sheridan, Kansas, 24185-9660
+2024-12-07 09:42:27 - info: Retrieved user's permanent address: 456 Elm St, South Sheridan, Kansas, 24185-9660

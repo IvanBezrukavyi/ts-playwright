@@ -1,0 +1,5 @@
+2024-12-07 09:42:06 - info: Retrieved user's full name: Claire Trantow
+2024-12-07 09:42:06 - info: Retrieved user's email: Kristy38@demoqa.com
+2024-12-07 09:42:06 - info: Retrieved user's current address: 83097 Nikolaus Crescent, Lake Royce, New Hampshire, 86228-2905
+2024-12-07 09:42:06 - info: Retrieved user's permanent address: 456 Elm St, Lake Royce, New Hampshire, 86228-2905
+2024-12-07 09:42:17 - info: ***Removed Content from INPUTS***
