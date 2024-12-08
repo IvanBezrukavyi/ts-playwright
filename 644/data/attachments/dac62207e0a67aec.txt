@@ -1,5 +1,0 @@
-2024-11-18 09:44:05 - info: Retrieved user's full name: Eduardo Abbott-Haley
-2024-11-18 09:44:05 - info: Retrieved user's email: Ronny35@demoqa.com
-2024-11-18 09:44:06 - info: Retrieved user's current address: 7080 Wolff Crest, West Patiencechester, Arizona, 64009
-2024-11-18 09:44:06 - info: Retrieved user's permanent address: 456 Elm St, West Patiencechester, Arizona, 64009
-2024-11-18 09:44:12 - info: ***Removed Content from INPUTS***

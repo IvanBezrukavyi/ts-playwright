@@ -1,4 +1,0 @@
-2024-11-18 09:44:19 - info: Retrieved user's full name: Al Hodkiewicz III
-2024-11-18 09:44:20 - info: Retrieved user's email: Enoch.Ruecker@demoqa.com
-2024-11-18 09:44:20 - info: Retrieved user's current address: 65462 Mike Passage, Garrisonbury, Connecticut, 86338-5141
-2024-11-18 09:44:20 - info: Retrieved user's permanent address: 456 Elm St, Garrisonbury, Connecticut, 86338-5141

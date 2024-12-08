@@ -1,0 +1,4 @@
+2024-12-08 09:41:20 - info: Retrieved user's full name: Miss Grace Gottlieb
+2024-12-08 09:41:20 - info: Retrieved user's email: Christopher.Corkery@demoqa.com
+2024-12-08 09:41:20 - info: Retrieved user's current address: 15175 Jayda Trafficway, West Juvenaltown, Oregon, 37576
+2024-12-08 09:41:20 - info: Retrieved user's permanent address: 456 Elm St, West Juvenaltown, Oregon, 37576

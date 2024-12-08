@@ -1,0 +1,5 @@
+2024-12-08 09:41:08 - info: Retrieved user's full name: Ethel DuBuque
+2024-12-08 09:41:08 - info: Retrieved user's email: Cathryn56@demoqa.com
+2024-12-08 09:41:08 - info: Retrieved user's current address: 42938 E 3rd Street, Greenholtstad, Michigan, 10203
+2024-12-08 09:41:08 - info: Retrieved user's permanent address: 456 Elm St, Greenholtstad, Michigan, 10203
+2024-12-08 09:41:15 - info: ***Removed Content from INPUTS***
