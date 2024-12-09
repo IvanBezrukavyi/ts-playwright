@@ -1,4 +1,0 @@
-2024-11-19 09:43:16 - info: Retrieved user's full name: Bennie Goyette
-2024-11-19 09:43:16 - info: Retrieved user's email: Randy85@demoqa.com
-2024-11-19 09:43:16 - info: Retrieved user's current address: 79551 Rempel Drives, Haaghaven, Alabama, 15141
-2024-11-19 09:43:16 - info: Retrieved user's permanent address: 456 Elm St, Haaghaven, Alabama, 15141

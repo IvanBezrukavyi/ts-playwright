@@ -1,5 +1,0 @@
-2024-11-19 09:43:02 - info: Retrieved user's full name: Guadalupe Kris
-2024-11-19 09:43:02 - info: Retrieved user's email: Marilyne.Gottlieb@demoqa.com
-2024-11-19 09:43:02 - info: Retrieved user's current address: 172 King Street, West Rico, Illinois, 82282-6197
-2024-11-19 09:43:02 - info: Retrieved user's permanent address: 456 Elm St, West Rico, Illinois, 82282-6197
-2024-11-19 09:43:09 - info: ***Removed Content from INPUTS***
