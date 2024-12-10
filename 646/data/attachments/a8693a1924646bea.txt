@@ -1,4 +1,0 @@
-2024-11-20 09:43:39 - info: Retrieved user's full name: Jim Altenwerth
-2024-11-20 09:43:39 - info: Retrieved user's email: Thurman97@demoqa.com
-2024-11-20 09:43:39 - info: Retrieved user's current address: 749 Marta Forks, Leannonview, South Carolina, 87490-8351
-2024-11-20 09:43:39 - info: Retrieved user's permanent address: 456 Elm St, Leannonview, South Carolina, 87490-8351
