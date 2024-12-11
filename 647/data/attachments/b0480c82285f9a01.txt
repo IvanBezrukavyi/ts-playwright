@@ -1,4 +1,0 @@
-2024-11-21 09:44:38 - info: Retrieved user's full name: Sophia Cummerata
-2024-11-21 09:44:38 - info: Retrieved user's email: Phyllis_Wolff16@demoqa.com
-2024-11-21 09:44:38 - info: Retrieved user's current address: 404 Stiedemann Key, East Meredith, Maine, 37216
-2024-11-21 09:44:38 - info: Retrieved user's permanent address: 456 Elm St, East Meredith, Maine, 37216
