@@ -1,5 +1,0 @@
-2024-11-26 09:43:57 - info: Retrieved user's full name: Casey Hermiston
-2024-11-26 09:43:57 - info: Retrieved user's email: Noah_Hagenes-West@demoqa.com
-2024-11-26 09:43:57 - info: Retrieved user's current address: 4794 Aidan Village, Port Doyle, South Dakota, 07703-8915
-2024-11-26 09:43:57 - info: Retrieved user's permanent address: 456 Elm St, Port Doyle, South Dakota, 07703-8915
-2024-11-26 09:44:03 - info: ***Removed Content from INPUTS***

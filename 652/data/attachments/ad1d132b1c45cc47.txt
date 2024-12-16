@@ -1,4 +1,0 @@
-2024-11-26 09:44:12 - info: Retrieved user's full name: Sheila Kerluke
-2024-11-26 09:44:12 - info: Retrieved user's email: Madelynn_Pfeffer@demoqa.com
-2024-11-26 09:44:13 - info: Retrieved user's current address: 6700 Dickens Streets, Lake Rosamondton, New York, 93722
-2024-11-26 09:44:13 - info: Retrieved user's permanent address: 456 Elm St, Lake Rosamondton, New York, 93722
