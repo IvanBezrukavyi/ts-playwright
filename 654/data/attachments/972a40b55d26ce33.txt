@@ -1,5 +1,0 @@
-2024-11-28 09:44:17 - info: Retrieved user's full name: Randal Wiza
-2024-11-28 09:44:17 - info: Retrieved user's email: Cheyanne.Crooks15@demoqa.com
-2024-11-28 09:44:18 - info: Retrieved user's current address: 6678 Aglae Meadows, McCulloughberg, Oklahoma, 90190-3853
-2024-11-28 09:44:18 - info: Retrieved user's permanent address: 456 Elm St, McCulloughberg, Oklahoma, 90190-3853
-2024-11-28 09:44:31 - info: ***Removed Content from INPUTS***
