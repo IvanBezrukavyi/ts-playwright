@@ -1,4 +1,0 @@
-2024-11-30 09:41:23 - info: Retrieved user's full name: Melanie Koch
-2024-11-30 09:41:23 - info: Retrieved user's email: Porter.Turcotte65@demoqa.com
-2024-11-30 09:41:23 - info: Retrieved user's current address: 119 River Street, Bergestead, Arkansas, 01987-5805
-2024-11-30 09:41:23 - info: Retrieved user's permanent address: 456 Elm St, Bergestead, Arkansas, 01987-5805
