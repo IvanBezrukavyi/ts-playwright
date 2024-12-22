@@ -1,4 +1,0 @@
-2024-12-02 09:45:34 - info: Retrieved user's full name: Eddie West
-2024-12-02 09:45:34 - info: Retrieved user's email: Elnora_Hahn54@demoqa.com
-2024-12-02 09:45:34 - info: Retrieved user's current address: 343 Alanis Plain, North Tierra, Indiana, 39823-9139
-2024-12-02 09:45:34 - info: Retrieved user's permanent address: 456 Elm St, North Tierra, Indiana, 39823-9139
