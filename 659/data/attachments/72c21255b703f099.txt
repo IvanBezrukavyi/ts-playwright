@@ -1,4 +1,0 @@
-2024-12-03 09:45:41 - info: Retrieved user's full name: Leon Heller
-2024-12-03 09:45:41 - info: Retrieved user's email: Julia.Hahn21@demoqa.com
-2024-12-03 09:45:41 - info: Retrieved user's current address: 174 Walton Camp, Olsonside, Utah, 21015
-2024-12-03 09:45:41 - info: Retrieved user's permanent address: 456 Elm St, Olsonside, Utah, 21015
