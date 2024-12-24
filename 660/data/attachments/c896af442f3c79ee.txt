@@ -1,4 +1,0 @@
-2024-12-04 09:44:26 - info: Retrieved user's full name: Josefina Runolfsson
-2024-12-04 09:44:27 - info: Retrieved user's email: Noble86@demoqa.com
-2024-12-04 09:44:27 - info: Retrieved user's current address: 8239 Kub Junction, Stacystead, North Carolina, 27858
-2024-12-04 09:44:27 - info: Retrieved user's permanent address: 456 Elm St, Stacystead, North Carolina, 27858
