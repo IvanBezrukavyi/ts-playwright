@@ -1,5 +1,0 @@
-2024-12-05 09:43:38 - info: Retrieved user's full name: Diana Hettinger
-2024-12-05 09:43:38 - info: Retrieved user's email: Elyssa42@demoqa.com
-2024-12-05 09:43:38 - info: Retrieved user's current address: 378 Taryn Drive, New Garretborough, Missouri, 84882-2173
-2024-12-05 09:43:38 - info: Retrieved user's permanent address: 456 Elm St, New Garretborough, Missouri, 84882-2173
-2024-12-05 09:43:46 - info: ***Removed Content from INPUTS***

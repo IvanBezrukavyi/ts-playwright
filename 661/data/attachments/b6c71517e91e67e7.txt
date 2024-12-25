@@ -1,4 +1,0 @@
-2024-12-05 09:44:27 - info: Retrieved user's full name: Dr. Aubrey Mann
-2024-12-05 09:44:27 - info: Retrieved user's email: Pasquale76@demoqa.com
-2024-12-05 09:44:27 - info: Retrieved user's current address: 4790 Hartmann Burgs, Port Marian, South Dakota, 82130-0246
-2024-12-05 09:44:27 - info: Retrieved user's permanent address: 456 Elm St, Port Marian, South Dakota, 82130-0246
