@@ -3,7 +3,7 @@
   "description": "my learning path in playwright",
   "devDependencies": {
     "@faker-js/faker": "^8.3.1",
-    "@playwright/test": "^1.41.2",
+    "@playwright/test": "^1.52.0",
     "@types/del": "^4.0.0",
     "@types/node": "^20.9.4",
     "@types/prettier": "^3.0.0",
