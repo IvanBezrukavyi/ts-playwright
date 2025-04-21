@@ -1,4 +1,4 @@
-name: Run ESLint
+name: Code Quality checks(ESLint and Prettier)
 
 on: [push]
 
@@ -7,13 +7,28 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Install Node.js
+      - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '>=21.1.0'
-      - name: Install ESLint and Prettier dependencies
+          node-version: '21.x'
+          cache: 'npm'
+      - name: Install dependencies
+        run: npm ci
+      - name: Run ESLint
+        run: npm run lint
+      - name: Check Prettier formatting
+        id: prettier-check
+        run: npx prettier . --check
+        continue-on-error: true
+      - name: Fix Prettier formatting
+        if: steps.prettier-check.outcome == 'failure'
+        run: npx prettier . --write
+
+      - name: Commit changes
+        if: steps.prettier-check.outcome == 'failure'
         run: |
-          npm install @eslint/eslintrc @faker-js/faker --save-dev
-          npm install --save-dev prettier
-      - name: Run ESLint and Prettier
-        run: npm run lint && npx prettier . --check
+         git config --global user.name "github-actions[bot]"
+         git config --global user.email "github-actions[bot]@users.noreply.github.com"
+         git add .
+         git commit -m "Fix code style issues with Prettier"
+         git push

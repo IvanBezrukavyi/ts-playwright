@@ -2,7 +2,7 @@
     "cSpell.language": "en,en-US",
     "sonarlint.analyzerProperties": {
         "sonar.typescript.tsconfigPath": "./tsconfig.json",
-        "sonar.typescript.sourceDirectories": ["srs", "tests/*.ts", "tests-demoqa/*.ts", "Utils/*.ts"], //"src/**/*.ts"
+        "sonar.typescript.sourceDirectories": ["srs", "tests/*.ts", "tests-demoqa/*.ts", "Utils/*.ts"],
         "sonar.typescript.rules": {
             "sonarjs:S1118": "warn"
         },
@@ -16,5 +16,12 @@
             "test-results"
         ]
     },
-    "cSpell.words": ["Bezrukavyi", "Demoqa", "filechooser", "sonarlint"]
+    "cSpell.words": [
+        "Bezrukavyi",
+        "Demoqa",
+        "filechooser",
+        "Parametriazation",
+        "rawdata",
+        "sonarlint"
+    ]
 }
