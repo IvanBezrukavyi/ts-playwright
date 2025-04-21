@@ -20,8 +20,8 @@ jobs:
       CLIENT_APP_URL: ${{ secrets.CLIENT_APP_URL }}
       USER_EMAIL: ${{ secrets.USER_EMAIL }}
       USER_PASSWORD: ${{ secrets.USER_PASSWORD }}
-      SINGLE_FILE_PATH: ${{ secrets.SINGLE_FILE_PATH}}
-      MULTI_FILE_PATHS: ${{ secrets.MULTI_FILE_PATHS}}
+      SINGLE_FILE_PATH: ${{ secrets.SINGLE_FILE_PATH }}
+      MULTI_FILE_PATHS: ${{ secrets.MULTI_FILE_PATHS }}
 
     steps:
       - name: Checkout code
@@ -39,33 +39,32 @@ jobs:
           key: node-modules-${{ hashFiles('package-lock.json') }}
 
       - name: Install Dependencies
-        run: |
-          npm ci
+        run: npm ci
 
       - name: Store Playwright Version
         run: |
           PLAYWRIGHT_VERSION=$(node -p "require('./package.json').devDependencies['@playwright/test']")
           echo "PLAYWRIGHT_VERSION=${PLAYWRIGHT_VERSION}" >> $GITHUB_ENV
 
-      - name: Cache Playwright Browsers for Playwright's Version
+      - name: Cache Playwright Browsers
         id: cache-playwright-browsers
         uses: actions/cache@v4
         with:
           path: ~/.cache/ms-playwright
           key: playwright-browsers-${{ env.PLAYWRIGHT_VERSION }}-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
 
-      - name: Install Playwright
+      - name: Install Playwright (if no cache)
         if: steps.cache-playwright-browsers.outputs.cache-hit != 'true'
         run: npx playwright install --with-deps
-  
-      - name: Install Playwright Dependencies
+
+      - name: Install Playwright Dependencies (if cached)
         if: steps.cache-playwright-browsers.outputs.cache-hit == 'true'
         run: npx playwright install-deps
 
-      - name: Run Tests
+      - name: Run Playwright Tests
         run: |
           npx playwright test -g clientAppWithExternalDataAndParametriazation.spec.ts
-          npx playwright test --grep "@Demoqa|@Web"
+          npx playwright test --grep "@Demoqa | @Web"
 
       - name: Store Results from Failed Tests
         if: always()
@@ -83,37 +82,39 @@ jobs:
           path: logs/
           retention-days: 7
 
-      report:
-        name: Generate & Deploy Allure Report
-        needs: test
-        runs-on: ubuntu-latest
-        if: always()  
-    
-        steps:
-          - name: Get Allure history
-            uses: actions/checkout@v4
-            if: always()
-            continue-on-error: true
-            with:
-              ref: gh-pages
-              path: gh-pages
+  report:
+    name: Generate & Deploy Allure Report
+    needs: test
+    runs-on: ubuntu-latest
+    if: always()
 
-          - name: Checkout source code
-            uses: actions/checkout@v4    
-      
-          - name: Generate Allure Report
-            uses: simple-elf/allure-report-action@master
-            if: always()
-            with:
-              allure_results: allure-results
-              gh_pages: gh-pages
-              allure_report: allure-report
-              allure_history: allure-history
-      
-          - name: Deploy Allure Report to Github Pages
-            if: always()
-            uses: peaceiris/actions-gh-pages@v3
-            env:
-              PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-              PUBLISH_BRANCH: gh-pages
-              PUBLISH_DIR: allure-history
+    steps:
+      - name: Checkout gh-pages for Allure history
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: gh-pages
+        continue-on-error: true
+
+      - name: Checkout current source code
+        uses: actions/checkout@v4
+
+      - name: Generate Allure Report
+        uses: simple-elf/allure-report-action@master
+        with:
+          allure_results: allure-results
+          gh_pages: gh-pages
+          allure_report: allure-report
+          allure_history: allure-history
+
+      - name: Prepare Allure History Directory
+        run: |
+          mkdir -p allure-history
+          cp -r allure-report/* allure-history/
+
+      - name: Deploy Allure Report to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3.9.1
+        env:
+          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: allure-history

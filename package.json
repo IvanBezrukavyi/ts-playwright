@@ -50,8 +50,7 @@
         ],
         "*.md": [
             "prettier --list-different",
-            "remark --quiet --frail --no-color --output=lint-staged-report.md --ignore-path .gitignore .",
-            "git add lint-staged-report.md"
+            "remark --quiet --frail --no-color --ignore-path .gitignore ."
         ]
     }
 }
