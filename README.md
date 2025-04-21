@@ -43,7 +43,7 @@ My learning page is based on this [course](https://softserve.udemy.com/course/pl
 
 ### 4. Allure Reporting
 
-1. Install Java for Allure report's opening [here] (<https://www.oracle.com/de/java/technologies/downloads/>)
+1. Install Java for Allure report's opening [download](https://www.oracle.com/de/java/technologies/downloads/)
 2. Install Allure-Playwright: npm i -D @playwright/test allure-playwright. General installation process and usage you can find [here](https://www.npmjs.com/package/allure-playwright?activeTab=readme)
 3. installation allure command line to generate allure report from allure result: npm install -g allure-commandline --save-dev. More details you can find [here](https://www.npmjs.com/package/allure-commandline)
 4. Running test with Allure reporting: npx playwright test --grep @tag --reporter=line,allure-playwright
