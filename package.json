@@ -1,54 +1,54 @@
 {
-  "author": "Ivan Bezrukavyi",
-  "description": "my learning path in playwright",
-  "devDependencies": {
-    "@faker-js/faker": "^8.3.1",
-    "@playwright/test": "^1.52.0",
-    "@types/del": "^4.0.0",
-    "@types/node": "^20.9.4",
-    "@types/prettier": "^3.0.0",
-    "@typescript-eslint/eslint-plugin": "^6.13.2",
-    "@typescript-eslint/parser": "^6.13.2",
-    "allure-playwright": "^2.9.2",
-    "eslint": "^8.54.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-playwright": "^0.19.0",
-    "eslint-plugin-prettier": "^5.0.1",
-    "husky": "^8.0.3",
-    "lint-staged": "^15.2.0",
-    "prettier": "^3.1.0",
-    "typescript": "^5.3.3"
-  },
-  "scripts": {
-    "regression": "npx playwright test",
-    "webTests": "npx playwright test --grep @Web",
-    "allureReport": "npx playwright test --grep @Web --reporter=line,allure-playwright",
-    "client": "npx playwright test -g clientAppWithExternalDataAndParametriazation.spec.ts",
-    "demoqa": "npx playwright test --grep @Demoqa",
-    "debug": "npx playwright test -g TC 2: E2E. Enter and remove data from input text fields and via keys and shortcuts and cycle --debug",
-    "debug-ui": "npx playwright test --grep @PO --debug",
-    "debug2": "npx playwright test uploadAndDownload.spec.ts --debug",
-    "lint": "eslint ./tests/*.spec.ts",
-    "lint-fix": "eslint ./tests/*.spec.ts",
-    "prepare": "husky install"
-  },
-  "dependencies": {
-    "del": "^7.1.0",
-    "dotenv": "^16.3.1",
-    "playwright": "^1.40.1",
-    "winston": "^3.11.0",
-    "winston-daily-rotate-file": "^4.7.1"
-  },
-  "type": "module",
-  "lint-staged": {
-    "**/*.ts": [
-      "prettier --write",
-      "eslint --fix",
-      "eslint --cache --cache-location .eslintcache --fix"
-    ],
-    "*.md": [
-      "prettier --list-different",
-      "remark-cli"
-    ]
-  }
+    "author": "Ivan Bezrukavyi",
+    "description": "my learning path in playwright",
+    "devDependencies": {
+        "@faker-js/faker": "^8.3.1",
+        "@playwright/test": "^1.52.0",
+        "@types/del": "^4.0.0",
+        "@types/node": "^20.9.4",
+        "@types/prettier": "^3.0.0",
+        "@typescript-eslint/eslint-plugin": "^6.13.2",
+        "@typescript-eslint/parser": "^6.13.2",
+        "allure-playwright": "^2.9.2",
+        "eslint": "^8.54.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-playwright": "^0.19.0",
+        "eslint-plugin-prettier": "^5.0.1",
+        "husky": "^8.0.3",
+        "lint-staged": "^15.2.0",
+        "prettier": "^3.1.0",
+        "typescript": "^5.3.3"
+    },
+    "scripts": {
+        "regression": "npx playwright test",
+        "webTests": "npx playwright test --grep @Web",
+        "allureReport": "npx playwright test --grep @Web --reporter=line,allure-playwright",
+        "client": "npx playwright test -g clientAppWithExternalDataAndParametriazation.spec.ts",
+        "demoqa": "npx playwright test --grep @Demoqa",
+        "debug": "npx playwright test -g TC 2: E2E. Enter and remove data from input text fields and via keys and shortcuts and cycle --debug",
+        "debug-ui": "npx playwright test --grep @PO --debug",
+        "debug2": "npx playwright test uploadAndDownload.spec.ts --debug",
+        "lint": "eslint ./tests/*.spec.ts",
+        "lint-fix": "eslint ./tests/*.spec.ts",
+        "prepare": "husky install"
+    },
+    "dependencies": {
+        "del": "^7.1.0",
+        "dotenv": "^16.3.1",
+        "playwright": "^1.40.1",
+        "winston": "^3.11.0",
+        "winston-daily-rotate-file": "^4.7.1"
+    },
+    "type": "module",
+    "lint-staged": {
+        "**/*.ts": [
+            "prettier --write",
+            "eslint --fix",
+            "eslint --cache --cache-location .eslintcache --fix"
+        ],
+        "*.md": [
+            "prettier --list-different",
+            "remark-cli"
+        ]
+    }
 }
