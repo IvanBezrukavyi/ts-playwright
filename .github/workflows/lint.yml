@@ -1,4 +1,4 @@
-name: Run ESLint
+name: Code Quality checks(ESLint and Prettier)
 
 on: [push]
 
@@ -18,3 +18,14 @@ jobs:
         run: npm run lint
       - name: Check Prettier formatting
         run: npx prettier . --check
+      - name: Fix Prettier formatting
+        if: failure()
+        run: npx prettier . --write
+      - name: Commit changes
+        if: failure()
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Fix code style issues with Prettier"
+          git push
