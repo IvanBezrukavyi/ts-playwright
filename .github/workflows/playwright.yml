@@ -126,10 +126,23 @@ jobs:
             echo "Source 'allure-report' directory not found. Nothing to copy."
           fi
         shell: bash
-      
+
+      # Add a step to change ownership after copying
+      - name: Ensure Correct File Ownership
+        run: |
+          # Change ownership of allure-history and its contents to the runner user
+          sudo chown -R runner:runner allure-history/
+          echo "Changed ownership of allure-history to runner user."
+        shell: bash
+        # Add continue-on-error: true here if you want the workflow to proceed even if chown fails
+        # continue-on-error: true
+
+
       - name: Get Deployment Date and Time
         id: get_date
+        # Using GITHUB_OUTPUT to set step output, replacing deprecated set-output
         run: echo "now=$(date +'%a %b %d %H:%M:%S %Z %Y')" >> "$GITHUB_OUTPUT"
+        shell: bash # Ensure bash is used
 
       - name: Add Deployment Info to HTML
         run: |
@@ -158,6 +171,7 @@ jobs:
           fi
 
           # Ensure write permissions on the target file
+          # This might be redundant after chown, but doesn't hurt to keep
           chmod +w "$TARGET_HTML_FILE"
           echo "Set write permissions on $TARGET_HTML_FILE"
 
@@ -166,11 +180,11 @@ jobs:
           sed -i "/<\/body>/i <p>${FULL_DEPLOY_INFO}</p>" "$TARGET_HTML_FILE"
           echo "Added deployment info to $TARGET_HTML_FILE"
 
-        shell: bash
-      
-      - name: List Contents of Allure History Directory
+        shell: bash # Ensure bash is used for the script
+
+      - name: List Contents of Allure History Directory (After Modification)
         run: ls -la allure-history
-        continue-on-error: true    
+        continue-on-error: true
 
       - name: Deploy Allure Report to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3.9.1
