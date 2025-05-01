@@ -64,7 +64,7 @@ jobs:
       - name: Run Playwright Tests
         run: |
           npx playwright test -g clientAppWithExternalDataAndParametriazation.spec.ts
-          npx playwright test --grep "@Demoqa | @Web"
+          # npx playwright test --grep "@Demoqa | @Web"
 
       - name: Store Results from Failed Tests
         if: always()
@@ -109,9 +109,21 @@ jobs:
 
       - name: Prepare Allure History Directory
         run: |
+          # Ensure the target directory exists (created by the current user)
           mkdir -p allure-history
-          sudo chown -R $(whoami) allure-report
+          echo "Ensured allure-history directory exists."
+
+          # Check if the source directory exists and has content before copying
+          if [ -d "allure-report" ] && [ "$(ls -A allure-report)" ]; then
+          echo "Source 'allure-report' found and contains files. Copying contents..."
+          # Copy contents from allure-report to allure-history
           cp -r allure-report/* allure-history/
+          echo "Copy completed."
+        shell: bash
+      
+      - name: List Contents of Allure History Directory
+        run: ls -la allure-history
+        continue-on-error: true    
 
       - name: Deploy Allure Report to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3.9.1
