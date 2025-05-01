@@ -127,6 +127,34 @@ jobs:
           fi
         shell: bash
       
+      - name: Get Deployment Date and Time
+        id: get_date
+        run: echo "::set-output name=now::$(date +'%a %b %d %H:%M:%S %Z %Y')" # Format the date as needed
+
+      - name: Add Deployment Info to HTML
+        run: |
+          # Define the commit hash
+          COMMIT_HASH="${{ github.sha }}"
+          SHORT_COMMIT_HASH="${COMMIT_HASH::7}" # Get the first 7 characters
+
+          # Define the deployment date and time
+          DEPLOY_DATE="${{ steps.get_date.outputs.now }}"
+
+          # Construct the HTML snippet for the commit link
+          # Replace 'IvanBezrukavyi/ts-playwright' with your repo path if different
+          # Ensure the URL is correct for your repository
+          COMMIT_LINK_HTML='<a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/IvanBezrukavyi/ts-playwright/commit/'"${COMMIT_HASH}"'/hovercard" href="https://github.com/IvanBezrukavyi/ts-playwright/commit/'"${COMMIT_HASH}"'"><tt>'"${SHORT_COMMIT_HASH}"'</tt></a>'
+
+          # The full string to insert
+          FULL_DEPLOY_INFO="Automated deployment: ${DEPLOY_DATE} ${COMMIT_LINK_HTML}"
+
+          # --- Modify your HTML file ---
+          # This uses sed to insert the info just before the closing </body> tag
+          # You might need to adjust the insertion point based on the Allure report's index.html structure
+          # We are targeting the index.html within the directory that will be published (allure-history)
+          sed -i "/<\/body>/i <p>${FULL_DEPLOY_INFO}</p>" allure-history/index.html
+        shell: bash
+      
       - name: List Contents of Allure History Directory
         run: ls -la allure-history
         continue-on-error: true    
