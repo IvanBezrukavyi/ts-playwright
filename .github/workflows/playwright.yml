@@ -115,10 +115,17 @@ jobs:
 
           # Check if the source directory exists and has content before copying
           if [ -d "allure-report" ] && [ "$(ls -A allure-report)" ]; then
-          echo "Source 'allure-report' found and contains files. Copying contents..."
-          # Copy contents from allure-report to allure-history
-          cp -r allure-report/* allure-history/
-          echo "Copy completed."
+            echo "Source 'allure-report' found and contains files. Copying contents..."
+            # Copy contents from allure-report to allure-history
+            cp -r allure-report/* allure-history/
+            echo "Copy completed."
+          elif [ -d "allure-report" ]; then
+            # This handles the case where the directory exists but is empty
+            echo "Source 'allure-report' exists but is empty. Nothing to copy."
+          else
+            # This handles the case where the directory doesn't exist at all
+            echo "Source 'allure-report' directory not found. Nothing to copy."
+          fi # <--- THIS 'fi' IS ESSENTIAL! Make sure it's there.  
         shell: bash
       
       - name: List Contents of Allure History Directory
