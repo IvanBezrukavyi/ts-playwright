@@ -64,7 +64,7 @@ jobs:
       - name: Run Playwright Tests
         run: |
           npx playwright test -g clientAppWithExternalDataAndParametriazation.spec.ts
-          # npx playwright test --grep "@Demoqa | @Web"
+          npx playwright test --grep "@Demoqa | @Web"
 
       - name: Store Results from Failed Tests
         if: always()
