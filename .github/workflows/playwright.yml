@@ -111,16 +111,14 @@ jobs:
         run: |
           # Ensure the target directory exists (created by the current user)
           mkdir -p allure-history
-          chmod -R u+w allure-history
-          echo "Ensured allure-history directory exists and set write permissions."
+          echo "Ensured allure-history directory exists."
 
           # Check if the source directory exists and has content before copying
           if [ -d "allure-report" ] && [ "$(ls -A allure-report)" ]; then
             echo "Source 'allure-report' found and contains files. Copying contents..."
             cp -r allure-report/* allure-history/ || sudo cp -r allure-report/* allure-history/
-            cp -r allure-report/* allure-history/
             echo "Copy completed."
-          else if [ -d "allure-report" ]; then
+          elif [ -d "allure-report" ]; then
             # This handles the case where the directory exists but is empty
             echo "Source 'allure-report' exists but is empty. Nothing to copy."
           else
