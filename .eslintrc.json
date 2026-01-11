@@ -18,7 +18,7 @@
     "plugins": ["@typescript-eslint", "playwright", "prettier"],
     "rules": {
         "prettier/prettier": [
-            "warn",
+            "off",
             {
                 "usePrettierrc": true
             }
@@ -70,6 +70,7 @@
         "@typescript-eslint/no-unused-vars": "error",
         // Discourage using the `new Function()` or `new Object()` constructors
         "no-new-wrappers": "error",
-        "no-useless-escape": "warn"
+        "no-useless-escape": "off"
+        // Set"warn" or "off" for rule ignoring
     }
 }
