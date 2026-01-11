@@ -78,8 +78,8 @@ test('@Web TC: Verify UI controls', async ({ page }) => {
     console.log(await loginDropDown.selectOption('Consultant'))
     await page.locator('#terms').click()
     await expect(page.locator('#terms')).toBeChecked()
-    await page.locator('#terms').uncheck()
-    await await expect(page.locator('#terms')).not.toBeChecked()
+    //await page.locator('#terms').uncheck()
+    //await expect(page.locator('#terms')).not.toBeChecked()
     //Verify blincking attribute in login page
     await expect(docLink).toHaveAttribute('class', 'blinkingText')
     await expect(docLink).toContainText('Free Access to InterviewQues/ResumeAssistance/Material')

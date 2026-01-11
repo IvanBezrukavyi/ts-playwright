@@ -15,3 +15,5 @@ logs/.*.json
 logs/*.log
 srs/resources/files/download/*.jpeg
 .VSCodeCounter/*/*
+srs/resources/screenshots/*.png
+srs/resources/screenshots/screnshot*.png
